@@ -1,0 +1,68 @@
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+~/DATA_typographic/1845_05_14_CHA_typo/images/*
+~/DATA_typographic/1845_05_14_CHA_typo/lines/*
+~/DATA_typographic/1845_05_14_CHA_typo/page/*
+~/DATA_typographic/1845_05_14_CHA_typo/data/*
+~/DATA_typographic/1845_05_14_CHA_typo/--parents/*
+~/DATA_typographic/1845_05_14_CHA_typo/*.xml
+~/DATA_typographic/1856_10_LAV_N03_gt_typo/images/*
+~/DATA_typographic/1856_10_LAV_N03_gt_typo/lines/*
+~/DATA_typographic/1856_10_LAV_N03_gt_typo/page/*
+~/DATA_typographic/1856_10_LAV_N03_gt_typo/data/*
+~/DATA_typographic/1856_10_LAV_N03_gt_typo/--parents/*
+~/DATA_typographic/1856_10_LAV_N03_gt_typo/*.xml
+~/DATA_typographic/1857_02_05_JA1_bpt6k9677856h_typo/images/*
+~/DATA_typographic/1857_02_05_JA1_bpt6k9677856h_typo/lines/*
+~/DATA_typographic/1857_02_05_JA1_bpt6k9677856h_typo/page/*
+~/DATA_typographic/1857_02_05_JA1_bpt6k9677856h_typo/data/*
+~/DATA_typographic/1857_02_05_JA1_bpt6k9677856h_typo/--parents/*
+~/DATA_typographic/1857_02_05_JA1_bpt6k9677856h_typo/*.xml
+~/DATA_typographic/1866_04_23_GAB_typo/images/*
+~/DATA_typographic/1866_04_23_GAB_typo/lines/*
+~/DATA_typographic/1866_04_23_GAB_typo/page/*
+~/DATA_typographic/1866_04_23_GAB_typo/data/
+~/DATA_typographic/1866_04_23_GAB_typo/--parents/*
+~/DATA_typographic/1866_04_23_GAB_typo/*.xml
+~/DATA_typographic/1885_12_RDA_N095_gt_typo/images/*
+~/DATA_typographic/1885_12_RDA_N095_gt_typo/lines/*
+~/DATA_typographic/1885_12_RDA_N095_gt_typo/page/*
+~/DATA_typographic/1885_12_RDA_N095_gt_typo/data/*
+~/DATA_typographic/1885_12_RDA_N095_gt_typo/--parents/*
+~/DATA_typographic/1885_12_RDA_N095_gt_typo/*.xml
+~/DATA_typographic/1887_bovet_bpt6k6325943w_typo/images/*
+~/DATA_typographic/1887_bovet_bpt6k6325943w_typo/lines/*
+~/DATA_typographic/1887_bovet_bpt6k6325943w_typo/page/*
+~/DATA_typographic/1887_bovet_bpt6k6325943w_typo/data/*
+~/DATA_typographic/1887_bovet_bpt6k6325943w_typo/--parents/*
+~/DATA_typographic/1887_bovet_bpt6k6325943w_typo/*.xml
+~/DATA_typographic/1896_05_30_ETI_gt_typo/images/*
+~/DATA_typographic/1896_05_30_ETI_gt_typo/lines/*
+~/DATA_typographic/1896_05_30_ETI_gt_typo/page/*
+~/DATA_typographic/1896_05_30_ETI_gt_typo/data/*
+~/DATA_typographic/1896_05_30_ETI_gt_typo/--parents/*
+~/DATA_typographic/1896_05_30_ETI_gt_typo/*.xml
+~/DATA_typographic/1899_02_LAD_N293_gt_typo/images/*
+~/DATA_typographic/1899_02_LAD_N293_gt_typo/lines/*
+~/DATA_typographic/1899_02_LAD_N293_gt_typo/page/*
+~/DATA_typographic/1899_02_LAD_N293_gt_typo/data/*
+~/DATA_typographic/1899_02_LAD_N293_gt_typo/--parents/*
+~/DATA_typographic/1899_02_LAD_N293_gt_typo/*.xml
+~/DATA_typographic/1912_XX_Kra_12_gt_bpt6k6527450d_typo/images/*
+~/DATA_typographic/1912_XX_Kra_12_gt_bpt6k6527450d_typo/lines/*
+~/DATA_typographic/1912_XX_Kra_12_gt_bpt6k6527450d_typo/page/*
+~/DATA_typographic/1912_XX_Kra_12_gt_bpt6k6527450d_typo/data/*
+~/DATA_typographic/1912_XX_Kra_12_gt_bpt6k6527450d_typo/--parents/*
+~/DATA_typographic/1912_XX_Kra_12_gt_bpt6k6527450d_typo/*.xml
+~/DATA_typographic/Manuel_synonymie_typo/images/*
+~/DATA_typographic/Manuel_synonymie_typo/lines/*
+~/DATA_typographic/Manuel_synonymie_typo/page/*
+~/DATA_typographic/Manuel_synonymie_typo/data/*
+~/DATA_typographic/Manuel_synonymie_typo/--parents/*
+~/DATA_typographic/Manuel_synonymie_typo/*.xml
+.DS_Store
+*.xpr
