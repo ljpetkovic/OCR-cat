@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator/>
+        <Created>2019-02-18T16:23:56.443+01:00</Created>
+        <LastChange>2020-04-06T21:42:53.755+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: English
+                Language: FrenchStandard
+                Producer: ABBYY FineReader Engine 11</Comments>
+        <TranskribusMetadata docId="361686"
+                           pageId="14061462"
+                           pageNr="2"
+                           tsid="27150025"
+                           status="DONE"
+                           userId="54506"
+                           imgUrl="https://files.transkribus.eu/Get?id=BCLMTBAWICBZGAHSPZXZKCOS&amp;fileType=view"
+                           xmlUrl="https://files.transkribus.eu/Get?id=WGIYHMFYSDLJPBJPIIXUPTYZ"
+                           imageId="2780598"/>
+    </Metadata>
+    <Page imageFilename="1856_10_LAV_N03-2.png"
+         imageWidth="4267"
+         imageHeight="7266">
+        <PrintSpace>
+            <Coords points="310,742 3822,742 3822,7888 310,7888"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1588107618554" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+                <RegionRefIndexed index="2" regionRef="r_2_2"/>
+                <RegionRefIndexed index="3" regionRef="r_2_3"/>
+                <RegionRefIndexed index="4" regionRef="r_2_4"/>
+                <RegionRefIndexed index="5" regionRef="r_2_5"/>
+                <RegionRefIndexed index="6" regionRef="r_2_6"/>
+                <RegionRefIndexed index="7" regionRef="r_2_7"/>
+                <RegionRefIndexed index="8" regionRef="r_2_8"/>
+                <RegionRefIndexed index="9" regionRef="r_2_9"/>
+                <RegionRefIndexed index="10" regionRef="r_2_10"/>
+                <RegionRefIndexed index="11" regionRef="r_2_11"/>
+                <RegionRefIndexed index="12" regionRef="r_2_12"/>
+                <RegionRefIndexed index="13" regionRef="r_2_13"/>
+                <RegionRefIndexed index="14" regionRef="r_2_14"/>
+                <RegionRefIndexed index="15" regionRef="r_2_15"/>
+                <RegionRefIndexed index="16" regionRef="region_1551090886085_541"/>
+                <RegionRefIndexed index="17" regionRef="region_1551090891045_544"/>
+                <RegionRefIndexed index="18" regionRef="r_2_16"/>
+                <RegionRefIndexed index="19" regionRef="region_1551090926223_551"/>
+                <RegionRefIndexed index="20" regionRef="region_1551090919111_548"/>
+                <RegionRefIndexed index="21" regionRef="region_1551091129768_579"/>
+                <RegionRefIndexed index="22" regionRef="r_2_17"/>
+                <RegionRefIndexed index="23" regionRef="r_2_18"/>
+                <RegionRefIndexed index="24" regionRef="r_2_19"/>
+                <RegionRefIndexed index="25" regionRef="r_2_20"/>
+                <RegionRefIndexed index="26" regionRef="r_2_21"/>
+                <RegionRefIndexed index="27" regionRef="r_2_22"/>
+                <RegionRefIndexed index="28" regionRef="r_2_23"/>
+                <RegionRefIndexed index="29" regionRef="r_2_24"/>
+                <RegionRefIndexed index="30" regionRef="r_2_25"/>
+                <RegionRefIndexed index="31" regionRef="r_2_26"/>
+                <RegionRefIndexed index="32" regionRef="r_2_27"/>
+                <RegionRefIndexed index="33" regionRef="r_2_28"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion type="paragraph" id="r_1_1" custom="readingOrder {index:0;}">
+            <Coords points="2013,664 2433,664 2433,745 2013,745"/>
+            <TextLine id="tl_1"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="2014,665 2432,665 2432,744 2014,744"/>
+                <Baseline points="2014,724 2114,724 2202,744 2432,726"/>
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>— 18 —</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>— 18 —</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_1" custom="readingOrder {index:1;}">
+            <Coords points="793,833 3633,833 3633,1038 793,1038"/>
+            <TextLine id="tl_2"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:8; length:6;fontSize:0.0; kerning:0; bold:true;}">
+                <Coords points="794,834 3630,834 3630,943 794,943"/>
+                <Baseline points="794,917 962,919 1328,938 1980,934 2504,929 2782,915 2934,910 3226,913 3376,911 3630,919"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>154. &lt;b&gt;Bailly&lt;/b&gt; (Jean-Sylvain), astronome, maire de Paris. L. sig.,</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_3"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="884,932 3632,932 3632,1037 884,1037"/>
+                <Baseline points="884,1013 1174,1014 1434,1014 1560,1013 1824,1017 2110,1024 2186,1012 2396,1013 2648,1011 2726,1009 2860,1012 3150,1006 3488,1001 3632,1005"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>comme maire de Paris. Paris, 5 août 1791. 1 p. in-fol. 2 50</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>154. &lt;b&gt;Bailly&lt;/b&gt; (Jean-Sylvain), astronome, maire de Paris. L. sig.,
+comme maire de Paris. Paris, 5 août 1791. 1 p. in-fol. 2 50</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_2" custom="readingOrder {index:2;}">
+            <Coords points="791,1027 3636,1027 3636,1326 791,1326"/>
+            <TextLine id="tl_4"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:8; length:7;fontSize:0.0; kerning:0; bold:true;} textStyle {offset:49; length:10;italic:true; fontSize:0.0; kerning:0;} textStyle {offset:60; length:13;italic:true; fontSize:0.0; kerning:0;}">
+                <Coords points="792,1028 3635,1028 3635,1133 792,1133"/>
+                <Baseline points="792,1107 963,1117 1465,1088 1785,1109 1971,1120 2281,1110 2411,1107 2481,1105 3001,1104 3137,1102 3415,1101 3635,1081"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>155. &lt;b&gt;Barbier&lt;/b&gt; (l’abbé H.), auteur de la &lt;i&gt;Biographie du clergé con¬&lt;/i&gt;</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_5"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;} textStyle {offset:3; length:9;italic:true; fontSize:0.0; kerning:0;}">
+                <Coords points="885,1124 3627,1124 3627,1231 885,1231"/>
+                <Baseline points="885,1207 913,1207 1491,1206 1633,1203 2067,1206 2201,1206 2399,1205 2589,1199 2879,1214 3011,1194 3361,1197 3505,1189 3627,1197"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>&lt;i&gt;temporain&lt;/i&gt; (par un solitaire). L. aut. sig. Paris, 27 janvier 1842.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_6"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;}">
+                <Coords points="887,1218 3629,1218 3629,1325 887,1325"/>
+                <Baseline points="887,1299 913,1299 1043,1301 1281,1300 3491,1289 3629,1285"/>
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>1 p. in-4. 2 »</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>155. &lt;b&gt;Barbier&lt;/b&gt; (l’abbé H.), auteur de la &lt;i&gt;Biographie du clergé con¬&lt;/i&gt;
+&lt;i&gt;temporain&lt;/i&gt; (par un solitaire). L. aut. sig. Paris, 27 janvier 1842.
+1 p. in-4. 2 »</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_3" custom="readingOrder {index:3;}">
+            <Coords points="788,1313 3636,1313 3636,1518 788,1518"/>
+            <TextLine id="tl_7"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:8; length:6;fontSize:0.0; kerning:0; bold:true;} textStyle {offset:61; length:7;italic:true; fontSize:0.0; kerning:0;}">
+                <Coords points="789,1314 3635,1314 3635,1413 789,1413"/>
+                <Baseline points="789,1395 951,1395 1419,1396 2085,1410 2495,1393 2655,1393 3157,1390 3311,1381 3419,1387 3635,1387"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>156. &lt;b&gt;Barras,&lt;/b&gt; conventionnel, membre du Directoire. Né à &lt;i&gt;Fox&lt;/i&gt;</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_8"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="881,1408 3634,1408 3634,1517 881,1517"/>
+                <Baseline points="881,1511 1107,1494 1473,1494 1585,1493 1653,1493 1915,1491 2207,1490 2609,1487 2685,1487 2817,1484 2971,1482 3103,1488 3161,1484 3405,1485 3497,1481 3633,1483"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>(Var). Apostille de 4 lignes a.s. 11 messidor an VII. 1 p. in-fol. 2 50</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>156. &lt;b&gt;Barras,&lt;/b&gt; conventionnel, membre du Directoire. Né à &lt;i&gt;Fox&lt;/i&gt;
+(Var). Apostille de 4 lignes a.s. 11 messidor an VII. 1 p. in-fol. 2 50</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_4" custom="readingOrder {index:4;}">
+            <Coords points="801,1505 3633,1505 3633,1614 801,1614"/>
+            <TextLine id="tl_9"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:8; length:6;fontSize:0.0; kerning:0; bold:true;}">
+                <Coords points="802,1506 3632,1506 3632,1613 802,1613"/>
+                <Baseline points="802,1585 962,1589 1422,1590 1732,1607 2216,1590 2362,1587 2572,1585 2780,1578 3130,1592 3258,1575 3632,1577"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>157. &lt;b&gt;Baudon&lt;/b&gt; l'aîné, antiquaire. L. aut. sig. Nîmes, 21 octobre</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>157. &lt;b&gt;Baudon&lt;/b&gt; l'aîné, antiquaire. L. aut. sig. Nîmes, 21 octobre</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_5" custom="readingOrder {index:5;}">
+            <Coords points="885,1585 3635,1585 3635,1706 885,1706"/>
+            <TextLine id="tl_10"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="886,1586 3634,1586 3634,1705 886,1705"/>
+                <Baseline points="886,1681 1096,1682 1176,1678 1296,1684 1452,1682 1680,1689 2114,1680 3490,1671 3634,1669"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>1749. 3 p. pl. in-4 Curieuse. 2 50</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>1749. 3 p. pl. in-4 Curieuse. 2 50</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_6" custom="readingOrder {index:6;}">
+            <Coords points="801,1695 3633,1695 3633,1800 801,1800"/>
+            <TextLine id="tl_11"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:4; length:29;fontSize:0.0; kerning:0; bold:true;}">
+                <Coords points="802,1696 3632,1696 3632,1799 802,1799"/>
+                <Baseline points="802,1773 956,1781 1460,1780 1628,1783 2600,1775 3102,1786 3480,1769 3632,1769"/>
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>158. &lt;b&gt;Baudoin de Maison-Blanche,&lt;/b&gt; antiquaire, membre de</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>158. &lt;b&gt;Baudoin de Maison-Blanche,&lt;/b&gt; antiquaire, membre de</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_7" custom="readingOrder {index:7;}">
+            <Coords points="881,1789 3635,1789 3635,1996 881,1996"/>
+            <TextLine id="tl_12"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="882,1790 3634,1790 3634,1897 882,1897"/>
+                <Baseline points="882,1873 1320,1876 1526,1873 1942,1870 2116,1870 2400,1871 2656,1867 2850,1866 3068,1878 3420,1865 3516,1863 3634,1863"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>l’Académie des sciences. Fin d'une lettre aut. sig., relative à la</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_13"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="882,1886 3631,1886 3631,1995 882,1995"/>
+                <Baseline points="882,1969 1115,1968 1285,1968 1647,1971 1729,1971 1851,1971 1999,1968 2239,1966 3493,1961 3631,1941"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>danse des anciens. 2 p. pl. in-4. 3 »</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>l’Académie des sciences. Fin d'une lettre aut. sig., relative à la
+danse des anciens. 2 p. pl. in-4. 3 »</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_8" custom="readingOrder {index:8;}">
+            <Coords points="788,1979 3630,1979 3630,2088 788,2088"/>
+            <TextLine id="tl_14"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:8; length:7;fontSize:0.0; kerning:0; bold:true;} textStyle {offset:44; length:24;italic:true; fontSize:0.0; kerning:0;}">
+                <Coords points="789,1980 3629,1980 3629,2087 789,2087"/>
+                <Baseline points="789,2061 961,2065 1269,2064 1333,2064 1471,2064 1827,2083 2131,2064 2203,2062 2629,2061 2747,2059 2845,2056 3447,2055 3629,2055"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>159. &lt;b&gt;Baurein&lt;/b&gt; (l'abbé), auteur des &lt;i&gt;Annales de Bordeaux&lt;/i&gt;. Pièce aut.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>159. &lt;b&gt;Baurein&lt;/b&gt; (l'abbé), auteur des &lt;i&gt;Annales de Bordeaux&lt;/i&gt;. Pièce aut.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_9" custom="readingOrder {index:9;}">
+            <Coords points="878,2079 3632,2079 3632,2188 878,2188"/>
+            <TextLine id="tl_15"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="879,2080 3631,2080 3631,2187 879,2187"/>
+                <Baseline points="879,2157 1019,2157 1095,2158 1223,2158 1375,2158 1605,2161 3489,2149 3631,2145"/>
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>sig. 1 p. pl. in-4. 4 »</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>sig. 1 p. pl. in-4. 4 »</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_10" custom="readingOrder {index:10;}">
+            <Coords points="786,2169 3632,2169 3632,2278 786,2278"/>
+            <TextLine id="tl_16"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:8; length:7;fontSize:0.0; kerning:0; bold:true;}">
+                <Coords points="787,2170 3631,2170 3631,2277 787,2277"/>
+                <Baseline points="787,2251 955,2263 1601,2259 1975,2254 2169,2268 2551,2253 2705,2249 3201,2250 3631,2247"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>160. &lt;b&gt;Bausset&lt;/b&gt; (le cardinal de), membre de l’Académie française.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>160. &lt;b&gt;Bausset&lt;/b&gt; (le cardinal de), membre de l’Académie française.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_11" custom="readingOrder {index:11;}">
+            <Coords points="884,2269 3637,2269 3637,2448 884,2448"/>
+            <TextLine id="tl_17"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="885,2270 3628,2270 3628,2375 885,2375"/>
+                <Baseline points="885,2349 963,2349 1173,2352 1402,2368 1551,2355 2347,2348 2778,2361 2925,2342 3167,2344 3397,2339 3499,2339 3627,2343"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>L. aut. sig., au garde-des-sceaux. Lormois, 24 sept. 1812. 1 p.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_18"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="886,2364 3636,2364 3636,2447 886,2447"/>
+                <Baseline points="886,2443 1070,2447 3444,2435 3636,2435"/>
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>in-4. 2 50</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>L. aut. sig., au garde-des-sceaux. Lormois, 24 sept. 1812. 1 p.
+in-4. 2 50</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_12" custom="readingOrder {index:12;}">
+            <Coords points="787,2469 3637,2469 3637,2560 787,2560"/>
+            <TextLine id="tl_19"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:8; length:8;fontSize:0.0; kerning:0; bold:true;}">
+                <Coords points="788,2470 3636,2470 3636,2559 788,2559"/>
+                <Baseline points="788,2553 954,2551 1536,2557 1810,2553 2218,2548 2720,2543 2828,2544 3460,2541 3636,2525"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>161. &lt;b&gt;Beauvais&lt;/b&gt;. Devis estimatif concernant la reconstruction en¬</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>161. &lt;b&gt;Beauvais&lt;/b&gt;. Devis estimatif concernant la reconstruction en¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_13" custom="readingOrder {index:13;}">
+            <Coords points="880,2561 3638,2561 3638,3150 880,3150"/>
+            <TextLine id="tl_20"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="888,2562 3632,2562 3632,2673 888,2673"/>
+                <Baseline points="888,2647 1066,2645 1324,2646 1608,2649 1914,2647 1990,2648 2354,2644 2526,2639 2878,2638 3234,2637 3498,2635 3632,2637"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>tière d'une écurie propre à contenir 110 chevaux formant partie de</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_21"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="884,2660 3634,2660 3634,2769 884,2769"/>
+                <Baseline points="884,2741 950,2743 1290,2740 1426,2744 1704,2743 2088,2742 2220,2740 2418,2739 2570,2737 2882,2734 3016,2736 3166,2732 3298,2731 3416,2733 3634,2733"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>la caserne du grand quartier de MM. les gardes du roi en la ville</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_22"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;}">
+                <Coords points="884,2754 3635,2754 3635,2863 884,2863"/>
+                <Baseline points="884,2837 977,2839 1387,2836 1567,2839 1983,2850 2349,2836 2783,2831 2923,2830 3033,2830 3495,2829 3635,2831"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>de Beauvais. Par Cellérier, premier architecte de la généralité de</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_23"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:3;}">
+                <Coords points="889,2853 3619,2853 3619,2959 889,2959"/>
+                <Baseline points="889,2931 1113,2934 1531,2936 1605,2935 1843,2935 2017,2932 2121,2930 2487,2931 2837,2938 2949,2924 3025,2924 3365,2925 3619,2927"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Paris. Approuvé à Paris par le ministre Berrier, le 4 octobre 1783.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_24"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:4;}">
+                <Coords points="883,2946 3637,2946 3637,3055 883,3055"/>
+                <Baseline points="883,3025 975,3025 1133,3026 1253,3026 1545,3043 1767,3029 1849,3029 2207,3028 2607,3023 2739,3023 2953,3020 3053,3020 3399,3031 3637,3001"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>32 gr. p. in-fol, avec 3 grandes planches de vues et coupes, colo¬</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_25"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:5;}">
+                <Coords points="881,3042 3629,3042 3629,3149 881,3149"/>
+                <Baseline points="881,3121 1073,3123 1191,3122 1367,3122 1549,3123 1963,3124 3539,3115 3629,3111"/>
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>riées et sig. par Cellérier. 25 »</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>tière d'une écurie propre à contenir 110 chevaux formant partie de
+la caserne du grand quartier de MM. les gardes du roi en la ville
+de Beauvais. Par Cellérier, premier architecte de la généralité de
+Paris. Approuvé à Paris par le ministre Berrier, le 4 octobre 1783.
+32 gr. p. in-fol, avec 3 grandes planches de vues et coupes, colo¬
+riées et sig. par Cellérier. 25 »</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_14" custom="readingOrder {index:14;}">
+            <Coords points="790,3147 3633,3147 3633,3254 790,3254"/>
+            <TextLine id="tl_26"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:8; length:9;fontSize:0.0; kerning:0; bold:true;}">
+                <Coords points="791,3148 3632,3148 3632,3253 791,3253"/>
+                <Baseline points="791,3227 954,3229 1514,3230 1890,3247 2404,3235 2730,3225 2860,3222 3204,3224 3326,3221 3632,3237"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>162. &lt;b&gt;Béguillet&lt;/b&gt; (Edme), agronome, avocat et notaire à Dijon,</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>162. &lt;b&gt;Béguillet&lt;/b&gt; (Edme), agronome, avocat et notaire à Dijon,</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_15" custom="readingOrder {index:15;}">
+            <Coords points="879,3243 3637,3243 3637,3730 879,3730"/>
+            <TextLine id="tl_27"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="888,3244 3630,3244 3630,3349 888,3349"/>
+                <Baseline points="888,3323 1220,3322 1850,3327 1966,3324 2440,3319 2610,3319 2992,3318 3110,3286 3230,3317 3442,3317 3630,3317"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>membre correspondant de l’Académie des sciences. 1° L. aut. sig.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_28"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="890,3338 3636,3338 3636,3445 890,3445"/>
+                <Baseline points="890,3417 1126,3432 1272,3414 1486,3420 1742,3417 1834,3417 1922,3443 2196,3416 2324,3400 2444,3387 2882,3412 3034,3412 3214,3410 3636,3411"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Dijon, 26 déc. 1776. 2 p. in-4. — 2° Catalogue de ses ouvrages</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_29"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;}">
+                <Coords points="888,3432 3634,3432 3634,3537 888,3537"/>
+                <Baseline points="888,3511 1266,3512 1380,3514 1902,3517 1990,3510 2106,3516 2266,3510 2512,3509 2636,3491 2764,3481 3148,3508 3274,3507 3508,3507 3634,3507"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>imprimés et manuscrits, 3 p. pl. in-4. — 3° Mémoire au sujet de</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_30"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:3;}">
+                <Coords points="888,3529 3620,3529 3620,3635 888,3635"/>
+                <Baseline points="888,3607 1370,3606 1508,3608 1658,3607 2086,3610 2186,3604 2336,3608 2460,3607 2626,3607 2916,3602 3052,3582 3138,3602 3170,3572 3422,3601 3620,3605"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>l'impression de ses ouvrages. 3 gr. p. pl. in-fol. — 4° Pièce sig.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_31"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:4;}">
+                <Coords points="880,3622 3633,3622 3633,3729 880,3729"/>
+                <Baseline points="880,3703 979,3705 1257,3700 1587,3705 1659,3701 1787,3705 2013,3704 3495,3697 3633,3693"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>du comte d’Ailly. 1 p. in-4. 6 »</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>membre correspondant de l’Académie des sciences. 1° L. aut. sig.
+Dijon, 26 déc. 1776. 2 p. in-4. — 2° Catalogue de ses ouvrages
+imprimés et manuscrits, 3 p. pl. in-4. — 3° Mémoire au sujet de
+l'impression de ses ouvrages. 3 gr. p. pl. in-fol. — 4° Pièce sig.
+du comte d’Ailly. 1 p. in-4. 6 »</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_1551090886085_541" custom="readingOrder {index:16;}">
+            <Coords points="2076,3634 3424,3634 3424,3689 2076,3689"/>
+        </TextRegion>
+        <TextRegion id="region_1551090891045_544" custom="readingOrder {index:17;}">
+            <Coords points="2642,3678 2664,3678 2664,3670 2642,3670"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_16" custom="readingOrder {index:18;}">
+            <Coords points="800,3727 3634,3727 3634,4122 800,4122"/>
+            <TextLine id="tl_32"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:8; length:24;fontSize:0.0; kerning:0; bold:true;}">
+                <Coords points="801,3728 3633,3728 3633,3831 801,3831"/>
+                <Baseline points="762,3798 886,3798 1476,3803 1650,3804 2488,3818 2812,3797 2962,3795 3412,3806 3594,3778"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>163. &lt;b&gt;Belzunce de Castel-Moron,&lt;/b&gt; évêque de Marseille, cé¬</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_33"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="887,3823 3621,3823 3621,3927 887,3927"/>
+                <Baseline points="887,3901 1087,3905 1265,3904 1431,3902 1989,3902 2353,3900 2459,3899 2699,3899 2835,3898 3275,3899 3407,3899 3621,3901"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>lèbre par son dévouement pendant la peste de Marseille. L. aut.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_34"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;}">
+                <Coords points="881,3921 3619,3921 3619,4025 881,4025"/>
+                <Baseline points="881,3997 1071,4013 1263,3996 1643,3999 1793,3999 2017,3998 2449,4009 2585,3989 2925,3994 3159,3990 3283,3991 3393,3991 3619,3995"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>sig., à M. l'évêéque de Gap. Aubagne, 25 octobre 1718 2 p. in-4.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_35"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:3;}">
+                <Coords points="889,4016 3632,4016 3632,4121 889,4121"/>
+                <Baseline points="889,4091 1280,4092 1412,4092 1640,4095 1862,4093 2154,4092 2636,4089 3494,4089 3632,4085"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Déchirure en haut de la marge extérieure. 6 »</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>163. &lt;b&gt;Belzunce de Castel-Moron,&lt;/b&gt; évêque de Marseille, cé¬
+lèbre par son dévouement pendant la peste de Marseille. L. aut.
+sig., à M. l'évêéque de Gap. Aubagne, 25 octobre 1718 2 p. in-4.
+Déchirure en haut de la marge extérieure. 6 »</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="region_1551090926223_551" custom="readingOrder {index:19;}">
+            <Coords points="947,3762 947,3765"/>
+        </TextRegion>
+        <TextRegion id="region_1551090919111_548" custom="readingOrder {index:20;}">
+            <Coords points="932,3798 925,3798 925,3809 932,3809"/>
+        </TextRegion>
+        <TextRegion id="region_1551091129768_579" custom="readingOrder {index:21;}">
+            <Coords points="1267,3995 1158,3995 1158,3916 1267,3916"/>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_17" custom="readingOrder {index:22;}">
+            <Coords points="981,4110 3371,4110 3371,4214 981,4214"/>
+            <TextLine id="tl_36"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="982,4111 3370,4111 3370,4213 982,4213"/>
+                <Baseline points="982,4189 1220,4188 1752,4187 1910,4189 2048,4188 2458,4183 2936,4182 3058,4180 3370,4181"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Lettre intéressante sur les querelles religieuses du temps.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Lettre intéressante sur les querelles religieuses du temps.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_18" custom="readingOrder {index:23;}">
+            <Coords points="801,4213 3631,4213 3631,4318 801,4318"/>
+            <TextLine id="tl_37"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:8; length:6;fontSize:0.0; kerning:0; bold:true;}">
+                <Coords points="802,4214 3630,4214 3630,4317 802,4317"/>
+                <Baseline points="802,4293 952,4295 1394,4296 1786,4307 2068,4292 2216,4292 2332,4294 2658,4291 2790,4291 3218,4292 3354,4287 3630,4307"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>164. &lt;b&gt;Berger&lt;/b&gt; (Claude), doyen de la Faculté de médecine de Paris,</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>164. &lt;b&gt;Berger&lt;/b&gt; (Claude), doyen de la Faculté de médecine de Paris,</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_19" custom="readingOrder {index:24;}">
+            <Coords points="881,4307 3636,4307 3636,4512 881,4512"/>
+            <TextLine id="tl_38"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="882,4308 3634,4308 3634,4417 882,4417"/>
+                <Baseline points="882,4387 1196,4388 1280,4388 1602,4405 1728,4389 1986,4402 2214,4386 2324,4388 2574,4387 2708,4387 3192,4384 3322,4385 3634,4385"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>succéda à Fagon, en 1709, dans la place de professeur de chimie</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_39"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="884,4406 3635,4406 3635,4511 884,4511"/>
+                <Baseline points="884,4485 974,4485 1310,4486 1448,4486 2053,4486 2240,4484 2446,4479 2725,4503 2884,4480 3084,4480 3331,4483 3492,4477 3634,4481"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>au Collège de France. Quitt. sig. (sur parch) 19 déc. 1693. 2 50</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>succéda à Fagon, en 1709, dans la place de professeur de chimie
+au Collège de France. Quitt. sig. (sur parch) 19 déc. 1693. 2 50</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_20" custom="readingOrder {index:25;}">
+            <Coords points="802,4511 3636,4511 3636,4614 802,4614"/>
+            <TextLine id="tl_40"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:8; length:7;fontSize:0.0; kerning:0; bold:true;}">
+                <Coords points="803,4512 3635,4512 3635,4613 803,4613"/>
+                <Baseline points="803,4591 959,4593 1453,4594 1751,4591 2537,4601 3011,4586 3153,4586 3327,4599 3635,4587"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>165. &lt;b&gt;Bergier&lt;/b&gt; (l’abbé Nicolas-Sylvestre), confesseur du roi, auteur</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>165. &lt;b&gt;Bergier&lt;/b&gt; (l’abbé Nicolas-Sylvestre), confesseur du roi, auteur</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_21" custom="readingOrder {index:26;}">
+            <Coords points="884,4608 3628,4608 3628,4900 884,4900"/>
+            <TextLine id="tl_41"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:6; length:30;italic:true; fontSize:0.0; kerning:0;}">
+                <Coords points="885,4609 3625,4609 3625,4711 885,4711"/>
+                <Baseline points="885,4685 925,4685 1521,4686 1639,4687 1691,4687 2139,4684 2767,4685 3315,4699 3497,4681 3625,4683"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>du &lt;i&gt;Dictionnaire de théologie&lt;/i&gt; de l’encyclopédie méthodique, etc. L.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_42"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="885,4702 3627,4702 3627,4805 885,4805"/>
+                <Baseline points="885,4781 1033,4783 1269,4794 1361,4782 1817,4783 1971,4782 2541,4779 3041,4794 3135,4776 3379,4779 3627,4781"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>aut. sig., à Bernardin de Saint-Pierre. Versailles, 2 mars 1778.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="line_1586094404942_1759" custom="readingOrder {index:2;}">
+                <Coords points="882,4797 3619,4789 3623,4879 886,4887"/>
+                <Baseline points="886,4882 3623,4874"/>
+                <TextEquiv>
+                    <Unicode>1 p. pl. in-4. Cachet. 6 »</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>du &lt;i&gt;Dictionnaire de théologie&lt;/i&gt; de l’encyclopédie méthodique, etc. L.
+aut. sig., à Bernardin de Saint-Pierre. Versailles, 2 mars 1778.
+1 p. pl. in-4. Cachet. 6 »</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_22" custom="readingOrder {index:27;}">
+            <Coords points="790,4893 3635,4893 3635,5188 790,5188"/>
+            <TextLine id="tl_44"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="791,4894 3634,4894 3634,4995 791,4995"/>
+                <Baseline points="791,4969 926,4971 1652,4971 2368,4984 2868,4986 3248,4969 3324,4967 3426,4967 3634,4951"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>166 &lt;b&gt;Berthereau&lt;/b&gt; (Jean-François), bénédictin, travailla à la col¬</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_45"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;} textStyle {offset:15; length:20;italic:true; fontSize:0.0; kerning:0;}">
+                <Coords points="886,4990 3634,4990 3634,5097 886,5097"/>
+                <Baseline points="886,5067 1154,5066 1228,5066 1758,5067 1880,5067 1978,5067 2390,5065 2514,5067 2712,5067 2934,5082 3014,5066 3290,5065 3634,5065"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>lection des &lt;i&gt;Historiens de France&lt;/i&gt;, etc. L. aut. sig., à l'abbé Mercier</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_46"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;}">
+                <Coords points="882,5082 3630,5082 3630,5187 882,5187"/>
+                <Baseline points="882,5163 970,5163 1378,5178 1634,5161 1714,5159 1822,5161 2056,5162 3488,5157 3630,5161"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>de St-Léger, 1771. 2 p. in-4. 4 50</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>166 &lt;b&gt;Berthereau&lt;/b&gt; (Jean-François), bénédictin, travailla à la col¬
+lection des &lt;i&gt;Historiens de France&lt;/i&gt;, etc. L. aut. sig., à l'abbé Mercier
+de St-Léger, 1771. 2 p. in-4. 4 50</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_23" custom="readingOrder {index:28;}">
+            <Coords points="783,5191 3629,5191 3629,5298 783,5298"/>
+            <TextLine id="tl_47"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:8; length:8;fontSize:0.0; kerning:0; bold:true;} textStyle {offset:59; length:6;italic:true; fontSize:0.0; kerning:0;}">
+                <Coords points="784,5192 3628,5192 3628,5297 784,5297"/>
+                <Baseline points="784,5267 952,5271 1492,5248 1626,5269 2028,5266 2538,5279 2834,5270 2918,5270 3096,5270 3390,5269 3546,5267 3628,5269"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>167. &lt;b&gt;Berthier&lt;/b&gt; (le maréchal Alexandre), prince de &lt;i&gt;Wagram&lt;/i&gt;. Né à</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>167. &lt;b&gt;Berthier&lt;/b&gt; (le maréchal Alexandre), prince de &lt;i&gt;Wagram&lt;/i&gt;. Né à</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_24" custom="readingOrder {index:29;}">
+            <Coords points="878,5284 3632,5284 3632,5466 878,5466"/>
+            <TextLine id="tl_48"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:3; length:15;italic:true; fontSize:0.0; kerning:0;} textStyle {offset:34; length:13;italic:true; fontSize:0.0; kerning:0;}">
+                <Coords points="888,5285 3625,5285 3625,5393 888,5393"/>
+                <Baseline points="888,5367 939,5367 1553,5365 1759,5363 1853,5365 2069,5366 2745,5383 2879,5364 3153,5362 3415,5365 3513,5361 3625,5363"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>&lt;i&gt;Versailles&lt;/i&gt;. Ordre aut. sig. &lt;i&gt;Alexandre&lt;/i&gt;. Paris, 19 juillet 1810. 2 p.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_49"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="879,5380 3631,5380 3631,5465 879,5465"/>
+                <Baseline points="879,5459 1077,5461 1417,5458 3487,5455 3631,5459"/>
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>in-8. Cachet. 2 25</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>&lt;i&gt;Versailles&lt;/i&gt;. Ordre aut. sig. &lt;i&gt;Alexandre&lt;/i&gt;. Paris, 19 juillet 1810. 2 p.
+in-8. Cachet. 2 25</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_25" custom="readingOrder {index:30;}">
+            <Coords points="782,5475 3630,5475 3630,5578 782,5578"/>
+            <TextLine id="tl_50"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:8; length:15;fontSize:0.0; kerning:0; bold:true;}">
+                <Coords points="783,5476 3629,5476 3629,5577 783,5577"/>
+                <Baseline points="783,5551 943,5555 1565,5555 1697,5555 2027,5564 2437,5559 2843,5572 3251,5569 3629,5551"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>168. &lt;b&gt;Berthollet&lt;/b&gt; (le comte), médecin, chimiste, sénateur, membre</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>168. &lt;b&gt;Berthollet&lt;/b&gt; (le comte), médecin, chimiste, sénateur, membre</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_26" custom="readingOrder {index:31;}">
+            <Coords points="874,5572 3626,5572 3626,5678 874,5678"/>
+            <TextLine id="tl_51"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="875,5573 3625,5573 3625,5677 875,5677"/>
+                <Baseline points="875,5649 963,5649 1371,5650 1505,5652 1713,5651 1903,5649 1981,5646 2135,5648 2261,5652 2555,5653 3487,5647 3625,5647"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>de l'Institut, L. aut. sig. 1 gr. p. in-fol. 3 »</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>de l'Institut, L. aut. sig. 1 gr. p. in-fol. 3 »</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_27" custom="readingOrder {index:32;}">
+            <Coords points="788,5676 3627,5676 3627,5880 788,5880"/>
+            <TextLine id="tl_52"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:8; length:8;fontSize:0.0; kerning:0; bold:true;}">
+                <Coords points="789,5677 3616,5677 3616,5785 789,5785"/>
+                <Baseline points="789,5755 941,5755 1550,5771 2019,5756 2357,5756 2527,5757 2897,5758 3057,5758 3615,5755"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>169. &lt;b&gt;Bertrand&lt;/b&gt;, procureur syndic du district de Compiègne.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_53"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="880,5773 3626,5773 3626,5879 880,5879"/>
+                <Baseline points="880,5851 950,5851 1064,5855 1174,5852 1670,5867 1798,5853 1986,5852 2234,5852 2296,5848 2410,5857 2620,5855 2930,5856 3060,5854 3398,5851 3486,5849 3626,5847"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>L. a. s. Compiègne, 25 déc. 1792. 1 p. in-4. Cachet du district. 4 »</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>169. &lt;b&gt;Bertrand&lt;/b&gt;, procureur syndic du district de Compiègne.
+L. a. s. Compiègne, 25 déc. 1792. 1 p. in-4. Cachet du district. 4 »</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_28" custom="readingOrder {index:33;}">
+            <Coords points="873,5870 3623,5870 3623,6070 873,6070"/>
+            <TextLine id="tl_54"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="974,5871 3622,5871 3622,5975 974,5975"/>
+                <Baseline points="974,5943 1338,5948 1478,5948 1922,5949 2036,5946 2366,5948 2604,5949 2774,5951 3470,5945 3622,5947"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Demande de médailles et rubans pour les administrateurs du</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_55"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="874,5967 1838,5967 1838,6069 874,6069"/>
+                <Baseline points="874,6041 1180,6042 1568,6043 1838,6045"/>
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>district. Curieuse pièce.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Demande de médailles et rubans pour les administrateurs du
+district. Curieuse pièce.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <GraphicRegion id="r_3" custom="readingOrder {index:34;}">
+            <Coords points="3159,6962 4246,6962 4246,7266 3159,7266"/>
+        </GraphicRegion>
+        <SeparatorRegion id="r_4" custom="readingOrder {index:35;}">
+            <Coords points="4042,2100 4079,2100 4079,6982 4042,6982"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_5" custom="readingOrder {index:36;}">
+            <Coords points="4051,222 4071,222 4071,758 4051,758"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_6" custom="readingOrder {index:37;}">
+            <Coords points="4056,1044 4070,1044 4070,1554 4056,1554"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_7" custom="readingOrder {index:38;}">
+            <Coords points="4221,120 4267,120 4267,7118 4221,7118"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>
