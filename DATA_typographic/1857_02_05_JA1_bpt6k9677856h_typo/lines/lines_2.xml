@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2019-10-20T18:43:36.3+02:00</Created>
+        <LastChange>2020-04-11T01:21:39.649+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: English
+                Language: FrenchStandard
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="361692"
+                           pageId="14061597"
+                           pageNr="2"
+                           tsid="27384815"
+                           status="DONE"
+                           userId="54506"
+                           imgUrl="https://files.transkribus.eu/Get?id=GVXYSQXTPQEEUJGFCFYMOWHQ&amp;fileType=view"
+                           xmlUrl="https://files.transkribus.eu/Get?id=DIQCBNTEJLMCZFQUNLQCOEAK"
+                           imageId="6554606"/>
+    </Metadata>
+    <Page imageFilename="2.jpg" imageWidth="2280" imageHeight="3728">
+        <PrintSpace>
+            <Coords points="111,101 2252,101 2252,3338 111,3338"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1588107583287" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_2_1"/>
+                <RegionRefIndexed index="2" regionRef="r_2_2"/>
+                <RegionRefIndexed index="3" regionRef="r_2_3"/>
+                <RegionRefIndexed index="4" regionRef="r_2_4"/>
+                <RegionRefIndexed index="5" regionRef="r_4_1"/>
+                <RegionRefIndexed index="6" regionRef="r_4_2"/>
+                <RegionRefIndexed index="7" regionRef="r_4_3"/>
+                <RegionRefIndexed index="8" regionRef="r_4_4"/>
+                <RegionRefIndexed index="9" regionRef="r_4_5"/>
+                <RegionRefIndexed index="10" regionRef="r_4_6"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion type="paragraph" id="r_1_1" custom="readingOrder {index:0;}">
+            <Coords points="892,816 1766,816 1766,884 892,884"/>
+            <TextLine id="tl_1"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="893,817 1765,817 1765,883 893,883"/>
+                <Baseline points="893,883 1129,881 1307,881 1765,875"/>
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>&lt;b&gt;ORDRE DES VACATIONS&lt;/b&gt;</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="12.0" bold="true"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>&lt;b&gt;ORDRE DES VACATIONS&lt;/b&gt;</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_1" custom="readingOrder {index:1;}">
+            <Coords points="1038,1150 1646,1150 1646,1287 1038,1287"/>
+            <TextLine id="tl_2"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1115,1151 1565,1151 1565,1201 1115,1201"/>
+                <Baseline points="1115,1191 1218,1191 1263,1191 1423,1190 1565,1190"/>
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>&lt;i&gt;Jeudi 5 février 1857.&lt;/i&gt;</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="8.5" italic="true"/>
+            </TextLine>
+            <TextLine id="tl_3"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1039,1236 1645,1236 1645,1286 1039,1286"/>
+                <Baseline points="1039,1277 1306,1275 1385,1274 1430,1274 1484,1273 1547,1273 1645,1271"/>
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Autographes de 1 à la fin.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="8.5"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>&lt;i&gt;Jeudi 5 février 1857.&lt;/i&gt;
+Autographes de 1 à la fin.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_2" custom="readingOrder {index:2;}">
+            <Coords points="1134,1355 1569,1355 1569,1480 1134,1480"/>
+            <TextLine id="tl_4"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1151,1356 1534,1356 1534,1403 1151,1403"/>
+                <Baseline points="1151,1395 1320,1393 1366,1392 1534,1390"/>
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>&lt;i&gt;Vendredi 6 février.&lt;/i&gt;</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="8.5" italic="true"/>
+            </TextLine>
+            <TextLine id="tl_5"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1135,1438 1568,1438 1568,1479 1135,1479"/>
+                <Baseline points="1135,1478 1266,1477 1350,1476 1398,1475 1460,1475 1568,1474"/>
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Livres de 1 à 138.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="8.5"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>&lt;i&gt;Vendredi 6 février.&lt;/i&gt;
+Livres de 1 à 138.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_3" custom="readingOrder {index:3;}">
+            <Coords points="1166,1556 1509,1556 1509,1606 1166,1606"/>
+            <TextLine id="tl_6"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1167,1557 1508,1557 1508,1605 1167,1605"/>
+                <Baseline points="1167,1598 1214,1596 1345,1595 1508,1592"/>
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>&lt;i&gt;Samedi 7 février.&lt;/i&gt;</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>&lt;i&gt;Samedi 7 février.&lt;/i&gt;</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_2_4" custom="readingOrder {index:4;}">
+            <Coords points="1112,1641 1579,1641 1579,1684 1112,1684"/>
+            <TextLine id="tl_7"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1113,1642 1578,1642 1578,1683 1113,1683"/>
+                <Baseline points="1113,1682 1245,1682 1309,1681 1396,1680 1437,1680 1494,1680 1578,1678"/>
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Livres de 139 à la fin.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="8.5"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Livres de 139 à la fin.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_4_1" custom="readingOrder {index:5;}">
+            <Coords points="1266,1970 1428,1970 1428,2026 1266,2026"/>
+            <TextLine id="tl_8"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1267,1971 1427,1971 1427,2025 1267,2025"/>
+                <Baseline points="1267,2024 1427,2025"/>
+                
+                <TextEquiv>
+                    <Unicode>AVIS.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="13.0" bold="true"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>AVIS.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_4_2" custom="readingOrder {index:6;}">
+            <Coords points="597,2134 2092,2134 2092,2257 597,2257"/>
+            <TextLine id="tl_9"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="645,2135 2091,2135 2091,2190 645,2190"/>
+                <Baseline points="645,2179 672,2179 716,2189 839,2186 1017,2180 1126,2179 1193,2179 1349,2186 1427,2180 1521,2179 1661,2180 1702,2179 1830,2182 2091,2172"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Il y aura, chaque jour de Vente, de une heure à trois, Exposition</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="8.5"/>
+            </TextLine>
+            <TextLine id="tl_10"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="598,2207 1813,2207 1813,2256 598,2256"/>
+                <Baseline points="598,2244 665,2245 948,2244 1006,2245 1093,2245 1246,2245 1329,2244 1482,2244 1650,2245 1704,2245 1813,2249"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>des Autographes et des Livres qui seront vendus le soir.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="8.5"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Il y aura, chaque jour de Vente, de une heure à trois, Exposition
+des Autographes et des Livres qui seront vendus le soir.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_4_3" custom="readingOrder {index:7;}">
+            <Coords points="645,2290 1965,2290 1965,2343 645,2343"/>
+            <TextLine id="tl_11"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="646,2291 1964,2291 1964,2342 646,2342"/>
+                <Baseline points="646,2330 703,2329 832,2329 953,2329 1089,2329 1222,2328 1295,2329 1559,2329 1660,2329 1964,2331"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>On aura huit jours pour la vérification des Autographes</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="8.5"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>On aura huit jours pour la vérification des Autographes</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_4_4" custom="readingOrder {index:8;}">
+            <Coords points="637,2356 2005,2356 2005,2408 637,2408"/>
+            <TextLine id="tl_12"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="638,2357 2004,2357 2004,2407 638,2407"/>
+                <Baseline points="638,2395 952,2394 1147,2395 1187,2395 1243,2395 1339,2395 1404,2395 1492,2394 1563,2395 1671,2394 2004,2397"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Les Acquéreurs paieront 5 p. 100 en sus du prix d’adjudication.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="8.5"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Les Acquéreurs paieront 5 p. 100 en sus du prix d’adjudication.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_4_5" custom="readingOrder {index:9;}">
+            <Coords points="599,2439 2094,2439 2094,2622 599,2622"/>
+            <TextLine id="tl_13"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="646,2440 2092,2440 2092,2486 646,2486"/>
+                <Baseline points="646,2479 695,2479 882,2478 934,2477 1113,2486 1194,2479 1556,2478 1634,2479 1703,2479 1931,2486 1987,2479 2092,2479"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Le Samedi 7 février, au commencement de la Vacation, il sera</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="8.5"/>
+            </TextLine>
+            <TextLine id="tl_14"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="600,2507 2093,2507 2093,2555 600,2555"/>
+                <Baseline points="600,2546 726,2545 914,2545 1020,2545 1228,2545 1301,2546 1562,2552 1675,2545 1741,2545 1896,2545 1994,2545 2093,2544"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>vendu environ 500 Volumes et Brochures, que le temps n’a pas</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="8.5"/>
+            </TextLine>
+            <TextLine id="tl_15"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;}">
+                <Coords points="600,2572 1067,2572 1067,2621 600,2621"/>
+                <Baseline points="600,2620 744,2611 810,2610 1067,2611"/>
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>permis de cataloguer.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="8.5"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Le Samedi 7 février, au commencement de la Vacation, il sera
+vendu environ 500 Volumes et Brochures, que le temps n’a pas
+permis de cataloguer.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_4_6" custom="readingOrder {index:10;}">
+            <Coords points="599,2656 2093,2656 2093,2762 599,2762"/>
+            <TextLine id="tl_16"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="645,2657 2092,2657 2092,2706 645,2706"/>
+                <Baseline points="645,2693 677,2693 750,2694 1125,2695 1191,2695 1245,2694 1391,2703 1597,2694 1672,2695 1959,2695 2092,2694"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>M. CHARAVAY, chargé de la vente, remplira les commissions qu’on</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_17"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="600,2722 1108,2722 1108,2761 600,2761"/>
+                <Baseline points="600,2758 745,2760 854,2760 930,2759 1108,2759"/>
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>voudra bien lui confier.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Arial" fontSize="7.5" bold="true"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>M. CHARAVAY, chargé de la vente, remplira les commissions qu’on
+voudra bien lui confier.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_5" custom="readingOrder {index:11;}">
+            <Coords points="166,106 965,106 965,131 166,131"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_6" custom="readingOrder {index:12;}">
+            <Coords points="1798,116 1982,116 1982,125 1798,125"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_7" custom="readingOrder {index:13;}">
+            <Coords points="1185,1017 1496,1017 1496,1023 1185,1023"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_8" custom="readingOrder {index:14;}">
+            <Coords points="111,2944 118,2944 118,3343 111,3343"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_9" custom="readingOrder {index:15;}">
+            <Coords points="142,1820 160,1820 160,2112 142,2112"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_10" custom="readingOrder {index:16;}">
+            <Coords points="2197,1536 2235,1536 2235,2096 2197,2096"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_11" custom="readingOrder {index:17;}">
+            <Coords points="2198,2114 2209,2114 2209,2484 2198,2484"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_12" custom="readingOrder {index:18;}">
+            <Coords points="2202,134 2208,134 2208,288 2202,288"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_13" custom="readingOrder {index:19;}">
+            <Coords points="2203,2550 2220,2550 2220,2834 2203,2834"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_14" custom="readingOrder {index:20;}">
+            <Coords points="2205,238 2236,238 2236,805 2205,805"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_15" custom="readingOrder {index:21;}">
+            <Coords points="2219,2096 2241,2096 2241,2909 2219,2909"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_16" custom="readingOrder {index:22;}">
+            <Coords points="2224,960 2243,960 2243,1759 2224,1759"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_17" custom="readingOrder {index:23;}">
+            <Coords points="2234,230 2237,230 2237,332 2234,332"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_18" custom="readingOrder {index:24;}">
+            <Coords points="2236,218 2252,218 2252,844 2236,844"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_19" custom="readingOrder {index:25;}">
+            <Coords points="2239,2888 2246,2888 2246,3314 2239,3314"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>
