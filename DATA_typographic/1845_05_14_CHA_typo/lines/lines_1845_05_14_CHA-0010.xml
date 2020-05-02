@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2019-11-28T15:07:38.507+01:00</Created>
+        <LastChange>2020-04-11T00:30:15.802+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: English
+                Language: FrenchStandard
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="361691"
+                           pageId="14061562"
+                           pageNr="10"
+                           tsid="27384730"
+                           status="DONE"
+                           userId="54506"
+                           imgUrl="https://files.transkribus.eu/Get?id=FKEWBKMRLFIJUOMQYNNPGSNR&amp;fileType=view"
+                           xmlUrl="https://files.transkribus.eu/Get?id=VRKTTDOOBEVLTHURREVGNUYC"
+                           imageId="6554699"/>
+    </Metadata>
+    <Page imageFilename="1845_05_14_CHA-0010.jpg"
+         imageWidth="5866"
+         imageHeight="9087">
+        <PrintSpace>
+            <Coords points="90,571 5096,571 5096,7395 90,7395"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1588107592245" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="r_1_1"/>
+                <RegionRefIndexed index="1" regionRef="r_1_2"/>
+                <RegionRefIndexed index="2" regionRef="r_1_3"/>
+                <RegionRefIndexed index="3" regionRef="r_1_4"/>
+                <RegionRefIndexed index="4" regionRef="r_1_5"/>
+                <RegionRefIndexed index="5" regionRef="r_1_6"/>
+                <RegionRefIndexed index="6" regionRef="r_1_7"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion type="paragraph" id="r_1_1" custom="readingOrder {index:0;}">
+            <Coords points="1095,1793 5002,1793 5002,3580 1095,3580"/>
+            <TextLine id="tl_1"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1256,1794 4976,1794 4976,2021 1256,2021"/>
+                <Baseline points="1256,1977 1595,1972 2213,1960 2871,1951 3069,1948 3559,1944 4219,1926 4359,1925 4579,1922 4975,1911"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Nous mettons toujours le même scrupule à ne nous</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_2"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1097,1990 4979,1990 4979,2225 1097,2225"/>
+                <Baseline points="1098,2225 1707,2168 2215,2160 2391,2159 2875,2152 3177,2145 3726,2132 4108,2125 4552,2118 4708,2116 4978,2111"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>présenter devant le public que lorsque nous avons à lui</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_3"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;}">
+                <Coords points="1096,2200 4984,2200 4984,2434 1096,2434"/>
+                <Baseline points="1097,2386 1444,2379 1700,2377 2160,2369 2646,2361 2850,2356 3118,2350 3834,2335 4226,2330 4530,2327 4984,2317"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>offrir des pièces dignes de son attention. Pour être moins</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_4"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:3;}">
+                <Coords points="1101,2392 4988,2392 4988,2629 1101,2629"/>
+                <Baseline points="1102,2583 1825,2573 2155,2567 2559,2561 2951,2550 3361,2544 3827,2534 4139,2529 4345,2524 4787,2519 4987,2515"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>nombreuse que celle dont nous avons fait la vente le</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_5"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:4;}">
+                <Coords points="1100,2590 4995,2590 4995,2820 1100,2820"/>
+                <Baseline points="1101,2780 1177,2780 1700,2769 2357,2786 2540,2757 3284,2741 3682,2732 4066,2724 4716,2718 4993,2681"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>6 février dernier, la Collection dont nous publions au¬</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_6"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:5;}">
+                <Coords points="1112,2788 4992,2788 4992,3023 1112,3023"/>
+                <Baseline points="1112,3021 1738,2968 1948,2967 2690,2953 3085,2944 3351,2940 3651,2933 4153,2921 4745,2915 4991,2909"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>jourd’hui le catalogue n’en est pas moins remplie de</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_7"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:6;}">
+                <Coords points="1109,2986 4987,2986 4987,3217 1109,3217"/>
+                <Baseline points="1110,3179 1455,3173 1851,3166 2123,3191 2371,3160 3175,3143 3983,3126 4173,3122 4834,3112 4987,3131"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>noms illustres, de documents historiques et littéraires,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_8"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:7;}">
+                <Coords points="1104,3184 5001,3184 5001,3422 1104,3422"/>
+                <Baseline points="1104,3378 1256,3378 1952,3363 2210,3358 2848,3346 3250,3338 3620,3330 3792,3327 4356,3315 4622,3313 5000,3303"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>de curiosités qui méritent place dans le cabinet des vrais</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_9"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:8;}">
+                <Coords points="1112,3445 2003,3445 2003,3579 1112,3579"/>
+                <Baseline points="1112,3577 2003,3559"/>
+                
+                <TextEquiv>
+                    <Unicode>connaisseurs.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Nous mettons toujours le même scrupule à ne nous
+présenter devant le public que lorsque nous avons à lui
+offrir des pièces dignes de son attention. Pour être moins
+nombreuse que celle dont nous avons fait la vente le
+6 février dernier, la Collection dont nous publions au¬
+jourd’hui le catalogue n’en est pas moins remplie de
+noms illustres, de documents historiques et littéraires,
+de curiosités qui méritent place dans le cabinet des vrais
+connaisseurs.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_2" custom="readingOrder {index:1;}">
+            <Coords points="1116,3579 4990,3579 4990,4022 1116,4022"/>
+            <TextLine id="tl_10"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1275,3580 4989,3580 4989,3819 1275,3819"/>
+                <Baseline points="1275,3779 1463,3771 2361,3754 2788,3745 3268,3733 3540,3727 4026,3721 4334,3714 4552,3711 4988,3673"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>On remarquera entre toutes les pièces qui la com-</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_11"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1117,3879 1649,3879 1649,4021 1117,4021"/>
+                <Baseline points="1117,4021 1478,3971 1648,3971"/>
+                
+                
+                <TextEquiv>
+                    <Unicode>posent:</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>On remarquera entre toutes les pièces qui la com-
+posent:</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_3" custom="readingOrder {index:2;}">
+            <Coords points="1116,3981 5013,3981 5013,5202 1116,5202"/>
+            <TextLine id="tl_12"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1279,3982 4991,3982 4991,4205 1279,4205"/>
+                <Baseline points="1279,4169 1689,4165 1919,4161 2239,4154 2435,4151 2917,4141 3145,4134 3465,4126 3779,4143 4357,4110 4551,4106 4990,4071"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Parmi les rois et reines de France, princes et prin¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_13"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;} textStyle {offset:28; length:2;fontSize:0.0; kerning:0; superscript:true;}">
+                <Coords points="1118,4176 4994,4176 4994,4395 1118,4395"/>
+                <Baseline points="1119,4371 1500,4368 1586,4364 2034,4357 2357,4376 3062,4331 3210,4324 3255,4273 3382,4351 3862,4315 4204,4338 4686,4302 4994,4323"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>cesses: Louis XI, François Ier, Henri III, Henri IV,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_14"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;}">
+                <Coords points="1117,4372 5010,4372 5010,4591 1117,4591"/>
+                <Baseline points="1118,4565 1860,4580 2630,4565 3344,4550 3769,4515 4137,4533 4559,4500 5009,4491"/>
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Louis XIII, Louis XIV, Louis XV, Louis XVI, Louis XVIII</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_15"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:3;}">
+                <Coords points="1125,4568 5009,4568 5009,4801 1125,4801"/>
+                <Baseline points="1126,4759 1243,4756 1805,4747 1985,4745 2065,4777 2523,4738 2747,4732 3154,4726 3361,4754 3612,4714 4100,4708 4824,4696 5008,4689"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>et Charles X; Loyse de Savoie; les reines Catherine et</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_16"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:4;}">
+                <Coords points="1128,4770 5012,4770 5012,5007 1128,5007"/>
+                <Baseline points="1128,4955 1512,4952 1716,4949 2360,4968 3166,4923 3386,4918 3870,4910 4064,4906 4501,4900 5011,4859"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Marie de Médicis, Marguerite de Valois et Marie Antoi¬</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_17"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:5;}">
+                <Coords points="1131,4984 4030,4984 4030,5201 1131,5201"/>
+                <Baseline points="1132,5153 1335,5157 1534,5183 2373,5132 3053,5121 3251,5122 3449,5117 4029,5105"/>
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>nette; l’Empereur Napoléon et sa famille.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Parmi les rois et reines de France, princes et prin¬
+cesses: Louis XI, François Ier, Henri III, Henri IV,
+Louis XIII, Louis XIV, Louis XV, Louis XVI, Louis XVIII
+et Charles X; Loyse de Savoie; les reines Catherine et
+Marie de Médicis, Marguerite de Valois et Marie Antoi¬
+nette; l’Empereur Napoléon et sa famille.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_4" custom="readingOrder {index:3;}">
+            <Coords points="1295,5189 3782,5189 3782,5400 1295,5400"/>
+            <TextLine id="tl_18"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:16; length:2;fontSize:0.0; kerning:0; superscript:true;}">
+                <Coords points="1296,5190 3781,5190 3781,5399 1296,5399"/>
+                <Baseline points="1296,5349 2294,5336 2412,5329 2455,5278 2553,5359 2816,5327 3084,5322 3780,5309"/>
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Louis-Philippe Ier, roi des Français.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Louis-Philippe Ier, roi des Français.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_5" custom="readingOrder {index:4;}">
+            <Coords points="1132,5365 5031,5365 5031,6390 1132,6390"/>
+            <TextLine id="tl_19"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1312,5366 5028,5366 5028,5594 1312,5594"/>
+                <Baseline points="1312,5546 1724,5544 1972,5541 2749,5526 2949,5524 3527,5511 4300,5526 4525,5493 5027,5457"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Parmi les souverains et princes étrangers, on distin¬</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_20"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1135,5560 5019,5560 5019,5797 1135,5797"/>
+                <Baseline points="1136,5793 1371,5749 1473,5746 2275,5732 3363,5738 4026,5701 4188,5695 5019,5705"/>
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>gue: l’empereur Charles-Quint, François II d’Autriche,</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0"/>
+            </TextLine>
+            <TextLine id="tl_21"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;} textStyle {offset:9; length:2;fontSize:0.0; kerning:0; superscript:true;}">
+                <Coords points="1136,5760 5030,5760 5030,5995 1136,5995"/>
+                <Baseline points="1136,5951 1642,5942 1746,5938 1785,5884 2004,5938 2566,5927 2710,5923 3616,5910 3686,5942 4372,5894 4822,5886 5030,5881"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Charles Ier et Jacques II d’Angleterre; Henriette Marie de</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_22"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:3;}">
+                <Coords points="1133,5956 5020,5956 5020,6187 1133,6187"/>
+                <Baseline points="1133,6145 1615,6141 1793,6135 2449,6127 2671,6121 3463,6109 3549,6137 4007,6098 4867,6080 5019,6111"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>France et Caroline de Brunswick, reines d’Angleterre;</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_23"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:4;}">
+                <Coords points="1137,6158 5029,6158 5029,6389 1137,6389"/>
+                <Baseline points="1137,6343 1824,6335 2034,6332 2606,6318 2780,6315 3162,6310 3593,6350 3885,6339 4102,6294 4260,6294 4568,6283 4730,6281 4949,6316 5029,6311"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Alexandre de Médicis et René d’Anjou (dit le Bon Roi);</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Parmi les souverains et princes étrangers, on distin¬
+gue: l’empereur Charles-Quint, François II d’Autriche,
+Charles Ier et Jacques II d’Angleterre; Henriette Marie de
+France et Caroline de Brunswick, reines d’Angleterre;
+Alexandre de Médicis et René d’Anjou (dit le Bon Roi);</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_6" custom="readingOrder {index:5;}">
+            <Coords points="1140,6353 5037,6353 5037,7180 1140,7180"/>
+            <TextLine id="tl_24"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1306,6354 5036,6354 5036,6585 1306,6585"/>
+                <Baseline points="1306,6537 1642,6532 1832,6531 2336,6521 3109,6508 3281,6508 4171,6493 4299,6489 4573,6484 5035,6471"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Dans le clergé orthodoxe et hétérodoxe: les papes</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_25"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1141,6550 5017,6550 5017,6771 1141,6771"/>
+                <Baseline points="1141,6733 1435,6734 1993,6754 2415,6718 2599,6713 2781,6711 3065,6709 3371,6702 3449,6734 3581,6700 4465,6685 4682,6679 5016,6645"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Jean XXIII, Jules II et Pie VII; les cardinaux de Bel¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_26"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;}">
+                <Coords points="1154,6750 5030,6750 5030,6967 1154,6967"/>
+                <Baseline points="1154,6931 1586,6927 1669,6953 1890,6926 2308,6917 2502,6944 2674,6914 3262,6933 3712,6897 3896,6893 4336,6885 4420,6909 5030,6899"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>larmin, de Bérulle, Lavalette, Pacca et Fesch, Bossuet,</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_27"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:3;}">
+                <Coords points="1155,6963 4006,6963 4006,7179 1155,7179"/>
+                <Baseline points="1155,7127 1257,7129 1453,7127 2000,7146 2117,7118 3257,7100 3377,7102 3839,7092 4006,7121"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>le P. Joseph, l’abbé Lamennais et Calvin;</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Dans le clergé orthodoxe et hétérodoxe: les papes
+Jean XXIII, Jules II et Pie VII; les cardinaux de Bel¬
+larmin, de Bérulle, Lavalette, Pacca et Fesch, Bossuet,
+le P. Joseph, l’abbé Lamennais et Calvin;</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_7" custom="readingOrder {index:6;}">
+            <Coords points="1324,7145 5034,7145 5034,7372 1324,7372"/>
+            <TextLine id="tl_28"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1325,7146 5033,7146 5033,7371 1325,7371"/>
+                <Baseline points="1325,7329 1413,7329 1976,7319 2636,7308 2717,7332 3326,7299 3877,7319 4585,7308 5032,7239"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Parmi les ministres, hommes d’État, orateurs, guer¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Parmi les ministres, hommes d’État, orateurs, guer¬</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_2" custom="readingOrder {index:7;}">
+            <Coords points="93,1855 126,1855 126,2679 93,2679"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_3" custom="readingOrder {index:8;}">
+            <Coords points="90,571 125,571 125,1487 90,1487"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>

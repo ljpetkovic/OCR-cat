@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15 http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Transkribus</Creator>
+        <Created>2019-11-28T15:07:47.15+01:00</Created>
+        <LastChange>2020-04-05T16:37:58.265+02:00</LastChange>
+        <Comments>
+                Measurement unit: pixel
+                PrimaryLanguage: English
+                Language: FrenchStandard
+                Producer: Transkribus
+            </Comments>
+        <TranskribusMetadata docId="361691"
+                           pageId="14061577"
+                           pageNr="23"
+                           tsid="27066407"
+                           status="DONE"
+                           userId="10612"
+                           imgUrl="https://files.transkribus.eu/Get?id=FHFKSOWHQYPBNFZXTIAOEOMM&amp;fileType=view"
+                           xmlUrl="https://files.transkribus.eu/Get?id=XBTNRZJFSJAUFVWJQQYFPSUS"
+                           imageId="6554712"/>
+    </Metadata>
+    <Page imageFilename="1845_05_14_CHA-0023.jpg"
+         imageWidth="5866"
+         imageHeight="9129">
+        <PrintSpace>
+            <Coords points="921,864 5866,864 5866,8752 921,8752"/>
+        </PrintSpace>
+        <ReadingOrder>
+            <OrderedGroup id="ro_1588107594497" caption="Regions reading order">
+                <RegionRefIndexed index="0" regionRef="region_1579258109910_637"/>
+                <RegionRefIndexed index="1" regionRef="r_1_1"/>
+                <RegionRefIndexed index="2" regionRef="r_1_2"/>
+                <RegionRefIndexed index="3" regionRef="r_1_3"/>
+                <RegionRefIndexed index="4" regionRef="r_1_4"/>
+                <RegionRefIndexed index="5" regionRef="r_1_5"/>
+                <RegionRefIndexed index="6" regionRef="r_1_6"/>
+                <RegionRefIndexed index="7" regionRef="r_1_7"/>
+                <RegionRefIndexed index="8" regionRef="r_1_8"/>
+                <RegionRefIndexed index="9" regionRef="r_1_9"/>
+                <RegionRefIndexed index="10" regionRef="r_1_10"/>
+                <RegionRefIndexed index="11" regionRef="r_1_11"/>
+                <RegionRefIndexed index="12" regionRef="r_1_12"/>
+                <RegionRefIndexed index="13" regionRef="r_1_13"/>
+                <RegionRefIndexed index="14" regionRef="r_1_14"/>
+                <RegionRefIndexed index="15" regionRef="r_1_15"/>
+                <RegionRefIndexed index="16" regionRef="r_1_16"/>
+                <RegionRefIndexed index="17" regionRef="r_1_17"/>
+                <RegionRefIndexed index="18" regionRef="r_1_18"/>
+                <RegionRefIndexed index="19" regionRef="r_1_19"/>
+                <RegionRefIndexed index="20" regionRef="r_1_20"/>
+                <RegionRefIndexed index="21" regionRef="r_1_21"/>
+                <RegionRefIndexed index="22" regionRef="r_1_22"/>
+                <RegionRefIndexed index="23" regionRef="r_1_23"/>
+                <RegionRefIndexed index="24" regionRef="r_1_24"/>
+                <RegionRefIndexed index="25" regionRef="r_1_25"/>
+                <RegionRefIndexed index="26" regionRef="r_1_26"/>
+                <RegionRefIndexed index="27" regionRef="r_1_27"/>
+                <RegionRefIndexed index="28" regionRef="r_1_28"/>
+                <RegionRefIndexed index="29" regionRef="r_1_29"/>
+                <RegionRefIndexed index="30" regionRef="r_1_30"/>
+            </OrderedGroup>
+        </ReadingOrder>
+        <TextRegion id="region_1579258109910_637" custom="readingOrder {index:0;}">
+            <Coords points="2589,663 2588,792 3251,792 3252,663"/>
+            <TextLine id="line_1579258110287_640" custom="readingOrder {index:0;}">
+                <Coords points="2585,669 3247,661 3251,779 2589,787"/>
+                <Baseline points="2588,782 3250,774"/>
+                <TextEquiv>
+                    <Unicode>—12—</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>—12—</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_1" custom="readingOrder {index:1;}">
+            <Coords points="955,886 4837,886 4837,1041 955,1041"/>
+            <TextLine id="tl_1"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:16; length:2;fontSize:0.0; kerning:0; superscript:true;}">
+                <Coords points="956,887 4836,887 4836,1040 956,1040"/>
+                <Baseline points="956,997 1020,997 1996,998 2100,1000 2238,1024 2470,1002 3342,1009 3790,1011 4192,1002 4424,1018 4836,1016"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>74. &lt;b&gt;CHARLES Ier&lt;/b&gt;, roi d’Angleterre. N. 1600. M. 1649.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>74. &lt;b&gt;CHARLES Ier&lt;/b&gt;, roi d’Angleterre. N. 1600. M. 1649.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_2" custom="readingOrder {index:2;}">
+            <Coords points="1257,1040 4847,1040 4847,1279 1257,1279"/>
+            <TextLine id="tl_2"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1396,1041 4846,1041 4846,1168 1396,1168"/>
+                <Baseline points="1396,1131 1494,1135 1714,1127 1988,1134 2112,1132 2778,1136 3018,1141 3114,1129 3484,1143 4348,1146 4710,1148 4846,1136"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>L. sig. avec le compliment aut. « vostre tres-affectionné cousin, »</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_3"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1258,1165 4282,1165 4282,1278 1258,1278"/>
+                <Baseline points="1258,1253 1376,1251 1860,1256 2028,1260 2604,1256 2790,1260 3544,1277 3722,1265 3960,1265 4282,1266"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>au cardinal de Richelieu. De Saint-James, 29 mai 1630.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0" bold="true"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>L. sig. avec le compliment aut. « vostre tres-affectionné cousin, »
+au cardinal de Richelieu. De Saint-James, 29 mai 1630.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_3" custom="readingOrder {index:3;}">
+            <Coords points="1261,1280 4855,1280 4855,1497 1261,1497"/>
+            <TextLine id="tl_4"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1368,1281 4854,1281 4854,1396 1368,1396"/>
+                <Baseline points="1368,1361 1436,1359 1854,1364 1976,1366 2246,1364 2382,1364 2824,1370 3056,1369 3176,1369 3366,1385 3554,1371 3766,1371 4072,1394 4330,1374 4386,1372 4854,1374"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Il dépêche le sieur de Montagu vers le roi, son bon frère, pour lui donner</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_5"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1262,1381 4490,1381 4490,1496 1262,1496"/>
+                <Baseline points="1262,1461 1448,1463 1586,1463 1644,1463 1788,1465 2418,1466 2676,1468 2852,1466 3062,1471 3322,1473 3598,1473 3740,1473 3884,1473 4092,1474 4490,1474"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>avis de la naissance d’un beau fils que Dieu vient de lui donner, etc.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Il dépêche le sieur de Montagu vers le roi, son bon frère, pour lui donner
+avis de la naissance d’un beau fils que Dieu vient de lui donner, etc.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_4" custom="readingOrder {index:4;}">
+            <Coords points="959,1546 4845,1546 4845,1693 959,1693"/>
+            <TextLine id="tl_6"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="960,1547 4844,1547 4844,1692 960,1692"/>
+                <Baseline points="960,1653 1026,1653 1998,1658 2266,1690 2498,1660 2706,1660 3232,1661 3802,1669 4216,1674 4438,1670 4844,1670"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>75. &lt;b&gt;CHARLES X&lt;/b&gt;, roi de France. N. 1757. M. 1836.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>75. &lt;b&gt;CHARLES X&lt;/b&gt;, roi de France. N. 1757. M. 1836.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_5" custom="readingOrder {index:5;}">
+            <Coords points="1392,1671 4843,1671 4843,1827 1392,1827"/>
+            <TextLine id="tl_7"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1391,1669 4840,1669 4842,1826 1393,1826"/>
+                <Baseline points="1393,1793 1497,1791 1781,1815 1880,1792 2012,1782 2216,1790 2635,1790 3315,1805 3428,1789 3732,1797 3976,1799 4196,1796 4552,1802 4841,1790"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>L. aut., à M. de Sérent. Édimbourg, 6 mars 1802. 2 pages in-4.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>L. aut., à M. de Sérent. Édimbourg, 6 mars 1802. 2 pages in-4.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_6" custom="readingOrder {index:6;}">
+            <Coords points="1262,1818 4860,1818 4860,2429 1262,2429"/>
+            <TextLine id="tl_8"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1364,1819 4859,1819 4859,1944 1364,1944"/>
+                <Baseline points="1373,1895 1401,1895 1653,1897 1721,1899 2533,1900 2589,1920 2737,1902 2821,1922 2891,1902 3033,1905 3115,1895 3229,1903 3401,1901 3847,1907 4061,1907 4205,1904 4341,1910 4427,1908 4543,1908 4859,1904"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Lettre toute mystérieuse; on y lit : « Il est très-vrai que D. 24 a le projet</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_9"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1263,1907 4853,1907 4853,2014 1263,2014"/>
+                <Baseline points="1263,1989 1303,1989 1445,1997 1723,1999 1919,2012 2065,1998 2551,2002 2803,2000 3411,2001 3555,2005 3711,2005 4315,2000 4465,2006 4627,2006 4853,2006"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>« de venir ici, et d'amener MM. d’Haucourt et de Nantouillet. Je ne t’en</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_10"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;}">
+                <Coords points="1267,2019 4851,2019 4851,2148 1267,2148"/>
+                <Baseline points="1267,2087 1307,2087 1589,2099 1795,2099 2069,2100 2369,2102 2573,2102 2803,2104 3127,2103 3491,2103 4241,2106 4321,2108 4441,2106 4549,2106 4851,2100"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>« avais pas parlé parce que 1003 ayant mandé précédemment à D. 24 qu’il</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_11"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:3;}">
+                <Coords points="1267,2105 4855,2105 4855,2240 1267,2240"/>
+                <Baseline points="1267,2189 1305,2189 1461,2199 1989,2200 2499,2206 2705,2202 2769,2202 2901,2204 3253,2203 3395,2203 3595,2205 3821,2207 4517,2206 4665,2208 4855,2206"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>« lui conseillait d’attendre que la crise fût un peu plus débrouillée.... Je n’ai</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_12"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:4;}">
+                <Coords points="1265,2221 4847,2221 4847,2336 1265,2336"/>
+                <Baseline points="1265,2289 1307,2289 1491,2299 1629,2301 2109,2304 2189,2302 2443,2304 2649,2302 2781,2304 2987,2307 3115,2303 3257,2303 3337,2305 3419,2303 3595,2303 3703,2307 3833,2311 4045,2335 4723,2308 4847,2306"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>« pas de réflexions à faire sur ce que P. 92 a dit à P. 79. Quelle faiblesse et</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_13"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:5;}">
+                <Coords points="1267,2321 4185,2321 4185,2428 1267,2428"/>
+                <Baseline points="1267,2389 1307,2389 1633,2403 2259,2404 2389,2404 2463,2404 2713,2404 3175,2407 3371,2403 3457,2403 3971,2407 4103,2410 4185,2398"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>« quelle personnalité de tous côtés, cela fait horreur, etc ... »</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Lettre toute mystérieuse; on y lit : « Il est très-vrai que D. 24 a le projet
+« de venir ici, et d'amener MM. d’Haucourt et de Nantouillet. Je ne t’en
+« avais pas parlé parce que 1003 ayant mandé précédemment à D. 24 qu’il
+« lui conseillait d’attendre que la crise fût un peu plus débrouillée.... Je n’ai
+« pas de réflexions à faire sur ce que P. 92 a dit à P. 79. Quelle faiblesse et
+« quelle personnalité de tous côtés, cela fait horreur, etc ... »</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_7" custom="readingOrder {index:7;}">
+            <Coords points="962,2490 4858,2490 4858,2643 962,2643"/>
+            <TextLine id="tl_14"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="963,2491 4857,2491 4857,2642 963,2642"/>
+                <Baseline points="963,2599 1027,2599 2677,2606 2815,2632 3915,2639 4191,2616 4857,2634"/>
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>76. &lt;b&gt;CHATEAUBRIAND&lt;/b&gt; (Franç.-Auguste, vicomte de),</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>76. &lt;b&gt;CHATEAUBRIAND&lt;/b&gt; (Franç.-Auguste, vicomte de),</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_8" custom="readingOrder {index:8;}">
+            <Coords points="1426,2654 4856,2654 4856,2793 1426,2793"/>
+            <TextLine id="tl_15"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1427,2655 4855,2655 4855,2792 1427,2792"/>
+                <Baseline points="1427,2759 1933,2762 2125,2764 2877,2762 3515,2755 4457,2766 4855,2770"/>
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>membre de l’Académie française. N. 1769.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="10.5" bold="true"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>membre de l’Académie française. N. 1769.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_9" custom="readingOrder {index:9;}">
+            <Coords points="1273,2804 4864,2804 4864,3045 1273,3045"/>
+            <TextLine id="tl_16"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1410,2805 4863,2805 4863,2924 1410,2924"/>
+                <Baseline points="1410,2893 1510,2893 1758,2893 2014,2912 2201,2894 2619,2894 3027,2897 3648,2899 3992,2917 4167,2902 4863,2904"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>L. aut. sig., au citoyen Lucien Bonaparte. Paris, 20 vendémiaire</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0" bold="true"/>
+            </TextLine>
+            <TextLine id="tl_17"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1274,2925 2750,2925 2750,3044 1274,3044"/>
+                <Baseline points="1274,3013 1396,3013 1534,3015 1650,3011 1946,3018 2080,3018 2434,3022 2750,3018"/>
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>an XI, 1 page et demie in-4.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0" bold="true"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>L. aut. sig., au citoyen Lucien Bonaparte. Paris, 20 vendémiaire
+an XI, 1 page et demie in-4.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_10" custom="readingOrder {index:10;}">
+            <Coords points="1267,3040 4871,3040 4871,3553 1267,3553"/>
+            <TextLine id="tl_18"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1360,3041 4868,3041 4868,3150 1360,3150"/>
+                <Baseline points="1360,3121 1494,3121 1774,3123 1918,3126 2464,3126 2542,3126 2974,3123 3034,3121 3204,3127 3558,3123 3656,3125 4462,3126 4622,3128 4868,3126"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>On vient de contrefaire à Avignon le &lt;i&gt;Génie du Christianisme&lt;/i&gt;. S’il ne veut</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_19"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1268,3141 4866,3141 4866,3252 1268,3252"/>
+                <Baseline points="1268,3219 1450,3223 1732,3225 2324,3240 2420,3226 2668,3222 2910,3222 3192,3221 3274,3225 3414,3223 3778,3241 3862,3225 4180,3228 4316,3228 4564,3228 4866,3228"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>être ruiné totalement, il faut qu’il parte à l’instant, et dans le plus grand</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_20"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;}">
+                <Coords points="1270,3243 4870,3243 4870,3348 1270,3348"/>
+                <Baseline points="1270,3319 1584,3337 1846,3326 2090,3326 2382,3326 2838,3324 3014,3323 3120,3347 3492,3327 3972,3325 4142,3328 4384,3326 4870,3326"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>secret, pour faire saisir l’édition. Le prince, ayant bien voulu se déclarer</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_21"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:3;}">
+                <Coords points="1272,3341 4862,3341 4862,3452 1272,3452"/>
+                <Baseline points="1272,3419 1348,3423 1682,3425 1856,3428 2066,3426 2534,3448 2626,3424 2808,3424 3290,3427 3576,3425 3858,3427 4020,3425 4862,3426"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>le patron de son ouvrage, il lui demande deux mots de recommandation</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="8.5"/>
+            </TextLine>
+            <TextLine id="tl_22"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:4;}">
+                <Coords points="1270,3445 4258,3445 4258,3552 1270,3552"/>
+                <Baseline points="1270,3545 1486,3525 1592,3527 1906,3526 2040,3528 2544,3544 2766,3526 3234,3527 3664,3527 4042,3537 4258,3530"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>pour le préfet de Vaucluse, afin d’obtenir prompte justice, etc.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="8.5"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>On vient de contrefaire à Avignon le &lt;i&gt;Génie du Christianisme&lt;/i&gt;. S’il ne veut
+être ruiné totalement, il faut qu’il parte à l’instant, et dans le plus grand
+secret, pour faire saisir l’édition. Le prince, ayant bien voulu se déclarer
+le patron de son ouvrage, il lui demande deux mots de recommandation
+pour le préfet de Vaucluse, afin d’obtenir prompte justice, etc.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_11" custom="readingOrder {index:11;}">
+            <Coords points="955,3620 4847,3620 4847,3767 955,3767"/>
+            <TextLine id="tl_23"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="956,3621 4846,3621 4846,3766 956,3766"/>
+                <Baseline points="956,3727 1022,3727 2010,3734 2964,3761 3596,3737 3802,3733 4198,3734 4440,3734 4846,3738"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>77. &lt;b&gt;CHAUDET&lt;/b&gt; (Ant.-Denis), statuaire. N. 1763. M. 1810.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>77. &lt;b&gt;CHAUDET&lt;/b&gt; (Ant.-Denis), statuaire. N. 1763. M. 1810.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_12" custom="readingOrder {index:12;}">
+            <Coords points="1393,3772 4863,3772 4863,3895 1393,3895"/>
+            <TextLine id="tl_24"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1394,3773 4862,3773 4862,3894 1394,3894"/>
+                <Baseline points="1394,3867 1462,3867 1762,3867 2030,3878 2200,3868 2680,3866 3024,3865 3254,3861 3636,3865 3818,3865 3924,3867 4116,3868 4386,3866 4862,3868"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>L. aut. sig., au ministre Chaptal. 24 pluv. an XI. 2 pag. in-folio.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>L. aut. sig., au ministre Chaptal. 24 pluv. an XI. 2 pag. in-folio.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_13" custom="readingOrder {index:13;}">
+            <Coords points="1266,3888 4871,3888 4871,4193 1266,4193"/>
+            <TextLine id="tl_25"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1366,3889 4870,3889 4870,3986 1366,3986"/>
+                <Baseline points="1366,3971 1698,3975 2088,3976 2208,3976 3160,3975 3536,3973 3626,3973 3744,3973 4070,3974 4206,3972 4320,3972 4624,3986 4870,3974"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Détails curieux et très-circonstanciés relatifs à la statue de la Paix, dont</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="8.5"/>
+            </TextLine>
+            <TextLine id="tl_26"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1267,3991 4866,3991 4866,4100 1267,4100"/>
+                <Baseline points="1267,4069 1775,4075 2053,4076 2209,4078 2364,4078 2579,4078 2677,4076 3019,4089 3125,4075 3427,4075 3855,4073 3966,4073 4153,4076 4866,4076"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>l’exécution vient de lui être confiée; avec la réponse du ministre Chaptal</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_27"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;}">
+                <Coords points="1269,4093 2181,4093 2181,4192 1269,4192"/>
+                <Baseline points="1269,4173 1375,4173 1587,4175 1735,4177 1865,4178 2181,4192"/>
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>en tête de la lettre,</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="8.5"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Détails curieux et très-circonstanciés relatifs à la statue de la Paix, dont
+l’exécution vient de lui être confiée; avec la réponse du ministre Chaptal
+en tête de la lettre,</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_14" custom="readingOrder {index:14;}">
+            <Coords points="948,4252 4870,4252 4870,4423 948,4423"/>
+            <TextLine id="tl_28"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="949,4253 4869,4253 4869,4422 949,4422"/>
+                <Baseline points="949,4387 1149,4387 1755,4387 2093,4418 2931,4420 3089,4411 3167,4415 4233,4418 4659,4386 4869,4388"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>78. &lt;b&gt;CHÉNIER&lt;/b&gt; (Marie-Joseph), conventionnel, poëte et</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>78. &lt;b&gt;CHÉNIER&lt;/b&gt; (Marie-Joseph), conventionnel, poëte et</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_15" custom="readingOrder {index:15;}">
+            <Coords points="1428,4426 4864,4426 4864,4549 1428,4549"/>
+            <TextLine id="tl_29"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1429,4427 4863,4427 4863,4548 1429,4548"/>
+                <Baseline points="1429,4541 2077,4536 3793,4541 4219,4534 4449,4542 4863,4544"/>
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>littérateur. N. 1764. M. 1811.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="10.5" bold="true"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>littérateur. N. 1764. M. 1811.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_16" custom="readingOrder {index:16;}">
+            <Coords points="1392,4580 4502,4580 4502,4705 1392,4705"/>
+            <TextLine id="tl_30"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;} textStyle {offset:29; length:2;fontSize:0.0; kerning:0; superscript:true;}">
+                <Coords points="1393,4581 4501,4581 4501,4704 1393,4704"/>
+                <Baseline points="1393,4673 1667,4675 1911,4676 2159,4692 2329,4674 2595,4674 2757,4674 2849,4670 2907,4638 3379,4673 3539,4671 3805,4673 3889,4671 4193,4674 4501,4672"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Pièce aut. sig., en date du 1er ventôse an VIII. 1 page in-4.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Pièce aut. sig., en date du 1er ventôse an VIII. 1 page in-4.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_17" custom="readingOrder {index:17;}">
+            <Coords points="1272,4696 4878,4696 4878,5004 1272,5004"/>
+            <TextLine id="tl_31"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1371,4697 4877,4697 4877,4824 1371,4824"/>
+                <Baseline points="1371,4783 1445,4781 1853,4786 1937,4784 2729,4782 2881,4782 3517,4781 3639,4781 4023,4781 4355,4798 4615,4780 4877,4756"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>II propose à l’administration du département le citoyen Milon, pour rem¬</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="8.5"/>
+            </TextLine>
+            <TextLine id="tl_32"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1273,4797 4875,4797 4875,4904 1273,4904"/>
+                <Baseline points="1273,4899 1437,4883 1543,4883 1879,4884 2019,4884 2567,4896 2989,4883 3317,4881 3917,4881 4071,4882 4179,4884 4875,4882"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>plir la chaire de législation, vacante par la nomination du citoyen Lenoir</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_33"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;}">
+                <Coords points="1275,4901 3193,4901 3193,5003 1275,5003"/>
+                <Baseline points="1275,4981 1689,5001 1895,4986 2375,4984 2511,4982 2805,4982 3193,4973"/>
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Laroche, aux fonctions de sénateur, etc.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>II propose à l’administration du département le citoyen Milon, pour rem¬
+plir la chaire de législation, vacante par la nomination du citoyen Lenoir
+Laroche, aux fonctions de sénateur, etc.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_18" custom="readingOrder {index:18;}">
+            <Coords points="957,5036 3548,5036 3548,5202 957,5202"/>
+            <TextLine id="tl_34"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="958,5037 3547,5037 3547,5201 958,5201"/>
+                <Baseline points="958,5167 1164,5167 1983,5170 2735,5172 3546,5173"/>
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>79. &lt;b&gt;CHÉNIER&lt;/b&gt; (Marie-Joseph), &lt;i&gt;idem&lt;/i&gt;.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>79. &lt;b&gt;CHÉNIER&lt;/b&gt; (Marie-Joseph), &lt;i&gt;idem&lt;/i&gt;.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_19" custom="readingOrder {index:19;}">
+            <Coords points="1275,5206 4871,5206 4871,5577 1275,5577"/>
+            <TextLine id="tl_35"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1416,5207 4870,5207 4870,5330 1416,5330"/>
+                <Baseline points="1416,5301 1848,5304 2452,5318 2720,5302 3002,5319 3262,5301 3950,5321 4154,5300 4294,5300 4532,5322 4676,5304 4870,5280"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Morceau littéraire, aut. sig., fort intéressant, sur la vie, le ca¬</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0" bold="true"/>
+            </TextLine>
+            <TextLine id="tl_36"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1276,5327 4864,5327 4864,5454 1276,5454"/>
+                <Baseline points="1276,5419 1636,5427 1786,5425 1984,5428 2486,5426 2642,5428 2936,5427 3516,5439 3632,5423 4034,5423 4372,5426 4864,5426"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>ractère et les ouvrages de J.-J. Rousseau, à propos d’une nouvelle</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0" bold="true"/>
+            </TextLine>
+            <TextLine id="tl_37"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:2;}">
+                <Coords points="1276,5455 4860,5455 4860,5576 1276,5576"/>
+                <Baseline points="1276,5545 1630,5549 1804,5552 2000,5552 2426,5550 2912,5548 3134,5549 3682,5543 3818,5545 4028,5545 4394,5546 4860,5548"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>édition de ses œuvres publiées par Bozérian. 2 gr. pages in-folio.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0" bold="true"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Morceau littéraire, aut. sig., fort intéressant, sur la vie, le ca¬
+ractère et les ouvrages de J.-J. Rousseau, à propos d’une nouvelle
+édition de ses œuvres publiées par Bozérian. 2 gr. pages in-folio.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_20" custom="readingOrder {index:20;}">
+            <Coords points="965,5596 4857,5596 4857,5779 965,5779"/>
+            <TextLine id="tl_38"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="966,5597 4856,5597 4856,5778 966,5778"/>
+                <Baseline points="966,5731 1150,5741 2232,5776 2688,5736 3566,5739 3790,5741 4222,5732 4454,5744 4856,5746"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>80. CHÉRUBINI, music. compositeur. N 1760. M. 1842.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="10.5" bold="true"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>80. CHÉRUBINI, music. compositeur. N 1760. M. 1842.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_21" custom="readingOrder {index:21;}">
+            <Coords points="1399,5776 4701,5776 4701,5901 1399,5901"/>
+            <TextLine id="tl_39"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1400,5777 4700,5777 4700,5900 1400,5900"/>
+                <Baseline points="1400,5871 1496,5863 1716,5873 1960,5872 2052,5872 2180,5868 2854,5874 3324,5869 3708,5885 3826,5869 4382,5872 4700,5876"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>L. aut sig. à M. l’intendant général. Paris, 2 décembre 1817.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>L. aut sig. à M. l’intendant général. Paris, 2 décembre 1817.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_22" custom="readingOrder {index:22;}">
+            <Coords points="1271,5894 4859,5894 4859,6107 1271,6107"/>
+            <TextLine id="tl_40"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1372,5895 4858,5895 4858,6004 1372,6004"/>
+                <Baseline points="1372,5977 1956,5982 2266,5982 2680,5984 2778,5982 2982,5983 3676,5981 3772,5979 4252,5980 4332,5982 4418,5980 4858,5962"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Intéressante lettre relative à des gratiticalions à accorder à des musi¬</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextLine id="tl_41"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1272,5999 2188,5999 2188,6106 1272,6106"/>
+                <Baseline points="1272,6079 1540,6079 1636,6081 1938,6082 2188,6082"/>
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>ciens. 2 pages in-4.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="8.5"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Intéressante lettre relative à des gratiticalions à accorder à des musi¬
+ciens. 2 pages in-4.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_23" custom="readingOrder {index:23;}">
+            <Coords points="962,6136 4857,6136 4857,6315 962,6315"/>
+            <TextLine id="tl_42"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="963,6137 4856,6137 4856,6314 963,6314"/>
+                <Baseline points="963,6281 1148,6279 2050,6280 3322,6307 3458,6281 3738,6281 4526,6284 4856,6286"/>
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>81. &lt;b&gt;CHOISEUL&lt;/b&gt; (Étienne-François, duc de), ministre sous</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>81. &lt;b&gt;CHOISEUL&lt;/b&gt; (Étienne-François, duc de), ministre sous</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_24" custom="readingOrder {index:24;}">
+            <Coords points="1436,6320 4842,6320 4842,6449 1436,6449"/>
+            <TextLine id="tl_43"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1437,6321 4841,6321 4841,6448 1437,6448"/>
+                <Baseline points="1437,6437 1775,6439 1935,6438 3739,6435 4193,6438 4431,6444 4841,6444"/>
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>Louis XV. N. 1719. M. 1785.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>Louis XV. N. 1719. M. 1785.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_25" custom="readingOrder {index:25;}">
+            <Coords points="1282,6472 4848,6472 4848,6723 1282,6723"/>
+            <TextLine id="tl_44"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1405,6473 4847,6473 4847,6598 1405,6598"/>
+                <Baseline points="1405,6569 1501,6571 1743,6571 2011,6588 2157,6574 2711,6570 2793,6564 3101,6569 3389,6567 3693,6565 4037,6569 4847,6572"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>L. aut. sig., ce mercredi. 1 page petit in-4. Toute confidentielle.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0" bold="true"/>
+            </TextLine>
+            <TextLine id="tl_45"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:1;}">
+                <Coords points="1283,6603 2291,6603 2291,6722 1283,6722"/>
+                <Baseline points="1283,6691 1679,6695 2291,6694"/>
+                
+                
+                <TextEquiv>
+                    <Unicode>Affaires politiques.</Unicode>
+                </TextEquiv>
+                <TextStyle fontFamily="Times New Roman" fontSize="9.0" bold="true"/>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>L. aut. sig., ce mercredi. 1 page petit in-4. Toute confidentielle.
+Affaires politiques.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_26" custom="readingOrder {index:26;}">
+            <Coords points="962,6744 3508,6744 3508,6906 962,6906"/>
+            <TextLine id="tl_46"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="963,6745 3507,6745 3507,6905 963,6905"/>
+                <Baseline points="963,6885 1031,6885 1931,6890 2063,6888 2505,6882 2945,6879 3507,6877"/>
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>82. &lt;b&gt;CLERGÉ&lt;/b&gt;. 4 lettres autog. signées.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>82. &lt;b&gt;CLERGÉ&lt;/b&gt;. 4 lettres autog. signées.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_27" custom="readingOrder {index:27;}">
+            <Coords points="1390,6922 4232,6922 4232,7051 1390,7051"/>
+            <TextLine id="tl_47"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1391,6923 4231,6923 4231,7050 1391,7050"/>
+                <Baseline points="1391,7019 1695,7021 1913,7048 2175,7022 2503,7016 2805,7010 3219,7015 3551,7015 3643,7007 3947,7013 4231,7014"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>BAUSSET (Le card. de). 16 octobre 1814. 1 page in-4.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>BAUSSET (Le card. de). 16 octobre 1814. 1 page in-4.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_28" custom="readingOrder {index:28;}">
+            <Coords points="1400,7040 4790,7040 4790,7167 1400,7167"/>
+            <TextLine id="tl_48"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1401,7041 4789,7041 4789,7166 1401,7166"/>
+                <Baseline points="1401,7143 1527,7143 1647,7143 2297,7140 2563,7164 3017,7137 3367,7131 3781,7135 4105,7142 4187,7138 4485,7136 4561,7140 4789,7140"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>LA TOUR D'AUVERGNE (Le card. de).6 février 1807. 1 page in-4.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>LA TOUR D'AUVERGNE (Le card. de).6 février 1807. 1 page in-4.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_29" custom="readingOrder {index:29;}">
+            <Coords points="1390,7164 4630,7164 4630,7297 1390,7297"/>
+            <TextLine id="tl_49"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1391,7165 4629,7165 4629,7296 1391,7296"/>
+                <Baseline points="1391,7293 1651,7263 1861,7292 2145,7264 2519,7260 3109,7259 3275,7257 3387,7257 3711,7255 4039,7257 4353,7260 4491,7260 4629,7262"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>QUÉLEN (Hyacinthe de), archev. de Paris. 1824. 1 page in-4.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>QUÉLEN (Hyacinthe de), archev. de Paris. 1824. 1 page in-4.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion type="paragraph" id="r_1_30" custom="readingOrder {index:30;}">
+            <Coords points="1401,7288 4516,7288 4516,7415 1401,7415"/>
+            <TextLine id="tl_50"
+                   primaryLanguage="English"
+                   custom="readingOrder {index:0;}">
+                <Coords points="1402,7289 4515,7289 4515,7414 1402,7414"/>
+                <Baseline points="1403,7385 1669,7383 2275,7388 2873,7384 2963,7383 3437,7383 3759,7385 3863,7383 4207,7386 4515,7384"/>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <TextEquiv>
+                    <Unicode>MARON, ministre protestant. 10 février 1826. 2 pages in-8.</Unicode>
+                </TextEquiv>
+            </TextLine>
+            <TextEquiv>
+                <Unicode>MARON, ministre protestant. 10 février 1826. 2 pages in-8.</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <SeparatorRegion id="r_2" custom="readingOrder {index:31;}">
+            <Coords points="5844,2816 5866,2816 5866,7224 5844,7224"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_3" custom="readingOrder {index:32;}">
+            <Coords points="5848,8412 5866,8412 5866,8752 5848,8752"/>
+        </SeparatorRegion>
+        <SeparatorRegion id="r_4" custom="readingOrder {index:33;}">
+            <Coords points="5857,7928 5866,7928 5866,8196 5857,8196"/>
+        </SeparatorRegion>
+    </Page>
+</PcGts>
