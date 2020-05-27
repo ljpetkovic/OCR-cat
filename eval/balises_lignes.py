@@ -18,7 +18,7 @@ def regexbalisefer(x):
 
 def bonneBalises(ligne):
     L_bo = [] # liste des span des balises ouvrantes  ex : [(0,4),(19,22)]
-    L_bf = [] # liste des span des balises ouvrantes  ex : [(6,10),(36,40)]
+    L_bf = [] # liste des span des balises fermantes  ex : [(6,10),(36,40)]
     pattern_bo = re.compile(r'<b>')   # pattern balise ouvrante correcte
     matches_bo = pattern_bo.finditer(ligne) # itérateur
     pattern_bf = re.compile(r'</b>')   # pattern balise fermante correcte
@@ -44,7 +44,7 @@ def bonneBalises(ligne):
 
 def verifEntrelacement(L_bo,L_bf):
     verif = [ u[1]<v[0] for u,v in zip(L_bo,L_bf)]   
-    return all(verif)  # all(list) = True si et seulement tous les éléments de list sont True
+    return all(verif)  # all(list) = True si et seulement si tous les éléments de list sont True
 
 
 def correctionBalises(ligne):
@@ -62,11 +62,11 @@ def affichage(ligne,parametres,max_taille):
             if bonneBalise and entrelacement:
                 print(l+' '*(max_taille-len(l))+' | '+'1'+' | ')
             elif bonneBalise and bon_nombre_balise:
-                print(l+' '*(max_taille-len(l))+' | '+'2'+' | '+' PROBLEME ORDRE DES BALISES')
+                print(l+' '*(max_taille-len(l))+' | '+'2'+' | '+' WRONG TAG ORDER')
             elif bonneBalise:
-                print(l+' '*(max_taille-len(l))+' | '+'3'+' | '+' BALISES MANQUANTES')
+                print(l+' '*(max_taille-len(l))+' | '+'3'+' | '+' MISSING TAGS')
             else:
-                print(l+' '*(max_taille-len(l))+' | '+'4'+' | '+' PROBLEME BALISE')
+                print(l+' '*(max_taille-len(l))+' | '+'4'+' | '+' PROBLEM WITH THE TAG')
         else:
             ligne_corr = corr[1]
             if bonneBalise and entrelacement:
@@ -103,7 +103,7 @@ print('')
 
  
 
-nombre_ligne = 106
+nombre_ligne = 106 # après cette ligne les balises <i></i> apparaissent 
 
 
 with open("Pour_les_tests.txt") as myfile:
@@ -149,6 +149,8 @@ for i,ligne in enumerate(head[:nombre_ligne]):
             bon_nombre_balise = True
     parametres = (bonneBalise,sans_balise,bon_nombre_balise,corr,entrelacement)         
     affichage(ligne,parametres,max_taille)
- 
+
+
+
     
  
