@@ -76,13 +76,13 @@ The programme output is in the format of three columns:
 * the 2<sup>nd</sup> is the programme's output;
 * the 3<sup>rd</sup> could be either the error signalisation or the suggestion of the correction. 
 
-The possible code's outputs (corresponding to the situation after the possible correction):
-**0**: line with no tags, no error message;
-**1**: the tags are well-formed, respecting the order of opening and closing tags (including the original tag well-formedness and the well-formedness resulting from the corrections by the programme), no error message;
+The possible code's outputs (corresponding to the situation after the possible correction):<br>
+**0**: line with no tags, no error message;<br>
+**1**: the tags are well-formed, respecting the order of opening and closing tags (including the original tag well-formedness and the well-formedness resulting from the corrections by the programme), no error message;<br>
 **2**: the tags are well-formed and there are as many opening as closing tags;
-     but the "opening/closing" order is not respected, message error `WRONG TAG ORDER`;
-**3**: the tags are well-formed but the number of opening and closing tags is not the same, message error `MISSING TAGS`;
-**4**: there is at least potentially an erroneous tag which could not be corrected, message error `PROBLEM WITH THE TAG`.
+     but the "opening/closing" order is not respected, message error `WRONG TAG ORDER`;<br>
+**3**: the tags are well-formed but the number of opening and closing tags is not the same, message error `MISSING TAGS`;<br>
+**4**: there is at least potentially an erroneous tag which could not be corrected, message error `PROBLEM WITH THE TAG`.<br>
 
 Output for the first 106 lines:
 
