@@ -76,7 +76,7 @@ The programme output is in the format of three columns:
 * the 2<sup>nd</sup> is the programme's output;
 * the 3<sup>rd</sup> could be either the error signalisation or the suggestion of the correction. 
 
-The possible code's outputs (corresponding to the situation after the possible correction):<br>
+The possible code's outputs (corresponding to the situation after the possible correction):<br><br>
 **0**: line with no tags, no error message;<br>
 **1**: the tags are well-formed, respecting the order of opening and closing tags (including the original tag well-formedness and the well-formedness resulting from the corrections by the programme), no error message;<br>
 **2**: the tags are well-formed and there are as many opening as closing tags;
@@ -223,7 +223,7 @@ In order to avoid matching real words starting with `b` with an accidental `<` b
 
 We are not looking for the `/` in isolation, because of the presence of possible fractions (`1/2`).
 
-This programme is supposed to generalise well in the cases of the individual tags `<b>text</b>` and `<i>text</i>`. However, in order to further check the robustness of the results, and to be certain that this code could handle the case of the nested tags (e.g. `<b><i>text</i></b>`, where the sequences `<b><i>` and `</i></b>` should not be treated as error), more test data will be provided.
+This programme is supposed to generalise well in the cases of the individual tags `<b>text</b>` and `<i>text</i>`. <br>However, in order to further check the robustness of the results, and to be certain that this code could handle the case of the nested tags (e.g. `<b><i>text</i></b>`, where the sequences `<b><i>` and `</i></b>` should not be treated as error), more test data will be provided.
 
 ### TO DO
 
