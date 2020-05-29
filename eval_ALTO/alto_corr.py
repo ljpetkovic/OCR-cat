@@ -25,11 +25,14 @@ processingSoftwareText =  """
 """
 
 
+
 sourceImageInformation = ET.fromstring(sourceImageInformationText)
 processingSoftware = ET.fromstring(processingSoftwareText)
 for processing_software in root[0][1]: 
     for p in processing_software.findall('{http://www.loc.gov/standards/alto/ns-v2#}processingSoftware'):
         processing_software.remove(p)
+
+   
 
 root[0].insert(1,sourceImageInformation)
 root[0][2][0].insert(1,processingSoftware)
@@ -42,7 +45,9 @@ tag_a_supprimer = ['{http://www.loc.gov/standards/alto/ns-v2#}TopMargin',
                    '{http://www.loc.gov/standards/alto/ns-v2#}LeftMargin',
                    '{http://www.loc.gov/standards/alto/ns-v2#}RightMargin',
                    '{http://www.loc.gov/standards/alto/ns-v2#}BottomMargin']
-     
+
+
+        
 for page in root[2].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
     for tag in tag_a_supprimer:
         for elem in page.findall(tag):
@@ -52,7 +57,8 @@ for page in root[2].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
             for shape in textblock.findall('{http://www.loc.gov/standards/alto/ns-v2#}Shape'):
                 textblock.remove(shape)
 
-                
+
+             
             
 ############    ajout d'une balise <Styles> avec les polices dans l'en-tête     ##########
                 
@@ -65,8 +71,15 @@ stylesText = """
 """
 
 
+    
 styles = ET.fromstring(stylesText)
+
+
+    
 root.insert(1,styles)
+
+
+
 
 
         
@@ -116,7 +129,7 @@ for  elt in root.iter():
     for l in liste_attribut:
         if l in dic.keys():
             mm10 = dic[l]
-            pixels = str(int(mm10)* 72/254)
+            pixels = str(int(mm10)* 72/254) # 72 dpi, changer selon en fonction de la résolution dans d'autres catalogues
             elt.set(l,pixels)
 
 

@@ -13,7 +13,7 @@ In this phase, the OCR output (text + typographical information) is exported fro
 
 After the initial experimenting with the XSLT transformations, we have managed to mitigate the problem with the structure, but the attribute values indicating the font were not always correctly assigned (e.g. the `<String CONTENT="Août" STYLEREFS="FONT2"` part does not correspond to the `&lt;b&gt;Août` &mdash; in this case the value `FONT1` should be assigned to the attribute `STYLEREFS ` instead of `FONT2`):
 
-The original (flawed) structure of the ALTO-XML file:
+The original (flawed) structure of the ALTO-XML file (`1871_08_RDA_N028-1.xml`):
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -184,7 +184,7 @@ The desired structure demanded the following structural modifications:<br>
 
     
 
-    Handling different tagging scenarios:
+    Handling different tagging scenarios (taken from `1871_08_RDA_N028-1.xml`and `1871_08_RDA_N028-2.xml`):
 
     ```xml
     <String CONTENT="&lt;b&gt;N°"  ------ opening bold tag
@@ -244,7 +244,7 @@ The desired structure demanded the following structural modifications:<br>
 
     
 
-The extended desired structure:
+The extended desired structure (cf. `1871_08_RDA_N028-1.xml_trans` and `1871_08_RDA_N028-2.xml_trans`):
 
 ```xml
 <?xml version='1.0' encoding='utf8'?>
