@@ -217,7 +217,7 @@ The desired structure demanded the following structural modifications:<br>
             VPOS="330.23622047244095" 
             WIDTH="54.14173228346457" />
     <SP HEIGHT="15.023622047244094" HPOS="158.45669291338584" VPOS="330.23622047244095" WIDTH="5.3858267716535435" />
-    <String CONTENT="Vépres" ----------- the second word in the italic part &lt;i&gt;des Vépres siciliennes&lt;/i&gt;
+    <String CONTENT="Vépres" ----------- no explicit tag, the second word in the italic part &lt;i&gt;des Vépres siciliennes&lt;/i&gt;
             HEIGHT="15.023622047244094" 
             HPOS="142.01574803149606" 
             ID="tl_23_2" 
