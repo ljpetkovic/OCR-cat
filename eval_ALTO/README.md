@@ -180,7 +180,7 @@ The desired structure demanded the following structural modifications:<br>
 
     
 
-    In other words, the programme assigns correct font values to all the individual words encompassed in the marked-up line (`DES`, `CURIOSITÉS`, `DE`, `L'HISTOIRE`, `&`, `DE`, `LA`, `BIOGRAPHE`) or to the words being part of the marked-up segment (`des`, `Vépres`, `siciliennes`, excluding the `ministre des Finances en 1848    ` part). Thus, this code extension is intended to emulate the intelligent human reasoning when deciding which parts of text are marked up in which font;
+    In other words, the programme assigns correct font values to all the individual words encompassed in the marked-up line (`DES`, `CURIOSITÉS`, `DE`, `L'HISTOIRE`, `&`, `DE`, `LA`, `BIOGRAPHE`) or to the words being part of the marked-up segment (`des`, `Vépres`, `siciliennes`, excluding the `ministre des Finances en 1848` part). Thus, this code extension is intended to emulate the intelligent human reasoning when deciding which parts of text are marked up in which font;
 
     
 
