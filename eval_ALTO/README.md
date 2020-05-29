@@ -2,16 +2,16 @@
 
 ### Introduction
 
-In this phase, the OCR output (text + typographical information) is exported from Transkribus into ALTO-XML format (at the word level), in order to be further processed and injected into the GROBID-dictionaries. However, we have noticed two problems that prevent this injection:<br>
+In this phase, the OCR output (text + typographical information) is exported from Transkribus into the ALTO-XML format (at the word level), in order to be further processed and injected into the GROBID-dictionaries. However, we have noticed two problems that prevent this injection:<br>
 
-* the XML structure of exported files did not correspond to the structure which could be accepted by the GROBID-dictionaries;<br>
+* the ALTO-XML structure of the exported files did not correspond to the structure which could be accepted by the GROBID-dictionaries;<br>
 * the markup is stored in attribute values, and such a design is fundamentally flawed (e.g.`<String CONTENT="&lt;b&gt;Août"`, where `&lt;b&gt;` is equivalent to the tag `<b>` indicating the word in bold).<br>
 
 
 
 ### Redesigning the ALTO-XML files
 
-After the initial experimenting with the XSLT transformations, we have mitigated the problem with the structure, but the attribute values indicating the font were not always correctly assigned (e.g. `<String CONTENT="Août" STYLEREFS="FONT2"` is incorrect - the value `FONT1` should be assigned to the attribute `STYLEREFS ` instead of `FONT2`):
+After the initial experimenting with the XSLT transformations, we have managed to mitigate the problem with the structure, but the attribute values indicating the font were not always correctly assigned (e.g. the `<String CONTENT="Août" STYLEREFS="FONT2"` part does not correspond to the `&lt;b&gt;Août` &mdash; the value `FONT1` should be assigned to the attribute `STYLEREFS ` instead of `FONT2`):
 
 The original (flawed) structure of the ALTO-XML file:
 
@@ -32,30 +32,30 @@ The original (flawed) structure of the ALTO-XML file:
             </processingSoftware>
          </ocrProcessingStep>
       </OCRProcessing>
-   </Description> 																				------------------> below goes <Styles> with its fonts
+   </Description> 			------------------> below goes <Styles> with its fonts
    <Tags/>
    <Layout>
       <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2885" WIDTH="1858">    
-         <TopMargin HEIGHT="5" WIDTH="1858" VPOS="0" HPOS="0"/>  				-----> unnecessary, convert into pixels
-         <LeftMargin HEIGHT="2614" WIDTH="0" VPOS="5" HPOS="0"/> 				-----> unnecessary, convert into pixels
+         <TopMargin HEIGHT="5" WIDTH="1858" VPOS="0" HPOS="0"/>  -----> unnecessary, convert into pixels
+         <LeftMargin HEIGHT="2614" WIDTH="0" VPOS="5" HPOS="0"/> -----> unnecessary, convert into pixels
          <RightMargin HEIGHT="2614" WIDTH="179" VPOS="5" HPOS="1679"/> 	-----> unnecessary, convert into pixels
          <BottomMargin HEIGHT="266" WIDTH="1858" VPOS="2619" HPOS="0"/> -----> unnecessary, convert into pixels
          <PrintSpace HEIGHT="2614" WIDTH="1679" VPOS="5" HPOS="0">
             <TextBlock ID="r2" HEIGHT="241" WIDTH="34" VPOS="2334" HPOS="249">
-               <Shape> 																									 ----> unnecessary
+               <Shape> 																								    ---> unnecessary
                   <Polygon POINTS="249,2334 249,2575 283,2575 283,2334"/> ---> unnecessary
-               </Shape>
+               </Shape>     
                <TextLine ID="r2l1"
                          BASELINE="2391"
                          HEIGHT="58"
                          WIDTH="44"
                          VPOS="2333"
                          HPOS="241">
-                  <String HEIGHT="58"      ------> <String> needs the incremental ID and STYLEREFS="FONT{0,1,2}"
-                  			  WIDTH="132" 
-                  				VPOS="2333" 
-                  				HPOS="153" 
-                  				CONTENT="5"/> 										
+                 <String HEIGHT="58" --- String needs the incremental ID and STYLEREFS="FONT{0,1,2}"
+                         WIDTH="132" 
+                         VPOS="2333" 
+                         HPOS="153" 
+                         CONTENT="5"/>
                </TextLine>
                <TextLine ID="r2l2"
                          BASELINE="2486"
@@ -138,9 +138,9 @@ The desired structure demanded the following structural modifications:<br>
 
    ```xml
    <Styles>
-        <TextStyle ID="font0" FONTSTYLE=""/>
-        <TextStyle ID="font1" FONTSTYLE="bold"/>
-        <TextStyle ID="font2" FONTSTYLE="italics"/>
+        <TextStyle ID="FONT0" FONTSTYLE=""/>
+        <TextStyle ID="FONT1" FONTSTYLE="bold"/>
+        <TextStyle ID="FONT2" FONTSTYLE="italics"/>
    </Styles>
    ```
 
@@ -148,13 +148,13 @@ The desired structure demanded the following structural modifications:<br>
    
    ```xml
    <TextBlock ID="r_2_1" HEIGHT="205" WIDTH="2840" VPOS="833" HPOS="793">
-          <TextLine ID="tl_2" <-------- used to generate incrementally the value of the <String>'s ID attribute
+          <TextLine ID="tl_2" -------- used to generate incrementally the value of the String ID attribute
                     BASELINE="943"
                     HEIGHT="109"
                     WIDTH="2836"
                     VPOS="834"
                     HPOS="794">
-             <String ID="tl_2_1" <------- The ID with the incremented value
+             <String ID="tl_2_1" ------- The ID with the incremented value
                      HEIGHT="109"
                      WIDTH="324"
                      VPOS="834"
@@ -162,33 +162,86 @@ The desired structure demanded the following structural modifications:<br>
                      CONTENT="154."/>
    ```
    
-4. Applying the `FONT{0,1,2} ` attributes to the elements `<String>` in the following manner:<br>
+4. The crucial aspect of this code is to consider the **different possible tagging scenarios** for applying the `FONT{0,1,2} ` attributes to the elements `<String>`, taking into account the word context in order to determine whether to assign one font value or not. More precisely, this code goes beyond the basic font assignment where:
 
-    a. the default value is `STYLEREFS="FONT0"` (normal text);
+    - the default value is `STYLEREFS="FONT0"` (normal text, e.g. the word `5`);
 
-    b. if the attribute `CONTENT` contains the tags `<b> `or `</b>` then `STYLEREFS="FONT1"` (bold); 
+    - if the attribute `CONTENT` contains the tags `<b>   ` or `</b>` then `STYLEREFS="FONT1"` (bold, e.g. `&lt;b&gt;Amari&lt;/b&gt;`);
 
-    c. if the attribute `CONTENT` contains the tags `<i> `or `</i>` then `STYLEREFS="FONT2"` (italic).
+    - if the attribute `CONTENT` contains the tags `<i> ` or `</i>` then `STYLEREFS="FONT2"` (italic, e.g. `&lt;i&gt;des`),
+
+    
+
+    to the more complex cases where:
+
+    - the whole line is marked typographically, but the exported ALTO-XML files contain the markup stored only at the beginning and at the end of the marked-up segment, that is, only before the first and after the last word in the marked-up sequence (e.g.`&lt;b&gt;DES CURIOSITÉS DE L'HISTOIRE & DE LA BIOGRAPHE&lt;/b&gt;`);
+    - only some line segments are marked typographically (`&lt;i&gt;des Vépres siciliennes&lt;/i&gt;. ministre des Finances en 1848.`).
+
+    
+
+    In other words, the programme assign correct font values to all the individual words encompassed in the marked-up line (`DES`, `CURIOSITÉS`, `DE`, `L'HISTOIRE`, `&`, `DE`, `LA`, `BIOGRAPHE`) or the words being part of the marked-up segment (`des`, `Vépres`, `siciliennes`, excluding the `ministre des Finances en 1848    ` part). Thus, this code extension is intended to emulate the intelligent human reasoning when deciding which parts of text are marked up in which font.
+
+    
+
+    Handling different tagging scenarios:
 
     ```xml
-    <String CONTENT="&lt;b&gt;Août" 
-    				HEIGHT="18.4251968503937" 
-            HPOS="367.93700787401576" 
-            ID="r3l1_1" 
-            STYLEREFS="FONT1" 				-------> bold
-            VPOS="31.181102362204726" 
-            WIDTH="66.89763779527559" />
-    <SP HEIGHT="18.4251968503937" HPOS="434.5511811023622" VPOS="31.181102362204726" WIDTH="5.952755905511811"/>
-    <String CONTENT="1874.." 
+    <String CONTENT="&lt;b&gt;N°"  ------ opening bold tag
             HEIGHT="18.4251968503937" 
-            HPOS="410.45669291338584" 
-            ID="r3l1_2" 
-            STYLEREFS="FONT0" 				-------> normal text
+            HPOS="64.34645669291339" 
+            ID="r3l2_1" 
+            STYLEREFS="FONT1"    ------ bold
             VPOS="31.181102362204726" 
-            WIDTH="48.47244094488189" />
+            WIDTH="39.68503937007874" />
+    <SP HEIGHT="18.4251968503937" HPOS="104.31496062992126" VPOS="31.181102362204726" WIDTH="4.535433070866142" />
+    <String CONTENT="28&lt;/b&gt;" ------ closing bold tag
+            HEIGHT="18.4251968503937" 
+            HPOS="86.45669291338582" 
+            ID="r3l2_2" 
+            STYLEREFS="FONT1" 		------- bold
+            VPOS="31.181102362204726" 
+            WIDTH="35.43307086614173" />
+    <String CONTENT="&lt;b&gt;Amari&lt;/b&gt;" --- opening and closing bold tags
+            HEIGHT="18.4251968503937" 
+            HPOS="102.61417322834646" 
+            ID="tl_22_2" 
+            STYLEREFS="FONT1" 					----- bold
+            VPOS="315.7795275590551" 
+            WIDTH="81.63779527559055" />
+    <String CONTENT="&lt;i&gt;des" 				-------- opening italic tag in the beginning of the line
+            HEIGHT="15.023622047244094" 
+            HPOS="104.31496062992126" 
+            ID="tl_23_1" 
+            STYLEREFS="FONT2"             ----------- italic
+            VPOS="330.23622047244095" 
+            WIDTH="54.14173228346457" />
+    <SP HEIGHT="15.023622047244094" HPOS="158.45669291338584" VPOS="330.23622047244095" WIDTH="5.3858267716535435" />
+    <String CONTENT="Vépres" -- the second word in the italic part &lt;i&gt;des Vépres siciliennes&lt;/i&gt;
+            HEIGHT="15.023622047244094" 
+            HPOS="142.01574803149606" 
+            ID="tl_23_2" 
+            STYLEREFS="FONT2"  					  ----------- italic
+            VPOS="330.23622047244095" 
+            WIDTH="54.14173228346457" />
+    <SP HEIGHT="15.023622047244094" HPOS="196.15748031496062" VPOS="330.23622047244095" WIDTH="5.3858267716535435" />
+    <String CONTENT="siciliennes&lt;/i&gt;." -------- closing italic tag in the middle of the line
+            HEIGHT="15.023622047244094" 
+            HPOS="180.0" 
+            ID="tl_23_3" 
+            STYLEREFS="FONT2" 					   ----------- italic
+            VPOS="330.23622047244095" 
+            WIDTH="108.28346456692914" />
+    <SP HEIGHT="15.023622047244094" HPOS="288.2834645669291" VPOS="330.23622047244095" WIDTH="5.3858267716535435" />
+    <String CONTENT="ministre"            ----------- no tag
+            HEIGHT="15.023622047244094" 
+            HPOS="271.84251968503935" 
+            ID="tl_23_4" 
+            STYLEREFS="FONT0" 						----------- normal text
+            VPOS="330.23622047244095" 
+            WIDTH="64.91338582677166" />
     ```
 
-
+    
 
 The extended desired structure:
 
@@ -313,7 +366,7 @@ The extended desired structure:
 ### Remarks
 
 * For the transformation of the ALTO-XML files we opted for the `ElementTree` built-in Python library, instead of the non-native Python library `lxml`;
-* With this library it was possible to reproduce the results made during the experimental phase, and as well to improve the crucial aspect of the transformation, that is, the correct assignment of the attribute values `FONT{0,1,2}`;
+* With this library it was possible to reproduce the results made during the experimental phase, and as well to improve the key aspect of the transformation, that is, the correct assignment of the attribute values `FONT{0,1,2}`;
 * There were some initial problems in the displaying of the ALTO-XML header (e.g. the insertion of `<ns0:` in `<ns0:Description>` ). Those issues were resolved by adding the explicit statements of the namespaces and the metadata in the header, which facilitated the creation of the valid ALTO-XML structure and the access to the XML nodes (e.g. `{http://www.loc.gov/standards/alto/ns-v2#}Page` );
 
 

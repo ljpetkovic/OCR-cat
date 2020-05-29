@@ -58,9 +58,9 @@ for page in root[2].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
                 
 stylesText = """
 <Styles xmlns="http://www.loc.gov/standards/alto/ns-v2#">
-      <TextStyle ID="FONT0" STYLEREFS=""/>
-      <TextStyle ID="FONT1" STYLEREFS="bold"/>
-      <TextStyle ID="FONT2" STYLEREFS="italics"/>
+      <TextStyle ID="FONT0" FONTSTYLE=""/>
+      <TextStyle ID="FONT1" FONTSTYLE="bold"/>
+      <TextStyle ID="FONT2" FONTSTYLE="italics"/>
    </Styles>
 """
 

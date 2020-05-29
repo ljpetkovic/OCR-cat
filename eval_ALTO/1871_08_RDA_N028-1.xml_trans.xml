@@ -15,9 +15,9 @@
       </OCRProcessing>
    </Description>
    <Styles>
-      <TextStyle ID="FONT0" STYLEREFS="" />
-      <TextStyle ID="FONT1" STYLEREFS="bold" />
-      <TextStyle ID="FONT2" STYLEREFS="italics" />
+      <TextStyle FONTSTYLE="" ID="FONT0" />
+      <TextStyle FONTSTYLE="bold" ID="FONT1" />
+      <TextStyle FONTSTYLE="italics" ID="FONT2" />
    </Styles><Tags />
    <Layout>
       <Page HEIGHT="817.7952755905512" ID="Page1" PHYSICAL_IMG_NR="1" WIDTH="526.6771653543307">
