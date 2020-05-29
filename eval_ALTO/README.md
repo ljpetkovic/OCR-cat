@@ -162,7 +162,7 @@ The desired structure demanded the following structural modifications:<br>
                      CONTENT="154."/>
    ```
    
-4. The crucial aspect of this code is to consider the **different possible tagging scenarios** for applying the `FONT{0,1,2} ` attributes to the elements `<String>`, taking into account the word context in order to determine whether to assign one font value or not. More precisely, this code goes beyond the basic font assignment where:
+4. The crucial aspect of this code is to consider the **different possible tagging scenarios** for applying the `STYLEREFS="FONT{0,1,2}"` to the elements `<String>`, taking into account the word context in order to determine whether to assign one font value or not. More precisely, this code goes beyond the basic font assignment where:
 
     - the default value is `STYLEREFS="FONT0"` (normal text, e.g. the word `5`);
 
@@ -179,7 +179,7 @@ The desired structure demanded the following structural modifications:<br>
 
     
 
-    In other words, the programme assign correct font values to all the individual words encompassed in the marked-up line (`DES`, `CURIOSITÉS`, `DE`, `L'HISTOIRE`, `&`, `DE`, `LA`, `BIOGRAPHE`) or the words being part of the marked-up segment (`des`, `Vépres`, `siciliennes`, excluding the `ministre des Finances en 1848    ` part). Thus, this code extension is intended to emulate the intelligent human reasoning when deciding which parts of text are marked up in which font.
+    In other words, the programme assigns correct font values to all the individual words encompassed in the marked-up line (`DES`, `CURIOSITÉS`, `DE`, `L'HISTOIRE`, `&`, `DE`, `LA`, `BIOGRAPHE`) or to the words being part of the marked-up segment (`des`, `Vépres`, `siciliennes`, excluding the `ministre des Finances en 1848    ` part). Thus, this code extension is intended to emulate the intelligent human reasoning when deciding which parts of text are marked up in which font;
 
     
 
@@ -362,6 +362,8 @@ The extended desired structure:
                          STYLEREFS="FONT1"/>
                </TextLine>
 ```
+
+5. Conversion of the `HPOS`, `VPOS`, `HEIGHT` and `WIDTH` attribute values from mm10 (the measurement unit used in the ALTO file) to pixels, using the formula `mm10 * dpi / 254`.
 
 ### Remarks
 
