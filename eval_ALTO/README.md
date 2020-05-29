@@ -184,7 +184,7 @@ The desired structure demanded the following structural modifications:<br>
 
     
 
-    Handling different tagging scenarios (taken from `1871_08_RDA_N028-1.xml`and `1871_08_RDA_N028-2.xml`):
+    Handling different tagging scenarios (taken from `1871_08_RDA_N028-1.xml` and `1871_08_RDA_N028-2.xml`):
 
     ```xml
     <String CONTENT="&lt;b&gt;N°"  ------ opening bold tag
