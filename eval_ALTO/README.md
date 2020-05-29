@@ -11,7 +11,7 @@ In this phase, the OCR output (text + typographical information) is exported fro
 
 ### Redesigning the ALTO-XML files
 
-After the initial experimenting with the XSLT transformations, we have managed to mitigate the problem with the structure, but the attribute values indicating the font were not always correctly assigned (e.g. the `<String CONTENT="Août" STYLEREFS="FONT2"` part does not correspond to the `&lt;b&gt;Août` &mdash; the value `FONT1` should be assigned to the attribute `STYLEREFS ` instead of `FONT2`):
+After the initial experimenting with the XSLT transformations, we have managed to mitigate the problem with the structure, but the attribute values indicating the font were not always correctly assigned (e.g. the `<String CONTENT="Août" STYLEREFS="FONT2"` part does not correspond to the `&lt;b&gt;Août` &mdash; in this case the value `FONT1` should be assigned to the attribute `STYLEREFS ` instead of `FONT2`):
 
 The original (flawed) structure of the ALTO-XML file:
 
