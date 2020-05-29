@@ -32,18 +32,18 @@ The original (flawed) structure of the ALTO-XML file:
             </processingSoftware>
          </ocrProcessingStep>
       </OCRProcessing>
-   </Description> 			------------------> below goes <Styles> with its fonts
+   </Description> 			------------------ below goes Styles with its fonts
    <Tags/>
    <Layout>
       <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2885" WIDTH="1858">    
-         <TopMargin HEIGHT="5" WIDTH="1858" VPOS="0" HPOS="0"/>  -----> unnecessary, convert into pixels
-         <LeftMargin HEIGHT="2614" WIDTH="0" VPOS="5" HPOS="0"/> -----> unnecessary, convert into pixels
-         <RightMargin HEIGHT="2614" WIDTH="179" VPOS="5" HPOS="1679"/> 	-----> unnecessary, convert into pixels
-         <BottomMargin HEIGHT="266" WIDTH="1858" VPOS="2619" HPOS="0"/> -----> unnecessary, convert into pixels
+         <TopMargin HEIGHT="5" WIDTH="1858" VPOS="0" HPOS="0"/>  ----- unnecessary, convert into pixels
+         <LeftMargin HEIGHT="2614" WIDTH="0" VPOS="5" HPOS="0"/> ----- unnecessary, convert into pixels
+         <RightMargin HEIGHT="2614" WIDTH="179" VPOS="5" HPOS="1679"/> 	----- unnecessary, convert into pixels
+         <BottomMargin HEIGHT="266" WIDTH="1858" VPOS="2619" HPOS="0"/> ----- unnecessary, convert into pixels
          <PrintSpace HEIGHT="2614" WIDTH="1679" VPOS="5" HPOS="0">
             <TextBlock ID="r2" HEIGHT="241" WIDTH="34" VPOS="2334" HPOS="249">
-               <Shape> 																								    ---> unnecessary
-                  <Polygon POINTS="249,2334 249,2575 283,2575 283,2334"/> ---> unnecessary
+               <Shape> 																								    --- unnecessary
+                  <Polygon POINTS="249,2334 249,2575 283,2575 283,2334"/> --- unnecessary
                </Shape>     
                <TextLine ID="r2l1"
                          BASELINE="2391"
@@ -51,7 +51,7 @@ The original (flawed) structure of the ALTO-XML file:
                          WIDTH="44"
                          VPOS="2333"
                          HPOS="241">
-                 <String HEIGHT="58" --- String needs the incremental ID and STYLEREFS="FONT{0,1,2}"
+                 <String HEIGHT="58" --- String needs the incremental ID and STYLEREFS with FONT{0,1,2}
                          WIDTH="132" 
                          VPOS="2333" 
                          HPOS="153" 
