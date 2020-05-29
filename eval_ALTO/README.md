@@ -42,7 +42,7 @@ The original (flawed) structure of the ALTO-XML file (`1871_08_RDA_N028-1.xml`):
          <BottomMargin HEIGHT="266" WIDTH="1858" VPOS="2619" HPOS="0"/> ----- unnecessary, convert into pixels
          <PrintSpace HEIGHT="2614" WIDTH="1679" VPOS="5" HPOS="0">
             <TextBlock ID="r2" HEIGHT="241" WIDTH="34" VPOS="2334" HPOS="249">
-               <Shape> 	--- unnecessary
+               <Shape> 	------------------------------------------------------ unnecessary
                   <Polygon POINTS="249,2334 249,2575 283,2575 283,2334"/> --- unnecessary
                </Shape>     
                <TextLine ID="r2l1"
