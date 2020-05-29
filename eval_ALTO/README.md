@@ -126,6 +126,7 @@ The original (flawed) structure of the ALTO-XML file:
                           HPOS="305"
                           CONTENT="28&lt;/b&gt;"/>
                </TextLine>
+...
 ```
 
 
@@ -246,121 +247,93 @@ The desired structure demanded the following structural modifications:<br>
 The extended desired structure:
 
 ```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
-      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
-      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+<?xml version='1.0' encoding='utf8'?>
+<alto xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
    <Description>
       <MeasurementUnit>pixel</MeasurementUnit>
-      <OCRProcessing ID="IdOcr">
+      <sourceImageInformation>
+         <fileName>1871_08_RDA_N028-1.xml</fileName>
+      </sourceImageInformation><OCRProcessing ID="IdOcr">
          <ocrProcessingStep>
             <processingDateTime>2020-05-17T21:22:02.419+02:00</processingDateTime>
             <processingSoftware>
-               <softwareCreator>READ COOP</softwareCreator>
-               <softwareName>Transkribus</softwareName>
-            </processingSoftware>
-         </ocrProcessingStep>
+               <softwareCreator>CONTRIBUTORS</softwareCreator>
+               <softwareName>pdfalto</softwareName>
+               <softwareVersion>0.1</softwareVersion>
+            </processingSoftware></ocrProcessingStep>
       </OCRProcessing>
    </Description>
    <Styles>
-        <TextStyle ID="FONT0" FONTSTYLE=""/>
-        <TextStyle ID="FONT1" FONTSTYLE="bold"/>
-        <TextStyle ID="FONT2" FONTSTYLE="italics"/>
-   </Styles>
-   <Tags/>
+      <TextStyle FONTSTYLE="" ID="FONT0" />
+      <TextStyle FONTSTYLE="bold" ID="FONT1" />
+      <TextStyle FONTSTYLE="italics" ID="FONT2" />
+   </Styles><Tags />
    <Layout>
-      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2885" WIDTH="1858">
-         <PrintSpace HEIGHT="2614" WIDTH="1679" VPOS="5" HPOS="0">
-            <TextBlock ID="r2" HEIGHT="241" WIDTH="34" VPOS="2334" HPOS="249">
-               <TextLine ID="r2l1"
-                         BASELINE="2391"
-                         HEIGHT="58"
-                         WIDTH="44"
-                         VPOS="2333"
-                         HPOS="241">
-                 <String ID="r2l1_1" 
-                  	 HEIGHT="58" 
-                  	 WIDTH="132" 
-                  	 VPOS="2333" 
-                  	 HPOS="153" 
-                  	 CONTENT="5"
-                         STYLEREFS="FONT0"/>
+      <Page HEIGHT="817.7952755905512" ID="Page1" PHYSICAL_IMG_NR="1" WIDTH="526.6771653543307">
+         <PrintSpace HEIGHT="740.9763779527559" HPOS="0.0" VPOS="1.4173228346456692" WIDTH="475.93700787401576">
+            <TextBlock HEIGHT="68.31496062992126" HPOS="70.58267716535433" ID="r2" VPOS="661.6062992125984" WIDTH="9.637795275590552">
+               <TextLine BASELINE="2391" HEIGHT="16.440944881889763" HPOS="68.31496062992126" ID="r2l1" VPOS="661.3228346456693" WIDTH="12.472440944881889">
+                  <String CONTENT="5" 
+                          HEIGHT="16.440944881889763" 
+                          HPOS="43.37007874015748" 
+                          ID="r2l1_1" 
+                          STYLEREFS="FONT0" 
+                          VPOS="661.3228346456693" 
+                          WIDTH="37.41732283464567" />
                </TextLine>
-               <TextLine ID="r2l2"
-                         BASELINE="2486"
-                         HEIGHT="71"
-                         WIDTH="56"
-                         VPOS="2415"
-                         HPOS="239">
-                 <String ID="r2l2_1" 
-                 	 HEIGHT="71" 
-                  	 WIDTH="168" 
-                  	 VPOS="2415" 
-                  	 HPOS="127" 
-                  	 CONTENT="6"
-                         STYLEREFS="FONT0"/>
+               <TextLine BASELINE="2486" HEIGHT="20.125984251968504" HPOS="67.74803149606299" ID="r2l2" VPOS="684.5669291338583" WIDTH="15.874015748031496">
+                  <String CONTENT="6" 
+                          HEIGHT="20.125984251968504" 
+                          HPOS="36.0" ID="r2l2_1" 
+                          STYLEREFS="FONT0" 
+                          VPOS="684.5669291338583" 
+                          WIDTH="47.62204724409449" />
                </TextLine>
-               <TextLine ID="r2l3"
-                         BASELINE="2569"
-                         HEIGHT="58"
-                         WIDTH="44"
-                         VPOS="2511"
-                         HPOS="243">
-                 <String ID="r2l3_1" 
-                  	 HEIGHT="58" 
-                  	 WIDTH="132" 
-                  	 VPOS="2511" 
-                  	 HPOS="155" 
-                  	 CONTENT="7"
-                         STYLEREFS="FONT0"/>
+               <TextLine BASELINE="2569" HEIGHT="16.440944881889763" HPOS="68.88188976377953" ID="r2l3" VPOS="711.7795275590552" WIDTH="12.472440944881889">
+                  <String CONTENT="7" 
+                          HEIGHT="16.440944881889763" 
+                          HPOS="43.93700787401575" 
+                          ID="r2l3_1" 
+                          STYLEREFS="FONT0" 
+                          VPOS="711.7795275590552" 
+                          WIDTH="37.41732283464567" />
                </TextLine>
             </TextBlock>
-            <TextBlock ID="r3" HEIGHT="2480" WIDTH="1451" VPOS="128" HPOS="222">
-               <TextLine ID="r3l1"
-                         BASELINE="175"
-                         HEIGHT="65"
-                         WIDTH="300"
-                         VPOS="110"
-                         HPOS="1319">
-                 <String ID="r3l1_1"
-                  	 HEIGHT="65"
-                         WIDTH="236"
-                         VPOS="110"
-                         HPOS="1298"
-                         CONTENT="&lt;b&gt;Août"
-                         STYLEREFS="FONT1"/>
-                  <SP HEIGHT="65" WIDTH="21" VPOS="110" HPOS="1533"/>
-                 <String ID="r3l1_2"
-                  	 HEIGHT="65"
-                         WIDTH="171"
-                         VPOS="110"
-                         HPOS="1448"
-                         CONTENT="1874.."
-                         STYLEREFS="FONT0"/>
+            <TextBlock HEIGHT="702.992125984252" HPOS="62.92913385826772" ID="r3" VPOS="36.28346456692913" WIDTH="411.3070866141732">
+               <TextLine BASELINE="175" HEIGHT="18.4251968503937" HPOS="373.8897637795276" ID="r3l1" VPOS="31.181102362204726" WIDTH="85.03937007874016">
+                  <String CONTENT="&lt;b&gt;Août" 
+                          HEIGHT="18.4251968503937" 
+                          HPOS="367.93700787401576" 
+                          ID="r3l1_1" 
+                          STYLEREFS="FONT1" 
+                          VPOS="31.181102362204726" 
+                          WIDTH="66.89763779527559" />
+                  <SP HEIGHT="18.4251968503937" HPOS="434.5511811023622" VPOS="31.181102362204726" WIDTH="5.952755905511811" />
+                  <String CONTENT="1874.." 
+                          HEIGHT="18.4251968503937" 
+                          HPOS="410.45669291338584" 
+                          ID="r3l1_2" 
+                          STYLEREFS="FONT1" 
+                          VPOS="31.181102362204726" 
+                          WIDTH="48.47244094488189" />
                </TextLine>
-               <TextLine ID="r3l2"
-                         BASELINE="175"
-                         HEIGHT="65"
-                         WIDTH="187"
-                         VPOS="110"
-                         HPOS="243">
-                 <String ID="r3l2_1"
-                  	 HEIGHT="65"
-                         WIDTH="140"
-                         VPOS="110"
-                         HPOS="227"
-                         CONTENT="&lt;b&gt;N°"
-                         STYLEREFS="FONT1"/>
-                  <SP HEIGHT="65" WIDTH="16" VPOS="110" HPOS="368"/>
-                 <String ID="r3l2_2"
-                  	 HEIGHT="65"
-                         WIDTH="125"
-                         VPOS="110"
-                         HPOS="305"
-                         CONTENT="28&lt;/b&gt;"
-                         STYLEREFS="FONT1"/>
+               <TextLine BASELINE="175" HEIGHT="18.4251968503937" HPOS="68.88188976377953" ID="r3l2" VPOS="31.181102362204726" WIDTH="53.00787401574803">
+                  <String CONTENT="&lt;b&gt;N°" 
+                          HEIGHT="18.4251968503937" 
+                          HPOS="64.34645669291339" 
+                          ID="r3l2_1" STYLEREFS="FONT1" 
+                          VPOS="31.181102362204726" 
+                          WIDTH="39.68503937007874" />
+                  <SP HEIGHT="18.4251968503937" HPOS="104.31496062992126" VPOS="31.181102362204726" WIDTH="4.535433070866142" />
+                  <String CONTENT="28&lt;/b&gt;" 
+                          HEIGHT="18.4251968503937" 
+                          HPOS="86.45669291338582" 
+                          ID="r3l2_2" 
+                          STYLEREFS="FONT1" 
+                          VPOS="31.181102362204726" 
+                          WIDTH="35.43307086614173" />
                </TextLine>
+...
 ```
 
 5. Conversion of the `HPOS`, `VPOS`, `HEIGHT` and `WIDTH` attribute values from mm10 (the measurement unit used in the ALTO file) to pixels, using the formula `mm10 * dpi / 254`.
