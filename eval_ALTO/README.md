@@ -2,7 +2,7 @@
 
 ### Introduction
 
-In this phase, the OCR output (text + typographical information) is exported from Transkribus into the ALTO-XML format (at the word level), in order to be further processed and injected into the GROBID-dictionaries. However, we have noticed two problems that prevent this injection:<br>
+In this phase, the OCR output (text + typographical information) is exported from Transkribus into the ALTO-XML format (at the word level), in order to be further processed and injected into the GROBID-dictionaries. However, we have noticed two problems that prevent this injection: <br>
 
 * the ALTO-XML structure of the exported files did not correspond to the structure which could be accepted by the GROBID-dictionaries;<br>
 * the markup is stored in attribute values, and such a design is fundamentally flawed (e.g.`<String CONTENT="&lt;b&gt;Août"`, where `&lt;b&gt;` is equivalent to the tag `<b>` indicating the word in bold).<br>
