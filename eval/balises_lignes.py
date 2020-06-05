@@ -19,9 +19,9 @@ def regexbalisefer(x):
 def bonneBalises(ligne):
     L_bo = [] # liste des span des balises ouvrantes  ex : [(0,4),(19,22)]
     L_bf = [] # liste des span des balises fermantes  ex : [(6,10),(36,40)]
-    pattern_bo = re.compile(r'<b>')   # pattern balise ouvrante correcte
+    pattern_bo = re.compile(r'<i>')   # pattern balise ouvrante correcte
     matches_bo = pattern_bo.finditer(ligne) # itérateur
-    pattern_bf = re.compile(r'</b>')   # pattern balise fermante correcte
+    pattern_bf = re.compile(r'</i>')   # pattern balise fermante correcte
     matches_bf = pattern_bf.finditer(ligne)
     for match in matches_bo:
         u = match.span()
@@ -30,8 +30,8 @@ def bonneBalises(ligne):
         u = match.span()
         L_bf.append(u)
     ### On enlève toute les bonnes balises :
-    ligne_test = re.sub(r'<b>', '', ligne)
-    ligne_test = re.sub(r'</b>', '', ligne_test)
+    ligne_test = re.sub(r'<i>', '', ligne)
+    ligne_test = re.sub(r'</i>', '', ligne_test)
     ### Et on test ce qui reste (ici présence de <, >) remarque : on ne cherche pas les / tous seuls, car présence de fractions éventuelles
     if re.search(r'[<>]',ligne_test):    
         return False,[]
@@ -48,8 +48,8 @@ def verifEntrelacement(L_bo,L_bf):
 
 
 def correctionBalises(ligne):
-    ligne_corr = re.sub(regexbaliseouv('b'), r'<b>', ligne)
-    ligne_corr = re.sub(regexbalisefer('b'), r'</b>', ligne_corr)
+    ligne_corr = re.sub(regexbaliseouv('i'), r'<i>', ligne)
+    ligne_corr = re.sub(regexbalisefer('i'), r'</i>', ligne_corr)
     return ligne_corr
 
 def affichage(ligne,parametres,max_taille):
@@ -103,10 +103,10 @@ print('')
 
  
 
-nombre_ligne = 106 # après cette ligne les balises <i></i> apparaissent 
+#nombre_ligne = 106 # après cette ligne les balises <i></i> apparaissent 
+nombre_ligne = 472
 
-
-with open("Pour_les_tests.txt") as myfile:
+with open("Cat_Rouen_1853.txt") as myfile:
     head = [next(myfile) for x in range(nombre_ligne)]  # pour extraire seulement les 'nombre_ligne' premières lignes
     taille = [len(ligne) for ligne in head] # liste des longueurs des lignes
     max_taille = max(taille) - 1 # longueur de la ligne la plus longue
