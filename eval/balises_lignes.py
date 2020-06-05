@@ -103,7 +103,7 @@ print('')
 
  
 
-#nombre_ligne = 106 # après cette ligne les balises <i></i> apparaissent 
+
 nombre_ligne = 472
 
 with open("Cat_Rouen_1853.txt") as myfile:
