@@ -4,7 +4,7 @@
 
 ## etree -> lxml
 
-* pas besoin de ET.register_namespace 
+* pas besoin de `ET.register_namespace`
 * garder le `xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"`
 * `XMLParser(remove_blank_text=True)` : `</Styles>` &mdash; la nouvelle ligne &mdash; `<Tags/>` &mdash; l'indentation
 * ajouter les balises `<Styles>` étendues (avec les attributs et les valeurs fictives si on n'a rien) 
