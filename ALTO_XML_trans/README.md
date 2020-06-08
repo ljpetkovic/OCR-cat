@@ -348,4 +348,5 @@ Output of the transformed file `1845_05_14_CHA-0008.xml_trans.xml`:<br>
                     STYLEREFS="FONT1"/>
           </TextLine>
 ```
-
+ # TO DO
+* Put a parameter to indicate files to be processed so that the code does not treat all the files, and a parameter to indicate files already processed.
