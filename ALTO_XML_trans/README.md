@@ -32,7 +32,7 @@ To create your Python virtual environment (optional):
 
    `pip3 install -r requirements.txt`<br>
 
-   `brew bundle` (installs the `imagemagick` library on macOS/Linux, mandatory for the mm10 to pixels conversion)<br>
+   `brew bundle` (installs the `imagemagick` library on macOS/Linux present in the `Brewfile, mandatory for the mm10 to pixels conversion)<br>
 
 *NB*:
 
