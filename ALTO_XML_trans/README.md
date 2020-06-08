@@ -127,7 +127,7 @@ e.g. `BELLE` instead of `&lt;b&gt;BELLE`
   <Tags/>
   ```
   
-##### Dispay --help/description text of the Python scripts
+##### Dispay `--help`/description text of the Python scripts
 
 * `python3 corr_XML_dpi.py -h`
 
