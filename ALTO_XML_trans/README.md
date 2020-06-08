@@ -126,6 +126,35 @@ e.g. `BELLE` instead of `&lt;b&gt;BELLE`
     </Styles>
   <Tags/>
   ```
+  
+##### Dispay --help/description text of the Python scripts
+
+* `python3 corr_XML_dpi.py -h`
+
+  ```
+              This programme is executable on the command line.
+              To transform all files in all the catalogue folders,
+              move to the 'scripts' folder and then run:
+              
+              ./corr_XML_dpi.sh    
+  
+              For the detailed explanation of the code, cf. https://github.com/ljpetkovic/OCR-cat/tree/master/ALTO_XML_trans',
+  ```
+
+* `python3 corr_XML_dpi_test.py -h`
+
+  ```xml
+              To run this programme on a single file do
+              
+              python3 corr_XML_dpi_test.py path_name_of_the_file dpi
+  
+              where dpi is an integer and           
+              where path_name_of_the_file is the complete path of the file name to process.
+  
+              For the detailed explanation of the code, cf. https://github.com/ljpetkovic/OCR-cat/tree/master/ALTO_XML_trans',
+  ```
+
+  
 
 ### Running the scripts
 
