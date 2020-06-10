@@ -20,11 +20,7 @@ done
 
 
 
-<<<<<<< HEAD
 # # if the option -p (path to some directory of directories to transform) is not fulfilled, a default path is set
-=======
-# if the option -p (path to some directory of directories to transform) is not fulfilled, a default path is set
->>>>>>> a9296e75c3f9a586ea343d9fafa29b121bfe0ca4
 
 if [ "${option_path}" != "p" ]; then
 	path_ALTO_XML='/Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/'
