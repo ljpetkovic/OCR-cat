@@ -39,7 +39,7 @@ Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans//doc/M
 * For the already transformed files, the script throws the error that those files are already transformed.
 
 ```bash
-(base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ ./corr_XML_dpi_p.sh -p /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans//Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/
+(base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ ./corr_XML_dpi_p.sh -p /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/
 Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans//doc/1845_05_14_CHA_typo
 Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans//doc/1845_05_14_CHA_typo/1845_05_14_CHA-0008.xml
 ...
