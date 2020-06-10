@@ -2,7 +2,7 @@
 
 ### Running the script without the additional flags:  
 
-* if the file are not yet transformed, the script transforms those files;
+* if the files are not yet transformed, the script transforms those files;
 * if the files have been transformed, the script throws the error that those files have already been transformed:
 
 ```
