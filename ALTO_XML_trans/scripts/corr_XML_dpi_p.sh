@@ -20,7 +20,7 @@ done
 
 
 
-# specify the path in order to locate afterwards the catalogue folders
+# if the option -p (path to some directory of directories to transform) is not fulfilled, a default path is set
 
 if [ "${option_path}" != "p" ]; then
 	path_ALTO_XML='/Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/'
