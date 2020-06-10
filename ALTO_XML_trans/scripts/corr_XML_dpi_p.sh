@@ -11,7 +11,7 @@ while getopts "ahp:" opt; do
 	p ) option_path=${opt}; path_ALTO_XML=${OPTARG}
 	  ;;
 
-	  # if we don't pass the -a or the -h argument, the script throws the error
+	  # if we pass some argument that is not -a, -p or the -h argument, the script throws the error
 
 	\? ) echo 'Invalid flag, use -a to transform all.'; exit 1
 	  ;;
