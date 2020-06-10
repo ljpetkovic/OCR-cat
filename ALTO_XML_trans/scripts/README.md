@@ -20,7 +20,7 @@ Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans//doc/1
 ### Running the script with the flag `-a`:
 
 * Transform all the files in all the catalogue folders, whether they have already been transformed or not;
-  * Intended to handle the situations if somebody incorrectly modifies the transformed file, so we want to make sure that all the files are transformed in a regular way defined by the script itself:
+  * Intended to handle the situations if somebody incorrectly modifies the transformed file, so we want to make sure that all the files are transformed in a regular way defined by the scripts .py and .sh themselves:
 
 ```bash
 (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ ./corr_XML_dpi_all.sh -a
