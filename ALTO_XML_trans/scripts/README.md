@@ -46,6 +46,20 @@ Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans//doc/1
 /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans//doc/1856_10_LAV_N03_gt_typo already transformed.
 ```
 
+### Get help/text description with the flag `-h`:
+
+```bash
+(base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ ./corr_XML_dpi_p.sh -h
+########## Help ##########
+Flag description:
+	-a 		Transform all the files in all the catalogue folders, whether they have already been transformed or not;
+	Intended to handle the situations if somebody incorrectly modifies the transformed file, so we want to make sure that all the files are transformed in a regular way defined by the script itself:
+
+	-p When we add new (non-transformed) files, we can transform only those files;
+	Run the code, followed by the -p flag and the absolute path to the folder containing all the catalogues;
+	For the already transformed files, the script throws the error that those files are already transformed.
+```
+
 
 
 
