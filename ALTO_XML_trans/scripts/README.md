@@ -34,7 +34,7 @@ Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans//doc/M
 
 ### Running the script with the flag `-p` and the path name:
 
-* When we add new (non-transformed) files, we can transform only those files;
+* When we add new (non-transformed) files, we can transform only those files, and ignore the files already transformed;
 * Run the code, followed by the `-p` flag and the absolute path to the folder containing all the catalogues;
 * For the already transformed files, the script throws the error that those files are already transformed.
 
