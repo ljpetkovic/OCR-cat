@@ -34,10 +34,12 @@ Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans//doc/M
 
 ### Running the script with the flag `-p` and the path name:
 
-* When we add new (non-transformed) files, we can transform only those files (for the already transformed files, the script throws the error that those files are already transformed).
+* When we add new (non-transformed) files, we can transform only those files;
+* We run the code, followed by the `-p` flag and the absolute path to the folder containing all the catalogues;
+* For the already transformed files, the script throws the error that those files are already transformed.
 
 ```bash
-(base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ ./corr_XML_dpi_p.sh -p  -p /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans//Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/
+(base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ ./corr_XML_dpi_p.sh -p /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans//Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/
 Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans//doc/1845_05_14_CHA_typo
 Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans//doc/1845_05_14_CHA_typo/1845_05_14_CHA-0008.xml
 ...
