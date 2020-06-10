@@ -20,7 +20,7 @@ done
 
 
 
-# specify the path in order to locate afterwards the catalogue folders
+# # if the option -p (path to some directory of directories to transform) is not fulfilled, a default path is set
 
 if [ "${option_path}" != "p" ]; then
 	path_ALTO_XML='/Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/'
@@ -30,11 +30,16 @@ fi
 
 if [ "${option_total}" == "h" ]; then
 	echo "Flag description:
-	-a 		transforms all files in all the catalogue folders, no matter if they had already been transformed. 
-	
-	If the flag is not specified, the script transforms only the non-transformed files. 
-	However, if the script is run against the files already transformed, it throws the error 'Already transformed'.
-	"
+	-a 		Transform all the files in all the catalogue folders, whether they have already been transformed or not;
+			Intended to handle the situations if somebody incorrectly modifies the transformed file, so we want to make sure that all the files are transformed in a regular way defined by the scripts .py and .sh themselves:
+
+	-p 		When we add new (non-transformed) files, we can transform only those files;
+			Run the code, followed by the -p flag and the absolute path to the folder containing all the catalogues;
+			For the already transformed files, the script throws the error that those files are already transformed.
+
+	-h 		Get help/text description of the flags.
+
+			For the detailed explanation of the script, go to https://github.com/ljpetkovic/OCR-cat/tree/master/ALTO_XML_trans."
 	
 	exit 0
 
