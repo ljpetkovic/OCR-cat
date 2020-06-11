@@ -68,6 +68,34 @@ For the detailed explanation of the script, go to https://github.com/ljpetkovic/
 
 
 
+### Structure of the folder 
+
+In order to run the script successfully, it is necessary to maintain the global structure of the files/folders:
+
+* The script needs to be located in the `doc`'s neighbouring folder (`scripts`);
+* The catalogues are located in the `doc` folder;
+* The script will not work if the catalogues are located elsewhere, or even if they are located in some folder not called `doc`
+
+```
+|-ALTO_XML_trans
+  |-env
+  	...
+  |-scripts
+  	|-corr_ALTO.sh 
+  |-test
+  	...
+  |-doc 				
+  	|-1845_05_14_CHA_typo
+  	|-1866_04_23_GAB_typo
+  	|-...
+  |-Brewfile.lock.json
+  |-README.md
+  |-Brewfile
+  |-requirements.txt
+```
+
+
+
 ### Define the relative path
 
 * After specifying the relative path:
