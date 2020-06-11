@@ -107,7 +107,7 @@ In order to run the script successfully, it is necessary to maintain the global 
 path_ALTO_XML=$(dirname `pwd`)   # define the relative path, implies that the script is in it
 ```
 
-*  it can be concatenated with the `doc   ` folder and the new folder name we wish to transform;
+*  it can be concatenated with the `doc` folder and the new folder name we wish to transform;
 
 ```bash
 # transform only the specified folder with the flag -d
