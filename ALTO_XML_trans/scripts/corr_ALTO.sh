@@ -47,7 +47,7 @@ function suppr_transformed {
 
 #################### WORKING PATH ##############################
 
-path_ALTO_XML=$(dirname `pwd`)   # define the relative path, implies that the script is in it
+path_ALTO_XML=$(dirname `pwd`)   # defines the relative path, implies that the script is in the 'doc''s neighbouring folder ('scripts')
 	 
 
 
