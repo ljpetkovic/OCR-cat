@@ -82,6 +82,7 @@ In order to run the script successfully, it is necessary to maintain the global 
   	...
   |-scripts
   	|-corr_ALTO.sh 
+  	|-corr_XML_dpi.py
   |-test
   	...
   |-doc 				
