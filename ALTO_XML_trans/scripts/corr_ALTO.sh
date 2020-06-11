@@ -13,7 +13,7 @@ while getopts "ahd:" opt; do
 	  ;;	
 	d ) option_name_single_directory=${opt}; name_single_directory=${OPTARG}
 	  ;;	
-	\? ) echo 'Invalid flag, use -a to transform all files'; exit 1 # if the user specify any other argument that is not -a, -h or -f, throw error
+	\? ) echo 'Invalid flag, use -a to transform all files'; exit 1 # if the user specify any other argument that is not -a, -h or -d, throw error
 	  ;;
 	esac
 done
