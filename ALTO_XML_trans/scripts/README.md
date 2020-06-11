@@ -55,7 +55,7 @@ Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/Ma
 ########## Help ##########
 Flag description:
 	-a 	Transform all files in all catalogue folders, whether they have already been transformed or not;
-		Intended to handle the situations if somebody incorrectly modifies the transformed file, so we want to 					make sure that all the files are transformed in a regular way defined by the .py and .sh scripts:
+		Intended to handle the situations if somebody incorrectly modifies the transformed file, so we want to make sure that all the files are transformed in a regular way defined by the .py and .sh scripts:
 
 	-d 	When we add new (non-transformed) files, we can transform only those files, and ignore those already 						transformed;
 		Run the code, followed by the -d flag and the folder name containing those files;
