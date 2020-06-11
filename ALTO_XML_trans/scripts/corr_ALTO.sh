@@ -21,7 +21,7 @@ done
 ################### FUNCTIONS  ##########################
 
 
-# fetch the dpi info from one catalogue image
+#  fetch the dpi info from one catalogue image and transform the whole folder
 function dpi_and_transform {
 	echo Processing $1
 	liste_image=( $1/*.jpg ) # create the list of images located in the catalogue folder
