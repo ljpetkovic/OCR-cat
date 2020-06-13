@@ -1,4 +1,4 @@
-# Automatic tag verification and corrections
+# Automatic tag verification and correction
 
 ### Introduction
 
