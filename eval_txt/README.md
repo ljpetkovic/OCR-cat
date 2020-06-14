@@ -265,11 +265,11 @@ This programme is supposed to generalise well in the cases of the individual tag
 * the tags which could not be restored, because there are no indication whether they contain the `b` or `i` component: `<>unknown</>tag`;
 * the nested tags (e.g. `<b><i>text</i></b>`, where the sequences `<b><i>` and `</i></b>` are treated as error).
 
-`<b> </> < > </b>`  -------------> `<b> </b> <b> </b>` : can be corrected, no nested tags
+Also:   
 
-`<b> < > < > </b>` --------------> `<b> < > <b> </b>` : corrected, but the original example is ambiguous (could be either `<b> </b> <b> </b>` or `<b> <i> </i> </b>`)
-
-`<b> < > </ > </b>` -------------> `<b> <> </> </b>`     
+* `<b> </> < > </b>`  -------------> `<b> </b> <b> </b>` : can be corrected, no nested tags;
+* `<b> < > < > </b>` --------------> `<b> < > <b> </b>` : corrected, but the original example is ambiguous (could be either `<b> </b> <b> </b>` or `<b> <i> </i> </b>`);
+* `<b> < > </ > </b>` -------------> `<b> <> </> </b>`.  
 
 ### TO DO
 
