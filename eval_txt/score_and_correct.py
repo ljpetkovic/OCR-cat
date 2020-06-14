@@ -253,7 +253,7 @@ if __name__ == '__main__':
     ################  Stat ######################
 
     print('\nSTATISTIQUE:\n____________\n','\n',compte_0, 'No tags, ',(compte_0 / nombre_ligne) * 100, ' %\n\n',
-          compte_1,'Initially without problem, ', (compte_1 / nombre_ligne) * 100,' %\n\n',
+          compte_1,'Initially without problems, ', (compte_1 / nombre_ligne) * 100,' %\n\n',
           '### Initially well-formed tags:\n', 
           compte_2,"Wrong order, ", (compte_2 / nombre_ligne) * 100,' %\n',
           compte_3,"Missing tags, ", (compte_3 / nombre_ligne) * 100,' %\n\n',
