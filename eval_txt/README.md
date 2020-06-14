@@ -242,7 +242,7 @@ français. — L. a. s., 1848, 1 p. in-8. 2 50                                  
 
 | Code             | Nº of occurrences | %    |
 | ---------------- | ----------------- | ---- |
-| 2 (wrong order)  | 0                 | 0    |
+| 0 (wrong order)  | 0                 | 0    |
 | 3 (missing tags) | 2                 | 1.90 |
 
 ##### Initially malformed tags, correctable automatically
