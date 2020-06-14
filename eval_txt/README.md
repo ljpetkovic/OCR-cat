@@ -56,7 +56,7 @@ a. s., 1845, 1 p. in-8.
 
 ##### Corrections
 
-* Correct automatically the malformed ALTO-XML files exported from Transkribus (word-level), before transforming them into the ALTO-XML files which could be accepted by the GROBID dictionaries (for the latter procedure, cf. [here](https://github.com/ljpetkovic/OCR-cat/tree/master/ALTO_XML_trans)).
+* Correct automatically the malformed ALTO-XML files exported from Transkribus (word-level), before transforming them into the ALTO-XML files which could be accepted by the GROBID dictionaries (for the latter procedure, cf. [here](https://github.com/ljpetkovic/OCR-cat/tree/master/ALTO_XML_trans) and [here](https://github.com/ljpetkovic/OCR-cat/tree/master/ALTO_XML_trans/scripts)).
 
 ### Method 
 
