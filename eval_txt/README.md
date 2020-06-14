@@ -110,7 +110,7 @@ The possible code's outputs (corresponding to the situation after the possible c
 **1**: the tags are well-formed, respecting the order of opening and closing tags (including the original tag well-formedness and the well-formedness resulting from the corrections by the programme), no error message;<br>
 **2**: the tags are well-formed and there are as many opening as closing tags, but the tag order is not respected, message error `WRONG TAG ORDER`;<br>
 **3**: the tags are well-formed but the number of opening and closing tags is not the same, message error `MISSING TAGS`;<br>
-**4**: there is at least potentially an erroneous tag which could not be corrected, message error `PROBLEM WITH THE TAG`.<br>
+**4**: there is at least potentially one erroneous tag which could not be corrected, message error `PROBLEM WITH THE TAG`.<br>
 
 Output for the first 105 lines:
 
