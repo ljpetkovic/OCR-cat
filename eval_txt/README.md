@@ -94,7 +94,7 @@ The same applies to the malformed `<i>` `</i>` tags.
 
 When you run the script, you need to specify the file and the number of lines you wish to evaluate (if you want to process the whole file, type `all`):
 
-```python
+```
 Donner le nom du fichier à traiter : Pour_les_tests.txt
 Nombre de lignes à traiter (taper all pour tout le texte) : 105
 ```
