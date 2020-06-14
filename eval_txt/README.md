@@ -86,7 +86,7 @@ The same applies to the malformed `<i>` `</i>` tags.
 5. check the number of opening/closing tags;
 6. check the opening/closing tags' order;
 7. correct the tags if needed;
-8. indicate the cases which manual intervention is needed;
+8. indicate the cases in which manual intervention is needed;
 9. output the results.
 
 
