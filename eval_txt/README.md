@@ -75,7 +75,7 @@ in order to correct errors such as:
 * `< b>`, `< <b>`, `<b<b>`, `<<b>`, `<< b >>>`, `<b`, `<   b `, `<b `, `b>`, ` b>`, ` b >` (opening tags) etc., into `<b>` and
 * `</b>`, `<</b>`, `< / b>`, `/b>`, `/ b>>>`, `/ b >`, `/ b>`, `</b`, `/b>`, `/ b` (closing tags) etc., into `</b>`;
 
-The same applies for the malformed `<i>` `</i>` tag.
+The same applies to the malformed `<i>` `</i>` tags.
 
 ### Workflow
 
