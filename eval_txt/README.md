@@ -273,6 +273,6 @@ Also:
 
 ### TO DO
 
-* Correct automatically the malformed tags in the ALTO-XML files;
+* Correct automatically the malformed tags in the ALTO-XML files, and run the `corr_ALTO.sh` script (cf. [here](https://github.com/ljpetkovic/OCR-cat/tree/master/ALTO_XML_trans/scripts));
 * Correct manually the text and the tags not recognised properly by the OCR model;
 * Add more test data to check the generalisability of the code;
