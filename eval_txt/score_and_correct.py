@@ -168,7 +168,7 @@ def affichage(ligne,parametres,max_taille):
 ######### Texte de description des sorties #######
 
 
-with open("balises_lignes_description.txt") as myfile:
+with open("score_and_correct_description.txt") as myfile:
     f = myfile.read()
     print(f)
 
