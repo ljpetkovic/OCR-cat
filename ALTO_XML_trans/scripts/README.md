@@ -1,12 +1,14 @@
 # Running the `corr_ALTO.sh` script
 
+In order to run the script directly on the command line, add your path to the script to the `$PATH` variable with the command  `export PATH="$PATH:/path/to/my/file"`.
+
 ### 1. Without the additional flags:  
 
 * if the files are not transformed, the script transforms those files;
 * if the files have been transformed, the script throws the error that those files have already been transformed:
 
 ```
-(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ ./corr_ALTO.sh
+(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ corr_ALTO.sh
 Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/1845_05_14_CHA_typo ---------------- folder name
 Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/1845_05_14_CHA_typo/1845_05_14_CHA-0008.xml ---------- file name
 ...
@@ -21,7 +23,7 @@ Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/18
 * Run the code, followed by the `-d` flag and the folder name containing the new files;
 
 ```bash
-(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ ./corr_ALTO.sh -d 1845_05_14_CHA_typo
+(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ corr_ALTO.sh -d 1845_05_14_CHA_typo
 Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/1845_05_14_CHA_typo
 Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/1845_05_14_CHA_typo/1845_05_14_CHA-0008.xml
 ...
@@ -35,8 +37,8 @@ Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/18
 * Transform all files in all catalogue folders, whether they have already been transformed or not;
   * Intended to handle the situations if somebody incorrectly modifies the transformed file, so we want to make sure that all the files are transformed in a regular way defined by the `.py` and `.sh` scripts:
 
-```bash
-(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ ./corr_ALTO.sh -a
+```
+(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ corr_ALTO.sh -a
 Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/1845_05_14_CHA_typo ------------ the first folder
 Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/1845_05_14_CHA_typo/1845_05_14_CHA-0008.xml
 ...
@@ -50,8 +52,8 @@ Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/Ma
 
 * Get the `help`/flag description:
 
-```bash
-(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ ./corr_ALTO.sh -h
+```
+(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ corr_ALTO.sh -h
 ########## Help ##########
 Flag description:
 	-a 	Transform all files in all catalogue folders, whether they have already been transformed or not;
