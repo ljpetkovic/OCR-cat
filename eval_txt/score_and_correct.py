@@ -113,7 +113,6 @@ compte_0 = 0
 compte_1 = 0
 compte_2 = 0
 compte_3 = 0
-compte_4 = 0
 compte_cor_1 = 0
 compte_cor_2 = 0
 compte_cor_3 = 0
@@ -180,7 +179,7 @@ print('AVERTISSEMENT : Agrandir le shell au maximum!')
 
 texte = input("Donner le nom du fichier à traiter : ") #Pour_les_tests.txt
 
-nombre_ligne = input("Nombre de lignes à traiter (taper all pour tout le texte) : ")
+total = input("Nombre de lignes à traiter (taper all pour tout le texte) : ")
 
 
 print('')
@@ -188,20 +187,20 @@ print('#########################################################################
 print('')
 
 ##if texte == 'fichier_demo.txt':
-##    nombre_ligne = 16
+##    total = 16
 ##elif texte == 'Pour_les_tests.txt':
-##    nombre_ligne = 300
+##    total = 300
 ##elif texte == "1855_72_CHA_N53_0001.txt":
-##    nombre_ligne = 50
+##    total = 50
 
 
 with open(texte) as myfile:
-    if nombre_ligne != "all":
-        nombre_ligne = int(nombre_ligne)
-        head = [next(myfile) for x in range(nombre_ligne)]  # pour extraire seulement les 'nombre_ligne' premières lignes
+    if total != "all":
+        total = int(total)
+        head = [next(myfile) for x in range(total)]  # pour extraire seulement les 'total' premières lignes
     else:
         head = myfile.readlines()
-        nombre_ligne = len(head)
+        total = len(head)
     taille = [len(ligne) for ligne in head] # liste des longueurs des lignes
     max_taille = max(taille) - 1 # longueur de la ligne la plus longue
     #print(max_taille)
@@ -212,7 +211,7 @@ with open(texte) as myfile:
 ######### Corps du programme #####################
 
 if __name__ == '__main__':
-    for i,ligne in enumerate(head[:nombre_ligne]):
+    for i,ligne in enumerate(head[:total]):
         corr = [False,[]]
         corr_all = None
         verif = bonneBalises(ligne)
@@ -249,17 +248,20 @@ if __name__ == '__main__':
         parametres = (bonneBalise,sans_balise,bon_nombre_balise,corr,corr_all,entrelacement)
         affichage(ligne,parametres,max_taille)
      
+    total = compte_0 + compte_1 + compte_2 + compte_3 + compte_cor_1 + compte_cor_2 + compte_cor_3 + compte_cor_4
+
+
 
     ################  Stat ######################
 
-    print('\nSTATISTIQUE:\n____________\n','\n',compte_0, 'No tags, ',(compte_0 / nombre_ligne) * 100, ' %\n\n',
-          compte_1,'Initially without problems, ', (compte_1 / nombre_ligne) * 100,' %\n\n',
+    print('\nSTATISTIQUE:\n____________\n','\n',compte_0, 'No tags, ',(compte_0 / total) * 100, ' %\n\n',
+          compte_1,'Initially without problems, ', (compte_1 / total) * 100,' %\n\n',
           '### Initially well-formed tags:\n', 
-          compte_2,"Wrong order, ", (compte_2 / nombre_ligne) * 100,' %\n',
-          compte_3,"Missing tags, ", (compte_3 / nombre_ligne) * 100,' %\n\n',
+          compte_2,"Wrong order, ", (compte_2 / total) * 100,' %\n',
+          compte_3,"Missing tags, ", (compte_3 / total) * 100,' %\n\n',
           '### Initially malformed:\n',
-          compte_cor_1,'Well-corrected tags, ', (compte_cor_1 / nombre_ligne) * 100,' %\n',
-          compte_cor_2,'Well-formed tags, bad order, ', (compte_cor_2 / nombre_ligne) * 100,' %\n',
-          compte_cor_3,'Well-formed tags, missing tags, ', (compte_cor_3 / nombre_ligne) * 100,' %\n',
-          compte_cor_4,"Malformed tags, at least one is not correctable, ", (compte_cor_4 / nombre_ligne) * 100,' %\n')
+          compte_cor_1,'Well-corrected tags, ', (compte_cor_1 / total) * 100,' %\n',
+          compte_cor_2,'Well-formed tags, bad order, ', (compte_cor_2 / total) * 100,' %\n',
+          compte_cor_3,'Well-formed tags, missing tags, ', (compte_cor_3 / total) * 100,' %\n',
+          compte_cor_4,"Malformed tags, at least one is not correctable, ", (compte_cor_4 / total) * 100,' %\n')
                     
