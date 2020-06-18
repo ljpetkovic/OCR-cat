@@ -1,4 +1,4 @@
-# [UPDATED] Transformation and evaluation of the ALTO-XML files 
+# Transformation and evaluation of the ALTO-XML files 
 
 The core idea of redesigning the ALTO-XML files in order to be injected into the GROBID-dictionaries is available [here](https://github.com/ljpetkovic/OCR-cat/blob/master/eval_ALTO/README.md).<br>
 
@@ -378,4 +378,4 @@ Output of the transformed file `1845_05_14_CHA-0008.xml_trans.xml`:<br>
           </TextLine>
 ```
  # TO DO
-* Put a parameter to indicate files to be processed so that the code does not treat all the files, and a parameter to indicate files already processed.
+* Correct automatically the malformed tags in the ALTO-XML files.

@@ -2,20 +2,6 @@ import lxml.etree as etree
 import sys, argparse
 import re
 
-############ --help ####################################################
-
-if sys.argv[1] == '-h' or sys.argv[1] =='--help':
-    print("""
-            This programme is executable on the command line.
-            To transform all files in all the catalogue folders,
-            move to the 'scripts' folder and then run:
-            
-            ./corr_XML_dpi.sh    
-
-            For the detailed explanation of the code, cf. https://github.com/ljpetkovic/OCR-cat/tree/master/ALTO_XML_trans',
-          """
-          )
-    sys.exit()
 
 ########### récupération du chemin du fichier #######################
 
@@ -112,6 +98,7 @@ stylesText = """
 
 styles = etree.fromstring(stylesText)
 root.insert(1, styles)
+
 
 #######  Récupération et création incrémentale des ID des éléments <String> à partir de l'ID des éléments <TextLine> #########
 
