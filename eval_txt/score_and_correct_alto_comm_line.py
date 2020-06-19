@@ -1,38 +1,8 @@
 import re
+import sys
 import lxml.etree as etree
 
-###### créer l'objet XML
-
-fichier = '1855_72_CHA_N53_0001.xml'
-tree = etree.parse(fichier)
-root = tree.getroot()
-
-
-###### extraire les valeurs de l'attribut 'CONTENT'
-with open(fichier[:-4]+'.txt', 'w') as o:
-    for page in root[2].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
-        for printspace in page.findall('{http://www.loc.gov/standards/alto/ns-v2#}PrintSpace'):
-            for textblock in printspace.findall('{http://www.loc.gov/standards/alto/ns-v2#}TextBlock'):
-                for textline in textblock.findall('{http://www.loc.gov/standards/alto/ns-v2#}TextLine'):
-
-    ###### listes qui concatènent les mots de chaque ligne
-                    l = []
-                    for string in textline.findall('{http://www.loc.gov/standards/alto/ns-v2#}String'):
-                        s = string.attrib['CONTENT']
-                        l.append(s)
-                    #print(l)
-
-
-    ###### convertir la liste des mots en lignes de chaîne de caractères
-                    #print(' '.join(l))
-                    li = ' '.join(l)
-                    #print(li)
-                    
-###### écrire dans un fichier
-                
-                    o.write(str(li) + '\n')
-                    print(li)
-
+fichier = sys.argv[1]
 
 def regexbaliseouv(x):
     return r'([ <](([< ])*{0}([ >])*)+[>])|([<](([< ])*{0}([ >])*)+[ >])|(^(([< ])*{0}([ >])*)+[>])'.format(x) # x = 'b' ou 'i'
@@ -196,24 +166,20 @@ def affichage(ligne,parametres,max_taille):
 ######### Texte de description des sorties #######
 
 
-with open("score_and_correct_description.txt") as myfile:
-    f = myfile.read()
-    print(f)
+##with open("score_and_correct_description.txt") as myfile:
+##    f = myfile.read()
+##    print(f)
+##
 
 
-########## Importation des données ################
-
-print('')
-print('AVERTISSEMENT : Agrandir le shell au maximum!')
-
-texte = input("Donner le nom du fichier à traiter : ") #Pour_les_tests.txt
-
-total = input("Nombre de lignes à traiter (taper all pour tout le texte) : ")
 
 
-print('')
-print('########################################################################################################################################################################')
-print('')
+
+
+
+
+
+
 
 ##if texte == 'fichier_demo.txt':
 ##    total = 16
@@ -221,15 +187,11 @@ print('')
 ##    total = 300
 ##elif texte == "1855_72_CHA_N53_0001.txt":
 ##    total = 50
+total = all
 
-
-with open(texte) as myfile:
-    if total != "all":
-        total = int(total)
-        head = [next(myfile) for x in range(total)]  # pour extraire seulement les 'total' premières lignes
-    else:
-        head = myfile.readlines()
-        total = len(head)
+with open(fichier) as myfile:
+    head = myfile.readlines()
+    total = len(head)
     taille = [len(ligne) for ligne in head] # liste des longueurs des lignes
     max_taille = max(taille) - 1 # longueur de la ligne la plus longue
     #print(max_taille)

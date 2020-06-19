@@ -105,12 +105,17 @@ Nombre de lignes à traiter (taper all pour tout le texte) : 105
 * the 2<sup>nd</sup> is the number indicating the possible tag scenarios (cf. below);
 * the 3<sup>rd</sup> could be either the error signalisation or the suggestion of the correction. 
 
-The possible code's outputs (corresponding to the situation after the possible correction):<br><br>
+The possible code's outputs (corresponding to the situation after the possible correction) for the initially well-formed tags:<br><br>
 **0**: line with no tags, no error message;<br>
-**1**: the tags are well-formed, respecting the order of opening and closing tags (including the original tag well-formedness and the well-formedness resulting from the corrections by the programme), no error message;<br>
-**2**: the tags are well-formed and there are as many opening as closing tags, but the tag order is not respected, message error `WRONG TAG ORDER`;<br>
-**3**: the tags are well-formed but the number of opening and closing tags is not the same, message error `MISSING TAGS`;<br>
-**4**: there is at least potentially one erroneous tag which could not be corrected, message error `PROBLEM WITH THE TAG`.<br>
+**1**: well-formed tags, respecting the order of opening and closing tags (including the original tag well-formedness and the well-formedness resulting from the corrections by the programme), no error message;<br>
+**2**: well-formed tags, there are as many opening as closing tags, but the tag order is not respected, message error `WRONG TAG ORDER`;<br>
+**3**: well-formed tags, but the number of opening and closing tags is not the same, message error `MISSING TAGS`;<br>
+<br>
+In the case of the initially malformed tags, the output of the corrected line is generated instead of the message errors :<br><br>
+**1**: well-corrected tags, no message error, output of the corrected line;<br>
+**2**: well-formed tags, no message error, output of the corrected line;<br>
+**3**: no message error, output of the corrected line;<br>
+**4**: there is at least potentially one erroneous tag which could not be corrected, no message error, output of the corrected line.<br>
 
 Output for the first 105 lines:
 
