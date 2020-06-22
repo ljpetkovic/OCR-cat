@@ -5,10 +5,10 @@ import lxml.etree as etree
 fichier = sys.argv[1]
 
 def regexbaliseouv(x):
-    return r'([ <](([< ])*{0}([ >])*)+[>])|([<](([< ])*{0}([ >])*)+[ >])|(^(([< ])*{0}([ >])*)+[>])'.format(x) # x = 'b' ou 'i'
+    return r'([ <](([< ])*{0}([ >])*)+[>])|([<](([< ])*{0}([ >])*)+[ >])|(^(([< ])*{0}([ >])*)+[>]|[ <{0}>]*<[ <{0}>]*{0}([ <{0}>]*>[ <{0}>]*)*)'.format(x) # x = 'b' ou 'i'
 
 def regexbalisefer(x):
-    return r'(([<]*[ ]*[/][ ]*{0}([ >])*)+[ >.,;])|(([<]*[ ]*[/][ ]*{0}([ >])*)+$)'.format(x)  # x = 'b' ou 'i'
+    return r'(([<]*[ ]*[/][ ]*{0}([ >])*)+[ >.,;])|(([<]*[ ]*[/][ ]*{0}([ >])*)+$)|[ <{0}>]*[]<[ <{0}>]*[\/]{0}([ <{0}>]*>[ <{0}>]*)*'.format(x)  # x = 'b' ou 'i'
 
 
 def bonneBalises(ligne):
@@ -116,6 +116,10 @@ compte_cor_1 = 0
 compte_cor_2 = 0
 compte_cor_3 = 0
 compte_cor_4 = 0
+
+print('Processing', fichier, '...')
+print('Done.')
+print('')
 
 def affichage(ligne,parametres,max_taille):
     global compte_0
@@ -245,14 +249,36 @@ if __name__ == '__main__':
 
     ################  Stat ######################
 
-    print('\nSTATISTIQUE:\n____________\n','\n',compte_0, 'No tags, ',(compte_0 / total) * 100, ' %\n\n',
-          compte_1,'Initially without problems, ', (compte_1 / total) * 100,' %\n\n',
-          '### Initially well-formed tags:\n', 
-          compte_2,"Wrong order, ", (compte_2 / total) * 100,' %\n',
-          compte_3,"Missing tags, ", (compte_3 / total) * 100,' %\n\n',
-          '### Initially malformed:\n',
-          compte_cor_1,'Well-corrected tags, ', (compte_cor_1 / total) * 100,' %\n',
-          compte_cor_2,'Well-formed tags, bad order, ', (compte_cor_2 / total) * 100,' %\n',
-          compte_cor_3,'Well-formed tags, missing tags, ', (compte_cor_3 / total) * 100,' %\n',
-          compte_cor_4,"Malformed tags, at least one is not correctable, ", (compte_cor_4 / total) * 100,' %\n')
+    print('####################################### STATISTICS: ############################################\n')
+    print ("Type\t\t\t\t\t\t\tCount\t\t\t   %")
+    print ("-----------------------------------------------------------------------------------------")
+    print ('Correct tags\t\t\t\t\t\t', compte_1, '\t\t\t', "{:.2f}".format((compte_1 / total) * 100))
+    print ('Incorrect tags\t\t\t\t\t\t', compte_2 + compte_3 + compte_cor_1 + compte_cor_2 + compte_cor_3 + compte_cor_4, '\t\t\t', "{:.2f}".format((compte_2 + compte_3 + compte_cor_1 + compte_cor_2 + compte_cor_3 + compte_cor_4) / total * 100))
+    print ("-----------------------------------------------------------------------------------------")
+
+    print ("")
+    print ("-----------------------------------------------------------------------------------------")
+    print ('Not-automatically correctable\t\t\t\t', compte_2 + compte_3 + compte_cor_4, '\t\t\t', "{:.2f}".format(((compte_2 + compte_3 + compte_cor_4) / total) * 100))
+    print ('Automatically correctable\t\t\t\t', compte_cor_1 + compte_cor_2 + compte_cor_3, '\t\t\t', "{:.2f}".format(((compte_cor_1 + compte_cor_2 + compte_cor_3) / total) * 100))
+    print ("-----------------------------------------------------------------------------------------")
+
+    print ("")
+    print ("-----------------------------------------------------------------------------------------")
+    print('No tags\t\t\t\t\t\t\t', compte_0, '\t\t\t', "{:.2f}".format((compte_0 / total) * 100))
+    print('Initially without problems with the tags\t\t', compte_1, '\t\t\t', "{:.2f}".format((compte_2 / total) * 100))
+    print('')
+    print('Initially well-formed tags\t\t\t\t', compte_2 + compte_3, '\t\t\t', "{:.2f}".format((compte_2 / total) * 100))
+    print('- Wrong order\t\t\t\t\t\t', compte_2, '\t\t\t', "{:.2f}".format((compte_2 / total) * 100))
+    print('- Missing tags\t\t\t\t\t\t', compte_3, '\t\t\t', "{:.2f}".format((compte_3 / total) * 100))
+    print('')
+    print('Initially malformed tags\t\t\t\t', compte_cor_1 + compte_cor_2 + compte_cor_3 + compte_cor_4, '\t\t\t', "{:.2f}".format((compte_cor_1 + compte_cor_2 + compte_cor_3 + compte_cor_4) / total * 100))
+    print('- Well-corrected tags\t\t\t\t\t', compte_cor_1, '\t\t\t', "{:.2f}".format((compte_cor_1 / total) * 100))
+    print('- Well-corrected tags, bad order\t\t\t', compte_cor_2, '\t\t\t', "{:.2f}".format((compte_cor_2 / total) * 100))
+    print('- Well-corrected tags, missing tags\t\t\t', compte_cor_3, '\t\t\t', "{:.2f}".format((compte_cor_3 / total) * 100))
+    print('- Malformed tags, at least one is not correctable\t', compte_cor_4, '\t\t\t', "{:.2f}".format((compte_cor_4 / total) * 100))
+    print ("-----------------------------------------------------------------------------------------")
+    print('')
+
+  
+
                     

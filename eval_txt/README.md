@@ -261,7 +261,10 @@ français. — L. a. s., 1848, 1 p. in-8. 2 50                                  
 
 ### Remarks
 
-In order to avoid matching real words starting with `b` with an accidental `<` before (for example: `<boat`), the regex`[ <b>]*<[ <b>]*b([ <b>]*>[ <b>]*)*` should be tested beforehand, and added to the `.py` script, if necessary.
+In order to avoid matching real words starting with `b` or `i` with an accidental `<` before (for example: `<boat`, 
+`<in`), the regexes `[ <b>]*<[ <b>]*b([ <b>]*>[ <b>]*)*`, that is, `[ <i>]*<[ <i>]*i([ <i>]*>[ <i>]*)*)` should be tested beforehand. <br>
+The same logic applies to the cases like `</bDES` or `</iDES`, where the `[ <i>]*<[ <i>]*i([ <i>]*>[ <i>]*)*)` and `[ <i>]*[]<[ <i>]*[\/]i([ <i>]*>[ <i>]*)*`. <br>
+The script covers these cases.<br>
 
 We are not looking for the `/` in isolation, because of the presence of possible fractions (`1/2`).
 
