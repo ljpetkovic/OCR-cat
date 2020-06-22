@@ -2,7 +2,11 @@ import re
 import sys
 import lxml.etree as etree
 
+######### Processing the file from the command line #############
+
 fichier = sys.argv[1]
+
+######### Regexes ##############
 
 def regexbaliseouv(x):
     return r'([ <](([< ])*{0}([ >])*)+[>])|([<](([< ])*{0}([ >])*)+[ >])|(^(([< ])*{0}([ >])*)+[>]|[ <{0}>]*<[ <{0}>]*{0}([ <{0}>]*>[ <{0}>]*)*)'.format(x) # x = 'b' ou 'i'
@@ -121,6 +125,8 @@ print('Processing', fichier, '...')
 print('Done.')
 print('')
 
+###### Show results (original line, output code and the error signalisation/corrected line) ##########
+
 def affichage(ligne,parametres,max_taille):
     global compte_0
     global compte_1
@@ -166,31 +172,6 @@ def affichage(ligne,parametres,max_taille):
                 
 
 
-
-######### Texte de description des sorties #######
-
-
-##with open("score_and_correct_description.txt") as myfile:
-##    f = myfile.read()
-##    print(f)
-##
-
-
-
-
-
-
-
-
-
-
-
-##if texte == 'fichier_demo.txt':
-##    total = 16
-##elif texte == 'Pour_les_tests.txt':
-##    total = 300
-##elif texte == "1855_72_CHA_N53_0001.txt":
-##    total = 50
 total = all
 
 with open(fichier) as myfile:
@@ -247,7 +228,7 @@ if __name__ == '__main__':
 
 
 
-    ################  Stat ######################
+    ################  Stats ######################
 
     print('####################################### STATISTICS: ############################################\n')
     print ("Type\t\t\t\t\t\t\tCount\t\t\t   %")
