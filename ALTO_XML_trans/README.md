@@ -32,7 +32,13 @@ To create your Python virtual environment (optional):
 
    `pip3 install -r requirements.txt`<br>
 
-   `brew bundle` (installs the `imagemagick` library on macOS/Linux (indicated in the `Brewfile`), mandatory for the mm10 to pixels conversion`<br>
+   In order to install the `imagemagick` library on macOS/Linux, it is necessary to install [Homebrew](https://brew.sh) (The Missing Package Manager for macOS/Linux).<br>
+   
+   After you installed `homebrew`, type:
+   
+   `brew bundle`
+   
+   This command installs the `imagemagick` library on macOS/Linux (indicated in the `Brewfile`), and it is mandatory for the mm10 to pixels conversion.<br>
 
 *NB*:
 
