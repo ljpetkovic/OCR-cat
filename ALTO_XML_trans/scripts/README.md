@@ -8,9 +8,9 @@ In order to run the script directly on the command line, add your path to the sc
 * if the files have been transformed, the script throws the error that those files have already been transformed:
 
 ```
-(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ corr_ALTO.sh
-Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/1845_05_14_CHA_typo ---------------- folder name
-Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/1845_05_14_CHA_typo/1845_05_14_CHA-0008.xml ---------- file name
+(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ corr_trans_ALTO.sh
+Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/Cat_Inde_1913 -------- folder name
+Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/Cat_Inde_1913/11.xml ------- file name
 ...
 /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/1857_02_05_JA1_bpt6k9677856h_typo already transformed
 ```
@@ -23,11 +23,11 @@ Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/18
 * Run the code, followed by the `-d` flag and the folder name containing the new files;
 
 ```bash
-(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ corr_ALTO.sh -d 1845_05_14_CHA_typo
-Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/1845_05_14_CHA_typo
-Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/1845_05_14_CHA_typo/1845_05_14_CHA-0008.xml
+(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ corr_trans_ALTO.sh -d Cat_Inde_1913
+Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/Cat_Inde_1913
+Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/Cat_Inde_1913/11.xml
 ...
-Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/1845_05_14_CHA_typo/1845_05_14_CHA-0024.xml
+Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/Cat_Inde_1913/95.xml
 ```
 
 
@@ -38,7 +38,7 @@ Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/18
   * Intended to handle the situations if somebody incorrectly modifies the transformed file, so we want to make sure that all the files are transformed in a regular way defined by the `.py` and `.sh` scripts:
 
 ```
-(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ corr_ALTO.sh -a
+(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ corr_trans_ALTO.sh -a
 Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/1845_05_14_CHA_typo ------------ the first folder
 Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/1845_05_14_CHA_typo/1845_05_14_CHA-0008.xml
 ...
@@ -53,7 +53,7 @@ Processing /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/ALTO_XML_trans/doc/Ma
 * Get the `help`/flag description:
 
 ```
-(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ corr_ALTO.sh -h
+(env) (base) Ljudmilas-MacBook-Air:scripts ljudmilapetkovic$ corr_trans_ALTO.sh -h
 ########## Help ##########
 Flag description:
 	-a 	Transform all files in all catalogue folders, whether they have already been transformed or not;
@@ -83,13 +83,13 @@ In order to run the script successfully, it is necessary to maintain the global 
   |-env
   	...
   |-scripts
-  	|-corr_ALTO.sh 
-  	|-corr_XML_dpi.py
+  	|-corr_trans_ALTO.sh 
+  	|-corr_trans_ALTO.py
   |-test
   	...
   |-doc 				
   	|-1845_05_14_CHA_typo
-  	|-1866_04_23_GAB_typo
+  	|-Cat_Inde_1913
   	|-...
   |-Brewfile.lock.json
   |-README.md
@@ -106,7 +106,7 @@ In order to run the script successfully, it is necessary to maintain the global 
 ```bash
 #################### WORKING PATH ##############################
 
-path_ALTO_XML=$(dirname `pwd`)   # define the relative path, implies that the script is in it
+path_ALTO_XML=$(dirname `pwd`)   # define the relative path, implying that the script is in in the 'doc''s neighbouring folder ('scripts')
 ```
 
 *  it can be concatenated with the `doc` folder and the new folder name we wish to transform;
@@ -140,7 +140,7 @@ function dpi_and_transform {
 	dpi=$(convert $image -format "%x" info:) # fetch the dpi 
 	for f in $1/*.xml # find the ALTO-XML files
 	do 
-		python3 $path_ALTO_XML/scripts/corr_XML_dpi.py $f $dpi # transform those files with respect to their resolution
+		python3 $path_ALTO_XML/scripts/corr_trans_ALTO.py $f $dpi # transform those files with respect to their resolution
 		echo "Processing $f" 
 	done	
 }
