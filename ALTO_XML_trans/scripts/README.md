@@ -1,4 +1,4 @@
-# Running the `corr_ALTO.sh` script
+# Running the `corr_trans_ALTO.sh` script
 
 In order to run the script directly on the command line, add your path to the script to the `$PATH` variable with the command  `export PATH="$PATH:/path/to/my/script"`.
 
