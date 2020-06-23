@@ -120,6 +120,7 @@ patt_i_open = r'([ <](([< ])*i([ >])*)+[>])|([<](([< ])*i([ >])*)+[ >])|(^(([< ]
 patt_b_closed = r'(([<]*[ ]*[\/][ ]*b([ >])*)+[ >.,;])|(([<]*[ ]*[\/][ ]*b([ >])*)+$)|[ <b>]*<[ <b>]*[\/]b([ <b>]*>[ <b>]*)*'
 patt_i_closed = r'(([<]*[ ]*[\/][ ]*i([ >])*)+[ >.,;])|(([<]*[ ]*[\/][ ]*i([ >])*)+$)|[ <i>]*<[ \/<i>]*i([ <i>]*>[ <i>]*)*'
 
+
 for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
     for printspace in page.findall('{http://www.loc.gov/standards/alto/ns-v2#}PrintSpace'):
         for textblock in printspace.findall('{http://www.loc.gov/standards/alto/ns-v2#}TextBlock'):
@@ -127,20 +128,20 @@ for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
                 for string in textline.findall('{http://www.loc.gov/standards/alto/ns-v2#}String'):
                     if re.search(patt_b_open,string.attrib['CONTENT']): 
                         string.attrib['CONTENT'] = re.sub(patt_b_open,'<b>',string.attrib['CONTENT'])
-                        #print(string.attrib['CONTENT'])
-                    elif re.search(patt_i_open,string.attrib['CONTENT']): 
+##                        #print(string.attrib['CONTENT'])
+                    if re.search(patt_i_open,string.attrib['CONTENT']): 
                         string.attrib['CONTENT'] = re.sub(patt_i_open,'<i>',string.attrib['CONTENT'])
                         #print(string.attrib['CONTENT'])
-                    elif re.search(patt_b_closed,string.attrib['CONTENT']): 
+                    if re.search(patt_b_closed,string.attrib['CONTENT']): 
                         string.attrib['CONTENT'] = re.sub(patt_b_closed,'</b>',string.attrib['CONTENT'])
-                        #print(string.attrib['CONTENT'])
-                    elif re.search(patt_i_closed,string.attrib['CONTENT']): 
+##                        #print(string.attrib['CONTENT'])
+                    if re.search(patt_i_closed,string.attrib['CONTENT']): 
                         string.attrib['CONTENT'] = re.sub(patt_i_closed,'</i>',string.attrib['CONTENT'])
                         #print(string.attrib['CONTENT'])
 
                         
 
-###### Application des trois styles (FONT0, FONT1, FONT2) à tous les éléments <String>	######
+#### Application des trois styles (FONT0, FONT1, FONT2) à tous les éléments <String>	######
 
 for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
     for printspace in page.findall('{http://www.loc.gov/standards/alto/ns-v2#}PrintSpace'):
@@ -166,7 +167,8 @@ for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
                     elif '</i>' in string.attrib['CONTENT']:
                         start_i = False
                         string.attrib['CONTENT'] = string.attrib['CONTENT'].replace('</i>', '')
-                    ###### Conversion mm10 en pixels #######
+
+###### Conversion mm10 en pixels #######
 
 liste_attribut = ["HPOS", "VPOS", "HEIGHT", "WIDTH"]
 for elt in root.iter():
