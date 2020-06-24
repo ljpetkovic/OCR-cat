@@ -1,7 +1,22 @@
 import lxml.etree as etree
-import sys, argparse
+import sys
 import re
 
+############ --help ####################################################
+
+if sys.argv[1] == '-h' or sys.argv[1] =='--help':
+    print("""
+            To run this programme on a single file do
+            
+            python3 corr_XML_dpi_test.py path_name_of_the_file dpi
+
+            where dpi is an integer and           
+            where path_name_of_the_file is the complete path of the file name to process.
+
+            For the detailed explanation of the code, cf. https://github.com/ljpetkovic/OCR-cat/tree/master/ALTO_XML_trans',
+          """
+          )
+    sys.exit()
 
 ########### récupération du chemin du fichier #######################
 
@@ -21,13 +36,13 @@ fileName = result.group()
 ##################################################################
 
 
-parser_XML = etree.XMLParser(remove_blank_text=True) # </Styles> - la nouvelle ligne - <Tags/> - l'indentation  
-tree = etree.parse(fichier,parser_XML)
+parser = etree.XMLParser(remove_blank_text=True) # </Styles> - la nouvelle ligne - <Tags/> - l'indentation  
+tree = etree.parse(fichier,parser)
 root = tree.getroot()
 
 ############## ajout des namespaces et des méta-données dans l'en-tête ##############
 
- 
+
 sourceImageInformationText = """
       <sourceImageInformation xmlns="http://www.loc.gov/standards/alto/ns-v2#">
          <fileName>{}</fileName>
@@ -42,6 +57,7 @@ processingSoftwareText = """
                <softwareVersion>0.1</softwareVersion>
             </processingSoftware>
 """
+
 sourceImageInformation = etree.fromstring(sourceImageInformationText)
 processingSoftware = etree.fromstring(processingSoftwareText)
 for processing_software in root[0][1]:
@@ -99,7 +115,6 @@ stylesText = """
 styles = etree.fromstring(stylesText)
 root.insert(1, styles)
 
-
 #######  Récupération et création incrémentale des ID des éléments <String> à partir de l'ID des éléments <TextLine> #########
 
 for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
@@ -112,36 +127,7 @@ for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
                                            start=1):
                     string.set('ID', id_textline + "_{}".format(str(i)))
 
-                    
-
-####### Correction des balises pleines dans les fichiers ALTO-XML ##########
-patt_b_open = r'([ <](([< ])*b([ >])*)+[>])|([<](([< ])*b([ >])*)+[ >])|(^(([< ])*b([ >])*)+[>])|[ <b>]*<[ <b>]*b([ <b>]*>[ <b>]*)*'
-patt_i_open = r'([ <](([< ])*i([ >])*)+[>])|([<](([< ])*i([ >])*)+[ >])|(^(([< ])*i([ >])*)+[>])|[ <i>]*<[ <i>]*i([ <i>]*>[ <i>]*)*'
-patt_b_closed = r'(([<]*[ ]*[\/][ ]*b([ >])*)+[ >.,;])|(([<]*[ ]*[\/][ ]*b([ >])*)+$)|[ <b>]*<[ <b>]*[\/]b([ <b>]*>[ <b>]*)*'
-patt_i_closed = r'(([<]*[ ]*[\/][ ]*i([ >])*)+[ >.,;])|(([<]*[ ]*[\/][ ]*i([ >])*)+$)|[ <i>]*<[ \/<i>]*i([ <i>]*>[ <i>]*)*'
-
-
-for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
-    for printspace in page.findall('{http://www.loc.gov/standards/alto/ns-v2#}PrintSpace'):
-        for textblock in printspace.findall('{http://www.loc.gov/standards/alto/ns-v2#}TextBlock'):
-            for textline in textblock.findall('{http://www.loc.gov/standards/alto/ns-v2#}TextLine'):
-                for string in textline.findall('{http://www.loc.gov/standards/alto/ns-v2#}String'):
-                    if re.search(patt_b_open,string.attrib['CONTENT']): 
-                        string.attrib['CONTENT'] = re.sub(patt_b_open,'<b>',string.attrib['CONTENT'])
-                        #print(string.attrib['CONTENT'])
-                    if re.search(patt_i_open,string.attrib['CONTENT']): 
-                        string.attrib['CONTENT'] = re.sub(patt_i_open,'<i>',string.attrib['CONTENT'])
-                        #print(string.attrib['CONTENT'])
-                    if re.search(patt_b_closed,string.attrib['CONTENT']): 
-                        string.attrib['CONTENT'] = re.sub(patt_b_closed,'</b>',string.attrib['CONTENT'])
-                       #print(string.attrib['CONTENT'])
-                    if re.search(patt_i_closed,string.attrib['CONTENT']): 
-                        string.attrib['CONTENT'] = re.sub(patt_i_closed,'</i>',string.attrib['CONTENT'])
-                        #print(string.attrib['CONTENT'])
-
-                        
-
-#### Application des trois styles (FONT0, FONT1, FONT2) à tous les éléments <String>	######
+###### Application des trois styles (FONT0, FONT1, FONT2) à tous les éléments <String>	######
 
 for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
     for printspace in page.findall('{http://www.loc.gov/standards/alto/ns-v2#}PrintSpace'):
@@ -167,8 +153,7 @@ for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
                     elif '</i>' in string.attrib['CONTENT']:
                         start_i = False
                         string.attrib['CONTENT'] = string.attrib['CONTENT'].replace('</i>', '')
-
-###### Conversion mm10 en pixels #######
+                    ###### Conversion mm10 en pixels #######
 
 liste_attribut = ["HPOS", "VPOS", "HEIGHT", "WIDTH"]
 for elt in root.iter():
