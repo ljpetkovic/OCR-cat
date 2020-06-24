@@ -87,13 +87,13 @@ In order to run the script successfully, it is necessary to maintain the global 
 
 ### New features
 
-##### Correcting the "full" malformed tags (containing either `b` or `i`)
+#### Correcting the "full" malformed tags (containing either `b` or `i`)
 
 e.g. `&lt;b&gt;84&lt;/b&gt;` (`<b>84</b>`) instead of `84&lt;/b` (`84</b`)
 
 
 
-##### Iterative transformation of all files in all the catalogues:
+#### Iterative transformation of all files in all the catalogues:
 
 ```bash
 for f in $1/*.xml # find the ALTO-XML files
@@ -107,7 +107,7 @@ done
 
 
 
-##### mm10 to pixels conversion 
+#### mm10 to pixels conversion 
 
 * In order to convert correctly mm10 to pixels for each catalogue (since most of them differed in the image resolution, that is, in their dpi value), we placed one sample image of each catalogue in its corresponding folder with the .xml files, in order to fetch the dpi information;
 
@@ -146,7 +146,7 @@ done
 
   
 
-##### Define the relative path
+#### Defining the relative path
 
 * After specifying the relative path:
 
@@ -172,7 +172,7 @@ fi
 
   
 
-##### Deleting the already transformed files 
+#### Deleting the already transformed files 
 
 * When run with the `-d` or `-a` flag, the function `suppr_transformed` deletes the already transformed files, in order to be retransform the original files later:
 
@@ -189,7 +189,7 @@ function suppr_transformed {
 
 
 
-##### Advantages of integrating the `lxml` library into the code
+#### Advantages of integrating the `lxml` library into the code
 
 - no need to register the namespace (unlike with the previously used `etree` command `ET.register_namespace`);
 
@@ -197,7 +197,7 @@ function suppr_transformed {
 
   
 
-##### Extending the `<Styles>` tag content:
+#### Extending the `<Styles>` tag content:
 
 ```xml
 <Styles>
@@ -209,7 +209,7 @@ function suppr_transformed {
 
 
 
-##### Correct placing of the tag `<Tags/>` after inserting the tag `<Styles>`
+#### Correct placing of the tag `<Tags/>` after inserting the tag `<Styles>`
 
 - The function `etree.XMLParser(remove_blank_text=True)` makes sure that the tag `</Styles>` is followed by a line feed and the tag `<Tags/>` (in the earlier version the tag `<Tags/>` followed immediately the tag `</Styles>` in the same line):
 
