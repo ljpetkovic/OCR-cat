@@ -75,9 +75,9 @@ Flag description:
 For the detailed explanation of the script, go to https://github.com/ljpetkovic/OCR-cat/tree/corr_trans_ALTO/ALTO_XML_trans.
 ```
 
+### Output of the transformed file
 
-
-Output of the transformed file from the `Cat_Inde_1913` catalogue (`21.xml_trans`):
+From the `Cat_Inde_1913` catalogue (p. `21.xml_trans`):
 
 ```xml
 <alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
