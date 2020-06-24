@@ -4,7 +4,7 @@ import lxml.etree as etree
 
 ######### Processing the file from the command line #############
 
-fichier = sys.argv[1]
+fichier = 'Pour_les_tests.txt'
 
 ######### Regexes ##############
 
