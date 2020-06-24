@@ -239,7 +239,7 @@ if __name__ == '__main__':
 
     print ("")
     print ("-----------------------------------------------------------------------------------------")
-    print ('Not-automatically correctable\t\t\t\t', compte_2 + compte_3 + compte_cor_4, '\t\t\t', "{:.2f}".format(((compte_2 + compte_3 + compte_cor_4) / total) * 100))
+    print ('Not automatically correctable\t\t\t\t', compte_2 + compte_3 + compte_cor_4, '\t\t\t', "{:.2f}".format(((compte_2 + compte_3 + compte_cor_4) / total) * 100))
     print ('Automatically correctable\t\t\t\t', compte_cor_1 + compte_cor_2 + compte_cor_3, '\t\t\t', "{:.2f}".format(((compte_cor_1 + compte_cor_2 + compte_cor_3) / total) * 100))
     print ("-----------------------------------------------------------------------------------------")
 
