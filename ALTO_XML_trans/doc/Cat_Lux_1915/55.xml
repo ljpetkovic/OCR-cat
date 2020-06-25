@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-06-23T11:18:48.975+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2752" WIDTH="2059">
+         <TopMargin HEIGHT="374" WIDTH="2059" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2378" WIDTH="7" VPOS="374" HPOS="0"/>
+         <RightMargin HEIGHT="2378" WIDTH="312" VPOS="374" HPOS="1747"/>
+         <BottomMargin HEIGHT="0" WIDTH="2059" VPOS="2752" HPOS="0"/>
+         <PrintSpace HEIGHT="2378" WIDTH="1740" VPOS="374" HPOS="7">
+            <TextBlock ID="r_3_1" HEIGHT="44" WIDTH="307" VPOS="2441" HPOS="586">
+               <Shape>
+                  <Polygon POINTS="586,2441 893,2441 893,2485 586,2485"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="2507"
+                         HEIGHT="71"
+                         WIDTH="316"
+                         VPOS="2436"
+                         HPOS="582">
+                  <String HEIGHT="71"
+                          WIDTH="184"
+                          VPOS="2436"
+                          HPOS="556"
+                          CONTENT="PH."/>
+                  <SP HEIGHT="71" WIDTH="26" VPOS="2436" HPOS="740"/>
+                  <String HEIGHT="71"
+                          WIDTH="263"
+                          VPOS="2436"
+                          HPOS="635"
+                          CONTENT="CONNARD."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_4_1" HEIGHT="45" WIDTH="283" VPOS="2452" HPOS="993">
+               <Shape>
+                  <Polygon POINTS="993,2452 1276,2452 1276,2497 993,2497"/>
+               </Shape>
+               <TextLine ID="tl_2"
+                         BASELINE="2525"
+                         HEIGHT="77"
+                         WIDTH="290"
+                         VPOS="2448"
+                         HPOS="989">
+                  <String HEIGHT="77"
+                          WIDTH="174"
+                          VPOS="2448"
+                          HPOS="975"
+                          CONTENT="&lt;i&gt;Matin"/>
+                  <SP HEIGHT="77" WIDTH="15" VPOS="2448" HPOS="1149"/>
+                  <String HEIGHT="77" WIDTH="87" VPOS="2448" HPOS="1105" CONTENT="de"/>
+                  <SP HEIGHT="77" WIDTH="15" VPOS="2448" HPOS="1192"/>
+                  <String HEIGHT="77"
+                          WIDTH="145"
+                          VPOS="2448"
+                          HPOS="1134"
+                          CONTENT="mai&lt;/i&gt;."/>
+               </TextLine>
+            </TextBlock>
+            <Illustration ID="r_1" HEIGHT="2033" WIDTH="1740" VPOS="374" HPOS="7"/>
+            <Illustration ID="r_2" HEIGHT="94" WIDTH="91" VPOS="2658" HPOS="29"/>
+            <Illustration ID="r_5" HEIGHT="86" WIDTH="173" VPOS="1249" HPOS="523"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

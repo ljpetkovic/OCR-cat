@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-06-23T11:18:41.024+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2764" WIDTH="2056">
+         <TopMargin HEIGHT="0" WIDTH="2056" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2764" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2764" WIDTH="302" VPOS="0" HPOS="1754"/>
+         <BottomMargin HEIGHT="0" WIDTH="2056" VPOS="2764" HPOS="0"/>
+         <PrintSpace HEIGHT="2764" WIDTH="1754" VPOS="0" HPOS="0">
+            <TextBlock ID="r_3_1" HEIGHT="51" WIDTH="739" VPOS="2479" HPOS="587">
+               <Shape>
+                  <Polygon POINTS="587,2479 1326,2479 1326,2530 587,2530"/>
+               </Shape>
+               <TextLine ID="tl_2"
+                         BASELINE="2595"
+                         HEIGHT="123"
+                         WIDTH="747"
+                         VPOS="2472"
+                         HPOS="583">
+                  <String HEIGHT="123"
+                          WIDTH="197"
+                          VPOS="2472"
+                          HPOS="563"
+                          CONTENT="ROBERT"/>
+                  <SP HEIGHT="123" WIDTH="20" VPOS="2472" HPOS="760"/>
+                  <String HEIGHT="123"
+                          WIDTH="197"
+                          VPOS="2472"
+                          HPOS="701"
+                          CONTENT="ANNING"/>
+                  <SP HEIGHT="123" WIDTH="20" VPOS="2472" HPOS="898"/>
+                  <String HEIGHT="123"
+                          WIDTH="177"
+                          VPOS="2472"
+                          HPOS="839"
+                          CONTENT="BELL."/>
+                  <SP HEIGHT="123" WIDTH="20" VPOS="2472" HPOS="1015"/>
+                  <String HEIGHT="123" WIDTH="98" VPOS="2472" HPOS="956" CONTENT="—"/>
+                  <SP HEIGHT="123" WIDTH="20" VPOS="2472" HPOS="1055"/>
+                  <String HEIGHT="123"
+                          WIDTH="354"
+                          VPOS="2472"
+                          HPOS="976"
+                          CONTENT="&lt;i&gt;L’oracle&lt;/i&gt;."/>
+               </TextLine>
+            </TextBlock>
+            <Illustration ID="r_2" HEIGHT="2434" WIDTH="1754" VPOS="0" HPOS="0"/>
+            <Illustration ID="r_5" HEIGHT="2107" WIDTH="1577" VPOS="327" HPOS="171"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

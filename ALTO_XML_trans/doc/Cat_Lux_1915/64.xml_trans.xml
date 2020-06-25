@@ -1,0 +1,44 @@
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+         <fileName>64.xml</fileName>
+      </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2020-06-23T11:18:53.72+02:00</processingDateTime>
+        <processingSoftware>
+               <softwareCreator>CONTRIBUTORS</softwareCreator>
+               <softwareName>pdfalto</softwareName>
+               <softwareVersion>0.1</softwareVersion>
+            </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Styles>
+     <TextStyle ID="FONT0" FONTFAMILY="unknown" FONTSIZE="unknown" FONTTYPE="unknown" FONTWIDTH="unknown" FONTCOLOR="unknown" FONTSTYLE=""/>
+     <TextStyle ID="FONT1" FONTFAMILY="unknown" FONTSIZE="unknown" FONTTYPE="unknown" FONTWIDTH="unknown" FONTCOLOR="unknown" FONTSTYLE="bold"/>
+     <TextStyle ID="FONT2" FONTFAMILY="unknown" FONTSIZE="unknown" FONTTYPE="unknown" FONTWIDTH="unknown" FONTCOLOR="unknown" FONTSTYLE="italics"/>
+</Styles>
+  <Tags/>
+  <Layout>
+    <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="4314.96062992126" WIDTH="3291.3385826771655">
+      <PrintSpace HEIGHT="4311.811023622047" WIDTH="3291.3385826771655" VPOS="3.1496062992125986" HPOS="0.0">
+        <GraphicalElement ID="r_10" HEIGHT="4107.086614173229" WIDTH="28.346456692913385" VPOS="69.29133858267717" HPOS="0.0"/>
+        <GraphicalElement ID="r_11" HEIGHT="366.92913385826773" WIDTH="28.346456692913385" VPOS="58.267716535433074" HPOS="33.07086614173228"/>
+        <GraphicalElement ID="r_12" HEIGHT="1458.267716535433" WIDTH="66.14173228346456" VPOS="1672.4409448818897" HPOS="3083.464566929134"/>
+        <GraphicalElement ID="r_13" HEIGHT="488.18897637795277" WIDTH="7.874015748031496" VPOS="3604.7244094488187" HPOS="3151.181102362205"/>
+        <GraphicalElement ID="r_14" HEIGHT="629.9212598425197" WIDTH="6.299212598425197" VPOS="573.2283464566929" HPOS="3152.755905511811"/>
+        <GraphicalElement ID="r_15" HEIGHT="1184.251968503937" WIDTH="6.299212598425197" VPOS="1297.6377952755906" HPOS="3154.3307086614172"/>
+        <GraphicalElement ID="r_16" HEIGHT="565.3543307086615" WIDTH="23.62204724409449" VPOS="3644.0944881889764" HPOS="3166.9291338582675"/>
+        <GraphicalElement ID="r_17" HEIGHT="870.8661417322835" WIDTH="11.023622047244094" VPOS="2768.503937007874" HPOS="3181.1023622047246"/>
+        <GraphicalElement ID="r_18" HEIGHT="814.1732283464567" WIDTH="18.89763779527559" VPOS="113.38582677165354" HPOS="3196.850393700787"/>
+        <GraphicalElement ID="r_19" HEIGHT="2447.244094488189" WIDTH="15.748031496062993" VPOS="1770.0787401574803" HPOS="3196.850393700787"/>
+        <GraphicalElement ID="r_20" HEIGHT="78.74015748031496" WIDTH="1.5748031496062993" VPOS="963.7795275590552" HPOS="3151.181102362205"/>
+        <Illustration ID="r_1" HEIGHT="4192.1259842519685" WIDTH="1858.267716535433" VPOS="58.267716535433074" HPOS="0.0"/>
+        <Illustration ID="r_3" HEIGHT="2141.732283464567" WIDTH="737.007874015748" VPOS="3.1496062992125986" HPOS="2554.3307086614172"/>
+        <Illustration ID="r_9" HEIGHT="787.4015748031496" WIDTH="1045.6692913385828" VPOS="3527.5590551181103" HPOS="2233.0708661417325"/>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

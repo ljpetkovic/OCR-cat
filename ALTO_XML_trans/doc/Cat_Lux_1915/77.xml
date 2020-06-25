@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-06-23T11:18:59.719+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2737" WIDTH="2065">
+         <TopMargin HEIGHT="0" WIDTH="2065" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2417" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2417" WIDTH="374" VPOS="0" HPOS="1691"/>
+         <BottomMargin HEIGHT="320" WIDTH="2065" VPOS="2417" HPOS="0"/>
+         <PrintSpace HEIGHT="2417" WIDTH="1691" VPOS="0" HPOS="0">
+            <TextBlock ID="r_2_1" HEIGHT="40" WIDTH="805" VPOS="2371" HPOS="519">
+               <Shape>
+                  <Polygon POINTS="519,2373 1324,2371 1324,2409 519,2411"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="2521"
+                         HEIGHT="156"
+                         WIDTH="814"
+                         VPOS="2365"
+                         HPOS="515">
+                  <String HEIGHT="156"
+                          WIDTH="242"
+                          VPOS="2365"
+                          HPOS="493"
+                          CONTENT="AMBROSE"/>
+                  <SP HEIGHT="156" WIDTH="22" VPOS="2365" HPOS="735"/>
+                  <String HEIGHT="156"
+                          WIDTH="154"
+                          VPOS="2365"
+                          HPOS="669"
+                          CONTENT="MAC"/>
+                  <SP HEIGHT="156" WIDTH="22" VPOS="2365" HPOS="823"/>
+                  <String HEIGHT="156"
+                          WIDTH="198"
+                          VPOS="2365"
+                          HPOS="757"
+                          CONTENT="EVOY."/>
+                  <SP HEIGHT="156" WIDTH="22" VPOS="2365" HPOS="955"/>
+                  <String HEIGHT="156" WIDTH="110" VPOS="2365" HPOS="889" CONTENT="—"/>
+                  <SP HEIGHT="156" WIDTH="22" VPOS="2365" HPOS="999"/>
+                  <String HEIGHT="156" WIDTH="110" VPOS="2365" HPOS="933" CONTENT="«"/>
+                  <SP HEIGHT="156" WIDTH="22" VPOS="2365" HPOS="1043"/>
+                  <String HEIGHT="156"
+                          WIDTH="374"
+                          VPOS="2365"
+                          HPOS="955"
+                          CONTENT="&lt;i&gt;Madame&lt;/i&gt;»."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_4" HEIGHT="324" WIDTH="21" VPOS="60" HPOS="74"/>
+            <GraphicalElement ID="r_5" HEIGHT="370" WIDTH="23" VPOS="511" HPOS="516"/>
+            <GraphicalElement ID="r_6" HEIGHT="733" WIDTH="35" VPOS="536" HPOS="1457"/>
+            <GraphicalElement ID="r_7" HEIGHT="239" WIDTH="5" VPOS="375" HPOS="1670"/>
+            <GraphicalElement ID="r_8" HEIGHT="314" WIDTH="4" VPOS="663" HPOS="1674"/>
+            <Illustration ID="r_1" HEIGHT="2307" WIDTH="1691" VPOS="0" HPOS="0"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

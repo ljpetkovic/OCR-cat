@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-06-23T11:19:35.768+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2734" WIDTH="2113">
+         <TopMargin HEIGHT="0" WIDTH="2113" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2734" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2734" WIDTH="552" VPOS="0" HPOS="1561"/>
+         <BottomMargin HEIGHT="0" WIDTH="2113" VPOS="2734" HPOS="0"/>
+         <PrintSpace HEIGHT="2734" WIDTH="1561" VPOS="0" HPOS="0">
+            <TextBlock ID="region_1592485109955_1483"
+                       HEIGHT="50"
+                       WIDTH="581"
+                       VPOS="2530"
+                       HPOS="708">
+               <Shape>
+                  <Polygon POINTS="708,2530 708,2580 1289,2580 1289,2530"/>
+               </Shape>
+               <TextLine ID="line_1592485109965_1486"
+                         BASELINE="2610"
+                         HEIGHT="86"
+                         WIDTH="591"
+                         VPOS="2524"
+                         HPOS="703">
+                  <String HEIGHT="86"
+                          WIDTH="256"
+                          VPOS="2524"
+                          HPOS="683"
+                          CONTENT="FRIDERICK"/>
+                  <SP HEIGHT="86" WIDTH="20" VPOS="2524" HPOS="939"/>
+                  <String HEIGHT="86"
+                          WIDTH="197"
+                          VPOS="2524"
+                          HPOS="880"
+                          CONTENT="WATTS."/>
+                  <SP HEIGHT="86" WIDTH="20" VPOS="2524" HPOS="1077"/>
+                  <String HEIGHT="86" WIDTH="99" VPOS="2524" HPOS="1018" CONTENT="—"/>
+                  <SP HEIGHT="86" WIDTH="20" VPOS="2524" HPOS="1117"/>
+                  <String HEIGHT="86"
+                          WIDTH="256"
+                          VPOS="2524"
+                          HPOS="1038"
+                          CONTENT="&lt;i&gt;Eve&lt;/i&gt;."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_2" HEIGHT="880" WIDTH="15" VPOS="212" HPOS="63"/>
+            <GraphicalElement ID="r_3" HEIGHT="192" WIDTH="5" VPOS="2240" HPOS="63"/>
+            <Illustration ID="r_1" HEIGHT="2482" WIDTH="1561" VPOS="0" HPOS="0"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

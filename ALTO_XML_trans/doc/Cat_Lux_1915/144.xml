@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-06-23T11:19:37.423+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2731" WIDTH="2084">
+         <TopMargin HEIGHT="3" WIDTH="2084" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2728" WIDTH="0" VPOS="3" HPOS="0"/>
+         <RightMargin HEIGHT="2728" WIDTH="0" VPOS="3" HPOS="2084"/>
+         <BottomMargin HEIGHT="0" WIDTH="2084" VPOS="2731" HPOS="0"/>
+         <PrintSpace HEIGHT="2728" WIDTH="2084" VPOS="3" HPOS="0">
+            <GraphicalElement ID="r_8" HEIGHT="11" WIDTH="256" VPOS="2677" HPOS="448"/>
+            <GraphicalElement ID="r_9" HEIGHT="590" WIDTH="8" VPOS="1719" HPOS="0"/>
+            <Illustration ID="r_5" HEIGHT="258" WIDTH="43" VPOS="2328" HPOS="0"/>
+            <Illustration ID="r_6" HEIGHT="1093" WIDTH="258" VPOS="1638" HPOS="192"/>
+            <Illustration ID="r_7" HEIGHT="2728" WIDTH="1512" VPOS="3" HPOS="572"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>
