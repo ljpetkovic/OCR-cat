@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-06-23T11:19:32.584+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2761" WIDTH="2113">
+         <TopMargin HEIGHT="0" WIDTH="2113" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2761" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2761" WIDTH="333" VPOS="0" HPOS="1780"/>
+         <BottomMargin HEIGHT="0" WIDTH="2113" VPOS="2761" HPOS="0"/>
+         <PrintSpace HEIGHT="2761" WIDTH="1780" VPOS="0" HPOS="0">
+            <TextBlock ID="region_1592485032838_1455"
+                       HEIGHT="54"
+                       WIDTH="865"
+                       VPOS="2266"
+                       HPOS="587">
+               <Shape>
+                  <Polygon POINTS="587,2266 587,2320 1452,2320 1452,2266"/>
+               </Shape>
+               <TextLine ID="line_1592485032856_1458"
+                         BASELINE="2458"
+                         HEIGHT="185"
+                         WIDTH="878"
+                         VPOS="2273"
+                         HPOS="580">
+                  <String HEIGHT="185"
+                          WIDTH="180"
+                          VPOS="2273"
+                          HPOS="560"
+                          CONTENT="HENRY"/>
+                  <SP HEIGHT="185" WIDTH="20" VPOS="2273" HPOS="740"/>
+                  <String HEIGHT="185"
+                          WIDTH="200"
+                          VPOS="2273"
+                          HPOS="680"
+                          CONTENT="TONKS."/>
+                  <SP HEIGHT="185" WIDTH="20" VPOS="2273" HPOS="879"/>
+                  <String HEIGHT="185" WIDTH="100" VPOS="2273" HPOS="819" CONTENT="—"/>
+                  <SP HEIGHT="185" WIDTH="20" VPOS="2273" HPOS="919"/>
+                  <String HEIGHT="185"
+                          WIDTH="180"
+                          VPOS="2273"
+                          HPOS="859"
+                          CONTENT="&lt;i&gt;Le"/>
+                  <SP HEIGHT="185" WIDTH="20" VPOS="2273" HPOS="1039"/>
+                  <String HEIGHT="185"
+                          WIDTH="239"
+                          VPOS="2273"
+                          HPOS="979"
+                          CONTENT="Marchand"/>
+                  <SP HEIGHT="185" WIDTH="20" VPOS="2273" HPOS="1219"/>
+                  <String HEIGHT="185"
+                          WIDTH="120"
+                          VPOS="2273"
+                          HPOS="1159"
+                          CONTENT="de"/>
+                  <SP HEIGHT="185" WIDTH="20" VPOS="2273" HPOS="1278"/>
+                  <String HEIGHT="185"
+                          WIDTH="259"
+                          VPOS="2273"
+                          HPOS="1199"
+                          CONTENT="byjoux&lt;/i&gt;."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_3" HEIGHT="57" WIDTH="9" VPOS="1530" HPOS="488"/>
+            <Illustration ID="r_2" HEIGHT="1839" WIDTH="1776" VPOS="397" HPOS="4"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

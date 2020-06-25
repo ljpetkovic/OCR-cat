@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-06-23T11:18:40.108+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2758" WIDTH="2059">
+         <TopMargin HEIGHT="0" WIDTH="2059" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2758" WIDTH="1" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2758" WIDTH="116" VPOS="0" HPOS="1943"/>
+         <BottomMargin HEIGHT="0" WIDTH="2059" VPOS="2758" HPOS="0"/>
+         <PrintSpace HEIGHT="2758" WIDTH="1942" VPOS="0" HPOS="1">
+            <TextBlock ID="r_2_1" HEIGHT="53" WIDTH="958" VPOS="2375" HPOS="459">
+               <Shape>
+                  <Polygon POINTS="459,2375 1417,2375 1417,2428 459,2428"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="2486"
+                         HEIGHT="117"
+                         WIDTH="968"
+                         VPOS="2369"
+                         HPOS="453">
+                  <String HEIGHT="117"
+                          WIDTH="206"
+                          VPOS="2369"
+                          HPOS="432"
+                          CONTENT="ROBERT"/>
+                  <SP HEIGHT="117" WIDTH="21" VPOS="2369" HPOS="638"/>
+                  <String HEIGHT="117"
+                          WIDTH="206"
+                          VPOS="2369"
+                          HPOS="577"
+                          CONTENT="ANNING"/>
+                  <SP HEIGHT="117" WIDTH="21" VPOS="2369" HPOS="783"/>
+                  <String HEIGHT="117"
+                          WIDTH="185"
+                          VPOS="2369"
+                          HPOS="721"
+                          CONTENT="BELL."/>
+                  <SP HEIGHT="117" WIDTH="21" VPOS="2369" HPOS="906"/>
+                  <String HEIGHT="117" WIDTH="103" VPOS="2369" HPOS="844" CONTENT="—"/>
+                  <SP HEIGHT="117" WIDTH="21" VPOS="2369" HPOS="947"/>
+                  <String HEIGHT="117"
+                          WIDTH="185"
+                          VPOS="2369"
+                          HPOS="886"
+                          CONTENT="&lt;i&gt;La"/>
+                  <SP HEIGHT="117" WIDTH="21" VPOS="2369" HPOS="1071"/>
+                  <String HEIGHT="117"
+                          WIDTH="185"
+                          VPOS="2369"
+                          HPOS="1009"
+                          CONTENT="bonne"/>
+                  <SP HEIGHT="117" WIDTH="21" VPOS="2369" HPOS="1194"/>
+                  <String HEIGHT="117"
+                          WIDTH="309"
+                          VPOS="2369"
+                          HPOS="1112"
+                          CONTENT="Aventure&lt;/i&gt;."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_3" HEIGHT="120" WIDTH="3" VPOS="1574" HPOS="52"/>
+            <GraphicalElement ID="r_4" HEIGHT="404" WIDTH="8" VPOS="2276" HPOS="42"/>
+            <GraphicalElement ID="r_5" HEIGHT="36" WIDTH="1" VPOS="2620" HPOS="69"/>
+            <Illustration ID="r_1" HEIGHT="2758" WIDTH="1942" VPOS="0" HPOS="1"/>
+            <Illustration ID="r_6" HEIGHT="1980" WIDTH="1571" VPOS="348" HPOS="171"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

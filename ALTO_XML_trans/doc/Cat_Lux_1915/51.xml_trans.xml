@@ -1,0 +1,48 @@
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+         <fileName>51.xml</fileName>
+      </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2020-06-23T11:18:46.172+02:00</processingDateTime>
+        <processingSoftware>
+               <softwareCreator>CONTRIBUTORS</softwareCreator>
+               <softwareName>pdfalto</softwareName>
+               <softwareVersion>0.1</softwareVersion>
+            </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Styles>
+     <TextStyle ID="FONT0" FONTFAMILY="unknown" FONTSIZE="unknown" FONTTYPE="unknown" FONTWIDTH="unknown" FONTCOLOR="unknown" FONTSTYLE=""/>
+     <TextStyle ID="FONT1" FONTFAMILY="unknown" FONTSIZE="unknown" FONTTYPE="unknown" FONTWIDTH="unknown" FONTCOLOR="unknown" FONTSTYLE="bold"/>
+     <TextStyle ID="FONT2" FONTFAMILY="unknown" FONTSIZE="unknown" FONTTYPE="unknown" FONTWIDTH="unknown" FONTCOLOR="unknown" FONTSTYLE="italics"/>
+</Styles>
+  <Tags/>
+  <Layout>
+    <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="4333.858267716535" WIDTH="3242.51968503937">
+      <PrintSpace HEIGHT="4333.858267716535" WIDTH="2699.212598425197" VPOS="0.0" HPOS="25.19685039370079">
+        <TextBlock ID="r_4_1" HEIGHT="110.23622047244095" WIDTH="1218.8976377952756" VPOS="3458.267716535433" HPOS="826.7716535433071">
+          <TextLine ID="tl_1" BASELINE="2292" HEIGHT="149.60629921259843" WIDTH="1234.6456692913387" VPOS="3459.8425196850394" HPOS="817.3228346456693">
+            <String HEIGHT="149.60629921259843" WIDTH="357.4803149606299" VPOS="3459.8425196850394" HPOS="784.2519685039371" CONTENT="CHARLES" ID="tl_1_1" STYLEREFS="FONT0"/>
+            <SP HEIGHT="149.60629921259843" WIDTH="33.07086614173228" VPOS="3459.8425196850394" HPOS="1141.732283464567"/>
+            <String HEIGHT="149.60629921259843" WIDTH="357.4803149606299" VPOS="3459.8425196850394" HPOS="1044.0944881889764" CONTENT="CONDER." ID="tl_1_2" STYLEREFS="FONT0"/>
+            <SP HEIGHT="149.60629921259843" WIDTH="33.07086614173228" VPOS="3459.8425196850394" HPOS="1401.5748031496064"/>
+            <String HEIGHT="149.60629921259843" WIDTH="162.20472440944883" VPOS="3459.8425196850394" HPOS="1303.9370078740158" CONTENT="—" ID="tl_1_3" STYLEREFS="FONT0"/>
+            <SP HEIGHT="149.60629921259843" WIDTH="33.07086614173228" VPOS="3459.8425196850394" HPOS="1467.716535433071"/>
+            <String HEIGHT="149.60629921259843" WIDTH="292.9133858267717" VPOS="3459.8425196850394" HPOS="1370.0787401574803" CONTENT="En" ID="tl_1_4" STYLEREFS="FONT2"/>
+            <SP HEIGHT="149.60629921259843" WIDTH="33.07086614173228" VPOS="3459.8425196850394" HPOS="1661.4173228346456"/>
+            <String HEIGHT="149.60629921259843" WIDTH="519.6850393700787" VPOS="3459.8425196850394" HPOS="1532.283464566929" CONTENT="promenade." ID="tl_1_5" STYLEREFS="FONT2"/>
+          </TextLine>
+        </TextBlock>
+        <GraphicalElement ID="r_5" HEIGHT="1111.8110236220473" WIDTH="36.22047244094488" VPOS="318.1102362204724" HPOS="100.78740157480316"/>
+        <GraphicalElement ID="r_6" HEIGHT="2409.448818897638" WIDTH="50.39370078740158" VPOS="1541.732283464567" HPOS="74.01574803149606"/>
+        <Illustration ID="r_1" HEIGHT="124.40944881889764" WIDTH="311.81102362204723" VPOS="0.0" HPOS="114.96062992125984"/>
+        <Illustration ID="r_2" HEIGHT="2648.818897637795" WIDTH="2692.9133858267714" VPOS="762.2047244094488" HPOS="31.496062992125985"/>
+        <Illustration ID="r_3" HEIGHT="694.488188976378" WIDTH="448.81889763779526" VPOS="3639.3700787401576" HPOS="25.19685039370079"/>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

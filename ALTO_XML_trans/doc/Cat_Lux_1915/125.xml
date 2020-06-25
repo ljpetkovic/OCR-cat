@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-06-23T11:19:25.833+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2743" WIDTH="2074">
+         <TopMargin HEIGHT="0" WIDTH="2074" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2740" WIDTH="8" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2740" WIDTH="101" VPOS="0" HPOS="1973"/>
+         <BottomMargin HEIGHT="3" WIDTH="2074" VPOS="2740" HPOS="0"/>
+         <PrintSpace HEIGHT="2740" WIDTH="1965" VPOS="0" HPOS="8">
+            <TextBlock ID="region_1592484894413_1384"
+                       HEIGHT="53"
+                       WIDTH="848"
+                       VPOS="2131"
+                       HPOS="527">
+               <Shape>
+                  <Polygon POINTS="527,2131 527,2184 1375,2184 1375,2131"/>
+               </Shape>
+               <TextLine ID="line_1592484894423_1387"
+                         BASELINE="2252"
+                         HEIGHT="121"
+                         WIDTH="859"
+                         VPOS="2131"
+                         HPOS="521">
+                  <String HEIGHT="121"
+                          WIDTH="236"
+                          VPOS="2131"
+                          HPOS="500"
+                          CONTENT="CHARLES"/>
+                  <SP HEIGHT="121" WIDTH="21" VPOS="2131" HPOS="736"/>
+                  <String HEIGHT="121"
+                          WIDTH="258"
+                          VPOS="2131"
+                          HPOS="671"
+                          CONTENT="SHANNON."/>
+                  <SP HEIGHT="121" WIDTH="21" VPOS="2131" HPOS="929"/>
+                  <String HEIGHT="121" WIDTH="107" VPOS="2131" HPOS="865" CONTENT="—"/>
+                  <SP HEIGHT="121" WIDTH="21" VPOS="2131" HPOS="972"/>
+                  <String HEIGHT="121"
+                          WIDTH="279"
+                          VPOS="2131"
+                          HPOS="908"
+                          CONTENT="&lt;i&gt;Nymphe"/>
+                  <SP HEIGHT="121" WIDTH="21" VPOS="2131" HPOS="1187"/>
+                  <String HEIGHT="121"
+                          WIDTH="279"
+                          VPOS="2131"
+                          HPOS="1101"
+                          CONTENT="dormant&lt;/i&gt;"/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_2" HEIGHT="12" WIDTH="184" VPOS="2078" HPOS="904"/>
+            <GraphicalElement ID="r_3" HEIGHT="602" WIDTH="12" VPOS="2054" HPOS="48"/>
+            <GraphicalElement ID="r_4" HEIGHT="192" WIDTH="10" VPOS="1728" HPOS="54"/>
+            <GraphicalElement ID="r_5" HEIGHT="552" WIDTH="41" VPOS="736" HPOS="63"/>
+            <GraphicalElement ID="r_6" HEIGHT="128" WIDTH="4" VPOS="586" HPOS="68"/>
+            <Illustration ID="r_1" HEIGHT="2121" WIDTH="1965" VPOS="0" HPOS="8"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

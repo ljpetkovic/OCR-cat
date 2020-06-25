@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-06-23T11:18:46.172+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2752" WIDTH="2059">
+         <TopMargin HEIGHT="0" WIDTH="2059" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2752" WIDTH="16" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2752" WIDTH="329" VPOS="0" HPOS="1730"/>
+         <BottomMargin HEIGHT="0" WIDTH="2059" VPOS="2752" HPOS="0"/>
+         <PrintSpace HEIGHT="2752" WIDTH="1714" VPOS="0" HPOS="16">
+            <TextBlock ID="r_4_1" HEIGHT="70" WIDTH="774" VPOS="2196" HPOS="525">
+               <Shape>
+                  <Polygon POINTS="525,2196 1299,2196 1299,2266 525,2266"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="2292"
+                         HEIGHT="95"
+                         WIDTH="784"
+                         VPOS="2197"
+                         HPOS="519">
+                  <String HEIGHT="95"
+                          WIDTH="227"
+                          VPOS="2197"
+                          HPOS="498"
+                          CONTENT="CHARLES"/>
+                  <SP HEIGHT="95" WIDTH="21" VPOS="2197" HPOS="725"/>
+                  <String HEIGHT="95"
+                          WIDTH="227"
+                          VPOS="2197"
+                          HPOS="663"
+                          CONTENT="CONDER."/>
+                  <SP HEIGHT="95" WIDTH="21" VPOS="2197" HPOS="890"/>
+                  <String HEIGHT="95" WIDTH="103" VPOS="2197" HPOS="828" CONTENT="—"/>
+                  <SP HEIGHT="95" WIDTH="21" VPOS="2197" HPOS="932"/>
+                  <String HEIGHT="95"
+                          WIDTH="186"
+                          VPOS="2197"
+                          HPOS="870"
+                          CONTENT="&lt;i&gt;En"/>
+                  <SP HEIGHT="95" WIDTH="21" VPOS="2197" HPOS="1055"/>
+                  <String HEIGHT="95"
+                          WIDTH="330"
+                          VPOS="2197"
+                          HPOS="973"
+                          CONTENT="promenade&lt;/i&gt;."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_5" HEIGHT="706" WIDTH="23" VPOS="202" HPOS="64"/>
+            <GraphicalElement ID="r_6" HEIGHT="1530" WIDTH="32" VPOS="979" HPOS="47"/>
+            <Illustration ID="r_1" HEIGHT="79" WIDTH="198" VPOS="0" HPOS="73"/>
+            <Illustration ID="r_2" HEIGHT="1682" WIDTH="1710" VPOS="484" HPOS="20"/>
+            <Illustration ID="r_3" HEIGHT="441" WIDTH="285" VPOS="2311" HPOS="16"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

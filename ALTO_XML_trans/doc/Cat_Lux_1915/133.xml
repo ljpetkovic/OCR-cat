@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-06-23T11:19:29.829+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2740" WIDTH="2080">
+         <TopMargin HEIGHT="1" WIDTH="2080" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2736" WIDTH="0" VPOS="1" HPOS="0"/>
+         <RightMargin HEIGHT="2736" WIDTH="629" VPOS="1" HPOS="1451"/>
+         <BottomMargin HEIGHT="3" WIDTH="2080" VPOS="2737" HPOS="0"/>
+         <PrintSpace HEIGHT="2736" WIDTH="1451" VPOS="1" HPOS="0">
+            <TextBlock ID="r_3_1" HEIGHT="50" WIDTH="878" VPOS="2483" HPOS="566">
+               <Shape>
+                  <Polygon POINTS="566,2483 1444,2483 1444,2533 566,2533"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="2594"
+                         HEIGHT="118"
+                         WIDTH="888"
+                         VPOS="2476"
+                         HPOS="561">
+                  <String HEIGHT="118"
+                          WIDTH="161"
+                          VPOS="2476"
+                          HPOS="541"
+                          CONTENT="MRS."/>
+                  <SP HEIGHT="118" WIDTH="20" VPOS="2476" HPOS="702"/>
+                  <String HEIGHT="118"
+                          WIDTH="303"
+                          VPOS="2476"
+                          HPOS="642"
+                          CONTENT="SWYNNERTON."/>
+                  <SP HEIGHT="118" WIDTH="20" VPOS="2476" HPOS="944"/>
+                  <String HEIGHT="118" WIDTH="101" VPOS="2476" HPOS="884" CONTENT="—"/>
+                  <SP HEIGHT="118" WIDTH="20" VPOS="2476" HPOS="985"/>
+                  <String HEIGHT="118"
+                          WIDTH="242"
+                          VPOS="2476"
+                          HPOS="924"
+                          CONTENT="&lt;i&gt;Maler"/>
+                  <SP HEIGHT="118" WIDTH="20" VPOS="2476" HPOS="1166"/>
+                  <String HEIGHT="118"
+                          WIDTH="363"
+                          VPOS="2476"
+                          HPOS="1086"
+                          CONTENT="triumpbalis&lt;/i&gt;."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_5" HEIGHT="11" WIDTH="195" VPOS="2153" HPOS="1177"/>
+            <GraphicalElement ID="r_6" HEIGHT="171" WIDTH="8" VPOS="328" HPOS="1433"/>
+            <Illustration ID="r_1" HEIGHT="90" WIDTH="114" VPOS="1" HPOS="0"/>
+            <Illustration ID="r_2" HEIGHT="2184" WIDTH="894" VPOS="254" HPOS="557"/>
+            <Illustration ID="r_7" HEIGHT="2184" WIDTH="894" VPOS="254" HPOS="557"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>
