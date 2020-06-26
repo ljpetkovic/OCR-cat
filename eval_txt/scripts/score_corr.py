@@ -122,7 +122,7 @@ compte_cor_2 = 0
 compte_cor_3 = 0
 compte_cor_4 = 0
 
-print('Processing', fichier, '...')
+print('Processing', os.path.basename(fichier), '...') # get the basename from the absolute path (e.g. Processing 1855_08_LAC_N72_eval.txt)
 print('Done.')
 print('')
 
