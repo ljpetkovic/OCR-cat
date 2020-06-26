@@ -1,6 +1,7 @@
 import re
 import sys
 import lxml.etree as etree
+import os
 
 ######### Processing the file from the command line #############
 
@@ -231,6 +232,7 @@ if __name__ == '__main__':
     ################  Stats ######################
 
     print('####################################### STATISTICS: ############################################\n')
+    print('\t\t\t\t', os.path.basename(fichier), '\n\n')
     print ("Type\t\t\t\t\t\t\tCount\t\t\t   %")
     print ("-----------------------------------------------------------------------------------------")
     print ('Correct tags\t\t\t\t\t\t', compte_1, '\t\t\t', "{:.2f}".format((compte_1 / total) * 100))
