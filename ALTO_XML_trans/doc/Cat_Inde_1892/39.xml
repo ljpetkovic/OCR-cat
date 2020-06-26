@@ -7,7 +7,7 @@
       <MeasurementUnit>pixel</MeasurementUnit>
       <OCRProcessing ID="IdOcr">
          <ocrProcessingStep>
-            <processingDateTime>2020-06-18T14:56:03.72+02:00</processingDateTime>
+            <processingDateTime>2020-06-25T17:52:19.093+02:00</processingDateTime>
             <processingSoftware>
                <softwareCreator>READ COOP</softwareCreator>
                <softwareName>Transkribus</softwareName>
@@ -18,876 +18,749 @@
    <Tags/>
    <Layout>
       <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="3228" WIDTH="2292">
-         <TopMargin HEIGHT="310" WIDTH="2292" VPOS="0" HPOS="0"/>
-         <LeftMargin HEIGHT="2812" WIDTH="49" VPOS="310" HPOS="0"/>
-         <RightMargin HEIGHT="2812" WIDTH="104" VPOS="310" HPOS="2188"/>
-         <BottomMargin HEIGHT="106" WIDTH="2292" VPOS="3122" HPOS="0"/>
-         <PrintSpace HEIGHT="2812" WIDTH="2139" VPOS="310" HPOS="49">
-            <TextBlock ID="r_1_1" HEIGHT="139" WIDTH="1460" VPOS="412" HPOS="352">
+         <TopMargin HEIGHT="0" WIDTH="2292" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="3228" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="3228" WIDTH="0" VPOS="0" HPOS="2292"/>
+         <BottomMargin HEIGHT="0" WIDTH="2292" VPOS="3228" HPOS="0"/>
+         <PrintSpace HEIGHT="3228" WIDTH="2292" VPOS="0" HPOS="0">
+            <TextBlock ID="r1" HEIGHT="2524" WIDTH="1500" VPOS="303" HPOS="333">
                <Shape>
-                  <Polygon POINTS="352,412 1812,412 1812,551 352,551"/>
+                  <Polygon POINTS="333,303 333,2827 1833,2827 1833,303"/>
                </Shape>
-               <TextLine ID="tl_1"
-                         BASELINE="488"
-                         HEIGHT="129"
-                         WIDTH="1477"
-                         VPOS="359"
-                         HPOS="343">
-                  <String HEIGHT="129"
-                          WIDTH="409"
-                          VPOS="359"
-                          HPOS="312"
-                          CONTENT="GUILLOUX,"/>
-                  <SP HEIGHT="129" WIDTH="31" VPOS="359" HPOS="720"/>
-                  <String HEIGHT="129"
-                          WIDTH="377"
-                          VPOS="359"
-                          HPOS="626"
-                          CONTENT="Charles,"/>
-                  <SP HEIGHT="129" WIDTH="31" VPOS="359" HPOS="1003"/>
-                  <String HEIGHT="129" WIDTH="189" VPOS="359" HPOS="909" CONTENT="né"/>
-                  <SP HEIGHT="129" WIDTH="31" VPOS="359" HPOS="1097"/>
-                  <String HEIGHT="129" WIDTH="157" VPOS="359" HPOS="1003" CONTENT="à"/>
-                  <SP HEIGHT="129" WIDTH="31" VPOS="359" HPOS="1160"/>
-                  <String HEIGHT="129"
-                          WIDTH="314"
-                          VPOS="359"
-                          HPOS="1066"
-                          CONTENT="Paris."/>
-                  <SP HEIGHT="129" WIDTH="31" VPOS="359" HPOS="1380"/>
-                  <String HEIGHT="129" WIDTH="157" VPOS="359" HPOS="1286" CONTENT="—"/>
-                  <SP HEIGHT="129" WIDTH="31" VPOS="359" HPOS="1443"/>
-                  <String HEIGHT="129"
-                          WIDTH="220"
-                          VPOS="359"
-                          HPOS="1349"
-                          CONTENT="35,"/>
-                  <SP HEIGHT="129" WIDTH="31" VPOS="359" HPOS="1569"/>
-                  <String HEIGHT="129"
-                          WIDTH="251"
-                          VPOS="359"
-                          HPOS="1474"
-                          CONTENT="quai"/>
-                  <SP HEIGHT="129" WIDTH="31" VPOS="359" HPOS="1726"/>
-                  <String HEIGHT="129"
-                          WIDTH="189"
-                          VPOS="359"
-                          HPOS="1631"
-                          CONTENT="de"/>
-                  <SP HEIGHT="129" WIDTH="31" VPOS="359" HPOS="1820"/>
-                  <String HEIGHT="129"
-                          WIDTH="126"
-                          VPOS="359"
-                          HPOS="1694"
-                          CONTENT="la"/>
+               <TextLine ID="r1l1"
+                         BASELINE="358"
+                         HEIGHT="55"
+                         WIDTH="178"
+                         VPOS="303"
+                         HPOS="1022">
+                  <String HEIGHT="55" WIDTH="148" VPOS="303" HPOS="992" CONTENT="—"/>
+                  <SP HEIGHT="55" WIDTH="30" VPOS="303" HPOS="1141"/>
+                  <String HEIGHT="55" WIDTH="178" VPOS="303" HPOS="1052" CONTENT="38"/>
+                  <SP HEIGHT="55" WIDTH="30" VPOS="303" HPOS="1230"/>
+                  <String HEIGHT="55" WIDTH="89" VPOS="303" HPOS="1111" CONTENT="—"/>
                </TextLine>
-               <TextLine ID="tl_2"
-                         BASELINE="581"
-                         HEIGHT="99"
-                         WIDTH="294"
-                         VPOS="482"
-                         HPOS="400">
-                  <String HEIGHT="99"
-                          WIDTH="353"
-                          VPOS="482"
-                          HPOS="341"
+               <TextLine ID="r1l4"
+                         BASELINE="476"
+                         HEIGHT="53"
+                         WIDTH="899"
+                         VPOS="423"
+                         HPOS="354">
+                  <String HEIGHT="53"
+                          WIDTH="249"
+                          VPOS="423"
+                          HPOS="335"
+                          CONTENT="GUILLOUX,"/>
+                  <SP HEIGHT="53" WIDTH="19" VPOS="423" HPOS="584"/>
+                  <String HEIGHT="53"
+                          WIDTH="230"
+                          VPOS="423"
+                          HPOS="526"
+                          CONTENT="Charles,"/>
+                  <SP HEIGHT="53" WIDTH="19" VPOS="423" HPOS="756"/>
+                  <String HEIGHT="53" WIDTH="115" VPOS="423" HPOS="698" CONTENT="né"/>
+                  <SP HEIGHT="53" WIDTH="19" VPOS="423" HPOS="813"/>
+                  <String HEIGHT="53" WIDTH="96" VPOS="423" HPOS="756" CONTENT="à"/>
+                  <SP HEIGHT="53" WIDTH="19" VPOS="423" HPOS="851"/>
+                  <String HEIGHT="53"
+                          WIDTH="191"
+                          VPOS="423"
+                          HPOS="794"
+                          CONTENT="Paris."/>
+                  <SP HEIGHT="53" WIDTH="19" VPOS="423" HPOS="985"/>
+                  <String HEIGHT="53" WIDTH="96" VPOS="423" HPOS="928" CONTENT="—"/>
+                  <SP HEIGHT="53" WIDTH="19" VPOS="423" HPOS="1023"/>
+                  <String HEIGHT="53" WIDTH="134" VPOS="423" HPOS="966" CONTENT="35,"/>
+                  <SP HEIGHT="53" WIDTH="19" VPOS="423" HPOS="1100"/>
+                  <String HEIGHT="53"
+                          WIDTH="153"
+                          VPOS="423"
+                          HPOS="1043"
+                          CONTENT="quai"/>
+                  <SP HEIGHT="53" WIDTH="19" VPOS="423" HPOS="1196"/>
+                  <String HEIGHT="53" WIDTH="115" VPOS="423" HPOS="1138" CONTENT="de"/>
+                  <SP HEIGHT="53" WIDTH="19" VPOS="423" HPOS="1253"/>
+                  <String HEIGHT="53" WIDTH="77" VPOS="423" HPOS="1176" CONTENT="la"/>
+               </TextLine>
+               <TextLine ID="r1l5"
+                         BASELINE="566"
+                         HEIGHT="56"
+                         WIDTH="278"
+                         VPOS="510"
+                         HPOS="411">
+                  <String HEIGHT="56"
+                          WIDTH="334"
+                          VPOS="510"
+                          HPOS="355"
                           CONTENT="Tournelle."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_1_2" HEIGHT="45" WIDTH="370" VPOS="603" HPOS="726">
-               <Shape>
-                  <Polygon POINTS="726,603 1096,603 1096,648 726,648"/>
-               </Shape>
-               <TextLine ID="tl_3"
-                         BASELINE="670"
-                         HEIGHT="98"
-                         WIDTH="386"
-                         VPOS="572"
-                         HPOS="718">
-                  <String HEIGHT="98"
-                          WIDTH="216"
-                          VPOS="572"
-                          HPOS="703"
+               <TextLine ID="r1l6"
+                         BASELINE="659"
+                         HEIGHT="54"
+                         WIDTH="558"
+                         VPOS="605"
+                         HPOS="534">
+                  <String HEIGHT="54"
+                          WIDTH="312"
+                          VPOS="605"
+                          HPOS="512"
                           CONTENT="&lt;b&gt;586&lt;/b&gt;"/>
-                  <SP HEIGHT="98" WIDTH="15" VPOS="572" HPOS="919"/>
-                  <String HEIGHT="98"
-                          WIDTH="170"
-                          VPOS="572"
-                          HPOS="872"
+                  <SP HEIGHT="54" WIDTH="22" VPOS="605" HPOS="824"/>
+                  <String HEIGHT="54"
+                          WIDTH="246"
+                          VPOS="605"
+                          HPOS="757"
                           CONTENT="L’Allée"/>
-                  <SP HEIGHT="98" WIDTH="15" VPOS="572" HPOS="1042"/>
-                  <String HEIGHT="98"
-                          WIDTH="124"
-                          VPOS="572"
-                          HPOS="980"
+                  <SP HEIGHT="54" WIDTH="22" VPOS="605" HPOS="1003"/>
+                  <String HEIGHT="54"
+                          WIDTH="179"
+                          VPOS="605"
+                          HPOS="913"
                           CONTENT="d’eau."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_1_3" HEIGHT="43" WIDTH="322" VPOS="676" HPOS="723">
-               <Shape>
-                  <Polygon POINTS="723,676 1045,676 1045,719 723,719"/>
-               </Shape>
-               <TextLine ID="tl_4"
-                         BASELINE="739"
-                         HEIGHT="80"
-                         WIDTH="338"
-                         VPOS="659"
-                         HPOS="715">
-                  <String HEIGHT="80"
-                          WIDTH="215"
-                          VPOS="659"
-                          HPOS="700"
+               <TextLine ID="r1l7"
+                         BASELINE="729"
+                         HEIGHT="51"
+                         WIDTH="498"
+                         VPOS="678"
+                         HPOS="540">
+                  <String HEIGHT="51"
+                          WIDTH="317"
+                          VPOS="678"
+                          HPOS="517"
                           CONTENT="&lt;b&gt;587&lt;/b&gt;"/>
-                  <SP HEIGHT="80" WIDTH="15" VPOS="659" HPOS="915"/>
-                  <String HEIGHT="80"
-                          WIDTH="138"
-                          VPOS="659"
-                          HPOS="869"
+                  <SP HEIGHT="51" WIDTH="23" VPOS="678" HPOS="834"/>
+                  <String HEIGHT="51"
+                          WIDTH="204"
+                          VPOS="678"
+                          HPOS="766"
                           CONTENT="Calme"/>
-                  <SP HEIGHT="80" WIDTH="15" VPOS="659" HPOS="1007"/>
-                  <String HEIGHT="80"
-                          WIDTH="108"
-                          VPOS="659"
-                          HPOS="945"
+                  <SP HEIGHT="51" WIDTH="23" VPOS="678" HPOS="970"/>
+                  <String HEIGHT="51"
+                          WIDTH="158"
+                          VPOS="678"
+                          HPOS="880"
                           CONTENT="rose."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_1_4" HEIGHT="43" WIDTH="593" VPOS="747" HPOS="534">
-               <Shape>
-                  <Polygon POINTS="534,747 1127,747 1127,790 534,790"/>
-               </Shape>
-               <TextLine ID="tl_5"
-                         BASELINE="810"
-                         HEIGHT="89"
-                         WIDTH="610"
-                         VPOS="721"
-                         HPOS="526">
-                  <String HEIGHT="89"
-                          WIDTH="356"
-                          VPOS="721"
-                          HPOS="501"
+               <TextLine ID="r1l8"
+                         BASELINE="799"
+                         HEIGHT="52"
+                         WIDTH="579"
+                         VPOS="747"
+                         HPOS="539">
+                  <String HEIGHT="52"
+                          WIDTH="338"
+                          VPOS="747"
+                          HPOS="515"
                           CONTENT="&lt;b&gt;588&lt;/b&gt;"/>
-                  <SP HEIGHT="89" WIDTH="25" VPOS="721" HPOS="856"/>
-                  <String HEIGHT="89" WIDTH="153" VPOS="721" HPOS="780" CONTENT="La"/>
-                  <SP HEIGHT="89" WIDTH="25" VPOS="721" HPOS="933"/>
-                  <String HEIGHT="89"
-                          WIDTH="305"
-                          VPOS="721"
-                          HPOS="831"
+                  <SP HEIGHT="52" WIDTH="24" VPOS="747" HPOS="853"/>
+                  <String HEIGHT="52" WIDTH="145" VPOS="747" HPOS="780" CONTENT="La"/>
+                  <SP HEIGHT="52" WIDTH="24" VPOS="747" HPOS="925"/>
+                  <String HEIGHT="52"
+                          WIDTH="290"
+                          VPOS="747"
+                          HPOS="829"
                           CONTENT="Tourmente."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_1_5" HEIGHT="57" WIDTH="423" VPOS="815" HPOS="725">
-               <Shape>
-                  <Polygon POINTS="725,815 1148,815 1148,872 725,872"/>
-               </Shape>
-               <TextLine ID="tl_6"
-                         BASELINE="894"
-                         HEIGHT="100"
-                         WIDTH="438"
-                         VPOS="794"
-                         HPOS="717">
-                  <String HEIGHT="100"
-                          WIDTH="236"
-                          VPOS="794"
-                          HPOS="700"
+               <TextLine ID="r1l9"
+                         BASELINE="871"
+                         HEIGHT="53"
+                         WIDTH="603"
+                         VPOS="818"
+                         HPOS="539">
+                  <String HEIGHT="53"
+                          WIDTH="325"
+                          VPOS="818"
+                          HPOS="516"
                           CONTENT="&lt;b&gt;589&lt;/b&gt;"/>
-                  <SP HEIGHT="100" WIDTH="17" VPOS="794" HPOS="936"/>
-                  <String HEIGHT="100"
-                          WIDTH="286"
-                          VPOS="794"
-                          HPOS="869"
+                  <SP HEIGHT="53" WIDTH="23" VPOS="818" HPOS="840"/>
+                  <String HEIGHT="53"
+                          WIDTH="394"
+                          VPOS="818"
+                          HPOS="748"
                           CONTENT="L’Hyperboloïde."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_1_6" HEIGHT="53" WIDTH="627" VPOS="888" HPOS="531">
-               <Shape>
-                  <Polygon POINTS="531,888 1158,888 1158,941 531,941"/>
-               </Shape>
-               <TextLine ID="tl_7"
-                         BASELINE="952"
-                         HEIGHT="83"
-                         WIDTH="644"
-                         VPOS="869"
-                         HPOS="522">
-                  <String HEIGHT="83"
-                          WIDTH="334"
-                          VPOS="869"
-                          HPOS="498"
+               <TextLine ID="r1l10"
+                         BASELINE="946"
+                         HEIGHT="57"
+                         WIDTH="633"
+                         VPOS="889"
+                         HPOS="534">
+                  <String HEIGHT="57"
+                          WIDTH="328"
+                          VPOS="889"
+                          HPOS="511"
                           CONTENT="&lt;b&gt;590&lt;/b&gt;"/>
-                  <SP HEIGHT="83" WIDTH="24" VPOS="869" HPOS="832"/>
-                  <String HEIGHT="83"
-                          WIDTH="239"
-                          VPOS="869"
-                          HPOS="761"
+                  <SP HEIGHT="57" WIDTH="23" VPOS="889" HPOS="839"/>
+                  <String HEIGHT="57"
+                          WIDTH="234"
+                          VPOS="889"
+                          HPOS="768"
                           CONTENT="Finale"/>
-                  <SP HEIGHT="83" WIDTH="24" VPOS="869" HPOS="999"/>
-                  <String HEIGHT="83"
-                          WIDTH="262"
-                          VPOS="869"
-                          HPOS="904"
+                  <SP HEIGHT="57" WIDTH="23" VPOS="889" HPOS="1003"/>
+                  <String HEIGHT="57"
+                          WIDTH="258"
+                          VPOS="889"
+                          HPOS="909"
                           CONTENT="spécieux."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_1_7" HEIGHT="44" WIDTH="281" VPOS="958" HPOS="728">
-               <Shape>
-                  <Polygon POINTS="728,958 1009,958 1009,1002 728,1002"/>
-               </Shape>
-               <TextLine ID="tl_8"
-                         BASELINE="1027"
-                         HEIGHT="88"
-                         WIDTH="298"
-                         VPOS="939"
-                         HPOS="720">
-                  <String HEIGHT="88"
-                          WIDTH="190"
-                          VPOS="939"
-                          HPOS="706"
+               <TextLine ID="r1l11"
+                         BASELINE="1015"
+                         HEIGHT="54"
+                         WIDTH="471"
+                         VPOS="961"
+                         HPOS="533">
+                  <String HEIGHT="54"
+                          WIDTH="300"
+                          VPOS="961"
+                          HPOS="512"
                           CONTENT="&lt;b&gt;591&lt;/b&gt;"/>
-                  <SP HEIGHT="88" WIDTH="14" VPOS="939" HPOS="896"/>
-                  <String HEIGHT="88" WIDTH="81" VPOS="939" HPOS="855" CONTENT="La"/>
-                  <SP HEIGHT="88" WIDTH="14" VPOS="939" HPOS="937"/>
-                  <String HEIGHT="88"
-                          WIDTH="135"
-                          VPOS="939"
-                          HPOS="883"
+                  <SP HEIGHT="54" WIDTH="21" VPOS="961" HPOS="811"/>
+                  <String HEIGHT="54" WIDTH="128" VPOS="961" HPOS="747" CONTENT="La"/>
+                  <SP HEIGHT="54" WIDTH="21" VPOS="961" HPOS="876"/>
+                  <String HEIGHT="54"
+                          WIDTH="214"
+                          VPOS="961"
+                          HPOS="790"
                           CONTENT="Prairie."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_1_8" HEIGHT="46" WIDTH="508" VPOS="1029" HPOS="533">
-               <Shape>
-                  <Polygon POINTS="533,1029 1041,1029 1041,1075 533,1075"/>
-               </Shape>
-               <TextLine ID="tl_9"
-                         BASELINE="1094"
-                         HEIGHT="83"
-                         WIDTH="525"
-                         VPOS="1011"
-                         HPOS="524">
-                  <String HEIGHT="83"
-                          WIDTH="320"
-                          VPOS="1011"
-                          HPOS="501"
+               <TextLine ID="r1l12"
+                         BASELINE="1087"
+                         HEIGHT="54"
+                         WIDTH="510"
+                         VPOS="1033"
+                         HPOS="533">
+                  <String HEIGHT="54"
+                          WIDTH="310"
+                          VPOS="1033"
+                          HPOS="511"
                           CONTENT="&lt;b&gt;592&lt;/b&gt;"/>
-                  <SP HEIGHT="83" WIDTH="23" VPOS="1011" HPOS="821"/>
-                  <String HEIGHT="83" WIDTH="137" VPOS="1011" HPOS="752" CONTENT="La"/>
-                  <SP HEIGHT="83" WIDTH="23" VPOS="1011" HPOS="889"/>
-                  <String HEIGHT="83"
-                          WIDTH="251"
-                          VPOS="1011"
-                          HPOS="798"
+                  <SP HEIGHT="54" WIDTH="22" VPOS="1033" HPOS="821"/>
+                  <String HEIGHT="54" WIDTH="133" VPOS="1033" HPOS="755" CONTENT="La"/>
+                  <SP HEIGHT="54" WIDTH="22" VPOS="1033" HPOS="888"/>
+                  <String HEIGHT="54"
+                          WIDTH="244"
+                          VPOS="1033"
+                          HPOS="799"
                           CONTENT="Mal’aria."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_1_9" HEIGHT="54" WIDTH="787" VPOS="1098" HPOS="532">
-               <Shape>
-                  <Polygon POINTS="532,1098 1319,1098 1319,1152 532,1152"/>
-               </Shape>
-               <TextLine ID="tl_10"
-                         BASELINE="1193"
-                         HEIGHT="123"
-                         WIDTH="805"
-                         VPOS="1070"
-                         HPOS="523">
-                  <String HEIGHT="123"
-                          WIDTH="342"
-                          VPOS="1070"
-                          HPOS="499"
+               <TextLine ID="r1l13"
+                         BASELINE="1156"
+                         HEIGHT="54"
+                         WIDTH="795"
+                         VPOS="1102"
+                         HPOS="530">
+                  <String HEIGHT="54"
+                          WIDTH="337"
+                          VPOS="1102"
+                          HPOS="506"
                           CONTENT="&lt;b&gt;593&lt;/b&gt;"/>
-                  <SP HEIGHT="123" WIDTH="24" VPOS="1070" HPOS="840"/>
-                  <String HEIGHT="123"
-                          WIDTH="366"
-                          VPOS="1070"
-                          HPOS="767"
+                  <SP HEIGHT="54" WIDTH="24" VPOS="1102" HPOS="843"/>
+                  <String HEIGHT="54"
+                          WIDTH="361"
+                          VPOS="1102"
+                          HPOS="771"
                           CONTENT="Funérailles"/>
-                  <SP HEIGHT="123" WIDTH="24" VPOS="1070" HPOS="1133"/>
-                  <String HEIGHT="123"
-                          WIDTH="293"
-                          VPOS="1070"
-                          HPOS="1035"
+                  <SP HEIGHT="54" WIDTH="24" VPOS="1102" HPOS="1132"/>
+                  <String HEIGHT="54"
+                          WIDTH="289"
+                          VPOS="1102"
+                          HPOS="1036"
                           CONTENT="héroiques."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_2_1" HEIGHT="142" WIDTH="1457" VPOS="1307" HPOS="351">
-               <Shape>
-                  <Polygon POINTS="351,1307 1808,1307 1808,1449 351,1449"/>
-               </Shape>
-               <TextLine ID="tl_11"
-                         BASELINE="1400"
-                         HEIGHT="128"
-                         WIDTH="1474"
-                         VPOS="1272"
-                         HPOS="343">
-                  <String HEIGHT="128"
-                          WIDTH="331"
-                          VPOS="1272"
-                          HPOS="313"
+               <TextLine ID="r1l14"
+                         BASELINE="1366"
+                         HEIGHT="54"
+                         WIDTH="1221"
+                         VPOS="1312"
+                         HPOS="359">
+                  <String HEIGHT="54"
+                          WIDTH="274"
+                          VPOS="1312"
+                          HPOS="334"
                           CONTENT="GUINEA,"/>
-                  <SP HEIGHT="128" WIDTH="30" VPOS="1272" HPOS="644"/>
-                  <String HEIGHT="128"
-                          WIDTH="361"
-                          VPOS="1272"
-                          HPOS="554"
+                  <SP HEIGHT="54" WIDTH="25" VPOS="1312" HPOS="608"/>
+                  <String HEIGHT="54"
+                          WIDTH="299"
+                          VPOS="1312"
+                          HPOS="533"
                           CONTENT="Anselmo,"/>
-                  <SP HEIGHT="128" WIDTH="30" VPOS="1272" HPOS="915"/>
-                  <String HEIGHT="128"
-                          WIDTH="180"
-                          VPOS="1272"
-                          HPOS="824"
-                          CONTENT="né"/>
-                  <SP HEIGHT="128" WIDTH="30" VPOS="1272" HPOS="1005"/>
-                  <String HEIGHT="128" WIDTH="150" VPOS="1272" HPOS="915" CONTENT="à"/>
-                  <SP HEIGHT="128" WIDTH="30" VPOS="1272" HPOS="1065"/>
-                  <String HEIGHT="128"
-                          WIDTH="301"
-                          VPOS="1272"
-                          HPOS="975"
+                  <SP HEIGHT="54" WIDTH="25" VPOS="1312" HPOS="832"/>
+                  <String HEIGHT="54" WIDTH="150" VPOS="1312" HPOS="758" CONTENT="né"/>
+                  <SP HEIGHT="54" WIDTH="25" VPOS="1312" HPOS="907"/>
+                  <String HEIGHT="54" WIDTH="125" VPOS="1312" HPOS="832" CONTENT="à"/>
+                  <SP HEIGHT="54" WIDTH="25" VPOS="1312" HPOS="957"/>
+                  <String HEIGHT="54"
+                          WIDTH="249"
+                          VPOS="1312"
+                          HPOS="882"
                           CONTENT="Bilbao"/>
-                  <SP HEIGHT="128" WIDTH="30" VPOS="1272" HPOS="1276"/>
-                  <String HEIGHT="128"
-                          WIDTH="421"
-                          VPOS="1272"
-                          HPOS="1185"
+                  <SP HEIGHT="54" WIDTH="25" VPOS="1312" HPOS="1131"/>
+                  <String HEIGHT="54"
+                          WIDTH="349"
+                          VPOS="1312"
+                          HPOS="1057"
                           CONTENT="(Espagne)."/>
-                  <SP HEIGHT="128" WIDTH="30" VPOS="1272" HPOS="1606"/>
-                  <String HEIGHT="128"
-                          WIDTH="150"
-                          VPOS="1272"
-                          HPOS="1516"
-                          CONTENT="—"/>
-                  <SP HEIGHT="128" WIDTH="30" VPOS="1272" HPOS="1667"/>
-                  <String HEIGHT="128"
-                          WIDTH="211"
-                          VPOS="1272"
-                          HPOS="1576"
+                  <SP HEIGHT="54" WIDTH="25" VPOS="1312" HPOS="1406"/>
+                  <String HEIGHT="54" WIDTH="125" VPOS="1312" HPOS="1331" CONTENT="—"/>
+                  <SP HEIGHT="54" WIDTH="25" VPOS="1312" HPOS="1455"/>
+                  <String HEIGHT="54"
+                          WIDTH="174"
+                          VPOS="1312"
+                          HPOS="1381"
                           CONTENT="15,"/>
-                  <SP HEIGHT="128" WIDTH="30" VPOS="1272" HPOS="1787"/>
-                  <String HEIGHT="128"
-                          WIDTH="150"
-                          VPOS="1272"
-                          HPOS="1667"
+                  <SP HEIGHT="54" WIDTH="25" VPOS="1312" HPOS="1555"/>
+                  <String HEIGHT="54"
+                          WIDTH="125"
+                          VPOS="1312"
+                          HPOS="1455"
                           CONTENT="rue"/>
                </TextLine>
-               <TextLine ID="tl_12"
-                         BASELINE="1498"
-                         HEIGHT="129"
-                         WIDTH="1027"
-                         VPOS="1369"
-                         HPOS="402">
-                  <String HEIGHT="129"
-                          WIDTH="500"
-                          VPOS="1369"
-                          HPOS="374"
+               <TextLine ID="r1l16"
+                         BASELINE="1453"
+                         HEIGHT="55"
+                         WIDTH="1011"
+                         VPOS="1398"
+                         HPOS="411">
+                  <String HEIGHT="55"
+                          WIDTH="492"
+                          VPOS="1398"
+                          HPOS="384"
                           CONTENT="Pierre-Ginier,"/>
-                  <SP HEIGHT="129" WIDTH="28" VPOS="1369" HPOS="874"/>
-                  <String HEIGHT="129"
-                          WIDTH="305"
-                          VPOS="1369"
-                          HPOS="791"
+                  <SP HEIGHT="55" WIDTH="27" VPOS="1398" HPOS="876"/>
+                  <String HEIGHT="55"
+                          WIDTH="301"
+                          VPOS="1398"
+                          HPOS="794"
                           CONTENT="impasse"/>
-                  <SP HEIGHT="129" WIDTH="28" VPOS="1369" HPOS="1096"/>
-                  <String HEIGHT="129"
-                          WIDTH="305"
-                          VPOS="1369"
-                          HPOS="1013"
+                  <SP HEIGHT="55" WIDTH="27" VPOS="1398" HPOS="1094"/>
+                  <String HEIGHT="55"
+                          WIDTH="301"
+                          VPOS="1398"
+                          HPOS="1012"
                           CONTENT="Hélene,"/>
-                  <SP HEIGHT="129" WIDTH="28" VPOS="1369" HPOS="1318"/>
-                  <String HEIGHT="129"
-                          WIDTH="222"
-                          VPOS="1369"
-                          HPOS="1207"
+                  <SP HEIGHT="55" WIDTH="27" VPOS="1398" HPOS="1313"/>
+                  <String HEIGHT="55"
+                          WIDTH="219"
+                          VPOS="1398"
+                          HPOS="1203"
                           CONTENT="Paris."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_2_2" HEIGHT="56" WIDTH="392" VPOS="1494" HPOS="509">
-               <Shape>
-                  <Polygon POINTS="509,1494 901,1494 901,1550 509,1550"/>
-               </Shape>
-               <TextLine ID="tl_13"
-                         BASELINE="1570"
-                         HEIGHT="102"
-                         WIDTH="412"
-                         VPOS="1468"
-                         HPOS="500">
-                  <String HEIGHT="102"
-                          WIDTH="343"
-                          VPOS="1468"
-                          HPOS="477"
-                          CONTENT="&lt;b&gt;*594&lt;/b&gt;"/>
-                  <SP HEIGHT="102" WIDTH="23" VPOS="1468" HPOS="820"/>
-                  <String HEIGHT="102"
-                          WIDTH="183"
-                          VPOS="1468"
-                          HPOS="729"
+               <TextLine ID="r1l18"
+                         BASELINE="1543"
+                         HEIGHT="34"
+                         WIDTH="396"
+                         VPOS="1509"
+                         HPOS="510">
+                  <String HEIGHT="34"
+                          WIDTH="330"
+                          VPOS="1509"
+                          HPOS="488"
+                          CONTENT="&lt;b&gt;*294&lt;/b&gt;"/>
+                  <SP HEIGHT="34" WIDTH="22" VPOS="1509" HPOS="818"/>
+                  <String HEIGHT="34"
+                          WIDTH="176"
+                          VPOS="1509"
+                          HPOS="730"
                           CONTENT="Repos."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_2_3" HEIGHT="55" WIDTH="898" VPOS="1564" HPOS="511">
-               <Shape>
-                  <Polygon POINTS="511,1564 1409,1564 1409,1619 511,1619"/>
-               </Shape>
-               <TextLine ID="tl_14"
-                         BASELINE="1642"
-                         HEIGHT="117"
-                         WIDTH="914"
-                         VPOS="1525"
-                         HPOS="503">
-                  <String HEIGHT="117"
-                          WIDTH="371"
-                          VPOS="1525"
-                          HPOS="478"
+               <TextLine ID="r1l19"
+                         BASELINE="1621"
+                         HEIGHT="55"
+                         WIDTH="911"
+                         VPOS="1566"
+                         HPOS="510">
+                  <String HEIGHT="55"
+                          WIDTH="369"
+                          VPOS="1566"
+                          HPOS="485"
                           CONTENT="&lt;b&gt;*595&lt;/b&gt;"/>
-                  <SP HEIGHT="117" WIDTH="25" VPOS="1525" HPOS="849"/>
-                  <String HEIGHT="117"
-                          WIDTH="321"
-                          VPOS="1525"
-                          HPOS="775"
+                  <SP HEIGHT="55" WIDTH="25" VPOS="1566" HPOS="855"/>
+                  <String HEIGHT="55"
+                          WIDTH="320"
+                          VPOS="1566"
+                          HPOS="781"
                           CONTENT="Olaveaga."/>
-                  <SP HEIGHT="117" WIDTH="25" VPOS="1525" HPOS="1096"/>
-                  <String HEIGHT="117"
-                          WIDTH="198"
-                          VPOS="1525"
-                          HPOS="1022"
+                  <SP HEIGHT="55" WIDTH="25" VPOS="1566" HPOS="1101"/>
+                  <String HEIGHT="55"
+                          WIDTH="197"
+                          VPOS="1566"
+                          HPOS="1027"
                           CONTENT="Port"/>
-                  <SP HEIGHT="117" WIDTH="25" VPOS="1525" HPOS="1219"/>
-                  <String HEIGHT="117"
+                  <SP HEIGHT="55" WIDTH="25" VPOS="1566" HPOS="1224"/>
+                  <String HEIGHT="55"
                           WIDTH="148"
-                          VPOS="1525"
-                          HPOS="1145"
+                          VPOS="1566"
+                          HPOS="1150"
                           CONTENT="de"/>
-                  <SP HEIGHT="117" WIDTH="25" VPOS="1525" HPOS="1293"/>
-                  <String HEIGHT="117"
+                  <SP HEIGHT="55" WIDTH="25" VPOS="1566" HPOS="1298"/>
+                  <String HEIGHT="55"
                           WIDTH="222"
-                          VPOS="1525"
-                          HPOS="1195"
+                          VPOS="1566"
+                          HPOS="1199"
                           CONTENT="Bilbao."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_2_4" HEIGHT="55" WIDTH="741" VPOS="1636" HPOS="511">
-               <Shape>
-                  <Polygon POINTS="511,1636 1252,1636 1252,1691 511,1691"/>
-               </Shape>
-               <TextLine ID="tl_15"
-                         BASELINE="1707"
-                         HEIGHT="93"
-                         WIDTH="758"
-                         VPOS="1614"
-                         HPOS="502">
-                  <String HEIGHT="93"
-                          WIDTH="367"
-                          VPOS="1614"
-                          HPOS="478"
+               <TextLine ID="r1l20"
+                         BASELINE="1693"
+                         HEIGHT="59"
+                         WIDTH="728"
+                         VPOS="1634"
+                         HPOS="522">
+                  <String HEIGHT="59"
+                          WIDTH="352"
+                          VPOS="1634"
+                          HPOS="499"
                           CONTENT="&lt;b&gt;*596&lt;/b&gt;"/>
-                  <SP HEIGHT="93" WIDTH="24" VPOS="1614" HPOS="844"/>
-                  <String HEIGHT="93" WIDTH="122" VPOS="1614" HPOS="771" CONTENT="A"/>
-                  <SP HEIGHT="93" WIDTH="24" VPOS="1614" HPOS="893"/>
-                  <String HEIGHT="93" WIDTH="147" VPOS="1614" HPOS="820" CONTENT="la"/>
-                  <SP HEIGHT="93" WIDTH="24" VPOS="1614" HPOS="967"/>
-                  <String HEIGHT="93"
-                          WIDTH="220"
-                          VPOS="1614"
-                          HPOS="893"
+                  <SP HEIGHT="59" WIDTH="23" VPOS="1634" HPOS="851"/>
+                  <String HEIGHT="59" WIDTH="117" VPOS="1634" HPOS="780" CONTENT="A"/>
+                  <SP HEIGHT="59" WIDTH="23" VPOS="1634" HPOS="898"/>
+                  <String HEIGHT="59" WIDTH="141" VPOS="1634" HPOS="827" CONTENT="la"/>
+                  <SP HEIGHT="59" WIDTH="23" VPOS="1634" HPOS="968"/>
+                  <String HEIGHT="59"
+                          WIDTH="211"
+                          VPOS="1634"
+                          HPOS="898"
                           CONTENT="place"/>
-                  <SP HEIGHT="93" WIDTH="24" VPOS="1614" HPOS="1113"/>
-                  <String HEIGHT="93"
-                          WIDTH="245"
-                          VPOS="1614"
+                  <SP HEIGHT="59" WIDTH="23" VPOS="1634" HPOS="1109"/>
+                  <String HEIGHT="59"
+                          WIDTH="235"
+                          VPOS="1634"
                           HPOS="1015"
                           CONTENT="Blanche."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_2_5" HEIGHT="44" WIDTH="537" VPOS="1708" HPOS="509">
-               <Shape>
-                  <Polygon POINTS="509,1708 1046,1708 1046,1752 509,1752"/>
-               </Shape>
-               <TextLine ID="tl_16"
-                         BASELINE="1783"
-                         HEIGHT="105"
-                         WIDTH="555"
-                         VPOS="1678"
-                         HPOS="499">
-                  <String HEIGHT="105"
-                          WIDTH="362"
-                          VPOS="1678"
-                          HPOS="475"
+               <TextLine ID="r1l21"
+                         BASELINE="1763"
+                         HEIGHT="53"
+                         WIDTH="540"
+                         VPOS="1710"
+                         HPOS="510">
+                  <String HEIGHT="53"
+                          WIDTH="352"
+                          VPOS="1710"
+                          HPOS="487"
                           CONTENT="&lt;b&gt;*597&lt;/b&gt;"/>
-                  <SP HEIGHT="105" WIDTH="24" VPOS="1678" HPOS="837"/>
-                  <String HEIGHT="105"
-                          WIDTH="314"
-                          VPOS="1678"
-                          HPOS="740"
+                  <SP HEIGHT="53" WIDTH="23" VPOS="1710" HPOS="839"/>
+                  <String HEIGHT="53"
+                          WIDTH="305"
+                          VPOS="1710"
+                          HPOS="745"
                           CONTENT="Faucheuses."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_3_1" HEIGHT="143" WIDTH="1455" VPOS="1900" HPOS="351">
-               <Shape>
-                  <Polygon POINTS="351,1900 1806,1900 1806,2043 351,2043"/>
-               </Shape>
-               <TextLine ID="tl_17"
-                         BASELINE="1986"
-                         HEIGHT="133"
-                         WIDTH="1472"
-                         VPOS="1853"
-                         HPOS="342">
-                  <String HEIGHT="133"
-                          WIDTH="340"
-                          VPOS="1853"
-                          HPOS="314"
+               <TextLine ID="r1l22"
+                         BASELINE="1961"
+                         HEIGHT="59"
+                         WIDTH="1482"
+                         VPOS="1902"
+                         HPOS="333">
+                  <String HEIGHT="59"
+                          WIDTH="342"
+                          VPOS="1902"
+                          HPOS="305"
                           CONTENT="HALLION,"/>
-                  <SP HEIGHT="133" WIDTH="28" VPOS="1853" HPOS="653"/>
-                  <String HEIGHT="133"
-                          WIDTH="311"
-                          VPOS="1853"
-                          HPOS="568"
+                  <SP HEIGHT="59" WIDTH="29" VPOS="1902" HPOS="647"/>
+                  <String HEIGHT="59"
+                          WIDTH="314"
+                          VPOS="1902"
+                          HPOS="561"
                           CONTENT="Eugène,"/>
-                  <SP HEIGHT="133" WIDTH="28" VPOS="1853" HPOS="880"/>
-                  <String HEIGHT="133"
-                          WIDTH="170"
-                          VPOS="1853"
-                          HPOS="795"
-                          CONTENT="né"/>
-                  <SP HEIGHT="133" WIDTH="28" VPOS="1853" HPOS="965"/>
-                  <String HEIGHT="133" WIDTH="142" VPOS="1853" HPOS="880" CONTENT="à"/>
-                  <SP HEIGHT="133" WIDTH="28" VPOS="1853" HPOS="1021"/>
-                  <String HEIGHT="133"
-                          WIDTH="340"
-                          VPOS="1853"
-                          HPOS="936"
+                  <SP HEIGHT="59" WIDTH="29" VPOS="1902" HPOS="875"/>
+                  <String HEIGHT="59" WIDTH="171" VPOS="1902" HPOS="789" CONTENT="né"/>
+                  <SP HEIGHT="59" WIDTH="29" VPOS="1902" HPOS="960"/>
+                  <String HEIGHT="59" WIDTH="143" VPOS="1902" HPOS="875" CONTENT="à"/>
+                  <SP HEIGHT="59" WIDTH="29" VPOS="1902" HPOS="1017"/>
+                  <String HEIGHT="59"
+                          WIDTH="342"
+                          VPOS="1902"
+                          HPOS="932"
                           CONTENT="Baccarat"/>
-                  <SP HEIGHT="133" WIDTH="28" VPOS="1853" HPOS="1276"/>
-                  <String HEIGHT="133"
-                          WIDTH="651"
-                          VPOS="1853"
-                          HPOS="1163"
+                  <SP HEIGHT="59" WIDTH="29" VPOS="1902" HPOS="1274"/>
+                  <String HEIGHT="59"
+                          WIDTH="656"
+                          VPOS="1902"
+                          HPOS="1160"
                           CONTENT="(Meurthe"/>
                </TextLine>
-               <TextLine ID="tl_18"
-                         BASELINE="2068"
-                         HEIGHT="93"
-                         WIDTH="1222"
-                         VPOS="1975"
-                         HPOS="398">
-                  <String HEIGHT="93" WIDTH="139" VPOS="1975" HPOS="370" CONTENT="—"/>
-                  <SP HEIGHT="93" WIDTH="28" VPOS="1975" HPOS="509"/>
-                  <String HEIGHT="93"
-                          WIDTH="222"
-                          VPOS="1975"
-                          HPOS="426"
+               <TextLine ID="r1l23"
+                         BASELINE="2047"
+                         HEIGHT="61"
+                         WIDTH="1140"
+                         VPOS="1986"
+                         HPOS="476">
+                  <String HEIGHT="61"
+                          WIDTH="217"
+                          VPOS="1986"
+                          HPOS="449"
                           CONTENT="108,"/>
-                  <SP HEIGHT="93" WIDTH="28" VPOS="1975" HPOS="648"/>
-                  <String HEIGHT="93"
-                          WIDTH="417"
-                          VPOS="1975"
-                          HPOS="565"
+                  <SP HEIGHT="61" WIDTH="27" VPOS="1986" HPOS="666"/>
+                  <String HEIGHT="61"
+                          WIDTH="407"
+                          VPOS="1986"
+                          HPOS="585"
                           CONTENT="Grande-rue,"/>
-                  <SP HEIGHT="93" WIDTH="28" VPOS="1975" HPOS="981"/>
-                  <String HEIGHT="93" WIDTH="139" VPOS="1975" HPOS="898" CONTENT="à"/>
-                  <SP HEIGHT="93" WIDTH="28" VPOS="1975" HPOS="1037"/>
-                  <String HEIGHT="93"
-                          WIDTH="278"
-                          VPOS="1975"
-                          HPOS="953"
+                  <SP HEIGHT="61" WIDTH="27" VPOS="1986" HPOS="992"/>
+                  <String HEIGHT="61" WIDTH="136" VPOS="1986" HPOS="910" CONTENT="à"/>
+                  <SP HEIGHT="61" WIDTH="27" VPOS="1986" HPOS="1046"/>
+                  <String HEIGHT="61"
+                          WIDTH="271"
+                          VPOS="1986"
+                          HPOS="965"
                           CONTENT="Sèvres"/>
-                  <SP HEIGHT="93" WIDTH="28" VPOS="1975" HPOS="1231"/>
-                  <String HEIGHT="93"
-                          WIDTH="500"
-                          VPOS="1975"
-                          HPOS="1120"
+                  <SP HEIGHT="61" WIDTH="27" VPOS="1986" HPOS="1236"/>
+                  <String HEIGHT="61"
+                          WIDTH="489"
+                          VPOS="1986"
+                          HPOS="1127"
                           CONTENT="(Seine"/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_3_2" HEIGHT="66" WIDTH="1066" VPOS="2091" HPOS="512">
-               <Shape>
-                  <Polygon POINTS="512,2091 1578,2091 1578,2157 512,2157"/>
-               </Shape>
-               <TextLine ID="tl_19"
-                         BASELINE="2154"
-                         HEIGHT="93"
-                         WIDTH="1082"
-                         VPOS="2061"
-                         HPOS="504">
-                  <String HEIGHT="93"
-                          WIDTH="377"
-                          VPOS="2061"
-                          HPOS="479"
-                          CONTENT="&lt;b&gt;*598&lt;/b&gt;"/>
-                  <SP HEIGHT="93" WIDTH="25" VPOS="2061" HPOS="856"/>
-                  <String HEIGHT="93" WIDTH="151" VPOS="2061" HPOS="781" CONTENT="Le"/>
-                  <SP HEIGHT="93" WIDTH="25" VPOS="2061" HPOS="932"/>
-                  <String HEIGHT="93"
-                          WIDTH="277"
-                          VPOS="2061"
-                          HPOS="856"
+               <TextLine ID="r1l24"
+                         BASELINE="2159"
+                         HEIGHT="58"
+                         WIDTH="1060"
+                         VPOS="2101"
+                         HPOS="521">
+                  <String HEIGHT="58"
+                          WIDTH="353"
+                          VPOS="2101"
+                          HPOS="496"
+                          CONTENT="&lt;b&gt;598&lt;/b&gt;"/>
+                  <SP HEIGHT="58" WIDTH="25" VPOS="2101" HPOS="849"/>
+                  <String HEIGHT="58" WIDTH="151" VPOS="2101" HPOS="773" CONTENT="Le"/>
+                  <SP HEIGHT="58" WIDTH="25" VPOS="2101" HPOS="925"/>
+                  <String HEIGHT="58"
+                          WIDTH="278"
+                          VPOS="2101"
+                          HPOS="849"
                           CONTENT="Bosquet"/>
-                  <SP HEIGHT="93" WIDTH="25" VPOS="2061" HPOS="1133"/>
-                  <String HEIGHT="93"
-                          WIDTH="176"
-                          VPOS="2061"
-                          HPOS="1058"
+                  <SP HEIGHT="58" WIDTH="25" VPOS="2101" HPOS="1127"/>
+                  <String HEIGHT="58"
+                          WIDTH="177"
+                          VPOS="2101"
+                          HPOS="1051"
                           CONTENT="aux"/>
-                  <SP HEIGHT="93" WIDTH="25" VPOS="2061" HPOS="1234"/>
-                  <String HEIGHT="93"
-                          WIDTH="377"
-                          VPOS="2061"
-                          HPOS="1158"
+                  <SP HEIGHT="58" WIDTH="25" VPOS="2101" HPOS="1228"/>
+                  <String HEIGHT="58"
+                          WIDTH="379"
+                          VPOS="2101"
+                          HPOS="1152"
                           CONTENT="Chevreuils."/>
-                  <SP HEIGHT="93" WIDTH="25" VPOS="2061" HPOS="1536"/>
-                  <String HEIGHT="93"
+                  <SP HEIGHT="58" WIDTH="25" VPOS="2101" HPOS="1531"/>
+                  <String HEIGHT="58"
                           WIDTH="151"
-                          VPOS="2061"
-                          HPOS="1435"
+                          VPOS="2101"
+                          HPOS="1430"
                           CONTENT="Été."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_3_3" HEIGHT="128" WIDTH="1239" VPOS="2171" HPOS="507">
-               <Shape>
-                  <Polygon POINTS="507,2171 1746,2171 1746,2299 507,2299"/>
-               </Shape>
-               <TextLine ID="tl_20"
-                         BASELINE="2257"
-                         HEIGHT="104"
-                         WIDTH="1258"
-                         VPOS="2153"
-                         HPOS="497">
-                  <String HEIGHT="104"
-                          WIDTH="393"
-                          VPOS="2153"
-                          HPOS="471"
+               <TextLine ID="r1l25"
+                         BASELINE="2231"
+                         HEIGHT="56"
+                         WIDTH="1246"
+                         VPOS="2175"
+                         HPOS="503">
+                  <String HEIGHT="56"
+                          WIDTH="389"
+                          VPOS="2175"
+                          HPOS="477"
                           CONTENT="&lt;b&gt;*599&lt;/b&gt;"/>
-                  <SP HEIGHT="104" WIDTH="26" VPOS="2153" HPOS="864"/>
-                  <String HEIGHT="104"
-                          WIDTH="157"
-                          VPOS="2153"
-                          HPOS="785"
-                          CONTENT="Le"/>
-                  <SP HEIGHT="104" WIDTH="26" VPOS="2153" HPOS="943"/>
-                  <String HEIGHT="104"
-                          WIDTH="210"
-                          VPOS="2153"
-                          HPOS="864"
+                  <SP HEIGHT="56" WIDTH="26" VPOS="2175" HPOS="866"/>
+                  <String HEIGHT="56" WIDTH="156" VPOS="2175" HPOS="789" CONTENT="Le"/>
+                  <SP HEIGHT="56" WIDTH="26" VPOS="2175" HPOS="944"/>
+                  <String HEIGHT="56"
+                          WIDTH="208"
+                          VPOS="2175"
+                          HPOS="866"
                           CONTENT="bois"/>
-                  <SP HEIGHT="104" WIDTH="26" VPOS="2153" HPOS="1074"/>
-                  <String HEIGHT="104"
-                          WIDTH="183"
-                          VPOS="2153"
-                          HPOS="995"
+                  <SP HEIGHT="56" WIDTH="26" VPOS="2175" HPOS="1074"/>
+                  <String HEIGHT="56"
+                          WIDTH="182"
+                          VPOS="2175"
+                          HPOS="996"
                           CONTENT="des"/>
-                  <SP HEIGHT="104" WIDTH="26" VPOS="2153" HPOS="1178"/>
-                  <String HEIGHT="104"
-                          WIDTH="341"
-                          VPOS="2153"
+                  <SP HEIGHT="56" WIDTH="26" VPOS="2175" HPOS="1178"/>
+                  <String HEIGHT="56"
+                          WIDTH="337"
+                          VPOS="2175"
                           HPOS="1100"
                           CONTENT="Bouleaux."/>
-                  <SP HEIGHT="104" WIDTH="26" VPOS="2153" HPOS="1441"/>
-                  <String HEIGHT="104"
-                          WIDTH="183"
-                          VPOS="2153"
-                          HPOS="1362"
+                  <SP HEIGHT="56" WIDTH="26" VPOS="2175" HPOS="1438"/>
+                  <String HEIGHT="56"
+                          WIDTH="182"
+                          VPOS="2175"
+                          HPOS="1360"
                           CONTENT="Fin"/>
-                  <SP HEIGHT="104" WIDTH="26" VPOS="2153" HPOS="1545"/>
-                  <String HEIGHT="104"
-                          WIDTH="315"
-                          VPOS="2153"
-                          HPOS="1441"
+                  <SP HEIGHT="56" WIDTH="26" VPOS="2175" HPOS="1541"/>
+                  <String HEIGHT="56"
+                          WIDTH="312"
+                          VPOS="2175"
+                          HPOS="1438"
                           CONTENT="d’automne."/>
                </TextLine>
-               <TextLine ID="tl_21"
-                         BASELINE="2317"
-                         HEIGHT="90"
-                         WIDTH="289"
-                         VPOS="2227"
-                         HPOS="770">
-                  <String HEIGHT="90"
-                          WIDTH="347"
-                          VPOS="2227"
-                          HPOS="712"
+               <TextLine ID="r1l26"
+                         BASELINE="2305"
+                         HEIGHT="58"
+                         WIDTH="267"
+                         VPOS="2247"
+                         HPOS="780">
+                  <String HEIGHT="58"
+                          WIDTH="320"
+                          VPOS="2247"
+                          HPOS="727"
                           CONTENT="Aquarelle."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_3_4" HEIGHT="140" WIDTH="1460" VPOS="2439" HPOS="349">
-               <Shape>
-                  <Polygon POINTS="349,2439 1809,2439 1809,2579 349,2579"/>
-               </Shape>
-               <TextLine ID="tl_22"
-                         BASELINE="2526"
-                         HEIGHT="110"
-                         WIDTH="1476"
-                         VPOS="2416"
-                         HPOS="341">
-                  <String HEIGHT="110"
-                          WIDTH="361"
-                          VPOS="2416"
-                          HPOS="311"
+               <TextLine ID="r1l27"
+                         BASELINE="2501"
+                         HEIGHT="59"
+                         WIDTH="1479"
+                         VPOS="2442"
+                         HPOS="339">
+                  <String HEIGHT="59"
+                          WIDTH="362"
+                          VPOS="2442"
+                          HPOS="309"
                           CONTENT="HAWKINS,"/>
-                  <SP HEIGHT="110" WIDTH="30" VPOS="2416" HPOS="672"/>
-                  <String HEIGHT="110"
-                          WIDTH="512"
-                          VPOS="2416"
-                          HPOS="582"
+                  <SP HEIGHT="59" WIDTH="30" VPOS="2442" HPOS="671"/>
+                  <String HEIGHT="59"
+                          WIDTH="513"
+                          VPOS="2442"
+                          HPOS="580"
                           CONTENT="Louis-Welden,"/>
-                  <SP HEIGHT="110" WIDTH="30" VPOS="2416" HPOS="1094"/>
-                  <String HEIGHT="110"
+                  <SP HEIGHT="59" WIDTH="30" VPOS="2442" HPOS="1094"/>
+                  <String HEIGHT="59"
                           WIDTH="181"
-                          VPOS="2416"
-                          HPOS="1004"
+                          VPOS="2442"
+                          HPOS="1003"
                           CONTENT="né"/>
-                  <SP HEIGHT="110" WIDTH="30" VPOS="2416" HPOS="1184"/>
-                  <String HEIGHT="110"
-                          WIDTH="151"
-                          VPOS="2416"
-                          HPOS="1094"
-                          CONTENT="à"/>
-                  <SP HEIGHT="110" WIDTH="30" VPOS="2416" HPOS="1245"/>
-                  <String HEIGHT="110"
-                          WIDTH="422"
-                          VPOS="2416"
+                  <SP HEIGHT="59" WIDTH="30" VPOS="2442" HPOS="1184"/>
+                  <String HEIGHT="59" WIDTH="151" VPOS="2442" HPOS="1094" CONTENT="à"/>
+                  <SP HEIGHT="59" WIDTH="30" VPOS="2442" HPOS="1245"/>
+                  <String HEIGHT="59"
+                          WIDTH="423"
+                          VPOS="2442"
                           HPOS="1154"
                           CONTENT="Stuttgard."/>
-                  <SP HEIGHT="110" WIDTH="30" VPOS="2416" HPOS="1576"/>
-                  <String HEIGHT="110"
-                          WIDTH="151"
-                          VPOS="2416"
-                          HPOS="1486"
-                          CONTENT="—"/>
-                  <SP HEIGHT="110" WIDTH="30" VPOS="2416" HPOS="1636"/>
-                  <String HEIGHT="110"
+                  <SP HEIGHT="59" WIDTH="30" VPOS="2442" HPOS="1577"/>
+                  <String HEIGHT="59" WIDTH="151" VPOS="2442" HPOS="1486" CONTENT="—"/>
+                  <SP HEIGHT="59" WIDTH="30" VPOS="2442" HPOS="1637"/>
+                  <String HEIGHT="59"
                           WIDTH="211"
-                          VPOS="2416"
+                          VPOS="2442"
                           HPOS="1546"
                           CONTENT="23,"/>
-                  <SP HEIGHT="110" WIDTH="30" VPOS="2416" HPOS="1757"/>
-                  <String HEIGHT="110"
+                  <SP HEIGHT="59" WIDTH="30" VPOS="2442" HPOS="1758"/>
+                  <String HEIGHT="59"
                           WIDTH="181"
-                          VPOS="2416"
-                          HPOS="1636"
+                          VPOS="2442"
+                          HPOS="1637"
                           CONTENT="bou"
                           SUBS_TYPE="HypPart1"
                           SUBS_CONTENT="boulevard"/>
                   <HYP CONTENT="-"/>
                </TextLine>
-               <TextLine ID="tl_23"
-                         BASELINE="2596"
-                         HEIGHT="96"
-                         WIDTH="803"
-                         VPOS="2500"
-                         HPOS="401">
-                  <String HEIGHT="96"
-                          WIDTH="277"
-                          VPOS="2500"
-                          HPOS="373"
+               <TextLine ID="r1l28"
+                         BASELINE="2585"
+                         HEIGHT="59"
+                         WIDTH="796"
+                         VPOS="2526"
+                         HPOS="410">
+                  <String HEIGHT="59"
+                          WIDTH="274"
+                          VPOS="2526"
+                          HPOS="383"
                           CONTENT="levard"
                           SUBS_TYPE="HypPart2"
                           SUBS_CONTENT="boulevard"/>
-                  <SP HEIGHT="96" WIDTH="28" VPOS="2500" HPOS="650"/>
-                  <String HEIGHT="96"
-                          WIDTH="526"
-                          VPOS="2500"
-                          HPOS="567"
+                  <SP HEIGHT="59" WIDTH="27" VPOS="2526" HPOS="657"/>
+                  <String HEIGHT="59"
+                          WIDTH="522"
+                          VPOS="2526"
+                          HPOS="575"
                           CONTENT="Gouvion-St-Cyr,"/>
-                  <SP HEIGHT="96" WIDTH="28" VPOS="2500" HPOS="1093"/>
-                  <String HEIGHT="96"
-                          WIDTH="222"
-                          VPOS="2500"
-                          HPOS="982"
+                  <SP HEIGHT="59" WIDTH="27" VPOS="2526" HPOS="1096"/>
+                  <String HEIGHT="59"
+                          WIDTH="220"
+                          VPOS="2526"
+                          HPOS="986"
                           CONTENT="Paris."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_3_5" HEIGHT="46" WIDTH="589" VPOS="2623" HPOS="529">
-               <Shape>
-                  <Polygon POINTS="529,2623 1118,2623 1118,2669 529,2669"/>
-               </Shape>
-               <TextLine ID="tl_24"
-                         BASELINE="2691"
-                         HEIGHT="92"
-                         WIDTH="606"
-                         VPOS="2599"
-                         HPOS="520">
-                  <String HEIGHT="92"
-                          WIDTH="339"
-                          VPOS="2599"
-                          HPOS="496"
+               <TextLine ID="r1l29"
+                         BASELINE="2683"
+                         HEIGHT="56"
+                         WIDTH="595"
+                         VPOS="2627"
+                         HPOS="527">
+                  <String HEIGHT="56"
+                          WIDTH="333"
+                          VPOS="2627"
+                          HPOS="503"
                           CONTENT="&lt;b&gt;600&lt;/b&gt;"/>
-                  <SP HEIGHT="92" WIDTH="24" VPOS="2599" HPOS="835"/>
-                  <String HEIGHT="92"
-                          WIDTH="267"
-                          VPOS="2599"
-                          HPOS="762"
+                  <SP HEIGHT="56" WIDTH="24" VPOS="2627" HPOS="836"/>
+                  <String HEIGHT="56"
+                          WIDTH="262"
+                          VPOS="2627"
+                          HPOS="765"
                           CONTENT="Puteau."/>
-                  <SP HEIGHT="92" WIDTH="24" VPOS="2599" HPOS="1029"/>
-                  <String HEIGHT="92"
-                          WIDTH="194"
-                          VPOS="2599"
+                  <SP HEIGHT="56" WIDTH="24" VPOS="2627" HPOS="1027"/>
+                  <String HEIGHT="56"
+                          WIDTH="190"
+                          VPOS="2627"
                           HPOS="932"
                           CONTENT="Etude."/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="r_3_6" HEIGHT="117" WIDTH="965" VPOS="2695" HPOS="528">
-               <Shape>
-                  <Polygon POINTS="528,2695 1493,2695 1493,2812 528,2812"/>
-               </Shape>
-               <TextLine ID="tl_25"
-                         BASELINE="2747"
-                         HEIGHT="72"
-                         WIDTH="981"
-                         VPOS="2675"
-                         HPOS="521">
-                  <String HEIGHT="72"
-                          WIDTH="361"
-                          VPOS="2675"
-                          HPOS="495"
+               <TextLine ID="r1l30"
+                         BASELINE="2756"
+                         HEIGHT="57"
+                         WIDTH="966"
+                         VPOS="2699"
+                         HPOS="527">
+                  <String HEIGHT="57"
+                          WIDTH="356"
+                          VPOS="2699"
+                          HPOS="502"
                           CONTENT="&lt;b&gt;601&lt;/b&gt;"/>
-                  <SP HEIGHT="72" WIDTH="26" VPOS="2675" HPOS="857"/>
-                  <String HEIGHT="72" WIDTH="155" VPOS="2675" HPOS="779" CONTENT="Le"/>
-                  <SP HEIGHT="72" WIDTH="26" VPOS="2675" HPOS="934"/>
-                  <String HEIGHT="72"
-                          WIDTH="361"
-                          VPOS="2675"
+                  <SP HEIGHT="57" WIDTH="25" VPOS="2699" HPOS="857"/>
+                  <String HEIGHT="57" WIDTH="153" VPOS="2699" HPOS="781" CONTENT="Le"/>
+                  <SP HEIGHT="57" WIDTH="25" VPOS="2699" HPOS="934"/>
+                  <String HEIGHT="57"
+                          WIDTH="356"
+                          VPOS="2699"
                           HPOS="857"
                           CONTENT="Pont-Neuf,"/>
-                  <SP HEIGHT="72" WIDTH="26" VPOS="2675" HPOS="1218"/>
-                  <String HEIGHT="72"
-                          WIDTH="258"
-                          VPOS="2675"
-                          HPOS="1141"
+                  <SP HEIGHT="57" WIDTH="25" VPOS="2699" HPOS="1213"/>
+                  <String HEIGHT="57"
+                          WIDTH="254"
+                          VPOS="2699"
+                          HPOS="1137"
                           CONTENT="Brume."/>
-                  <SP HEIGHT="72" WIDTH="26" VPOS="2675" HPOS="1399"/>
-                  <String HEIGHT="72"
-                          WIDTH="207"
-                          VPOS="2675"
-                          HPOS="1295"
+                  <SP HEIGHT="57" WIDTH="25" VPOS="2699" HPOS="1391"/>
+                  <String HEIGHT="57"
+                          WIDTH="203"
+                          VPOS="2699"
+                          HPOS="1290"
                           CONTENT="Etude."/>
                </TextLine>
-               <TextLine ID="tl_26"
-                         BASELINE="2857"
-                         HEIGHT="117"
-                         WIDTH="741"
-                         VPOS="2740"
-                         HPOS="525">
-                  <String HEIGHT="117"
-                          WIDTH="346"
-                          VPOS="2740"
-                          HPOS="500"
+               <TextLine ID="r1l31"
+                         BASELINE="2827"
+                         HEIGHT="58"
+                         WIDTH="729"
+                         VPOS="2769"
+                         HPOS="522">
+                  <String HEIGHT="58"
+                          WIDTH="340"
+                          VPOS="2769"
+                          HPOS="498"
                           CONTENT="&lt;b&gt;602&lt;/b&gt;"/>
-                  <SP HEIGHT="117" WIDTH="25" VPOS="2740" HPOS="846"/>
-                  <String HEIGHT="117"
-                          WIDTH="395"
-                          VPOS="2740"
-                          HPOS="772"
+                  <SP HEIGHT="58" WIDTH="24" VPOS="2769" HPOS="838"/>
+                  <String HEIGHT="58"
+                          WIDTH="389"
+                          VPOS="2769"
+                          HPOS="765"
                           CONTENT="Port-Navalo."/>
-                  <SP HEIGHT="117" WIDTH="25" VPOS="2740" HPOS="1167"/>
-                  <String HEIGHT="117"
-                          WIDTH="198"
-                          VPOS="2740"
-                          HPOS="1068"
+                  <SP HEIGHT="58" WIDTH="24" VPOS="2769" HPOS="1154"/>
+                  <String HEIGHT="58"
+                          WIDTH="194"
+                          VPOS="2769"
+                          HPOS="1057"
                           CONTENT="Etude."/>
                </TextLine>
             </TextBlock>
-            <GraphicalElement ID="r_4" HEIGHT="1452" WIDTH="18" VPOS="874" HPOS="49"/>
-            <GraphicalElement ID="r_5" HEIGHT="249" WIDTH="5" VPOS="595" HPOS="62"/>
-            <GraphicalElement ID="r_6" HEIGHT="156" WIDTH="5" VPOS="310" HPOS="65"/>
-            <GraphicalElement ID="r_7" HEIGHT="415" WIDTH="8" VPOS="2707" HPOS="2169"/>
-            <GraphicalElement ID="r_8" HEIGHT="355" WIDTH="6" VPOS="2333" HPOS="2174"/>
-            <GraphicalElement ID="r_9" HEIGHT="436" WIDTH="6" VPOS="1092" HPOS="2182"/>
          </PrintSpace>
       </Page>
    </Layout>
