@@ -114,20 +114,35 @@ for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
 
                     
 
-####### Correction des balises pleines/vides dans les fichiers ALTO-XML ##########
-                    
-patt_b_open = r'([ <](([< ])*b([ >])*)+[>])|([<](([< ])*b([ >])*)+[ >])|(^(([< ])*b([ >])*)+[>])|[ <b>]*<[ <b>]*b([ <b>]*>[ <b>]*)*|(?<=[(b>)])b>|(?=<.*<\/b>)<' 
-patt_i_open = r'([ <](([< ])*i([ >])*)+[>])|([<](([< ])*i([ >])*)+[ >])|(^(([< ])*i([ >])*)+[>])|[ <i>]*<[ <i>]*i([ <i>]*>[ <i>]*)*|(?<=[(i>)])i>|(?=<.*<\/i>)<' 
-patt_b_closed = r'(([<]*[ ]*[\/][ ]*b([ >])*)+[ >.,;])|(([<]*[ ]*[\/][ ]*b([ >])*)+$)|[ <b>]*<[ <b>]*[\/]b([ <b>]*>[ <b>]*)*|(?<=[(b>)])\/b>' 
+####### Correction des balises pleines dans les fichiers ALTO-XML ##########
+patt_b_open = r'([ <](([< ])*b([ >])*)+[>])|([<](([< ])*b([ >])*)+[ >])|(^(([< ])*b([ >])*)+[>])|[ <b>]*<[ <b>]*b([ <b>]*>[ <b>]*)*|(?<=[(b>)])b>'
+patt_i_open = r'([ <](([< ])*i([ >])*)+[>])|([<](([< ])*i([ >])*)+[ >])|(^(([< ])*i([ >])*)+[>])|[ <i>]*<[ <i>]*i([ <i>]*>[ <i>]*)*|(?<=[(i>)])i>'
+patt_b_closed = r'(([<]*[ ]*[\/][ ]*b([ >])*)+[ >.,;])|(([<]*[ ]*[\/][ ]*b([ >])*)+$)|[ <b>]*<[ <b>]*[\/]b([ <b>]*>[ <b>]*)*|(?<=[(b>)])\/b>'
 patt_i_closed = r'(([<]*[ ]*[\/][ ]*i([ >])*)+[ >.,;])|(([<]*[ ]*[\/][ ]*i([ >])*)+$)|[ <i>]*<[ <i>]*[\/]i([ <i>]*>[ <i>]*)*|(?<=[(i>)])\/i>'
-                 
-
+pattern_regex_gen = re.compile(r'([<]+([<]*[ ]*[/]*[bi]*[ ]*[>]*)*)|(([<]*[ ]*[/]*[bi]*[ ]*[>]*)*[>]+)')
+                
+def reco_balise(string_content,span):
+    a,b = span
+    if r'<b>' in string_content[a:b]:
+        return 'open_b'
+    elif r'<i>' in string_content[a:b]:
+        return 'open_i'
+    elif r'</b>' in string_content[a:b]:
+        return 'close_b'
+    elif r'</i>' in string_content[a:b]:
+        return 'close_i'
+    else:
+        return 'other'
+        
 
 for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
     for printspace in page.findall('{http://www.loc.gov/standards/alto/ns-v2#}PrintSpace'):
         for textblock in printspace.findall('{http://www.loc.gov/standards/alto/ns-v2#}TextBlock'):
             for textline in textblock.findall('{http://www.loc.gov/standards/alto/ns-v2#}TextLine'):
+                count = 0
                 for string in textline.findall('{http://www.loc.gov/standards/alto/ns-v2#}String'):
+                    count += 1
+                    # Correction des balises pleines
                     if re.search(patt_b_open,string.attrib['CONTENT']): 
                         string.attrib['CONTENT'] = re.sub(patt_b_open,'<b>',string.attrib['CONTENT'])
                         #print(string.attrib['CONTENT'])
@@ -140,27 +155,53 @@ for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
                     if re.search(patt_i_closed,string.attrib['CONTENT']): 
                         string.attrib['CONTENT'] = re.sub(patt_i_closed,'</i>',string.attrib['CONTENT'])
                         #print(string.attrib['CONTENT'])
-
-
-
-#####   Correction des balises vides du type <L. a</i>	######
-
-##ending_b = r'((?=<.*<\/b>)<)'
-##ending_i = r'((?=<.*<\/i>)<)'
-##
-##for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
-##    for printspace in page.findall('{http://www.loc.gov/standards/alto/ns-v2#}PrintSpace'):
-##        for textblock in printspace.findall('{http://www.loc.gov/standards/alto/ns-v2#}TextBlock'):
-##            for textline in textblock.findall('{http://www.loc.gov/standards/alto/ns-v2#}TextLine'):
-##                for string in textline.findall('{http://www.loc.gov/standards/alto/ns-v2#}String'):
-##                    #if re.search(ending_b,string.attrib['CONTENT']):
-##                        #string.attrib['CONTENT'] = re.sub(ending_b,'<b>',string.attrib['CONTENT'])
-##                        #print(string.attrib['CONTENT'])
-##                    if re.search(ending_i,string.attrib['CONTENT']):
-##                        string.attrib['CONTENT'] = re.sub(ending_i,'<i>',string.attrib['CONTENT'])
-##                        print(string.attrib['CONTENT'])
-##                    
-
+                count = 0
+                liste_balises_ligne = []
+                for string in textline.findall('{http://www.loc.gov/standards/alto/ns-v2#}String'):
+                    string_content = string.attrib['CONTENT']
+                    matches_balises = pattern_regex_gen.finditer(string_content) # itérateur
+                    for match in matches_balises:
+                        span = match.span()
+                        res = [count, span, reco_balise(string_content,span)]
+                        liste_balises_ligne.append(res)
+                    count += 1
+                long_string = len(liste_balises_ligne)
+                for i, l in enumerate(liste_balises_ligne):
+                    if l[2] == "other":
+                        if i >= 1 and liste_balises_ligne[i-1] == 'open_b':
+                            k = l[0]
+                            a,b = l[1]
+                            string_content = textline[k].attrib['CONTENT']
+                            string_content_cor = string_content
+                            N = len(string_content)
+                            string_content_cor = string_content_cor[:-(N-a)] + '<b>' + string_content[b:]
+                            textline[k].attrib['CONTENT'] = string_content_cor
+                        elif i >= 1 and liste_balises_ligne[i-1] == 'open_i':
+                            k = l[0]
+                            a,b = l[1]
+                            string_content = textline[k].attrib['CONTENT']
+                            string_content_cor = string_content
+                            N = len(string_content)
+                            string_content_cor = string_content_cor[:-(N-a)] + '<i>' + string_content[b:]
+                            textline[k].attrib['CONTENT'] = string_content_cor                   
+                        elif i < long_string - 1 and liste_balises_ligne[i+1] == 'close_b':
+                            k = l[0]
+                            a,b = l[1]
+                            string_content = textline[k].attrib['CONTENT']
+                            string_content_cor = string_content
+                            N = len(string_content)
+                            string_content_cor = string_content_cor[:-(N-a)] + '</b>' + string_content[b:]
+                            textline[k].attrib['CONTENT'] = string_content_cor
+                        elif i < long_string - 1 and liste_balises_ligne[i+1] == 'close_i':
+                            k = l[0]
+                            a,b = l[1]
+                            string_content = textline[k].attrib['CONTENT']
+                            string_content_cor = string_content
+                            N = len(string_content)
+                            string_content_cor = string_content_cor[:-(N-a)] + '</i>' + string_content[b:]
+                            textline[k].attrib['CONTENT'] = string_content_cor
+                    
+                        
 
 #### Application des trois styles (FONT0, FONT1, FONT2) à tous les éléments <String>	######
 
@@ -188,7 +229,6 @@ for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
                     elif '</i>' in string.attrib['CONTENT']:
                         start_i = False
                         string.attrib['CONTENT'] = string.attrib['CONTENT'].replace('</i>', '')
-
 
 ###### Conversion mm10 en pixels #######
 
