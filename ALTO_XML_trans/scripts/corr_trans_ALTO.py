@@ -5,11 +5,11 @@ import re
 
 ########### récupération du chemin du fichier #######################
 
-fichier = sys.argv[1] #'1885_12_RDA_N095-1.xml'  # '1871_08_RDA_N028-1.xml'
+fichier = sys.argv[1] #'ALTO_demo.xml' #'1885_12_RDA_N095-1.xml'  # '1871_08_RDA_N028-1.xml'
  
 ########### récupération du dpi #######################
 
-dpi = int(sys.argv[2])
+dpi = int(sys.argv[2]) # 254
 
 ########### récupération du nom du fichier #######################
 
@@ -120,7 +120,8 @@ patt_i_open = r'([ <](([< ])*i([ >])*)+[>])|([<](([< ])*i([ >])*)+[ >])|(^(([< ]
 patt_b_closed = r'(([<]*[ ]*[\/][ ]*b([ >])*)+[ >.,;])|(([<]*[ ]*[\/][ ]*b([ >])*)+$)|[ <b>]*<[ <b>]*[\/]b([ <b>]*>[ <b>]*)*|(?<=[(b>)])\/b>'
 patt_i_closed = r'(([<]*[ ]*[\/][ ]*i([ >])*)+[ >.,;])|(([<]*[ ]*[\/][ ]*i([ >])*)+$)|[ <i>]*<[ <i>]*[\/]i([ <i>]*>[ <i>]*)*|(?<=[(i>)])\/i>'
 pattern_regex_gen = re.compile(r'([<]+([<]*[ ]*[/]*[bi]*[ ]*[>]*)*)|(([<]*[ ]*[/]*[bi]*[ ]*[>]*)*[>]+)')
-                
+
+###### Correction des balises vides #######                
 def reco_balise(string_content,span):
     a,b = span
     if r'<b>' in string_content[a:b]:
@@ -155,6 +156,8 @@ for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
                     if re.search(patt_i_closed,string.attrib['CONTENT']): 
                         string.attrib['CONTENT'] = re.sub(patt_i_closed,'</i>',string.attrib['CONTENT'])
                         #print(string.attrib['CONTENT'])
+
+                ###### Correction des balises vides #######        
                 count = 0
                 liste_balises_ligne = []
                 for string in textline.findall('{http://www.loc.gov/standards/alto/ns-v2#}String'):
@@ -166,42 +169,43 @@ for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
                         liste_balises_ligne.append(res)
                     count += 1
                 long_string = len(liste_balises_ligne)
+                #print(liste_balises_ligne)
                 for i, l in enumerate(liste_balises_ligne):
                     if l[2] == "other":
-                        if i >= 1 and liste_balises_ligne[i-1] == 'open_b':
+                        if i >= 1 and liste_balises_ligne[i-1][2] == 'open_b':
                             k = l[0]
                             a,b = l[1]
-                            string_content = textline[k].attrib['CONTENT']
-                            string_content_cor = string_content
-                            N = len(string_content)
-                            string_content_cor = string_content_cor[:-(N-a)] + '<b>' + string_content[b:]
-                            textline[k].attrib['CONTENT'] = string_content_cor
-                        elif i >= 1 and liste_balises_ligne[i-1] == 'open_i':
-                            k = l[0]
-                            a,b = l[1]
-                            string_content = textline[k].attrib['CONTENT']
-                            string_content_cor = string_content
-                            N = len(string_content)
-                            string_content_cor = string_content_cor[:-(N-a)] + '<i>' + string_content[b:]
-                            textline[k].attrib['CONTENT'] = string_content_cor                   
-                        elif i < long_string - 1 and liste_balises_ligne[i+1] == 'close_b':
-                            k = l[0]
-                            a,b = l[1]
-                            string_content = textline[k].attrib['CONTENT']
+                            string_content = textline[2*k].attrib['CONTENT']
                             string_content_cor = string_content
                             N = len(string_content)
                             string_content_cor = string_content_cor[:-(N-a)] + '</b>' + string_content[b:]
-                            textline[k].attrib['CONTENT'] = string_content_cor
-                        elif i < long_string - 1 and liste_balises_ligne[i+1] == 'close_i':
+                            textline[2*k].attrib['CONTENT'] = string_content_cor
+                        elif i >= 1 and liste_balises_ligne[i-1][2] == 'open_i':
                             k = l[0]
                             a,b = l[1]
-                            string_content = textline[k].attrib['CONTENT']
+                            string_content = textline[2*k].attrib['CONTENT']
                             string_content_cor = string_content
                             N = len(string_content)
                             string_content_cor = string_content_cor[:-(N-a)] + '</i>' + string_content[b:]
-                            textline[k].attrib['CONTENT'] = string_content_cor
-                    
+                            textline[2*k].attrib['CONTENT'] = string_content_cor                   
+                        elif i < long_string - 1 and liste_balises_ligne[i+1][2] == 'close_b':
+                            k = l[0]
+                            a,b = l[1]
+                            string_content = textline[2*k].attrib['CONTENT']
+                            string_content_cor = string_content
+                            N = len(string_content)
+                            string_content_cor = string_content_cor[:-(N-a)] + '<b>' + string_content[b:]
+                            textline[2*k].attrib['CONTENT'] = string_content_cor
+                        elif i < long_string - 1 and liste_balises_ligne[i+1][2] == 'close_i':
+                            k = l[0]
+                            a,b = l[1]
+                            string_content = textline[2*k].attrib['CONTENT']
+                            string_content_cor = string_content
+                            N = len(string_content)
+                            string_content_cor = string_content_cor[:-(N-a)] + '<i>' + string_content[b:]
+                            textline[2*k].attrib['CONTENT'] = string_content_cor
                         
+
 
 #### Application des trois styles (FONT0, FONT1, FONT2) à tous les éléments <String>	######
 
