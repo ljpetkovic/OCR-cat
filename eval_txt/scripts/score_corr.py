@@ -4,9 +4,10 @@ import sys
 import lxml.etree as etree
 import os
 
-######### Processing the file from the command line #############
+######### Processing the files from the command line #############
 
-fichier = sys.argv[1] # 1855_08_LAC_N72_eval.txt
+# fichier = sys.argv[1]
+fichier = '../doc/1869_01_LAC_N157_eval.txt'
 
 ######### Regexes ##############
 
@@ -242,8 +243,8 @@ if __name__ == '__main__':
 
     print ("")
     print ("-----------------------------------------------------------------------------------------")
-    print ('Not automatically correctable\t\t\t\t', compte_2 + compte_3 + compte_cor_4, '\t\t\t', "{:.2f}".format(((compte_2 + compte_3 + compte_cor_4) / total) * 100))
-    print ('Automatically correctable\t\t\t\t', compte_cor_1 + compte_cor_2 + compte_cor_3, '\t\t\t', "{:.2f}".format(((compte_cor_1 + compte_cor_2 + compte_cor_3) / total) * 100))
+    print ('Not automatically correctable\t\t\t\t', compte_2 + compte_3, '\t\t\t', "{:.2f}".format(((compte_2 + compte_3) / total) * 100))
+    print ('Automatically correctable\t\t\t\t', compte_cor_1 + compte_cor_2 + compte_cor_3 + compte_cor_4, '\t\t\t', "{:.2f}".format(((compte_cor_1 + compte_cor_2 + compte_cor_3 + compte_cor_4) / total) * 100))
     print ("-----------------------------------------------------------------------------------------")
 
     print ("")
@@ -259,7 +260,7 @@ if __name__ == '__main__':
     print('- Well-corrected tags\t\t\t\t\t', compte_cor_1, '\t\t\t', "{:.2f}".format((compte_cor_1 / total) * 100))
     print('- Well-corrected tags, bad order\t\t\t', compte_cor_2, '\t\t\t', "{:.2f}".format((compte_cor_2 / total) * 100))
     print('- Well-corrected tags, missing tags\t\t\t', compte_cor_3, '\t\t\t', "{:.2f}".format((compte_cor_3 / total) * 100))
-    print('- Well-corrected tags, at least one is not correctable\t', compte_cor_4, '\t\t\t', "{:.2f}".format((compte_cor_4 / total) * 100))
+    print('- Well-corrected tags, empty tags\t\t\t', compte_cor_4, '\t\t\t', "{:.2f}".format((compte_cor_4 / total) * 100))
     print ("-----------------------------------------------------------------------------------------")
     print('')
 
