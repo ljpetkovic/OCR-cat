@@ -1,5 +1,4 @@
 import re
-import regex
 import sys
 import lxml.etree as etree
 import os
