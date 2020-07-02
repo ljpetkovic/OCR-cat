@@ -1,11 +1,12 @@
 import re
+import regex
 import sys
 import lxml.etree as etree
 import os
 
 ######### Processing the file from the command line #############
 
-fichier = sys.argv[1]
+fichier = sys.argv[1] # 1855_08_LAC_N72_eval.txt
 
 ######### Regexes ##############
 
