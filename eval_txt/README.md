@@ -6,7 +6,7 @@
 
 The current OCR model is tested on the _in-domain_ file from the RDA catalogue (`1871_08_RDA_N028-1.png`).
 
-![1871_08_RDA_N028-1.png](/Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/eval_txt/tests/1871_08_RDA_N028-1.png)
+![1871_08_RDA_N028-1](/Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/eval_txt/tests/1871_08_RDA_N028-1.png)
 
 The imperfect OCR results (including the typographical information represented by the `<b>`, `</b>`, `<i>`, and `</i>` tags) is in the `Pour_les_tests.txt` file (sample output below):
 
