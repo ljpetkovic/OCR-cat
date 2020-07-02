@@ -109,7 +109,7 @@ In the case of the **initially malformed tags**, the output of the corrected lin
 **1**: well-corrected tags, no message error, output of the corrected line;<br>
 **2**: well-corrected tags with the bad order, no message error, output of the corrected line;<br>
 **3**: well-corrected tags with the missing tags, no message error, output of the corrected line;<br>
-**4**: well-corrected tags, with at least potentially one erroneous tag which could not be corrected, no message error, output of the corrected line.<br>
+**4**: well-corrected tags, with the empty tags (e. g. `<>foo</i>`) or at least potentially one erroneous tag which could not be corrected, no message error, output of the corrected line.<br>
 
 Output for the first 105 lines:
 
@@ -254,7 +254,7 @@ The results are threefold:
 | Well-corrected tags                                          | 11                | 1.30  |
 | Well-corrected tags, bad order                               | 0                 | 0.00  |
 | Well-corrected tags, missing tags                            | 1                 | 0.12  |
-| Well-corrected tags, at least one is not correctable         | 0                 | 0.00  |
+| Well-corrected tags, empty tags                              | 0                 | 0.00  |
 
 ### Remarks
 
@@ -278,6 +278,5 @@ Also:
 
 ### TO DO
 
-* Correct automatically the `<>foo</>` tags in the ALTO-XML files;
 * Correct manually the text and the tags not recognised properly by the OCR model;
 * Add more test data to check the generalisability of the code;
