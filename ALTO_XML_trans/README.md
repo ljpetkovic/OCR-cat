@@ -4,7 +4,8 @@ The core idea of redesigning the ALTO-XML files in order to be injected into the
 
 Here we present the updated version of the code, which includes:
 
-* correcting the **"full" malformed tags** (containing either `b` or `i`);
+* correcting the **"empty" malformed tags** (not containing `b` or `i`, e. g. `<>foo</i>`);
+* correcting the **"full" malformed tags** (containing either `b` or `i,` e. g. `<i>bar</i>`);
 * transformation of **all the files** in all the catalogue folders;
 * automatic mm10 to pixels conversion with respect to **different image resolutions** for each catalogue.
 
