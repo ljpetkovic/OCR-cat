@@ -1,0 +1,797 @@
+#################### Vérification et correction automatiques de balises #####################
+
+La sortie du programme est en trois colonnes : 
+• la première colonne est la ligne originale, 
+• la deuxième est un code de sortie
+• la troisième est soit le signalement d'un problème soit la suggestion d'une correction
+Codes de sorties possibles (correspondant à la situation après correction éventuelle):
+0 : ligne sans balise
+1 : les balises sont bien formées, et respectent la succession balises ouvrantes/balises
+    fermantes
+2 : les balises sont bien formées et il y a autant de balises ouvrantes que fermantes,
+    mais l'alternance 'ouvrante/fermante' n'est pas respectée
+3 : les balises sont bien formées mais il n'y a pas le même nombre de balises ouvrantes 
+    et fermantes
+4 : il y a au moins potentiellement une balise erronée qui n'a pas pu être corrigée.
+##########################################################################################
+
+Processing Cat_Nancy_1849.txt ...
+Done.
+
+<b>SOCIÉTÉ LORRAINE</b>                                                 | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+<b>DES AMIS DES ARTS<.                                                  | 4 |  <b>DES AMIS DES ARTS<.
+
+                                                                        |   | 
+                                                                        |   | 
+<b>Bessins et Seulptures                                                | 3 |  BALISES MANQUANTES
+                                                                        |   | 
+                                                                        |   | 
+<b>XPOSÉS A NANCY, EN JUIN 1849.</b>.                                   | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+DIXIÈME EXPOSITION</b>.                                                 | 3 |  BALISES MANQUANTES
+                                                                        |   | 
+                                                                        |   | 
+PRIX: 25 CENTIMES.                                                      | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+MANCY,                                                                  | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+IMPRIMERIE DE HINZELIN ET COMPe, PLACE DU MARCHÉ, 67.                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+1849.                                                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+9                                                                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+4275                                                                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+—C—S                                                                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+NOTA. Les personnes qui désireraient faire partie de la Société         | 0 | 
+des Amis des Arts pourront, jusqu’à la veille du tirage au sort         | 0 | 
+des tableaux choisis par le Jury, s’adresser à M. MENGIN, mem¬          | 0 | 
+bre de la Commission, rue des Quatre-Églises, 65.                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Si quelqu’amateur désire acquérir un des ouvrages exposés,              | 0 | 
+il pourra en traiter avec l’auteur, et si celui-ci n’habite pas         | 0 | 
+Nancy, il s’adressera à M. GUIBAL, secrétaire, faubourg Stanis¬         | 0 | 
+las, 1, qui en indiquera le prix.                                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+DES AMIS DES ARTS.                                                      | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+EXPOSITION DE 1849.                                                     | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+<i>Nixtème Smmée</i>.                                                   | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+ANDRE, <i>professeur de dessin linéaire, à Nancy</i>.                   | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+1. Trois Dessins à l’encre de Chine, même n°.                           | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+ANCILLON, <i>entrepreneur, porte de Metz</i>.                           | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+2. Modèle en plâtre de l’escalier à reconstruire dans le bâti¬          | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+ment de la Comédie.                                                     | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Mle BERNARD.                                                            | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+3. Une Bohémienne tenant un oiseau, (pastel).                           | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+DE BOUILLÉ.                                                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+4. Plusieurs aquarelles, même n°.                                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+BUZZINI, <i>officier en retraite, rue Notre-Dame</i>, 46.               | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+5. Une frégate.                                                         | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+CASSE, <i>professeur de dessin au Collège, rue Stanislas</i>, 20.       | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+6. Portrait de l’auteur et de son fils.                                 | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+7 <i>Id.</i> de M. M.                                                   | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+CHARDIN (Eugène).                                                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+8. Moulin de Sappois, (Vosges), (copie à la plume).                     | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+9. Château de Rochechinard, (Drôme), <i>idem</i>.                       | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+CHARPENTIER, <i>peintre, faubourg d'Einville</i>, 151, à                | 1 | 
+<i>Lunéville</i>.                                                       | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+10. La fin de la fenaison, fête champêtre, que les villageois           | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Lorrains appellent tuer le chien.                                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+11. Deux Baigneuses.                                                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+12. Portrait de M. C.                                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+DEMANGE (AIMÉ), <i>artiste peintre, rue des Quatre-Églises</i>, 2.      | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+13. Vue prise à Saint-Maurice (Vosges).                                 | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+14. Souvenir des environs de Mulhouse.                                  | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+15. Fleurs, (aquarelle).                                                | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+16. Portrait de M. D., <i>idem</i>.                                     | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+17. <i>Id.</i> de Mme *** (miniature).                                  | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+DEMANGE (Édouard), <i>peintre de portraits, rue des</i>                 | 1 | 
+<i>Champs</i>, 1.                                                       | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+18. Portrait en pied du fils de M. le capitaine B., (aquarelle).        | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Mme D.....                                                              | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+19. Un porte modèle contenant six dessins.                              | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Château de Dieppe.                                                      | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Le lac de Longemer (Vosges).                                            | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Chemin de Dieppe à Tourville.                                           | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Une ferme près d’Arques.                                                | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Faubourg des Poletais, à Dieppe.                                        | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Le petit Paris, au Polais, à Dieppe.                                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+5 —                                                                     | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+FÉYEN (Eugène), <i>peintre, rue Notre-Dame,</i> 16.                     | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+20. Portraits des Dllee Thérésa et Maria Milanollo.                     | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+21. Portrait de M. M.                                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+FEYEN (Auguste), <i>rue Notre-Dame</i> 16.                              | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+25. Zéphirs au bain.                                                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+26. Zéphirs à la chasse.                                                | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+27. Lion du désert.                                                     | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+28. Loisirs d’un fumeur.                                                | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+29. La nuit de la bataille de Nancy.                                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+30. Les raisins.                                                        | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+31. Une promenade dans le parc.                                         | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+32. Ecce Homo.                                                          | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+33. Vision de Saint-Jérôme.                                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+34. Portrait de M. P.                                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+FOUILHOUSE, <i>de Saint-Dié</i>.                                        | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+35. Vue prise aux environs de Sorrente, golfe de Naples.                | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+GÉNIOLE, <i>peintre à Paris</i>.                                        | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+36. Tête de fantaisie.                                                  | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+GENTIL, <i>de Champigneules</i>.                                        | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+37. Deux études de femme. (Pastels), même n°                            | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+38. Trois dessins à la plume, même n°.                                  | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+GOMIEN (Charles), <i>rue Stanislas</i>, 46.                             | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+39. Portrait de M. V.                                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+40. <i>Id.</i> de Mme V.                                                | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+— 6                                                                     | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+41. Portrait de M. F. père.                                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+GUÉRARD, <i>peintre à Paris</i>.                                        | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+53. Un Cavalier, effet du soir.                                         | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+54. Chasseur d’Afrique.                                                 | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+95. Procession au 16e siècle,                                           | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+36. Une loge d’avant-scène, à l’Opéra comique.                          | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+57. Un intérieur de forêt.                                              | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+58. Une rue d’Oran (Algérie).                                           | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+59. Une marine.                                                         | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+60. L’attente, tête de fantaisie.                                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+61. Portrait de M. M.                                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+62. Sépias, sous le même n°.                                            | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+63. Aquarelles, <i>idem</i>.                                            | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+Mle HAILLECOURT, <i>rue des Carmes</i>, 40                              | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+64. Portrait de Mlle L., (pastel).                                      | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+65. <i>Id.</i> des enfants de Mme B., <i>idem</i>.                      | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+66. Un cadre de miniatures, contenant:                                  | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Portrait de Mme de F.                                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+<i>Id.</i> de M. G.                                                     | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+— 7                                                                     | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Portrait de Mlle L.                                                     | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Deux copies d’après Van-Dick et Velesquez.                              | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Copie d’après la gravure d’un tableau de Raphaël.                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Mlle HUMBERT, <i>de Metz</i>.                                           | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+67. Un intérieur.                                                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+HEYM.                                                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+68. Une Cathédrale, ouvrage en bois.                                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+JACQUEL (Émile), <i>de Vie</i>.                                         | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+69. L’heure du Berger, (aquarelle).                                     | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+70. Une nuit de noces, <i>idem</i> d’après Tonny Johannot, sujet        | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+tiré du roman de Notre-Dame de Paris.                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+71. Les oies du frère Philippe, d’après Baron, sujet d’un               | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+conte de Boccace.                                                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+b>LÆEMLIN (A).                                                          | 3 |  <b>LÆEMLIN (A).
+
+                                                                        |   | 
+                                                                        |   | 
+72. Lithographie par l’auteur de son tableau de la Charité.             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+LEBORNE, <i>Directeur du Musée de Nancy</i>.                            | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+73. Séjour de Salvator Rosa parmi les bandits.                          | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Salvator, peintre célèbre, parcourant dans sa jeunesse les mon¬         | 0 | 
+tagnes des Abruzzes, fut pris par une troupe de bandits qui le re¬      | 0 | 
+tinrent prisonnier. Il tira parti de cette vie errante au profit de son | 0 | 
+art, en dessinant, dans les moments de repos, les sites sauvages qui    | 0 | 
+l’entouraient, ainsi que les figures étranges et pittoresques de ses    | 0 | 
+compagnons.                                                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+74. Épisode de la guerre d’Espagne en 1809.                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Des guérillas poursuivis par un détachement de soldats Français         | 0 | 
+se sont retirés dans un petit couvent. Les moines, comme il arrivait    | 0 | 
+souvent alors, se joignent à eux pour les exciter et les aider à la     | 0 | 
+défense. Un jeune Espagnol tombe frappé mortellement près d’un          | 0 | 
+moine; celui ci saisit d’une main le fusil du blessé pour le venger,    | 0 | 
+et de l’autre il élève la croix pour implorer le secours du ciel en     | 0 | 
+faveur de sa patrie si injustement opprimée.                            | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+— 8 —                                                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+75. Portrait d’une jeune femme, étude faite en 1844.                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+76. La chute d’eau. Souvenir du Jura Suisse.                            | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+77. Vue prise sur la Birse, dans le grand duché de Bade.                | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+78. Effet du soir. Paysage.                                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+79. Tête de Vierge. Fantaisie au pastel.                                | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+80. Tête de jeune femme; costume Louis XV, <i>idem</i>.                 | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+LEBOEUF.                                                                | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+81. Portrait du pape Pie IX.                                            | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+82. Un Capucin, (étude).                                                | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+LEFORESTIER.                                                            | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+82. Trois cadres de dessins, (même numéro).                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+LÉVY (Gustave), <i>graveur, rue St-Antoine</i>, 32, <i>à Paris</i>.     | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+83. Le roi des Belges, gravé sur acier.                                 | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+84. Rembrandt.                                                          | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+85. Edelinck, graveur sous Louis XIV.                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+MÉNESSIER (Auguste), <i>peintre à Metz</i>.                             | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+86. Effet de clair de lune.                                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+87. Effet du soir.                                                      | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+88. Souvenir d’une chapelle, sur les bords de la Moselle.               | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+89. Cadre de cinq dessins, (manière noire).                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+90. Trois autres cadres, <i>idem</i>, (même numéro).                    | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+91. Cadre de deux sépias.                                               | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+MOYSE.                                                                  | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+92. Étude de vieille femme.                                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+93. Portrait de M. ***.                                                 | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+94. <i>Id.</i> de Mme.                                                  | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+95. <i>Id.</i> de                                                       | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+— 9 —                                                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Mme M., <i>élève de M. Pierre</i>.                                      | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+96. Aquarelle. Copie d’un tableau à l’huile, sur un sujet tiré          | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+de Pévéril du Pic, roman de Walter-Scott.                               | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Julien et Alice effrayés de l’apparition de la reine de                 | 0 | 
+l’ile de Man.                                                           | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Mlle MOLLET (Éléonore), <i>rue de la Monnaie</i>, 7.                    | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+97. Portrait de Mme J., (pastel).                                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+98. <i>Id.</i> de M. de M., <i>idem</i>.                                | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+99. Étude d’atelier.                                                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+100. L’enfance de Callot. Copie du tableau du Musée de                  | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Nancy.                                                                  | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+PAULUS (Charles), <i>place de Grève</i>, 11.                            | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+101. Portrait du général de Préval, (étude).                            | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+102. <i>Id.</i> de M. B.                                                | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+103. <i>Id.</i> de M. L. P.                                             | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+PIERRE (René), <i>rue des Michottes,</i>, 3.                            | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+104. Portrait de Mlle ***                                               | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+105. <i>Id.</i> de M. P., (à la plume).                                 | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+ROLLIN.                                                                 | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+106. Visitation de Sainte-Marie aux Vierges, (à la plume).              | 0 | 
+D’après un tableau attribué à Rottenhamd, de l’an¬                      | 0 | 
+cienne école Vénitienne, que l’on peut voir chez                        | 0 | 
+M. Rollin, rue des Ponts, 50.                                           | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+La scène se passe sur des nuages. La présence de Marie immaculée        | 0 | 
+semble suffire au bonheur des vierges mortelles, qui ont quitté les     | 0 | 
+asiles consacrés à la pureté pour venir au-devant de la reine des       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+cieux.                                                                  | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+10 —                                                                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+RONDANI (Erminio).                                                      | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+107. Portrait de Monseigneur.                                           | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+108. <i>Id.</i> de M. C. 108 bis. <i>Id.</i> de M. ***.                 | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+109. Repos en Egypte.                                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+110. Adoration des Bergers.                                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+111. Brennus et Camille, (aquarelle)                                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+ROUSSEL, <i>de Verdun</i>.                                              | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+112. L’enfance de Silène.                                               | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Mme ROUCHIER, <i>née Jaser</i>.                                         | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+113. Un cadre de portraits, contenant ceux de                           | 0 | 
+M. et Mme de R., (aquarelle).                                           | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+de Mme et Mlle de P., <i>idem</i>.                                      | 1 | 
+de M. H., (miniature).                                                  | 0 | 
+de Mme de L., <i>idem</i>.                                              | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+Un Enfant, aquarelle.                                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+SÉLIGMANN.                                                              | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+114. Deux Buveurs, (pastel).                                            | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+115. Le Joueur de violon, <i>idem</i>.                                  | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+116. La Réflexion, (dessin à l’estompe).                                | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Mme STUREL (Octavie), née PEIGNEZ, <i>à Metz</i>.                       | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+117. L’Album, (composition au pastel).                                  | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+118. Roses Trémières et Liserons, <i>idem</i>.                          | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+119. Pivoines et lris, <i>idem</i>.                                     | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+120. Fruits.                                                            | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+DE SAINT-GERMAIN.                                                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Cinq Paysages à l’huile, sous les nos 121, 122, 123,                    | 0 | 
+124 et 125.                                                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+11                                                                      | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+THORELLE (J.-J.) <i>peintre et professeur de dessin, rue Saint</i>      | 1 | 
+<i>Georges</i>, 7 bis.                                                  | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+126. L’arrivée de Jacob en Égypte, (dessin à la plume et à              | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+l’encre de Chine.                                                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+28. «Or, Jacob envoya Juda devant lui vers Joseph, pour l’aver¬         | 0 | 
+«tir de sa venue, afin qu’il vint au-devant de lui dans la terre de     | 0 | 
+« Gessen.                                                               | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+29. » Quand Jacob y fut arrivé, Joseph fit mettre les chevaux à         | 0 | 
+« son charriot, et vint au même lieu au-devant de son père, et le       | 0 | 
+« voyant il se jeta à son cou et l’embrassa en pleurant.»               | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+(GENÈSE XLVI).                                                          | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+127. Le Paier, genre de peinture manuscrite sur peau de                 | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+vélin.                                                                  | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+128. Salvator mundi.                                                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+129. La Vierge, l’enfant Jésus et Saint Jean, peint sur bois.           | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+130. Andromède.                                                         | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+« Andromède, fille de Céphée, roi d’Ethiopie et de Cassiope, qui        | 0 | 
+« eut assez de témérité pour disputer de beauté avec Junon et les       | 0 | 
+« Néréïdes. Junon, pour la punir, condamna Andromède à être             | 0 | 
+« liée par les Néréïdes avec des chaînes et exposée sur un rocher à     | 0 | 
+« un monstre marin; mais Persée, monté sur le cheval Pégase, pé¬        | 0 | 
+« trifia le monstre en lui montrant la tête de Méduse et délivra An¬    | 0 | 
+« dromède, qu’il rendit à son père, lequel, en reconnaissance, la       | 0 | 
+« lui donna en mariage.»                                                | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+131. Ecce Homo, (encre de Chine).                                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+132. Mater dolorosa.                                                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+133. La prédication, (intérieur).                                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+134. La procession dans le cloître, <i>idem</i>.                        | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+WAULTRIN.                                                               | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+135. Vue prise au vieux Château, environs de Bade.                      | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+136. Entrée du vieux Château de Bade.                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+137. Promenade en bateau.                                               | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+12 —                                                                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+138. Le Meunier de Sans-Souci.                                          | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+« Voisin, garde ton bien; j’aime fort ta réplique                       | 0 | 
+« Qu’aurait-on fait de mieux dans une république?»                      | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+( Conte D’ANDRIEUX.)                                                    | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+VIARD aîné.                                                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+139. Statue de la Vierge.                                               | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+140. M. le curé de St-Clément, (statuette).                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+141. Mme T., (buste).                                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+142. M. V. jeune, <i>idem</i>.                                          | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+143. Deux Médaillons.                                                   | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+VIARD (Giorné), <i>sculpteur à Paris</i>.                               | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+144. Buste de M. G.                                                     | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+145. <i>Id.</i> du général Drouot.                                      | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+SUPPLÉMENT.                                                             | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+CLERC (Prosper).»                                                       | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+146. Jeune Pâtre, (demi-statue), étude.                                 | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+Mle BARTHELEMY, <i>rue des Quatre-Églises</i>, 6.                       | 1 | 
+                                                                        |   | 
+                                                                        |   | 
+147. Paul et Virginie, (Aquarelle).                                     | 0 | 
+                                                                        |   | 
+                                                                        |   | 
+####################################### STATISTICS: ############################################
+
+				 Cat_Nancy_1849.txt 
+
+
+Type							Count			   %
+-----------------------------------------------------------------------------------------
+Correct tags						 62 			 22.46
+Incorrect tags						 4 			 1.45
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+Not automatically correctable				 2 			 0.72
+Automatically correctable				 2 			 0.72
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+No tags							 210 			 76.09
+Initially without problems with the tags		 62 			 22.46
+
+Initially well-formed tags				 2 			 0.72
+- Wrong order						 0 			 0.00
+- Missing tags						 2 			 0.72
+
+Initially malformed tags				 2 			 0.72
+- Well-corrected tags					 0 			 0.00
+- Well-corrected tags, bad order			 0 			 0.00
+- Well-corrected tags, missing tags			 1 			 0.36
+- Well-corrected tags, empty tags			 1 			 0.36
+-----------------------------------------------------------------------------------------
+

@@ -9,7 +9,6 @@ echo "La sortie du programme est en trois colonnes :
 • la première colonne est la ligne originale, 
 • la deuxième est un code de sortie
 • la troisième est soit le signalement d'un problème soit la suggestion d'une correction
-
 Codes de sorties possibles (correspondant à la situation après correction éventuelle):
 0 : ligne sans balise
 1 : les balises sont bien formées, et respectent la succession balises ouvrantes/balises
@@ -22,8 +21,8 @@ Codes de sorties possibles (correspondant à la situation après correction éve
 
 echo "##########################################################################################"
 echo ""
-for f in /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/eval_txt/doc/*/*.txt
+for f in /Users/carolinecorbieres/Desktop/OCR-cat/eval_txt/doc/Cat_Paris_1965.txt
 do
-	python3 /Users/ljudmilapetkovic/Desktop/Katabase/OCRcat/eval_txt/scripts/score_corr.py $f
+	python3 /Users/carolinecorbieres/Desktop/OCR-cat/eval_txt/scripts/score_corr.py $f
 
 done

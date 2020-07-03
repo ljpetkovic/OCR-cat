@@ -1,0 +1,1042 @@
+#################### Vérification et correction automatiques de balises #####################
+
+La sortie du programme est en trois colonnes : 
+• la première colonne est la ligne originale, 
+• la deuxième est un code de sortie
+• la troisième est soit le signalement d'un problème soit la suggestion d'une correction
+Codes de sorties possibles (correspondant à la situation après correction éventuelle):
+0 : ligne sans balise
+1 : les balises sont bien formées, et respectent la succession balises ouvrantes/balises
+    fermantes
+2 : les balises sont bien formées et il y a autant de balises ouvrantes que fermantes,
+    mais l'alternance 'ouvrante/fermante' n'est pas respectée
+3 : les balises sont bien formées mais il n'y a pas le même nombre de balises ouvrantes 
+    et fermantes
+4 : il y a au moins potentiellement une balise erronée qui n'a pas pu être corrigée.
+##########################################################################################
+
+Processing Cat_Nancy_1843.txt ...
+Done.
+
+<b>SOCIÉTÉ LORRAINE</b>                                              | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+DES AMIS DES ARTS.                                                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+<DE 1843,</b>                                                        | 1 |  <b>DE 1843,</b> 
+
+                                                                     |   | 
+                                                                     |   | 
+EIEESEE                                                              | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+US                                                                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+<CATAIOGI<b>                                                         | 4 | <CATAIOGI <b>
+
+                                                                     |   | 
+                                                                     |   | 
+DES PEINTURES, MINIATURES, AQUARELLES,</b>                           | 3 |  BALISES MANQUANTES
+PASTELS, SÉPIAS, DESSINS, LAVIS</b>                                  | 3 |  BALISES MANQUANTES
+<b>SCULPTURES,</b>,                                                  | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+XPOSES A NANCY EN JUIN 1843.                                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+SEPTIÊME ANNEE.                                                      | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+NANCY,                                                               | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+IMPRIMERIE DE HINZELIN ET C°, PLACE DU MARCHÉ, 67.                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+<b>1843</b>                                                          | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+<b>OBSERVATIONS</b>.                                                 | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+Les tableaux à l’huile, ainsi que les pastels, sont                  | 0 | 
+placés dans la première salle, en entrantx                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Les miniatures, aquarelles, dessins à la plume-                      | 0 | 
+au crayon, etc., sont principalement placés sur les                  | 0 | 
+panneaux du fond de cette première salle.                            | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+<i>Nota</i>. Le (C). placé à la suite de la désignation indique le   | 1 | 
+mot <i>copie</i>.                                                    | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+<b>AVIS.</b>.                                                        | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+Les personnes qui désireraient être de la Société lorraine           | 0 | 
+des amis des arts, et conséquemment concourir à l’acquisi¬           | 0 | 
+tion de tableaux et autres objets d’arts faisant partie de           | 0 | 
+l’exposition, peuvent s’inscrire sur le registre déposé à l’en¬      | 0 | 
+trée des salles d’exposition.                                        | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Chaque action est de 10 francs.                                      | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+<i>Les objets acquis seront ensuite tirés au sort entre tous les</i> | 1 | 
+<i>actionnaires</i>.                                                 | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+SOCÉÉTÉ RORRAINE                                                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+DES AMIS DES ARTS.                                                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+IOIN DE 1843.                                                        | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Septième Année.                                                      | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. ANDRÉ, <i>peintre, rue des Carmes, à Nancy</i>.                   | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+1. Portrait de M. D. V...... (pastel).                               | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+2. <i>Idem</i> de M. C. J...., <i>idem</i>.                          | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+3. L’Aumône, <i>idem</i>.                                            | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+4. Portrait de M. C...., <i>idem</i>.                                | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+5. <i>Idem</i> de M. H....., <i>idem</i>.                            | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+6. La Sorcière. <i>idem</i>.                                         | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+«Le roi de trèfle vous annonce un beau brun.»                        | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+7. Portrait de M....... (pastel.)                                    | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. ANDRÉ JEUNE,                                                      | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+<i>professeur de dessin de machines, 11, rue de la</i>               | 1 | 
+<i>Pépinière</i>.                                                    | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+8. Locomotive (dessin au lavis).                                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+9. Machine, <i>idem</i>.                                             | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+10. Pont de Suresnes.                                                | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+11. La Chapelle de Notre-de-Dame des flammes                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+(environs de Paris), construite sur le lieu                          | 0 | 
+même de l’évènement du 8 mai.                                        | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+★                                                                    | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. BASTIEN, <i>de Metz</i>.                                          | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+12. Portrait de Mme N.....                                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+13. <i>Idem</i> de M. N......                                        | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+M. DE ST-BEAUSSANT, <i>à Nancy</i>.                                  | 1 | 
+<i>Paysages au pastel</i>.                                           | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+14. Vue d’une ville des environs de Gènes.                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+15. Une Chapelle ruinée (environs de Gènes).                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+16. Vue du château d’Aulnoy.                                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+17. Vue prise sur les plages de la Méditerranée                      | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+(effet du soir).                                                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+18. Vue d’une partie de la Yungfrau, prise de la                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+vallée d’Unterseen (effet du matin).                                 | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+19. Vue de la vallée de Meyringen.                                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+20. Vue du fond du lac de Thunn, vallée d’Inter¬                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+laken (soleil couchant).                                             | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+21. Vue des environs du lac de Zurich.                               | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+22. Vue du phare et des remparts de Gènes (effet                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+du soleil couchant).                                                 | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+23. Vue prise sur les Hautes-Alpes, près de Ro¬                      | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+senlaui.                                                             | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Mlle BIRGLIN, <i>à Nancy</i>.                                        | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+24. Oiseau (nature morte).                                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+25. Geai.                                                            | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. BONAMOUR.                                                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+26. Saint-Jérôme.                                                    | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. VICTOR DE BOUILLÉ.                                                | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+27. Cadre renfermant divers croquis.                                 | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+28. Un enfant (terre cuite).                                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+★                                                                    | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+— 5 —                                                                | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. CASSE, <i>peintre, rue Stanislas</i>, 20.                         | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+29. Le Christ (C.), (miniature).                                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+30. Portraits des enfants de M. B....., <i>idem</i>.                 | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+31. <i>Idem</i> de Mme C..., de MM. M....., B.....,                  | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+G...... C....... (miniature).                                        | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Mme CHARMEIL, <i>de Metz</i>.                                        | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+32. Bouquet de pensées, (aquarelle).                                 | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+33. <i>Idem</i> d’anémones, <i>idem</i>.                             | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+Mme ADELE C....., <i>à Lunéville</i>.                                | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+Neuf tableaux de fleurs (aquarelle), sous les nos                    | 0 | 
+34, 35, 36, 37, 38, 39, 40, 41 et 42.                                | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. CRAS, <i>rue Chapelrue, à Metz</i>.                               | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+43. Le Repos des bandits.                                            | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+44. Scène du bateau à vapeur, le 18 octobre 1841,                    | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+à Metz.                                                              | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. DEDOME, <i>rue St-Julien, à Nancy</i>.                            | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+45. Portrait en pied de Mlle P.....                                  | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+46. <i>Idem</i> de M. Ed. P....                                      | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+47. Portrait de M. O......                                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+48. <i>Idem</i> de M. S......                                        | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+M. DEMANGE, <i>Grande-Rue (ville vieille</i>), 76.                   | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+49. Copie d’une tête de vieillard, (C.) (miniature.)                 | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+50. Tête, d’après Rubens, (C.) <i>idem</i>.                          | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+51. Etude de vieillard (C.) <i>idem</i>.                             | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+52. Portrait de M. D..... <i>idem</i>.                               | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+53. <i>Idem</i> de Mme la comtesse de L... (C.) d’après              | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+un tableau à l’huile du Musée de Nancy.                              | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+6 —                                                                  | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+54. Portrait de Napoléon (C.), d’après un tableau à                  | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+l’huile de M. Isabey père.                                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Mlle DUPLESSIS, <i>rue de la Poissonnerie</i>.                       | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+55. Un Cadre renfermant divers objets dessinés                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+en cheveux.                                                          | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. DUPONT, <i>à Neufchâteau</i>.                                     | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+56. La Vierge, l’Enfant Jésus et le petit St-Jean.                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Mlle FERRAND (ADÈLE), <i>à Paris</i>.                                | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+57. La Visite à la nourrice.                                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+58. La Demande en mariage.                                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. FEYEN, <i>rue d’Amerval</i>, 17, <i>à Nancy</i>.                  | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+59. La Jeune Fille à la fontaine.                                    | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+60. L’Escargot.                                                      | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+61. Portrait de M. D. C... ... (crayon.)                             | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. FOUCLHOUZE, <i>de St-Dié</i>.                                     | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+62. Route de la Corneche, près de Fincle (Sar¬                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+daigne).                                                             | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+63. Derniers effets du soleil couchant dans la                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+campagne de Rome.                                                    | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+64. Quai Sainte-Lucie, à Naples.                                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+65. Phare de Naples.                                                 | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+66. Vue prise en Dauphiné.                                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+67 Vue prise à Rome, près de St-Jean de Latran.                      | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. FRATIN, <i>à Paris</i>.                                           | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+68. Lion attaquant un cheval (bronze).                               | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+69. Cerf de l’Amérique du nord, <i>idem</i>.                         | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+b>ece                                                                | 3 |  <b>ece
+
+                                                                     |   | 
+                                                                     |   | 
+— 7 —                                                                | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. GÉNY (ALEXANRE), <i>à Nancy</i>.                                  | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+70. Portrait de M le baron d’A....... (aqua¬                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+relle).                                                              | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+71. <i>Idem</i> de Mlles D.......                                    | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+72. <i>Idem</i> de Mlle B......                                      | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+M. GEORGES (VICTOR), <i>rue Notre-Dame</i>, 9.                       | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+73. Portraits de M. et Mlle de V.......                              | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+74. Portrait de Henry de L......                                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+75. L’Adoration des Mages, de Paul Véronèze,                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+d’après une gravure.                                                 | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. GÉRARD, <i>rue de Metz</i>, 22.                                   | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+76. Portrait de M. de J......                                        | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+77. Sœur Urgueth dite Petelot, scène d’intérieur.                    | 0 | 
+M. DE SAINT-GERMAIN, <i>à Nancy</i>.                                 | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+78. Partie supérieure du village de Lorèche-les¬                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Bains, canton de Valais (Suisse).                                    | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. PAUL GOMIEN, <i>à Paris</i>.                                      | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+79. Portrait de Mme Maria D...... (miniature).                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+80. <i>Idem</i> de M. le vicomte C..... <i>id</i>.                   | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+81. <i>Idem</i> de Mme C. B...... (miniature à                       | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+l’huile).                                                            | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Mlle SOPHIE GRIMBLOT, <i>à Nancy</i>,                                | 1 | 
+<i>Elève de M. Hussenot</i>.                                         | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+et Holopherne (                                                      | 0 | 
+Horace Vernet).                                                      | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+— 8 —                                                                | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. GUÉRARD, <i>quai Vohtaire</i>, 5, <i>à Paris</i>.                 | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+83. Le Soir (aquarelle).                                             | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+84. Un Caère renfermant plusieurs sujets.                            | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Mme GUIBAL aînée, <i>de Nancy</i>.                                   | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+85. Port pêcheur (tapisserie).                                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+86. Vue prise du lac de Brientz, <i>idem</i>.                        | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+<b>7 Hemituage en Dadphine iuen<i>.                                  | 3 |  BALISES MANQUANTES
+                                                                     |   | 
+                                                                     |   | 
+Mlle HAILLECOURT, <i>à Nancy</i>.                                    | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+88. Portrait de M.... (miniature).                                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+89. <i>Idem</i> de Mme...., <i>idem</i>.                             | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+90. <i>Idem</i> d’après Van-Dick, (C.) <i>idem</i>.                  | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+91. <i>Idem</i> d’après Rubens, (C.) <i>idem</i>.                    | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+M. HUNNER, <i>rue St-Georges</i>, 9.                                 | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+92. Une Prédication dans la cathédrale de Nancy                      | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+93. Portrait du père L........, peint de mémoire                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+94. Portrait de l’auteur.                                            | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. HUSSENOT, <i>de Metz</i>.                                         | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+95. La Sainte-Magdelaine (étude d’après nature.)                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+96. L’Enfance du Giotto.                                             | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+97. Portrait en piéd de M. M......                                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+98. <i>Idem</i> de M. C......                                        | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+M. JACQUOT, <i>sculpteur à Paris</i>.                                | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+99. L’Amour à la Colombe.                                            | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. LABROUE, <i>peintre à Metz</i>.                                   | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+100. Portrait de Mlle Amélie L...... (miniature).                    | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+101. <i>Idem</i> de M. l’abbé L.. ..., <i>idem</i>.                  | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+— 9 —                                                                | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Mlle A. LALLEMENT, <i>de Metz</i>.                                   | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+102. Portrait de M. H...... (dessin).                                | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+103. La Donneuse d’eau bénite.                                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. LAURENT (PAUL),                                                   | 0 | 
+<i>professeur à l'Ecole forestière</i>.                              | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+104. Une Matinée de Fête-Dieu, au Val-d’Ajol.                        | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+(<i>Des jeunes filles préparent un reposorr.</i>.)                   | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+105. Les Deux Jaloux.                                                | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+106. Cascade du Saut de la Cuve, à Saint-Amé                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+(Vosges).                                                            | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+107. La Jambe de bois.                                               | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+108. Environs de Saint-Amé.                                          | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+109. Un Lorrain de l’ancien temps.                                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+«Lorrain, prête moi ton lard. — Non...»                              | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. L. . . ., <i>de Mulhouse</i>.                                     | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+110. Le Glacier.                                                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+111. Le Vieux-Pont.                                                  | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+112. La Cascade.                                                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+113. Tête de femme (pastel).                                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. LEROY, <i>rue Saint-Georges</i>, 6.                               | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+114. Le denier de César (C.) (d’après une gravure).                  | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. LUCY, <i>de Metz</i>.                                             | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+115. Vue de Suisse.                                                  | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. MALARDOT, <i>de Metz</i>.                                         | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+116. Le Braconnier.                                                  | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+117. Les Contrebandiers.                                             | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+10                                                                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. MARMIER, <i>de Metz</i>.                                          | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+118. Un Pavot (aquarelle).                                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+119. Clochettes, <i>idem</i>.                                        | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+120. La Tour d’Hermann (vue de Suisse), <i>idem</i>.                 | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+121. Environs de Handeek (Suisse), sépia.                            | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+122. Dans la plaine de la Hart (Alsace), <i>idem</i>.                | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+M. MENESSIER, <i>de Metz</i>.                                        | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+123. L’Escarmouche.                                                  | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+124. Effet du soir, entrée d’une forêt.                              | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+125. Souvenir des bords de la Moselle.                               | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+126. Village aux environs d’Ems.                                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+127. Paysage, composé.                                               | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. MILGREDER, <i>à Nancy</i>.                                        | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+128. L’Annonciation (d’après une gravure).                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. DE MIRBECK, <i>à Saint-Dié</i>.                                   | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+129. Le Viatique, sujet d’intérieur.                                 | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Mlle MONTFORT.                                                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+129 bis. Portrait de M. N......                                      | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Mlle J. NEBEL, <i>petite rue des Carmes, à Nancy</i>.                | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+130. Portrait de Mlle D......, aquarelle.                            | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+131. <i>Idem</i> de Mlle de V....., <i>idem</i>.                     | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+M. OLIVIER, <i>peintre, quai Voltaire, 5, à Paris</i>.               | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+132. Portrait de Mme F..... (aquarelle).                             | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+133. <i>Idem</i> de M. et Mlle B..., <i>idem</i>.                    | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+(<i>Les accessoires sont de M. Guérard</i>.)                         | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+11                                                                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Mlle PAIGNÉ (OCTAViIe), <i>à Metz</i>.                               | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+134. Sainte Brigitte (pastel).                                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+(<i>Un ange travaille à sa broderie pendant</i>                      | 1 | 
+<i>qu’elle est en extase</i>.)                                       | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+135. La Petite Fille au chapelet (pastel).                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+(<i>Paysanne de la Lorraine allemande</i>.)                          | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+136. La Moissonneuse, (pastel.)                                      | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+(<i>Paysanne de la Lorraine française</i>.)                          | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+M. PELLETIER, <i>de Metz</i>.                                        | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+137. Souvenirs des Vosges (aquarelle).                               | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+138. Souvenir des bords du Rhin, <i>idem</i>.                        | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+139. <i>Idem</i> des bords de la Moselle, près de Coblentz,          | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+(aquarelle).                                                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+140. Les Bords du Rhin, <i>idem</i>.                                 | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+141. Etudes à la sépia.                                              | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+142. <i>Idem</i> au crayon.                                          | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+143. <i>Idem</i> à la plume.                                         | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+M. PELTRE,                                                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+<i>Demeurant à Chambrey, arrondissement/i>                           | 1 |  <i>Demeurant à Chambrey, arrondissement</i> 
+
+<i>de Château-Salins</i>.                                            | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+144. Isaura (épouse du comte de Modène, récla¬                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+mant justice à l’empereur Othon III, en lui                          | 0 | 
+présentant la tête de son époux, assassiné                           | 0 | 
+par les ordres de l’empereur sur l’injuste                           | 0 | 
+accusation de l’impératrice).                                        | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. PICHOT.                                                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+145. Diane au bain (dessin d’après une gravure).                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+12                                                                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. RAUCH (CH.).                                                      | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+146. Vue générale de Liverdun.                                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+146 bis. La Tour nord du château de Pierrefonts,                     | 0 | 
+près de Compiègne (effet de clair de lune).                          | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+147. Restes de l’ancien couvent et de la porte de                    | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Long-Pont.                                                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+148. Le cours du Rhône (vue prise des hauteurs du                    | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+vieux château de Vienne, en Dauphiné).                               | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+149. Environs de Vargo, près de Grenoble.                            | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Mlle ROUSSEL (ÉMÉLIE), <i>à Paris</i>.                               | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+150. Séïd.                                                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+151. Le Mouleur figuriste.                                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+152. Brune et Blonde.                                                | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+153. Pâtre des Alpes, (C.) (d’après Léon Cognet).                    | 0 | 
+154. Grouppe d’enfants, (C.) (d’après Rioult).                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. RYAN (CHARLES), <i>sourd-muet</i>.                                | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+155. Portrait au crayon.                                             | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+156. <i>Idem</i>, au crayon, de M. Richardin.                        | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+M. SALZARD, <i>de Metz</i>.                                          | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+157. Musicienne ambulante (pastel).                                  | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. SCHWITER, <i>à Paris</i>.                                         | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+158. Portrait de M. le baron D. Charlus.                             | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+159. <i>Idem</i> de Mlle deT.....                                    | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+— 13 —                                                               | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. SÉLIGMANN, <i>de Nancy</i>.                                       | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+160. Mort de Gilbert, (d’après un tableau de Mon¬                    | 0 | 
+voisin, qui se trouve au Musée de Nancy),                            | 0 | 
+crayon noir.                                                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Mlle L. STRUBBERG, <i>de Ribeauvillers</i>.                          | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+161. Bords de l’Ill (Alsace).                                        | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+162. Ruines d’une chapelle (vue prise dans les                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Vosges).                                                             | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. WAULTRIN, <i>à Nancy</i>.                                         | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+163. Vallée dans les Vosges.                                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+164. La Ferme au pied du rocher.                                     | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+165. Bagatelles de la porte.                                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+166. Chanteurs ambulants.                                            | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+167. Le Pâtre.                                                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+168. Le Chasseur.                                                    | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+169. Les Pêcheurs.                                                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+170. Le Marchand d’oublis.                                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. VIARD (JIORNÉ),                                                   | 0 | 
+<>ouvrier faïencier, à Saint-Clément</i>.                            | 1 |  <i>ouvrier faïencier, à Saint-Clément</i> 
+
+                                                                     |   | 
+                                                                     |   | 
+171. L’Hiver (terre cuite).                                          | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+172. Enfant endormi, <i>idem</i>.                                    | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+M. VICAIRE, <i>à Nancy</i>.                                          | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+173. Portrait de Mme V......                                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+<b>SUPPLÉMENT</b>.                                                   | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+M. DAVAL, <i>de Nancy</i>.                                           | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+174. Quatre dessins au crayon, sous le même                          | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+numéro.                                                              | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. FOUILHOUSE, <i>de St-Dié</i>.                                     | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+175. Vue du Valtin (Vosges.)                                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+176. Environs de St-Dié, <i>idem</i>.                                | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+M. PELLETIER, (LAURENT) <i>de Metz</i>.                              | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+177. Une Forêt (dessin au crayon).                                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+178. Deux cadres contenant 4 études (sépia).                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+179. St-Gourhausen, sur le Rhin (aquarelle).                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. MENESSIER, <i>de Metz</i>.                                        | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+180. Deux cadres contenant 4 paysages (sépia).                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. WAULTRIN.                                                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+181. Entrée de St.-Nicolas-de-Port. Route de                         | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+Nancy. (Un jour de Pentecôte).                                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+182. Rue de la Douane (Nancy).                                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+183. Lyverdun (sur la Moselle).                                      | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. VIAN, <i>de Nancy</i>.                                            | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+184. Trois cadres sous le même numéro, conte¬                        | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+nant des miniatures et aquarelles.                                   | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. GUERARD, <i>quai Voltaire 5, à Paris</i>.                         | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+185. L’eau bénite, (aquarelle)                                       | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+15 —                                                                 | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+M. GEORGES (VICTOR).                                                 | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+186. Portrait de M. M.....                                           | 0 | 
+                                                                     |   | 
+                                                                     |   | 
+187. <i>Idem</i> de Mme M.....                                       | 1 | 
+                                                                     |   | 
+                                                                     |   | 
+####################################### STATISTICS: ############################################
+
+				 Cat_Nancy_1843.txt 
+
+
+Type							Count			   %
+-----------------------------------------------------------------------------------------
+Correct tags						 120 			 34.48
+Incorrect tags						 8 			 2.30
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+Not automatically correctable				 3 			 0.86
+Automatically correctable				 5 			 1.44
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+No tags							 220 			 63.22
+Initially without problems with the tags		 120 			 34.48
+
+Initially well-formed tags				 3 			 0.86
+- Wrong order						 0 			 0.00
+- Missing tags						 3 			 0.86
+
+Initially malformed tags				 5 			 1.44
+- Well-corrected tags					 3 			 0.86
+- Well-corrected tags, bad order			 0 			 0.00
+- Well-corrected tags, missing tags			 1 			 0.29
+- Well-corrected tags, empty tags			 1 			 0.29
+-----------------------------------------------------------------------------------------
+

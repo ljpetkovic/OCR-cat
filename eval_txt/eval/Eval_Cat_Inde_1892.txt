@@ -1,0 +1,2364 @@
+#################### Vérification et correction automatiques de balises #####################
+
+La sortie du programme est en trois colonnes : 
+• la première colonne est la ligne originale, 
+• la deuxième est un code de sortie
+• la troisième est soit le signalement d'un problème soit la suggestion d'une correction
+Codes de sorties possibles (correspondant à la situation après correction éventuelle):
+0 : ligne sans balise
+1 : les balises sont bien formées, et respectent la succession balises ouvrantes/balises
+    fermantes
+2 : les balises sont bien formées et il y a autant de balises ouvrantes que fermantes,
+    mais l'alternance 'ouvrante/fermante' n'est pas respectée
+3 : les balises sont bien formées mais il n'y a pas le même nombre de balises ouvrantes 
+    et fermantes
+4 : il y a au moins potentiellement une balise erronée qui n'a pas pu être corrigée.
+##########################################################################################
+
+Processing Cat_Inde_1892.txt ...
+Done.
+
+SOCIÈTÉ                                                           | 0 | 
+<b>ARTISTES INDÉPENDANTS</b>                                      | 1 | 
+PEINTRES, SCULPTEURS                                              | 0 | 
+TGRAVEURS, DESSINATEURS ETT ARCHITECTES                           | 0 | 
+<b>Fondée le 11 Juin 1884</b>                                     | 1 | 
+j(SggfafSÉdéposés chez Me COURSAULT, Notaire à Montmorency)       | 0 | 
+CATALOGUE</b>                                                     | 3 |  BALISES MANQUANTES
+T                                                                 | 0 | 
+<b>DES ŒUVRES EXPOSÉES                                            | 3 |  BALISES MANQUANTES
+Prix: 50 Centimes                                                 | 0 | 
+47.                                                               | 0 | 
+1892                                                              | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+1892                                                              | 0 | 
+EIPOSITI                                                          | 0 | 
+>PAVILLON DE LA VILLE DE PARIS<                                   | 4 | >PAVILLON DE LA VILLE DE PARIS<
+
+<i>(Champs-Elysées<i></                                           | 3 |  <i>(Champs-Elysées <i></i> 
+
+22                                                                | 0 | 
+<b>V DU 19 MARS AU 27 AVRIL</b>                                   | 1 | 
+AXAW <i>de 9 heures à 6 heures</i>                                | 1 | 
+(185*-                                                            | 0 | 
+IMPRIMERIE H. CHÉREST                                             | 0 | 
+92, rue Lafayetfe. Paris                                          | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+DUBOIS-PILLET                                                     | 0 | 
+<i>Membre fondateur, décédé le</i> 17 Août 1890</b>               | 3 |  BALISES MANQUANTES
+COMITÉ                                                            | 0 | 
+<i>Président: VALTON, avenue Parmentier, 131.                     | 3 |  BALISES MANQUANTES
+<i>Vice-Frésident> DAVRICNY 1 <i>Vice-Président</i: TESSIER,      | 4 |  <i>Vice-Frésident> DAVRICNY 1 <i>Vice-Président</i> : TESSIER,
+
+76, rue de Passy.                                                 | 0 | 
+66 <i>bis</i>, rue Spontini                                       | 1 | 
+<i>Secrétaire</i> CONTREPOIS,                                     | 1 | 
+<i>Secrétaire</i>  GOUBOT,                                        | 1 | 
+33, rue du Faubourg-Mont-                                         | 0 | 
+6, rue de la Tour-d’Au¬                                           | 0 | 
+martre.                                                           | 0 | 
+vergne.                                                           | 0 | 
+<i>Trésorier</i>.: SERENDAT DE BELZIM 31, av. de Villiers.        | 1 | 
+<i>Membres</i>:/i>                                                | 3 |  <i>Membres</i> :</i> 
+
+ALBERT, 3, rue Alfred-Stevens.                                    | 0 | 
+D’ARGENCE, 21, rue St-Ferdinand.                                  | 0 | 
+CAILLAUD, 3 <i>bis</i>, impasse du Maine.                         | 1 | 
+DUVAL-GOZLAN, 41, rue de la Tour-d’Auvergne.                      | 0 | 
+GUÉRIN DES LONGRAIS, 174, Faubourg St-Denis..                     | 0 | 
+GUILLAUMIN, 8, rue Garancière.                                    | 0 | 
+JAUDIN, 120, avenue de Villiers.                                  | 0 | 
+LASELLAZ, 23, boulevard Gouvion-St-Cyr.                           | 0 | 
+LUCE, 6, rue Cortot.                                              | 0 | 
+MONIER, 12, rue des Artistes.                                     | 0 | 
+OSBERT, 9, rue Alain Chartier.                                    | 0 | 
+SIGNAC, 15, impasse Hélène.                                       | 0 | 
+DE TOULOUSE-LAUTREC, 27, rue Caulaincourt.                        | 0 | 
+TRAVERS, 18, rue de Chabrol.                                      | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+<b>La Société des Artistes Incépendants, basée</b>                | 1 | 
+sur la suppression des Jury d’admission, a                        | 0 | 
+pour but de permettre aux Artistes de pré¬                        | 0 | 
+<b>senter librement leurs œuvres au jugement                      | 3 |  BALISES MANQUANTES
+du public.                                                        | 0 | 
+DÉSIGNATION/                                                      | 0 | 
+ALBERT, Adolphe, né à Paris. — 3, rue Alfred¬                     | 0 | 
+Stevens.                                                          | 0 | 
+<b>*1</b> Etude.                                                  | 1 | 
+<b>*2</b> Les blés en Normandie.                                  | 1 | 
+<b>*3</b> Les Saules.                                             | 1 | 
+<b>*4</b> Vernon (Eure).                                          | 1 | 
+<b>*5</b> La Prairie à Heurgival.                                 | 1 | 
+<b>*6</b> Tête d’étnde                                            | 1 | 
+<b>7</b> Tête d’étude.                                            | 1 | 
+<b>*8</b> Après la séance.                                        | 1 | 
+<b>*9</b> Dessin à la sanguine.                                   | 1 | 
+ALFRED LE PETIT, Achille-Alexandre, né à Aumale                   | 0 | 
+(Seine-et-Inférieure). — 12, rue de Courcelles                    | 0 | 
+Levallois.                                                        | 0 | 
+<b>10</b> Ma tante est morte.                                     | 1 | 
+<b>11</b> J’hérite de ça.                                         | 1 | 
+(1) L’astérique placé à côté des numéros indique les œuvres à     | 0 | 
+vendre.                                                           | 0 | 
+On peut se procurer, au Secrétariat de i’Exposition tous les ren¬ | 0 | 
+seignements nécessaires à l’achat des ouvrages, prix des œuvres   | 0 | 
+et adresses des auteurs.                                          | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+★ 6                                                               | 0 | 
+<b>12</b> Portrait.                                               | 1 | 
+<b>13</b> Un photographe à Neufchatel-en-Braye                    | 1 | 
+Seine-Inférieure).                                                | 0 | 
+<b>14</b> Un mendiant (Normandie).                                | 1 | 
+<b>15</b> Étude.                                                  | 1 | 
+<b>16</b> Étude.                                                  | 1 | 
+<b>17</b> Étude.                                                  | 1 | 
+<b>18</b> Le dernier-né.                                          | 1 | 
+<b>19</b> Étude.                                                  | 1 | 
+AMBROSELLI, Léon, né à Paris.                                     | 0 | 
+7, rue Chabanais.                                                 | 0 | 
+<b>20</b> La plaine aux Gabillons.                                | 1 | 
+<b>21</b> Soir d’automne.                                         | 1 | 
+<b>22</b> Brue matinale.                                          | 1 | 
+<b>23</b> L’ïle de la Ferme.                                      | 1 | 
+<b>24</b> Crépuscule.                                             | 1 | 
+<b>25</b> Matin de septembre.                                     | 1 | 
+ANGRAND, Charles. — 45, boulevard des Batignolles                 | 0 | 
+Paris.                                                            | 0 | 
+<b>26</b> L’âtre. Crayon.                                         | 1 | 
+<b>27</b> Le diner. Crayon.                                       | 1 | 
+b28</b> Le berger. Crayon.                                        | 3 |  BALISES MANQUANTES
+<b>29</b> Le chien.                                               | 1 | 
+<b>30</b> L’âne.                                                  | 1 | 
+<b>31</b> La neige.                                               | 1 | 
+<b>32</b> Le soir.                                                | 1 | 
+ANQUETIN, Louis. — 62, rue de Rome.                               | 0 | 
+<b>33</b> Dos. Pastel.                                            | 1 | 
+<b>34</b> Paysage.                                                | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 7                                                               | 0 | 
+<b>35</b> Pertrait.                                               | 1 | 
+<b>36</b> Étude                                                   | 1 | 
+<b>37</b> Paysage                                                 | 1 | 
+<b>38</b> Rue (Soir).                                             | 1 | 
+<b>39</b> Torse. Pastel.                                          | 1 | 
+<b>40</b> Rue. Pastel                                             | 1 | 
+<b>41</b> Portrait de Bernard-Lazare.                             | 1 | 
+<b>42</b> Étude. Pastel                                           | 1 | 
+ARGENCE (d’), Eugène, né à Paris.                                 | 0 | 
+21, Rue Saint-                                                    | 0 | 
+Ferdinand.                                                        | 0 | 
+<b>43</b> Nuit étoiléc. Paysage.                                  | 1 | 
+<b>44</b> Le soir.                                                | 1 | 
+<b>45</b> Vue prise à Saint-Jean                                  | 1 | 
+<b>46</b> Le hameau Raymond.                                      | 1 | 
+<b>47</b> Dernières lueurs.                                       | 1 | 
+<b>48</b> Le chemin Vauville.                                     | 1 | 
+<b>49</b> Beau temps.                                             | 1 | 
+<b>50</b> Hameau de Fréval                                        | 1 | 
+<b>51</b> La falaise «Fréport)                                    | 1 | 
+<b>52</b> Le chemin de la mer.                                    | 1 | 
+ARTHUS, Albert, né à Paris. — 81, rue Taitbout.                   | 0 | 
+<b>53</b> Arrivée sur rade à Algesiras (Espagne).                 | 1 | 
+<b>54</b> Etang de Naphte (Basse Russie). (Effet                  | 1 | 
+du matin.                                                         | 0 | 
+<b>55</b> La malle de Barcelone en vue de Port¬                   | 1 | 
+Mahon. (Coucher de soleil, automne.)                              | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+8                                                                 | 0 | 
+AUTHIER (Mlle), Henriette, née à Moulins (Allier). —              | 0 | 
+7, rue de l’Oiseau, Moulins.                                      | 0 | 
+<b>*56</b> Un coin d’atelier (le jour du modèle                   | 1 | 
+vivant).                                                          | 0 | 
+<b>*57</b> Calendrier de Flore, Avril.                            | 1 | 
+BAHUET, Alfred-Louis, né à Paris. — 61, rue Monsieur¬             | 0 | 
+le-Prince.                                                        | 0 | 
+<b>58</b> L’ami Colas chez lui. (Appartient à                     | 1 | 
+M. L. G.)                                                         | 0 | 
+<b>*59</b> Les bords de l’Yerres, à Jarcy.                        | 1 | 
+<b>*60</b> Au bord de l’eau.                                      | 1 | 
+<b>61</b> Les bords de l’Yerres.                                  | 1 | 
+<b>62</b> Souvenirs de voyage. Nieuwendom (en¬                    | 1 | 
+virons d’Amsterdam.                                               | 0 | 
+<b>63</b> Dordrecht.                                              | 1 | 
+<b>64</b> Vue du fort Saint-Ange (Rome).                          | 1 | 
+<b>65</b> Environs de Rome. Vue du Tibre. Appar¬                  | 1 | 
+tient à l’auteur.                                                 | 0 | 
+<b>*66</b> Vue du pont de Boussy-St-Antoine.                      | 1 | 
+BARABANDY, Richard, né à Milan (Italie). — 34, bou¬               | 0 | 
+levard de Clichy, Paris.                                          | 0 | 
+<b>67</b> La Seine, au Point-du-Jour.                             | 1 | 
+<b>68</b> Plaine, à Bouffemont (Seine-et-Oise).                   | 1 | 
+<b>69</b> La Sèvres, à Niort.                                     | 1 | 
+<b>70</b> Ile-de-Ré (St-Martin).                                  | 1 | 
+<b>71</b> Nature morte.                                           | 1 | 
+<b>72</b> En vain!                                                | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+9 —                                                               | 0 | 
+BARBIER, Ernest, né à Chartres. — 131, rue de Fon¬                | 0 | 
+tenay. Vincennes.                                                 | 0 | 
+<b>73</b> Fleurs et Fruits.                                       | 1 | 
+<b>*74</b> Fleurs.                                                | 1 | 
+<b>*75</b> Fleurs et Fruits.                                      | 1 | 
+BARON (Mme), Hélène (Française). — Villa Sainte¬                  | 0 | 
+Rose, Petit-Juas, Cannes.                                         | 0 | 
+<b>76</b> <i>Campagnà</i> de Rome.                                | 1 | 
+BASTON, Alexandre, né à Paris. — Luzarches.                       | 0 | 
+<b>*77</b> Soleil levant.                                         | 1 | 
+<b>*78</b> Le père Duponnois.                                     | 1 | 
+BATTAGLLA, Matteo, né à Nice. — 5, rue Bernard¬                   | 0 | 
+Palissy. Paris.                                                   | 0 | 
+<b>79</b> Les Roses. Panneau décoratif.                           | 1 | 
+<b>80</b> Les Iris. Panneau décoratif.                            | 1 | 
+<b>81</b> Les Coquelicots (étude). Appartient à                   | 1 | 
+M. Leplé.                                                         | 0 | 
+<b>82</b> Coin de Jardin. Etude.                                  | 1 | 
+BAUQUIER, Jules, né à Paris. —                                    | 0 | 
+26, rue du Roi-de¬                                                | 0 | 
+Sicile.                                                           | 0 | 
+<b>83</b> Ma mère. Portrait.                                      | 1 | 
+<b>*4</b> Portrait de M. Bubourg.                                 | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+10                                                                | 0 | 
+BELLANGER, Auguste, né à Villette (Seine-et-Oise).                | 0 | 
+7, rue Denfert-Rochereau, Paris.                                  | 0 | 
+<b>85</b> La Communiante malade.                                  | 1 | 
+<b>86</b> Portrait de mon ami F. D...                             | 1 | 
+BENOIST, Théophile-Maximilien, né à Paris. — 44,                  | 0 | 
+Passage des Thermopyles.                                          | 0 | 
+<b>*87</b> Le pont de la Barque (Haute-Saône).                    | 1 | 
+<b>*88</b> Poulet.                                                | 1 | 
+<b>*89</b> Chemin à Vrégille (Doubs).                             | 1 | 
+<b>*90</b> Nature morte.                                          | 1 | 
+<b>*91</b> Clerval, sur le Doubs.                                 | 1 | 
+<b>92</b> Ferme à Clamart.                                        | 1 | 
+<b>93</b> Hauteur de l’Hay.                                       | 1 | 
+BERCIOUX, Jean-Charles, né à Paris. — 51 <i>bis</i>, rue          | 1 | 
+Cler.                                                             | 0 | 
+<b>94</b> Chrysanthêmes.                                          | 1 | 
+<b>95</b> Pensées.                                                | 1 | 
+<b>96</b> Lys.                                                    | 1 | 
+<b>97</b> Roses trémières.                                        | 1 | 
+BERNARD, Emile-Henry, né à Lille en-Flandre. — 5,                 | 0 | 
+avenue Beaulieu, Asnières.                                        | 0 | 
+<b>98</b> Pardon à Pont-Aven (1888).                              | 1 | 
+<b>99</b> Moissonneurs de blé noir. Pont-Aven 1888.               | 1 | 
+<b>100</b> Marché breton. Pont-Aven (1888).                       | 1 | 
+<b>101</b>. Printemps à (St-Brion. 1888).                         | 1 | 
+<b>102</b> Nature morte (1890).                                   | 1 | 
+<b>103</b> La Ville Estoir, en St-Briac (1891),                   | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+11 —                                                              | 0 | 
+<b>*104</b> Ile de la Grande-Jatte (1890)                         | 1 | 
+<b>105</b> La mer sauvage, St-Briac (1891                         | 1 | 
+<b>106</b> Moisson au bord de la mer (1891).                      | 1 | 
+BERNARD, Lucien-Saint-Fargeau-Eugène, né à Paris.                 | 0 | 
+28, rue du Lycée, Sceaux (Seine).                                 | 0 | 
+<b>107</b> Cascade aux Vaux de Cernay. (Appartient                | 1 | 
+à Mme B.                                                          | 0 | 
+<b>108</b> Marine                                                 | 1 | 
+*>109</b> Tombée du jour à Bagneux (Seine).                       | 1 | * <b>109</b> Tombée du jour à Bagneux (Seine).
+
+<b>110</b> Nature morte. (Appartient à M. de Ch.)                 | 1 | 
+<b>*111</b> Oignons. Nature morte.                                | 1 | 
+<b>112</b> Pommes de terre. Nature morte.                         | 1 | 
+BERTHIER, Paul, né à Paris, — 13, rue Bonaparte.                  | 0 | 
+<b>113</b> Près du Sarthon.                                       | 1 | 
+<b>114</b> Sur les bords de la Sarthe.                            | 1 | 
+<b>115</b> Intérieur.                                             | 1 | 
+<b>116</b> Moulin du père Baptiste.                               | 1 | 
+<b>117</b> Etude.                                                 | 1 | 
+BERTIE (Mlle), Fanny, née à Londres. — 47, rue Lau¬               | 0 | 
+gier, Paris.                                                      | 0 | 
+<b>118</b> Five o’cloch dans l’atelier.                           | 1 | 
+<b>119</b> Clown étudiant.                                        | 1 | 
+BESSET, Cyrille, né à Saint-Sernin-du-Plain (Saône-et¬            | 0 | 
+Loire. — Villa Lucie, Nice.                                       | 0 | 
+<>120</b> Bibelots.                                               | 1 |  <b>120</b> Bibelots.
+
+<b>*121</b> Poisson.                                              | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+12                                                                | 0 | 
+<b>*122</b> Bibelots orientaux.                                   | 1 | 
+<b>*123</b> Envoi de pommes.                                      | 1 | 
+BESNUS, Georges, né à Paris.                                      | 0 | 
+8, rue Notre-Dame¬                                                | 0 | 
+des-Champs.                                                       | 0 | 
+<b>124</b> Étude de figure au soleil.                             | 1 | 
+<b>125</b> Une Parisienne.                                        | 1 | 
+<b>126</b> La mare de Guinettes à Etampes                         | 1 | 
+<b>127</b> En vue du cap Matifou à Alger.                         | 1 | 
+<b>128</b> Les bords du Loing à Grès.                             | 1 | 
+<b>129</b> La plage de Mustapha à Alger.                          | 1 | 
+<b>130</b> Le Loing à Grès.                                       | 1 | 
+<b>131</b> Près du pont de Grès.                                  | 1 | 
+<b>132</b> Le bois de Bouraine au pont de pierre à                | 1 | 
+Étampes.                                                          | 0 | 
+<b>133</b> Ciel d’orage à Mortefontaine.                          | 1 | 
+BIDERMANN, Jean, né à l’Ile Bourbon. — 32, rue de                 | 0 | 
+Cléry. Paris.I                                                    | 0 | 
+<b>134</b> Portrait.                                              | 1 | 
+<b>135</b> L’Offrande du jongleur.                                | 1 | 
+<b>136</b> Croquis d’Algérie. (De Colea à Blidah).                | 1 | 
+<b>137</b> Souvenir de 1870 à Bry-sur-Marne.                      | 1 | 
+<b>138</b> Rue Poissonnière.                                      | 1 | 
+<b>139</b> Mon petit coin.                                        | 1 | 
+<b>140</b> Les Préliminaires.                                     | 1 | 
+<b>141</b> Fleurs.                                                | 1 | 
+<b>142</b> La Veillée,                                            | 1 | 
+*<b>143</b> Croquis nocturne.                                     | 1 | 
+BLANMANGIN, Paul, né à Paris.                                     | 0 | 
+2, Place de Bitche.                                               | 0 | 
+<b>*144</b> St-Etienne-du-Mont.                                   | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+13                                                                | 0 | 
+<b>*145</b> Pont St-Michel, soir.                                 | 1 | 
+<b>146</b> Palais de Justice, soir.                               | 1 | 
+<b>147</b> Les Halles de Paris, après midi.                       | 1 | 
+<b>148</b> Le Moulin-Rouge.                                       | 1 | 
+<b>149</b> Eglise de Veselay, (Bourgogne..                        | 1 | 
+<b>*150</b> Suresnes.                                             | 1 | 
+<b>*151</b> Pont des St-Pères.                                    | 1 | 
+<b>152</b> Iles St-Denis, matin                                   | 1 | 
+<b>*153</b> Iles St-Denis, matin                                  | 1 | 
+BOCH (Mlle), Anna, née à Bruxelles.                               | 0 | 
+2, avenue de                                                      | 0 | 
+laToison d’or (Bruxelles).                                        | 0 | 
+<b>154</b> Le retour de la pêche.                                 | 1 | 
+<b>155</b> Arc-en-ciel.                                           | 1 | 
+<b>156</b> Soir                                                   | 1 | 
+<b>157</b> Soir.                                                  | 1 | 
+<b>158</b> Marée haute.                                           | 1 | 
+<b>159</b> Les barques.                                           | 1 | 
+<b>160</b> Intérieur                                              | 1 | 
+BOISTEL, Léo, né à Dieupentale (Tarn-et-Garonne). —               | 0 | 
+Dieupentale.                                                      | 0 | 
+<b>161</b> Rarahu.                                                | 1 | 
+BOITELET, (Mlle) Marie-Louise, née à Guéret. — 34,                | 0 | 
+rue Fontaine, Paris.                                              | 0 | 
+<b>162</b> Les Malavaux, près Vichy (Allier).                     | 1 | 
+<b>163</b> Fleurs.                                                | 1 | 
+BONNAFFÉ, Jules, né à Bordeaux (Gironde). —                       | 0 | 
+52, avenue du Roule, Néuilly-sur-Seine.                           | 0 | 
+<b>164</b> A quand? Petite statuette, plâtre.                     | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+14                                                                | 0 | 
+<b>165</b> Le père Noël. Buste, terre cuite.                      | 1 | 
+<b>166</b> Buste de Geuseux, terre cuite.                         | 1 | 
+BONNARD, Pierre, né à Paris. — 28, rue Pigalle.                   | 0 | 
+<b>167</b> Portrait. Appartient à Mme M.                          | 1 | 
+<b>168</b> Paysage de soir. Appartient à Mme R.                   | 1 | 
+<b>169</b> Etude de coq.                                          | 1 | 
+<b>170</b> Déjeuner                                               | 1 | 
+<b>171</b> Caniches.                                              | 1 | 
+<b>172</b> Intérieur.                                             | 1 | 
+<b>173</b> Crépuscule.                                            | 1 | 
+BOU-CHAKOUR, Marc, né à Paris. — Le Puy (Hte-Lre).                | 0 | 
+<b>174</b> Distraite.                                             | 1 | 
+<b>175</b> Fleurs en pots.                                        | 1 | 
+<b>176</b> Foins en fleurs. Étude.                                | 1 | 
+<b>177</b> Fantaisie.                                             | 1 | 
+<b>*178</b> Étude.                                                | 1 | 
+BOUDIER (Mme), Jeanne, née à Paris, 16, rue Jeanne¬               | 0 | 
+Hachette.                                                         | 0 | 
+<b>179</b> Portraits. Miniature.                                  | 1 | 
+BOURDAIS [Mlle), Julienne, née à Poissy (Seine-et¬                | 0 | 
+Oise).                                                            | 0 | 
+<b>180</b> Portrait.                                              | 1 | 
+<b>181</b> Nature morte.                                          | 1 | 
+<b>182</b> Fruits.                                                | 1 | 
+BOUSSENOT, Fernand, né à Paris. — 5, rue Lincoln.                 | 0 | 
+<b>183</b> Temps gris.                                            | 1 | 
+<b>184</b> Farniente.                                             | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+15                                                                | 0 | 
+BOUVET, Henry-Marius-Camille, né à Lyon. — 75, ave¬               | 0 | 
+nue de Wagram                                                     | 0 | 
+<b>*185</b> Les laveuses.                                         | 1 | 
+<b>*186</b> Les usines de M. Fougerol, aux Ollières               | 1 | 
+(Ardèche)                                                         | 0 | 
+*<b>187</b> Le verger.                                            | 1 | 
+<b>*188</b> Un coin d’atelier (Pastel).                           | 1 | 
+<b>189</b> Le champ de blé noir.                                  | 1 | 
+<b>*190</b> Une ferme dans l’Isère.                               | 1 | 
+<b>191</b> La route de Privas à Vernont aux                       | 1 | 
+Ollières (Ardèche).                                               | 0 | 
+<b>*192</b> Les bords de l’Hérieux, aux Ollières                  | 1 | 
+Ardèche).                                                         | 0 | 
+<b>193</b> Rochers dans l’Hérieux, aux Ollières                   | 1 | 
+(Ardèche).                                                        | 0 | 
+<b>194</b> Le quai des Brotteaux à Lyon.                          | 1 | 
+BRANDT, Pierre, né à Paris. — A l’Ile Saint-Denis.                | 0 | 
+<b>195</b> Amont.                                                 | 1 | 
+<b>196</b> Aval.                                                  | 1 | 
+<b>197</b> Villeneuve-la-Garenne                                  | 1 | 
+<b>198</b> Berge.                                                 | 1 | 
+<b>199</b> Parc Monceau.                                          | 1 | 
+<b>200</b> Buttes Chaumont.                                       | 1 | 
+<b>201</b> Coupe de bois dans l’Ile Saint-Denis.                  | 1 | 
+BRESSANT, Paul, né à la Basse-Terre (Guadeloupe).                 | 0 | 
+174, avenue du Maine.                                             | 0 | 
+<b>202</b> Le Soir.                                               | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 16 —                                                            | 0 | 
+BRION, Paul, né à Paris. — 135, boulevard Saint-                  | 0 | 
+Michel.                                                           | 0 | 
+<b>203</b> Portrait.                                              | 1 | 
+BROC, François, né à Nîmes (Gard). — 18, rue de                   | 0 | 
+l’Orient. Paris.                                                  | 0 | 
+<b>204</b> Hier.                                                  | 1 | 
+<b>205</b> Aujourd’hui.                                           | 1 | 
+<b>206</b> Demain.                                                | 1 | 
+<b>207</b> La Force.                                              | 1 | 
+<b>208</b> La Nuit.                                               | 1 | 
+<b>209</b> Le Jour.                                               | 1 | 
+<b>210</b> Le Droit.                                              | 1 | 
+BROU de P. C., Prosper, né à Brou (Eure-et-Loir.                  | 0 | 
+15, rue du Faubourg-Montmartre, Paris.                            | 0 | 
+<b>211</b> Bois des Hautes-Bruyères.                              | 1 | 
+<b>212</b> Paysage.                                               | 1 | 
+<b>213</b> Bois de Boulogne.                                      | 1 | 
+<b>214</b> Œillets.                                               | 1 | 
+BROUSCH, Jean, né à Paris. — 54, rue de Rome,                     | 0 | 
+<b>215</b> Bords le Seine (Colombes).                             | 1 | 
+BRUNET, Eugène, né à Sarcelles (Seine-et-Oise). —                 | 0 | 
+59, rue d’Amsterdam.                                              | 0 | 
+<b>216</b> Village de Sorques.                                    | 1 | 
+<b>217</b> Le canal à Episy.                                      | 1 | 
+<b>218</b> L’écluse du canal à Episy.                             | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 17 ;                                                            | 0 | 
+<b>219</b> Le Loing à Sorques.                                    | 1 | 
+<b>220</b> Un coin à Episy                                        | 1 | 
+<b>221</b> Le Loing à Episy.                                      | 1 | 
+BURAT, Alice (Marie-Elisabeth), née à Paris. —                    | 0 | 
+8, place du Palais-Bourbon.                                       | 0 | 
+<b>222</b> Dessin à la plume, d’après un paysage                  | 1 | 
+de Zuccarelli.                                                    | 0 | 
+<b>223</b> Rendez-Vous de chasse. Dessin à la                     | 1 | 
+plume                                                             | 0 | 
+<b>224</b> Après le bombardement. Dessin à la                     | 1 | 
+plume d’après photographie.                                       | 0 | 
+<b>225</b> Un dessous de bois. Dessin à la plume.                 | 1 | 
+CARRAZ, Emile, né à Paris. — 100, rue du Goulet, à                | 0 | 
+Noisy-le-Sec.                                                     | 0 | 
+<b>*226</b> Ferme de Boucy.                                       | 1 | 
+<b>*227</b> Rivière des Prêtres (Charenton).                      | 1 | 
+<b>*228</b> Gorge aux Loups (Fusain).                             | 1 | 
+CASAS, Ramon, né à Barcelone (Espagne). — 3, rue                  | 0 | 
+Girardon, Paris.                                                  | 0 | 
+<b>*229</b> Una Corrida.                                          | 1 | 
+<b>*230</b> Au Moulin de la Galette                               | 1 | 
+<b>*231</b> San Pere de Rindebilles.                              | 1 | 
+<b>*232</b> Route de Barcelone.                                   | 1 | 
+<b>*233</b> Vallcarca.                                            | 1 | 
+<b>*234</b> Toilette.                                             | 1 | 
+<b>*235</b> Etude.                                                | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+- 18                                                              | 0 | 
+CAULLET, Henri, né à La Rochelle. — 17, rue                       | 0 | 
+Rémilly. Versailles.                                              | 0 | 
+<b>236</b> Rade de la Rochelle.                                   | 1 | 
+<b>237</b> Parc de Rambouillet. Étude.                            | 1 | 
+CAVALLO PEDUZZI, Émile-Gustave, né à Paris.                       | 0 | 
+22, rue Marcheret, à Lagny-sur-Marne.                             | 0 | 
+<b>238</b> Enfance de Perrinaëc (Vitrail).                        | 1 | 
+<b>*239</b> Matinée d’automne.                                    | 1 | 
+<b>*240</b> Bouquet.                                              | 1 | 
+<b>*241</b> Septembre.                                            | 1 | 
+<b>242</b> Portrait de Mme E. N...                                | 1 | 
+<b>243</b> Portrait de Mme C. N...                                | 1 | 
+<b>244</b> Aquarelles.                                            | 1 | 
+<b>*245</b> Eau-forte.                                            | 1 | 
+<b>*246</b> Le Bûcheron. Sculpture.                               | 1 | 
+CHARBONNIER, Paul, né à Nancy. — 9, rue Mon¬                      | 0 | 
+sieur-le-Prince, Paris.                                           | 0 | 
+<b>247</b> Marabout de Sidi Yakoub à Blidah                       | 1 | 
+(Algérie).                                                        | 0 | 
+<b>*248</b> Coin de campagne (environs d’Alger).                  | 1 | 
+CHARMOILLE, André, né à Besançon (Doubs). — 13,                   | 0 | 
+rue des Halles, Paris.                                            | 0 | 
+<b>249</b> Portrait de M. E. C. (Appartient à                     | 1 | 
+M. E. C.)                                                         | 0 | 
+<b>*250</b> Jeune fille. Etude.                                   | 1 | 
+<b>251</b> Un coin de Saint-Germain-l’Auxerrois.                  | 1 | 
+<b>*252</b> Une source à sec, à Gometz-le-Chatel                  | 1 | 
+(Seine-et-Oise).                                                  | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+19.                                                               | 0 | 
+—                                                                 | 0 | 
+<b>*253</b> Etudes (e vaches.                                     | 1 | 
+<b>*254</b> Le quai de la Tournelle                               | 1 | 
+<b>*255</b> Le <i>Mabel</i> et le port Saint-Nicolas.             | 1 | 
+<b>*256</b> Le petit bras de la Seine et le Pont-                 | 1 | 
+Neuf.                                                             | 0 | 
+<b>*257</b> Saint-Germain-l’Auxerrois. Matinée de                 | 1 | 
+novembre.                                                         | 0 | 
+CHARPENTIER, Paul-Alfred-Marius, né à St-Gervais                  | 0 | 
+(Isère). — Aux Requêtes, près Alençon (Orne).                     | 0 | 
+<b>258</b> Marée basse (Calvados).                                | 1 | 
+<b>*259</b> Le Soir dans l’Orne.                                  | 1 | 
+CHATELLIER, Charles-Edouard, né à Lisieux (Calva¬                 | 0 | 
+dos). — 5, rue Jaillot, La Rochelle.                              | 0 | 
+<b>*260</b> Environs de La Rochelle                               | 1 | 
+<b>*261</b> Bord de côte au Croisic.                              | 1 | 
+CHAVAGNAT (Mlle), Antoinette, née à Rouen (Seine¬                 | 0 | 
+Inférieure). — 11, rue Chanzy, Nanterre (Seine).                  | 0 | 
+<b>*262</b> Fleurs de printemps. Aquarelle.                       | 1 | 
+<b>*263</b> Bégonias. Aquarelle                                   | 1 | 
+<b>*264</b> Fantaisie orientale                                   | 1 | 
+<b>*265</b> Roses (plat).                                         | 1 | 
+CHEILLEY (Mlle), Jeanne, née à Londres (Angleterre),              | 0 | 
+—                                                                 | 0 | 
+10, rue Notre-Dame-de¬                                            | 0 | 
+de parents français.                                              | 0 | 
+Lorette, Paris.                                                   | 0 | 
+<b>266</b> Portrait de M. Richard-Ed-M... (Appar¬                 | 1 | 
+tient à Mme Richard-Ed-M...                                       | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+20 —                                                              | 0 | 
+<b>267</b> Ramasseuses de bois (Étude d’hiver).                   | 1 | 
+Aquarelle.                                                        | 0 | 
+<b>268</b> Retour de l’herbe. Étude.                              | 1 | 
+<b>269</b> Azalées. Aquarelle.                                    | 1 | 
+CHÉRÉMÉTEW, Basile, né à Moscou. — 71, rue de                     | 0 | 
+la Faisanderie.                                                   | 0 | 
+<b>270</b> Soirée d’hiver en Russie.                              | 1 | 
+CHEVALIER, Ernest-Jean, né à La Rochelle. —                       | 0 | 
+-55, rue                                                          | 0 | 
+Rennequin, Paris.                                                 | 0 | 
+<b>271</b> Le Calme. Marine.                                      | 1 | 
+<b>*272</b> Le port de la Chambre, Ile-Bréhat.                    | 1 | 
+<b>*273</b> La Baie de Bréhat. Marine.                            | 1 | 
+<b>*6</b>                                                         | 1 | 
+<b>74</b> Etude dans le port de la Rochelle.                      | 1 | 
+<b>★                                                              | 3 |  BALISES MANQUANTES
+<b>*275</b> Le Phare du Paon (Bréhat).                            | 1 | 
+<b>*276</b> Quatre études dans Paris.                             | 1 | 
+<b>*277</b> Les Patineurs.                                        | 1 | 
+<b>*278</b> Mer basse à Fouras.                                   | 1 | 
+<b>279</b> Au soleil. Etude.                                      | 1 | 
+<b>280</b> Etude à la Grande-Jatte                                | 1 | 
+CHEVALLIER, Henri, né à Lyon. —                                   | 0 | 
+35, rue de l’En¬                                                  | 0 | 
+fance, Paris.                                                     | 0 | 
+<b>281</b> Bergerie à la Grande-Chartreuse (Isère).               | 1 | 
+<b>282</b> Paysage de Rossillon (Ain).                            | 1 | 
+CHEVALLIER, Léon-Pierre, né à Sablé (Sarthe).                     | 0 | 
+143, avenue de Neuilly, Neuilly-sur-Seine.                        | 0 | 
+<b>283</b> Portrait de Mlle X..                                   | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 21 —                                                            | 0 | 
+CLARIS, Gaston, né à Montpellier (Hérault). — 46,                 | 0 | 
+rue Chaptal, Levallois-Perret (Seine)                             | 0 | 
+<b>*284</b> Le jardin du capitaine.                               | 1 | 
+<b>*285</b> Le billet de logement.                                | 1 | 
+CLAUDON, Roger, né à Paris. —                                     | 0 | 
+26, rue Bréda.                                                    | 0 | 
+<b>286</b> Jardin potager.                                        | 1 | 
+<b>287</b> Arroseur. Etude.                                       | 1 | 
+<b>288</b> Le Drochon. Panneau décoratif.                         | 1 | 
+<b>289</b> Au bord de la rivière. Pastel.                         | 1 | 
+<b>290</b> Sur l’eau.                                             | 1 | 
+CLOUET, Maurice, né à Paris. — Bois-Colombes, 7,                  | 0 | 
+rue des Carbonnets.                                               | 0 | 
+<b>291</b> Souvenir.                                              | 1 | 
+<b>292</b> Portrait.                                              | 1 | 
+CCOLAS, Louis-Auguste, né à Gouville (Manche). —                  | 0 | 
+74-76, rue J.-J. Rousseau,                                        | 0 | 
+<b>293</b> Etude, aquarelle. Mlle X...                            | 1 | 
+CCOMBLE, Paul, né à Vitry-le-Croisé (Aube).                       | 0 | 
+<b>294</b> Un ruisseau des Vaux de Cernay                         | 1 | 
+<b>295</b> Village de Cernay en 86.                               | 1 | 
+(Vallée                                                           | 0 | 
+<b>296</b> Mare près l’hôtel des Cascades.                        | 1 | 
+de Cernay).                                                       | 0 | 
+<b>297</b> Casino et Château de Dieppe.                           | 1 | 
+<b>298</b> Héron de l’année et Vanneaux                           | 1 | 
+<b>299</b> Bout de verger à Cernay.                               | 1 | 
+<b>300</b> Eglise de Cernay.                                      | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+22                                                                | 0 | 
+CORMIER, Emilie, née à Paris. — 15, quai Bourbon.                 | 0 | 
+<b>*301</b> Soleil couchant sur la mer.                           | 1 | 
+<b>*302</b> Hangar normand.                                       | 1 | 
+CORONT, Joseph, né à Vanosc (Ardèche). — 9, rue de                | 0 | 
+Tournon, Paris.                                                   | 0 | 
+<b>*303</b> Sous bois.                                            | 1 | 
+<b>*304</b> Sous bois de sapins, dans les Cévènnes.               | 1 | 
+<b>305</b> Sous bois.                                             | 1 | 
+<b>*306</b> Chemin du Vernet (Haut-Vivarais).                     | 1 | 
+<b>307</b> Effet d’automne.                                       | 1 | 
+<b>*308</b> Environs de St-Etienne (Loire).                       | 1 | 
+<b>309</b> Pêches et Prunes.                                      | 1 | 
+CROSS, Henri-Edmond, né à Douai. — 18, rue de                     | 0 | 
+Siam, Paris.                                                      | 0 | 
+<b>310</b> Croquis.                                               | 1 | 
+<b>311</b> Plage de la Vignasse.                                  | 1 | 
+<b>312</b> Plage de Baigne-Cul.                                   | 1 | 
+<b>313</b> Pointe de la Galère.                                   | 1 | 
+<b>314</b> Calanque des Antibois.                                 | 1 | 
+<b>315</b> Courses de taureaux,                                   | 1 | 
+à Paris. (Appar¬                                                  | 0 | 
+tient à Mme Bertout).                                             | 0 | 
+<b>316</b> Les Vendanges (Var).                                   | 1 | 
+CUVILLIER, Eugène-Henri, né à Paris. — 11 <i>bis</i>, rue         | 1 | 
+de Moscou.                                                        | 0 | 
+<b>317</b> Retournemer (Vosges).                                  | 1 | 
+<b>318</b> Baigneuse.                                             | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 23 —                                                            | 0 | 
+DAGNAUX, Albert, né à Paris. — 50, rue St-Didier.                 | 0 | 
+<b>319</b> La route. Pastel.                                      | 1 | 
+<b>320</b> Brouillard du matin sur la Creuse. Paste.              | 1 | 
+<b>321</b> Souvenir du 14 juillet. Pastel.                        | 1 | 
+<b>322</b> Femme brune. Pastel.                                   | 1 | 
+<b>323</b> Femme blonde. Pastel.                                  | 1 | 
+<b>324</b> Femme rousse. Pastel.                                  | 1 | 
+<b>325</b> Matinée de soleil en Normandie.                        | 1 | 
+<b>326</b> Environs de St-Lô.                                     | 1 | 
+<b>327</b> Cormeilles, en Vexin.                                  | 1 | 
+<b>328</b> Bergère et son chien. Pastel.                          | 1 | 
+DANIEL-MONFREID, George, né à Paris. — 31, rue                    | 0 | 
+Saint-Piacide.                                                    | 0 | 
+<b>*329</b> Chaumière à Vareilles (Lozère).                       | 1 | 
+<b>*339</b> Les Moissons en Cerdagne. Appartient à                | 1 | 
+M. M. de P.                                                       | 0 | 
+<b>*331</b> Village en Cerdagne.                                  | 1 | 
+<b>*332</b> Etude de figure.                                      | 1 | 
+<b>*333</b> Le Pays d’Apcher (Lozère).                            | 1 | 
+<b>*334</b> Portrait.                                             | 1 | 
+DAVRIGNY, Joseph, né à Paris. — 76, rue de Passy.                 | 0 | 
+<b>*335</b> Enfin, seul!                                          | 1 | 
+b>C                                                               | 3 |  <b>C
+
+<b>*336</b> Au vieux parc de Saint-Cloud. Fusain.                 | 1 | 
+DEBRAY, Eugène-Frédéric, né à Paris, — 35, rue                    | 0 | 
+St-James, Neuilly.                                                | 0 | 
+<b>337</b> Effet de Neige. Etude.                                 | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 24 —                                                            | 0 | 
+DEGUERNE, Louis, né à Fleuré, par Écouché (Orne).                 | 0 | 
+32, rue de la Fontaine, Cherbourg et à Fleuré                     | 0 | 
+par Écouché (Orne).                                               | 0 | 
+<b>*338</b> Le fort du Roule dans la brume, effet de              | 1 | 
+matin, fin d’automne.                                             | 0 | 
+DELACOUR, Hippolyte, né à Paris. — Villeneuve-la¬                 | 0 | 
+Garenne (Seine).                                                  | 0 | 
+<b>*339</b> Le Vaux-Fleuri, à Granville (Manche).                 | 1 | 
+<b>*340</b> A Marée basse dans l’avant-port de                    | 1 | 
+Granville (Manche).                                               | 0 | 
+<b>*341</b> Le fort de la place Pléville, sur le port             | 1 | 
+de Granville.                                                     | 0 | 
+<b>*342</b> La Falaise du Fourneau, près Saint-Pair               | 1 | 
+(Manche).                                                         | 0 | 
+<b>343</b> La rue de Paris, à Granville (Manche).                 | 1 | 
+<b>*344</b> A Saint-Nicolas, près Granville (Manche).             | 1 | 
+<b>*345</b> Navire en construction, à Villeneuve-la¬              | 1 | 
+Garenne (Seine).                                                  | 0 | 
+<b>*346</b> Brick sur la Loire, dans Nantes.                      | 1 | 
+<b>347</b> Falaises de Donville, près Granville                   | 1 | 
+(Manche)                                                          | 0 | 
+DE LAUNAY, Auguste, né à Paris. — 70, rue Daguerre.               | 0 | 
+<b>348</b> Plage normande.                                        | 1 | 
+DELAURIER, Albert-Melchior, né à Gournay-en-Bray                  | 0 | 
+(Seine-Inférieure). — Chevagnes (Allier).                         | 0 | 
+<b>349</b> Avant la Fantasia.                                     | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+25                                                                | 0 | 
+DENIS, Maurice, né à Granville. — 9, rue des Écuyers,             | 0 | 
+à Saint-Germain-en-Laye.                                          | 0 | 
+<b>350</b> Le mystère de Pâques.                                  | 1 | 
+<b>351</b> Sujet poétique (quatre panneaux pour la                | 1 | 
+décoration d’une chambre de jeune                                 | 0 | 
+fille).                                                           | 0 | 
+<b>352</b> Avril.                                                 | 1 | 
+<b>353</b> Juillet.                                               | 1 | 
+<b>354</b> Septembre                                              | 1 | 
+<b>355</b> Octobre.                                               | 1 | 
+<b>356</b> Portrait dans un décor de soir.                        | 1 | 
+<b>357</b> Les fiancées.                                          | 1 | 
+<b>358</b> Sur fond de brume.                                     | 1 | 
+<b>359</b> Stella Matutina, mosaïque de marbre                    | 1 | 
+(exécutée par M. L. Provost).                                     | 0 | 
+DERONDEL (Mlle), Narie, née à Bourg-la-Reine (Seine)              | 0 | 
+92, rue de la Mare, Paris.                                        | 0 | 
+<b>360</b> Etude de vieille paysanne.                             | 1 | 
+DESCHAMPS, Frédéric, né à Henrichemont. — Im¬                     | 0 | 
+passe du Maine, 18, Paris.                                        | 0 | 
+<b>361</b> Souvenir de Montargis                                  | 1 | 
+<b>362</b> Sous bois, automne.                                    | 1 | 
+<b>363</b> Cimetière.                                             | 1 | 
+<b>364</b> Chemin en Berry                                        | 1 | 
+<b>365</b> Tannerie à Montargis.                                  | 1 | 
+<b>366</b> Le Puiseaux à Montargis.                               | 1 | 
+<b>367</b> La pêcherie à Montargis.                               | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 26 —                                                            | 0 | 
+DESLIENS (Mlle), Marie, née à Chavenon (Allier).                  | 0 | 
+7, rue de Vaugirard, Paris.                                       | 0 | 
+<b>*368</b> Jeune fille. Portrait.                                | 1 | 
+<b>*369</b> Portrait de M. B...                                   | 1 | 
+<b>*370</b> Jeune pierrot.                                        | 1 | 
+<b>*371</b> L’Hiver en Bourbonnais.                               | 1 | 
+DESPERELLE, né à Dupérelle. — 4, rue Debrousse,                   | 0 | 
+Paris.                                                            | 0 | 
+<b>372</b> Montmartre, à Orsay (Seine-et-Oise).                   | 1 | 
+<b>373</b> Le chemin du Guichet, à Lozère (Seine¬                 | 1 | 
+et-Oise).                                                         | 0 | 
+DESTABLE, Frédéric, né à Rethel (Ardennes(. — 3, rue              | 0 | 
+des Coutures-St-Gervais. Paris.                                   | 0 | 
+<b>374</b> Pont sur la Cure, à Arcy (Yonne).                      | 1 | 
+<b>375</b> Bouquet d’aquarelles en trompe-l’œil.                  | 1 | 
+DEZOBRY, Arthur-Louis-Henri, né à Montmorency                     | 0 | 
+(Seine-et-Oise). — 10 <i>bis</i>, rue de Grétry, Montmo¬          | 1 | 
+rency.                                                            | 0 | 
+<b>*376</b> L’allée de la Croix-Blanche.                          | 1 | 
+<b>*377</b> Le vallon de Mouxy (Savoie).                          | 1 | 
+<b>*378</b> La clairière de Saint-Prix.                           | 1 | 
+DOUTRELEAU (Mme), d’Anistrinck-Agathe, née au                     | 0 | 
+château de la Vieuville (Ille-et-Vilaine). — 6, passage           | 0 | 
+Nollet, Paris.                                                    | 0 | 
+<b>379</b> Pâtres en hiver.                                       | 1 | 
+<b>380</b> L’hirondelle.                                          | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+27                                                                | 0 | 
+DUFFAU, Pierre, né à Villeneuve-sur-Lot. — Castel                 | 0 | 
+Farèse, Villeneuve-sur-Lot.                                       | 0 | 
+<b>381</b> Portrait.                                              | 1 | 
+<b>382</b> Buveur de bière.                                       | 1 | 
+DUFOUR, Eljis, né à Mussy-sur-Seine (Aube).                       | 0 | 
+<b>383</b> Taureau furieux dans les prairies du                   | 1 | 
+Perche (Orne).                                                    | 0 | 
+<b>384</b> Le soir, départ du troupeau (vaches)                   | 1 | 
+prairies du Berri.                                                | 0 | 
+<b>385</b> Vaches dans la prairie du Moulin des                   | 1 | 
+Filles (Berri).                                                   | 0 | 
+<b>386</b> Troupeau de vaches traversant l’étang                  | 1 | 
+de Villeneuve (Berri).                                            | 0 | 
+<b>387</b> La Bergère de la ferme des Ménardières                 | 1 | 
+(Sologne)                                                         | 0 | 
+<b>388</b> Pacage de Sologne au coucher du soleil.                | 1 | 
+<b>389</b> Les feux follets. (Béranger.                           | 1 | 
+Un soir, javais douze ans à peine,                                | 0 | 
+Egaré, couvert de sueur,                                          | 0 | 
+Je vois de loin cette lueur.                                      | 0 | 
+C’est la lampe de ma marraine                                     | 0 | 
+Chez elle un gâteau m’attendant                                   | 0 | 
+Je cours, je cours, l’âme ravie                                   | 0 | 
+Un berger me crie imprudent                                       | 0 | 
+La lumière par toi suivie                                         | 0 | 
+Eclaire un bal de trépassés.                                      | 0 | 
+Ainsi devait s’user ma vie                                        | 0 | 
+Follets dansez, dansez, dansez.                                   | 0 | 
+<b<b>390</b> Troupeau de moutons rentrant à la Ber¬               | 1 |  <b>390</b> Troupeau de moutons rentrant à la Ber¬
+
+gerie. Dessin à la plume.                                         | 0 | 
+<b<b>391</b> Moutons égarés. Dessin à la plume.                   | 1 |  <b>391</b> Moutons égarés. Dessin à la plume.
+
+                                                                  |   | 
+                                                                  |   | 
+— 28                                                              | 0 | 
+DULAC, Charles, né à Paris. — 61, rue Lepic.                      | 0 | 
+<b>392</b> Effet de neige. Clair de lune.                         | 1 | 
+<b>393</b> Dégel.                                                 | 1 | 
+<b>*394</b> Neige à Montmartre.                                   | 1 | 
+<b>*395</b> Quai des Célestins.                                   | 1 | 
+<b>396</b> Effet de Neige. Crépuscule.                            | 1 | 
+<b>397</b> Cour du Cloître. (Vézelay).                            | 1 | 
+<b>398</b> Coin de cheminée.                                      | 1 | 
+<b>*399</b> Givre.                                                | 1 | 
+<b>400</b> Etude sur la Morlande. (Avallon).                      | 1 | 
+<b>*401</b> Baie des Trépassés.                                   | 1 | 
+DUMONT, Henri-Julien, né à Beauvais (Oise).                       | 0 | 
+75, boulevard de Clichy, Paris.                                   | 0 | 
+<b>402</b> Dans la glace.                                         | 1 | 
+<b>403</b> Etude.                                                 | 1 | 
+<b>404</b> Pivoines.                                              | 1 | 
+DUMOULIN (Mlle), Alexandrine-Jenny, née à Paris,                  | 0 | 
+5, rue d’Alsace (gare de l’Est).                                  | 0 | 
+<b>405</b> Vase de fleurs (d’après nature), faïence.              | 1 | 
+*<b>406</b> Fuchsia (d’après nature), porcelaine.                 | 1 | 
+DUQUENNE, Charles-Aphonse, né à Paris. — 2, allée                 | 0 | 
+de Longchamps, Perreux.                                           | 0 | 
+<b>407</b> Fleurs.                                                | 1 | 
+<b>408</b> Fleurs.                                                | 1 | 
+<b>409</b> Fleurs.                                                | 1 | 
+<b>410</b> Fleurs.                                                | 1 | 
+DURANT, Georges, né à Paris. — 4, rue Le Goff.                    | 0 | 
+<b>411</b> Petite étude.                                          | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+29                                                                | 0 | 
+<b>412</b> La route du Bois-Bonnet, à Maisons¬                    | 1 | 
+Laffitte.                                                         | 0 | 
+DURAY, Emile-Arthur-François, né à Braxelles. —                   | 0 | 
+6, rue de l’Abbaye, Paris.                                        | 0 | 
+<b>*413</b> Au Tombeau de Sainte-Geneviève.                       | 1 | 
+DURENNE, Eugène, né à Paris.                                      | 0 | 
+15, avenue H. Re¬                                                 | 0 | 
+gnault, Sèvres (Seine-et-Oise)                                    | 0 | 
+<b>*414</b> Tournant de rivière.                                  | 1 | 
+<b>*415</b> Route au soleil                                       | 1 | 
+<b>*416</b> Lecture de la Bible.                                  | 1 | 
+<b>*417</b> Soleil couchant sur les bruyères                      | 1 | 
+<b>*418</b> Intérieur à la campagne.                              | 1 | 
+DUVAL-GOZLAN, Léon, né à Paris. — 41, rue de la                   | 0 | 
+Tour-d’Auvergne.                                                  | 0 | 
+<b>419</b> Faneuse.                                               | 1 | 
+<b>419</b> bis Sur les hauteurs près Vernon. (Vallée              | 1 | 
+de la Seine).                                                     | 0 | 
+<b>420</b> La Petite Fermière.                                    | 1 | 
+<b>421</b> En face le Hâvre.                                      | 1 | 
+<b>422</b> La Poterie.                                            | 1 | 
+<b>423</b> Coin des Graves (Villerville)                          | 1 | 
+<b>424</b> Harmonie bleue (Pastel).                               | 1 | 
+<b>425</b> Fillette. Pastel                                       | 1 | 
+<b>426</b> Belle journée (Villerville)                            | 1 | 
+<b>427</b> Source dans les Graves (Villerville).                  | 1 | 
+ENGEL, José, né à Joinville-le-Pont. — 31, rue Victor¬            | 0 | 
+Massé, Paris.                                                     | 0 | 
+<b>428</b> Les Enfants. Frise décorative.                         | 1 | 
+<b>429</b> Les Enfants                                            | 1 | 
+Id.                                                               | 0 | 
+<b>430</b> Les Enfants.                                           | 1 | 
+Id.                                                               | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+30 —                                                              | 0 | 
+<b>431</b> Viottes d’Avoine. Etude.                               | 1 | 
+<b>432</b> Etude.                                                 | 1 | 
+<b>433</b> Le Père Stallin. Etude.                                | 1 | 
+<b>434</b> Soir. Etude d’intérieur.                               | 1 | 
+<b>435</b> Le vieux berger. Etude.                                | 1 | 
+<b>436</b> Georges. Etude.                                        | 1 | 
+<b>437</b> La mère Bon Dieu Etude.                                | 1 | 
+ESPAGNAT (d’), Georges, né à Melun.                               | 0 | 
+30, rue de                                                        | 0 | 
+Saint-Pétersbourg.                                                | 0 | 
+<b>438</b> Portrait de M. Joseph d’E...                           | 1 | 
+<b>439</b> Portrait de M. Georges d’E...                          | 1 | 
+<b>440</b> Etude de Femme.                                        | 1 | 
+<b>441</b> Le Repos.                                              | 1 | 
+ESPINET (Mme), Caroline, née à Lyon (Rhône). —                    | 0 | 
+rue Amiral-Courbet, Lorient (Morbihan).                           | 0 | 
+<b>442</b> Francine. Paysage, à Quiberon.                         | 1 | 
+<b>*443</b> Cour de ferme à Quiberon. Paysage,                    | 1 | 
+marine.                                                           | 0 | 
+*<>444</b> Train de bois. Marine.                                 | 1 | * <b>444</b> Train de bois. Marine.
+
+<b>445</b> Lorient. Port de commerce.                             | 1 | 
+FAUCHÉ, Léon, né à Briey.                                         | 0 | 
+6, rue Nouvelle, Mont-                                            | 0 | 
+parnasse.                                                         | 0 | 
+<b>446</b> Paysan, profil                                         | 1 | 
+<b>447</b> Nature morte.                                          | 1 | 
+<b>448</b> Profil de vieille.                                     | 1 | 
+<b>449</b> Pauvre homie.                                          | 1 | 
+<b>450</b> Fleurs.                                                | 1 | 
+<b>*451</b> Le Soir.                                              | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 31                                                              | 0 | 
+<b>*452</b> Paysan au sac.                                        | 1 | 
+<b>*453</b> Paysan (vu de dos).                                   | 1 | 
+<b>*454</b> Paysage vert.                                         | 1 | 
+<b>455</b> Paysage bleu.                                          | 1 | 
+FLEURY, Emile, né à Nîmes (Card). — 139, rue Jules¬               | 0 | 
+Lecesne, Hâvre (Seine-Inférieure).                                | 0 | 
+<b>*456</b> Au pâturage (en Normandie le matin).                  | 1 | 
+Aquarelle.                                                        | 0 | 
+<b>*457</b> La moisson (Alsace). Aquarelle.                       | 1 | 
+<b>*458</b> Lilas.                                                | 1 | 
+<b>*459</b> Dans la mansarde                                      | 1 | 
+<b>460</b> Jeanne d’Arc adolescente, écoutant ses                 | 1 | 
+premières voix.                                                   | 0 | 
+<b>461</b> Orpheline.                                             | 1 | 
+<b>*462</b> Une distraction                                       | 1 | 
+FOLEY, Saint-Elme, né à Paris                                     | 0 | 
+— Andrésy (Seine                                                  | 0 | 
+et-Oise).                                                         | 0 | 
+<b>463</b> Portrait.                                              | 1 | 
+<b>464</b> Paysage. Etude                                         | 1 | 
+<b>465</b> Etude.                                                 | 1 | 
+<b>466</b> Etude. Paysage                                         | 1 | 
+<b>467</b> Etude. Paysage.                                        | 1 | 
+<b>468</b> Etude. Paysage.                                        | 1 | 
+FUCHS, Gustave-Louis-Joseph, né à Paris. — 18, rue                | 0 | 
+de Chabrol.                                                       | 0 | 
+<b>*469</b> Paysage (Bretagne).                                   | 1 | 
+FULLER, David-Thomas-Scott, né à Virginie (Etats¬                 | 0 | 
+Unis). — 24, rue, Pigalle, Paris.                                 | 0 | 
+<b>470</b> Un Compte à règler.                                    | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+2</>                                                              | 4 | 2</>
+
+                                                                  |   | 
+                                                                  |   | 
+32 —                                                              | 0 | 
+<b>471</b> Souffle nord-est.                                      | 1 | 
+<b>472</b> Le Dernier                                             | 1 | 
+GACHET. Paul, né à Lille (Nord). — 78, faubourg                   | 0 | 
+Saint-Denis, Paris.                                               | 0 | 
+<b>473</b> Lys rouges.                                            | 1 | 
+<b>474</b> Vieille route, à Auvers-sur-Oise (Seine¬               | 1 | 
+et-Oise.                                                          | 0 | 
+<b>475</b> Gelée blanche (Seine-et-Oise).                         | 1 | 
+<b>476</b> L’automne, à Auvers-sur-Oise. Pastel.                  | 1 | 
+<b>477</b> Portrait inédit de Monticelli. Eau forte.              | 1 | 
+GARNOT, Georges-Sainte-Fare, né à Paris. — 23, rue                | 0 | 
+Saint-Pétersbourg.                                                | 0 | 
+*<b>478</b> Saint-Ouen, à la pointe de l’île.                     | 1 | 
+<b>479</b> Une rue à Saint-Ouen, matin d’hiver.                   | 1 | 
+<b>480</b> L’ile, au Pecq.                                        | 1 | 
+<b>*481</b> Chemin de halage, au Vésinet.                         | 1 | 
+<b>*482</b> Au Bas-Meudon, printemps.                             | 1 | 
+<b>483</b> Pochades.                                              | 1 | 
+<b>484</b> Pochades.                                              | 1 | 
+GAUSSON, Léo, né à Lagny (Seine-et-Marne). — rue                  | 0 | 
+St-Paul, Lagny.                                                   | 0 | 
+<b>485</b> Premier soleil.                                        | 1 | 
+<b>486</b> La plaine.                                             | 1 | 
+<b>487</b> Au temps de la Canicule.                               | 1 | 
+<b>488</b> Temps morne. Esquisse.                                 | 1 | 
+<b>489</b> Après midi d’été.                                      | 1 | 
+<b>490</b> La verdure.                                            | 1 | 
+<b>491</b> La brume.                                              | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 33                                                              | 0 | 
+<b>492</b> Coin de village.                                       | 1 | 
+<b>493</b> Berénice.                                              | 1 | 
+<b>494</b> Roderick Usher.                                        | 1 | 
+—                                                                 | 0 | 
+GAUZI, François, né à Fronton.                                    | 0 | 
+7, rue Tourlaque,                                                 | 0 | 
+Paris.                                                            | 0 | 
+<b>495</b> Portraits.                                             | 1 | 
+<b>*496</b> Femme à sa toilette.                                  | 1 | 
+<b>*497</b> Au jardin.                                            | 1 | 
+<b>498</b> Le déjeuner.                                           | 1 | 
+<b>499</b> Profil.                                                | 1 | 
+GÉRARD (Mlle), Gabrielle née à Vincennes. — 25, rue               | 0 | 
+de Penthièvre.                                                    | 0 | 
+<b>500</b> Portrait de Melle Renée P...                           | 1 | 
+<b>501</b> Tête d’enfant. Pastel.                                 | 1 | 
+<b>502</b> Pierre et son clown.                                   | 1 | 
+<b>503</b> Enfant de chœur. Etude.                                | 1 | 
+GIBAUT, Maxime, né à Bois-le-Roi (Seine-et-Marne). —              | 0 | 
+Bois-le-Roi.                                                      | 0 | 
+<b>504</b> Pommes d’api.                                          | 1 | 
+<b>505</b> Roses.                                                 | 1 | 
+—                                                                 | 0 | 
+GILMER, François, né à Paris.                                     | 0 | 
+2, rue Casimir-Pinel,                                             | 0 | 
+Neuilly.                                                          | 0 | 
+<b>506</b> Le lac d’Enghien                                       | 1 | 
+<b>*507</b> La Seine à Neuilly.                                   | 1 | 
+<b>*508</b> Vue du pont de Neuilly.                               | 1 | 
+<b>*509</b> Lièvres et Perdrix. Nature morte.                     | 1 | 
+<b>*510</b> Raisin et Brioche. Nature morte.                      | 1 | 
+<b>*511</b> Petit lac du Nord, à Enghien.                         | 1 | 
+<b>*512</b> Un coin du bois de Boulogne.                          | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+34.-                                                              | 0 | 
+GIRAN, Emile-Ernest, né à Montpellier. — 5, rue d’An¬             | 0 | 
+goulême, Paris.                                                   | 0 | 
+<b>*513</b> Portrait.                                             | 1 | 
+<b>514</b> Le lac Robinson, à Amiens (Somme).                     | 1 | 
+<b>515</b> Nature morte. Pastel.                                  | 1 | 
+<b>516</b> Portrait.                                              | 1 | 
+<b>517</b> Portrait du Capitaine C...                             | 1 | 
+GIRAN-MAX, né à Paris. — 5, rue d’Angoulème.                      | 0 | 
+<b>*518</b> Le pêcheur.                                           | 1 | 
+<b>*519</b> Vue de Beauvoisin (Gard).                             | 1 | 
+<b>*520</b> Paysage (Pontoise).                                   | 1 | 
+<b>*521</b> Bords de l’Oise, matin.                               | 1 | 
+<b>522</b> Petit jardin.                                          | 1 | 
+<b>523</b> Soleil d’hiver.                                        | 1 | 
+<b>*524</b> Oliviers.                                             | 1 | 
+<b>525</b> Oliviers (étude).                                      | 1 | 
+<b>526</b> Route du moulin, à Beauvoisin. (Appar¬                 | 1 | 
+tient à M. E. Durand).                                            | 0 | 
+<b>527</b> Les vieux moulins, à Beauvoisin (Gard).                | 1 | 
+GIVRY,                                                            | 0 | 
+Pierre-Paul-Joseph, né à Saint-Laurent-lès¬                       | 0 | 
+— 11, rue de Châteaubriand.                                       | 0 | 
+Mâcon.                                                            | 0 | 
+<b>528</b> Le Matin à Siauville (Manche). Mere                    | 1 | 
+basse.                                                            | 0 | 
+<b>529</b> La mer à Réville (Manche).                             | 1 | 
+<b>530</b> A Saint-Vaast-la-Hougue (Manche).                      | 1 | 
+<b>5 31</b> Hennequeville (Calvados). Aquarelle.                  | 1 | 
+<b>532</b> Quai de Javel (Paris).                                 | 1 | 
+<b>533</b> Landes à Taverny (Seine-et-Oise).                      | 1 | 
+<b>534</b> Port de Saint-Vaast-la-Hougue (Manche).                | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 35. —                                                           | 0 | 
+GODIN, Remi, né à Reims (Marne). — 6, villa Petit,                | 0 | 
+Nanterre.                                                         | 0 | 
+<b>535</b> Carrières de Nanterre et des environs¬                 | 1 | 
+<b>536</b> Dans les carrières à Nanterre.                         | 1 | 
+GONDREXON, Paul, né à Charleville. — 10, rue des                  | 0 | 
+Ecoles.                                                           | 0 | 
+<b>537</b> Un Accident.                                           | 1 | 
+<b>*538</b> Un Limeur.                                            | 1 | 
+<b>*539</b> Premiers Rayons. Paysage.                             | 1 | 
+<b>*540</b> Solitude. Paysage.                                    | 1 | 
+<b>*541</b> Matin de juin. Paysage.                               | 1 | 
+<b>*542</b> Sous Bois. Paysage                                    | 1 | 
+<b>*543</b> Sous Bois. Paysage.                                   | 1 | 
+GORLIN, Eugène, né à Clermont (Oise). — 32, rue                   | 0 | 
+des Francs-Bourgeois, Paris.                                      | 0 | 
+<b>544</b> Vue du Puy-de-Dôme.                                    | 1 | 
+<b>545</b> Vue des ruines de Pierrefonds.                         | 1 | 
+GOUBOT, Claude, né à Paris. —                                     | 0 | 
+6, rue de Latour¬                                                 | 0 | 
+d’Auvergne.                                                       | 0 | 
+<b>*546</b> Le Méridien de France (les pyramides de               | 1 | 
+son passage à Paris).                                             | 0 | 
+<b>*547</b> Steamers. 6 études.                                   | 1 | 
+<b>*548</b> Dieppe (Seine-Inférieure), 3 études.                  | 1 | 
+<b>*549</b> Les Filets (Dieppe, Seine-Inférieure), à              | 1 | 
+marée basse.                                                      | 0 | 
+<b>550</b> Seize francs d’amende et les frais. Ap¬                | 1 | 
+partient à Mme Chéry.                                             | 0 | 
+<b>*551</b> Le courrier des Indes Néerlandaises                   | 1 | 
+entrant dans le Zuyder-Zée.                                       | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+— 36                                                              | 0 | 
+<b>*552</b> Le lendemain de la tempête. Souvenir                  | 1 | 
+du 12 novembre 1891, à Dieppe.                                    | 0 | 
+<b>*553</b> La Balise <i>Richelieu</i>. Entrée de La Ro¬          | 1 | 
+chelle (Charente-Inférieure).                                     | 0 | 
+GREMAIN, Alexis-Désiré, né à Rosendaël-Dunkerque                  | 0 | 
+(Nord). — 8, villa Michel-Ange, Auteuil.                          | 0 | 
+<b>554</b> En Normandie.                                          | 1 | 
+<b>*555</b> Etude d'hiver.                                        | 1 | 
+<b>556</b> A Chatou.                                              | 1 | 
+b>557</b> Au bois.                                                | 1 |  <b>557</b> Au bois.
+
+<b>*558</b> Etude.                                                | 1 | 
+b>559</b> Etude à Pecquencourt.                                   | 1 |  <b>559</b> Etude à Pecquencourt.
+
+<b>560</b> Dans les champs. Etude,                                | 1 | 
+<b>*561</b> Deux études. Aquarelle.                               | 1 | 
+GREILSAMER, Alphonse, né à St-Etienne (Loire).                    | 0 | 
+23, rue Clauzel, Paris.                                           | 0 | 
+<b>*562</b> La Marne, à Lagny. Matin.                             | 1 | 
+<b>563</b> Sur la Berge. Temps pluvieux.                          | 1 | 
+<b>*564</b> Matin sur la Marne.                                   | 1 | 
+<b>565</b> Bords de la Marne. Matin.                              | 1 | 
+<b>566</b> Au Mont-Valérien. Après l’orage.                       | 1 | 
+<b>*567</b> Sur la Marne. Après la pluie.                         | 1 | 
+<b>568</b> La maisonnette.                                        | 1 | 
+GSELL, Henri-Alfred, né en Suisse. —                              | 0 | 
+61, rue Lepic.                                                    | 0 | 
+<b>569</b> Etudes. 4 têtes.                                       | 1 | 
+<b>570</b> Hiver, femme près cheminée.                            | 1 | 
+GUÉRARD, Amédée, né à Sens (Yonne). — 27, rue                     | 0 | 
+Caulaincourt, Paris.                                              | 0 | 
+<b>*571</b> La leçon de morale.                                   | 1 | 
+<b>*572</b> Méditation.                                           | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+l                                                                 | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+37 -—                                                             | 0 | 
+GUÉRIN, René, né à Orléans. — 362, rue Saint-Ho¬                  | 0 | 
+noré. Paris.                                                      | 0 | 
+6»                                                                | 0 | 
+<b>573</b> Le Réveil d’une Ondine                                 | 1 | 
+<b>574</b> Coquette.                                              | 1 | 
+GUÉRIN des LONGRAIS, Pierre-Charles, né à Vimou¬                  | 0 | 
+tiers (Orne). — 174, rue du Faubourg Saint-Denis,                 | 0 | 
+Paris.                                                            | 0 | 
+<b>*575</b> Livre X, chapitre III, iNotre-Dame de</i>             | 3 |  BALISES MANQUANTES
+<i>Paris</i> (Victor Hugo).                                       | 1 | 
+<b>*576</b> Place Clichy, de 8 à 9 heures, le matin.              | 1 | 
+<b>*577</b> Sur la route du pélerinage de Notre¬                  | 1 | 
+Dame-des-Anges. (Montfermeil).                                    | 0 | 
+<b>*578</b> Libre échange.                                        | 1 | 
+<b>*579</b> A la recherche d’une position sociale.                | 1 | 
+★E                                                                | 0 | 
+<b>580</b> Il y a marchand à deux francs.                         | 1 | 
+<b>581</b> Un brocanteur. Appartient à M. G                       | 1 | 
+Monier                                                            | 0 | 
+<b>*582</b> Sur les bords de la Marne.                            | 1 | 
+<b>*583</b> L’Etang des Septiles (Montfermeil).                   | 1 | 
+GUILLOT, Jean-Vital, né à Issoire (Puy-de-Dôme)                   | 0 | 
+111, route de Versailles, à Boulogne (Seine).                     | 0 | 
+<b>*584</b> Les sœurs ennemies.                                   | 1 | 
+Voir le discours de Thiers sur le sort de l'œuf                   | 0 | 
+de la République naissante. Son ombre jointe                      | 0 | 
+à celle de Lazare Carnot, célèbre organisateur                    | 0 | 
+planent et regardent l’œuvre s’accomplir glo¬                     | 0 | 
+rieusement II!                                                    | 0 | 
+<b>*585</b> La baignade                                           | 1 | 
+La répression est limitée aux bornes départe¬                     | 0 | 
+mentales. les grenouilles s’en donnent II)                        | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+— 38 —                                                            | 0 | 
+—                                                                 | 0 | 
+35, quai de la                                                    | 0 | 
+GUILLOUX, Charles, né à Paris.                                    | 0 | 
+Tournelle.                                                        | 0 | 
+<b>586</b> L’Allée d’eau.                                         | 1 | 
+<b>587</b> Calme rose.                                            | 1 | 
+<b>588</b> La Tourmente.                                          | 1 | 
+<b>589</b> L’Hyperboloïde.                                        | 1 | 
+<b>590</b> Finale spécieux.                                       | 1 | 
+<b>591</b> La Prairie.                                            | 1 | 
+<b>592</b> La Mal’aria.                                           | 1 | 
+<b>593</b> Funérailles héroiques.                                 | 1 | 
+GUINEA, Anselmo, né à Bilbao (Espagne). —                         | 0 | 
+15, rue                                                           | 0 | 
+Pierre-Ginier, impasse Hélene, Paris.                             | 0 | 
+★E                                                                | 0 | 
+<b>*294</b> Repos.                                                | 1 | 
+<b>*595</b> Olaveaga. Port de Bilbao.                             | 1 | 
+<b>*596</b> A la place Blanche.                                   | 1 | 
+<b>*597</b> Faucheuses.                                           | 1 | 
+HALLION, Eugène, né à Baccarat (Meurthe-et-Moselle).              | 0 | 
+108, Grande-rue, à Sèvres (Seine-et-Oise).                        | 0 | 
+<b>598</b> Le Bosquet aux Chevreuils. Été.                        | 1 | 
+<b>*599</b> Le bois des Bouleaux. Fin d’automne.                  | 1 | 
+Aquarelle.                                                        | 0 | 
+HAWKINS, Louis-Welden, né à Stuttgard. — 23, bou¬                 | 0 | 
+levard Gouvion-St-Cyr, Paris.                                     | 0 | 
+<b>600</b> Puteau. Etude.                                         | 1 | 
+<b>601</b> Le Pont-Neuf, Brume. Etude.                            | 1 | 
+<b>602</b> Port-Navalo. Etude.                                    | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 39 —                                                            | 0 | 
+<b>603</b> Etude d’Arbres.                                        | 1 | 
+<b>694</b> Etude de Paris.                                        | 1 | 
+<b>695</b> Etude de Paris.                                        | 1 | 
+<b>606</b> Etude de Paris.                                        | 1 | 
+<b>607</b> Etude de Bretagne                                      | 1 | 
+<b>698</b> Etude de Bretagne.                                     | 1 | 
+HÉBERT, Edouard-Ernest-Paulin, né à Paris.— 4, rue                | 0 | 
+Fourcroy.                                                         | 0 | 
+<b>609</b> Croquis (Normandie). Dessin.                           | 1 | 
+<b>610</b> Croquis (Bretagne). Dessin.                            | 1 | 
+<b>611</b> La Femme au chapelet. Dessin.                          | 1 | 
+<b>612</b> L’Offrande à la Madone. Peinture                       | 1 | 
+<b>613</b> Fantaisie.                                             | 1 | 
+<b>614</b> La Porette.                                            | 1 | 
+HESBERT (Mme), Emilie, née à Paris. — 50 <i>bis</i>, avenue       | 1 | 
+de la Grande-Armée                                                | 0 | 
+<b>*615</b> Soleil couchant.                                      | 1 | 
+<b>*616</b> Paysage.                                              | 1 | 
+HUBER, Edouard-Louis, né à Altona (parents français).             | 0 | 
+14, rue Doudeauville.                                             | 0 | 
+<b>617</b> Bords de la Marne, à Champigny.                        | 1 | 
+<b>618</b> La ferme de Plailly (Oise).                            | 1 | 
+<b>619</b> Sphynx et Pyramide, Egypte.                            | 1 | 
+<b>620</b> Cabane de bûcherons, à Marne, près de                  | 1 | 
+Ville-d’Avray.                                                    | 0 | 
+<b>621</b> Vue prise dans la Haute-Marne.                         | 1 | 
+IBELS, Henri-Gabriel, né à Paris, 66, Faubourg-Pois¬              | 0 | 
+sonnière.                                                         | 0 | 
+<b>622</b> Dessins et Eau forte.                                  | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 40 —                                                            | 0 | 
+<b>623</b> Etude de Lutteurs. Pastel.                             | 1 | 
+<b>624</b> Deux dessins humoristiques.                            | 1 | 
+b>625</b> Paysage.                                                | 1 |  <b>625</b> Paysage.
+
+b>626</b> Leo Gausson. Cire peinte.                               | 1 |  <b>626</b> Leo Gausson. Cire peinte.
+
+<b>627</b> Les «bonnes dames». Eau forte et                       | 1 | 
+Lithographie.                                                     | 0 | 
+<b>*628</b> Eventail.                                             | 1 | 
+<b>629</b> Pommes.                                                | 1 | 
+<b>630</b> Pommes.                                                | 1 | 
+<b>631</b> Bibelot hystérique. Cire peinte.                       | 1 | 
+IEHL, Henri, né à Paris. — 343, rue des Pyrénées.                 | 0 | 
+<b>632</b> Fruits.                                                | 1 | 
+<b>633</b> Nature morte                                           | 1 | 
+IKER, Alphonse-Ernest, né é Paris. — 2. rue Dorian.               | 0 | 
+<b>634</b> Paul Wacquez. Portrait.                                | 1 | 
+<b>635</b> Petite fille en rouge. Portrait. (Appar¬               | 1 | 
+tient à M. Lamy).                                                 | 0 | 
+<b>636</b> Effet de soleil et brume. Paysage, 1886.               | 1 | 
+Appartient à M. Nicolas).                                         | 0 | 
+<b>637</b> Portrait de Mme E. Cadilhon.                           | 1 | 
+JAUDIN, Henri, né à Paris. — 120, avenue de Villiers.             | 0 | 
+<b>638</b> La prison du château, Vitré (Ille-et¬                  | 1 | 
+Vilaine).                                                         | 0 | 
+<b>*639</b> Effet de brouillard. Vitré (Ille-et-Vilaine).         | 1 | 
+<b>640</b> L’Église de Lehon, près Dinan (Côtes-du                | 1 | 
+Nord).                                                            | 0 | 
+<b>*641</b> La Seine à Bougival.                                  | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+—                                                                 | 0 | 
+41                                                                | 0 | 
+JOUANNY, Paul, né à Paris. — 178, rue de la Pompe.                | 0 | 
+<b>642</b> Plage du Corail (Saint-Raphaël). —                     | 1 | 
+<b>643</b> Ruisseau à Fréjus.                                     | 1 | 
+JUSSY, Georges, né à Paris. — 2, rue des Haudriettes              | 0 | 
+<b>*644</b> Intérieur.                                            | 1 | 
+<b>*645</b> Notre-Dame                                            | 1 | 
+<b>646</b> L’écluse de la Monnaie (matinée de                     | 1 | 
+septembre.                                                        | 0 | 
+<b>*647</b> Ile Saint-Denis.                                      | 1 | 
+KIREEVSKY(Mlle), Nathalie, née à Moscou, 65, avenue               | 0 | 
+Marceau, Paris.                                                   | 0 | 
+<b>*648</b> Diane.                                                | 1 | 
+<b>649</b> En attendant le bac de Kracino (Russie).               | 1 | 
+<b>650</b> A Nice dans un jardin.                                 | 1 | 
+LACHENY, Edward, né à Etampes (Seine-et-Oise). —                  | 0 | 
+34, rue de la Boucherie, Etampes.                                 | 0 | 
+<b>*651</b> La Beauce, environs d’Angerville (Seine¬              | 1 | 
+et-Oise).                                                         | 0 | 
+<b>*652</b> Le Jour des Rameaux. Etude.                           | 1 | 
+<b>*653</b> Au Printemps.                                         | 1 | 
+<b>654</b> Vase de fleurs.                                        | 1 | 
+<b>655</b> Fleurs. (Appartient à M. Paul Dupuis,                  | 1 | 
+d’Etampes).                                                       | 0 | 
+<b>656</b> Nature Morte. (Appartient à M. N. D...                 | 1 | 
+*b>657</b> Giroflées.                                             | 1 | * <b>657</b> Giroflées.
+
+b>658</b> Œillets.                                                | 1 |  <b>658</b> Œillets.
+
+*b>659</b> Iris. Etude                                            | 1 | * <b>659</b> Iris. Etude
+
+<b>*669</b> La jeune fille aux Chrysaathèmes.                     | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+8</b>                                                             | 3 |  BALISES MANQUANTES
+42 —                                                              | 0 | 
+LAGARDE, Lucien, né à Vannes (Morbihan). — 21,                    | 0 | 
+rue Campagne-Première.                                            | 0 | 
+<b>661</b> Portrait de Mlle Françoise L...                        | 1 | 
+<b>662</b> Portrait de Mme B... (Aquarelle).                      | 1 | 
+<b>663</b> Quand le vin est tiré il faut le boire.                | 1 | 
+Appartient à M. A. Pétrot.                                        | 0 | 
+<b>664</b> La Légende de Saint-Vincent-Ferrier.                   | 1 | 
+Appartient à Mme U...                                             | 0 | 
+<b>665</b> Avant le Départ.                                       | 1 | 
+<b>663</b> Les retraltés de la douane (appartient à               | 1 | 
+Mme J. Plet).                                                     | 0 | 
+<b>667</b> Etude de paysage (aquarelle).                          | 1 | 
+LANOÉ, Georges, né à Nantes. — 203, boulevard Ras¬                | 0 | 
+pail; Paris.                                                      | 0 | 
+<b>*668</b> Etang breton, à Lambezellec (Finis¬                   | 1 | 
+tère).                                                            | 0 | 
+LASELLAZ, Gustave, né à Paris. — 23, boulevard                    | 0 | 
+Gouvion-Saint-Cyr.                                                | 0 | 
+<b>669</b> La Faute de l’abbé Mouret. (Tiré du                    | 1 | 
+roman de M. E. Zola).                                             | 0 | 
+<b>670</b> Fin du jour; au marché de la Made¬                     | 1 | 
+leine.                                                            | 0 | 
+<b>671</b> La Rencontre.                                          | 1 | 
+<b>672</b> Les Confitures.                                        | 1 | 
+<b>673</b> Le Cellier.                                            | 1 | 
+<b>674</b> Nérine.                                                | 1 | 
+<b>675</b> Environs de Mantes.                                    | 1 | 
+<b>676</b> Pierres celtiques.                                     | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 43 -                                                            | 0 | 
+LECLERCQ, Théodore, né à Oresmaux (Somme)                         | 0 | 
+10, rue du Regard. Paris.                                         | 0 | 
+<b>677</b> Indécision                                             | 1 | 
+<b>678</b> Portrait de Mme L...                                   | 1 | 
+<b>679</b> Bébé.                                                  | 1 | 
+LEFEBVRE-LOURDET, Maurice, né à Paris. — 82, bou¬                 | 0 | 
+levard de Clichy.                                                 | 0 | 
+<b>*680</b> Robe crevette                                         | 1 | 
+<b>*681</b> Robe mauve.                                           | 1 | 
+LEGUAY, Charles-Henri, né à Paris. — 29, rue de Turin.            | 0 | 
+<b>682</b> Rencontre au bois.                                     | 1 | 
+<b>683</b> Grandes manœuvres.                                     | 1 | 
+LEJEUNE, Edouard-Angel, né à Caen (Calvados)                      | 0 | 
+26, rue des Jardies, à Bellevue (Seine-et-Oise).                  | 0 | 
+<b>*684</b> Chemin de la carrière.                                | 1 | 
+<b>685</b> Au Bas-Meudon (étude). Panneau.                        | 1 | 
+<b>*686</b> Au bois de Bellevue (étude). Panneau.                 | 1 | 
+<b>*687</b> Vue de Bellevue, sur Billancourt (étude).             | 1 | 
+<b>*688</b> Chemin sur le plateau des Bruyères                    | 1 | 
+(petite gelée).                                                   | 0 | 
+<b>*689</b> Chène dans les taillis au bois de Meudon              | 1 | 
+(première neige).                                                 | 0 | 
+b>690</b> Une mare au bois de Meudon (première                    | 1 |  <b>690</b> Une mare au bois de Meudon (première
+
+neige).                                                           | 0 | 
+<b>691</b> La neige sur le plateau des Bruyères à                 | 1 | 
+Bellevue, (Appartient à M. Wisler).                               | 0 | 
+<b>*692</b> Chemin dans le taillis (grande étude).                | 1 | 
+<b>*693</b> Toujours en plein taillis (Bellevue), étude.          | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+44 —                                                              | 0 | 
+LEMMEN, Georges. — 220, rue Verte, Bruxelles.                     | 0 | 
+<b>694</b> Fête foraine (motif de décor).                         | 1 | 
+<b>695</b> Portrait de jeune fille.                               | 1 | 
+<b>696</b> M. Émile Verhaeren.                                    | 1 | 
+<b>697</b> Au piano. Dessin.                                      | 1 | 
+<b>698</b> Concert maroçain. Lithographie.                        | 1 | 
+<b>699</b> La lampe. Lithogaphie.                                 | 1 | 
+<b>*790</b> Vaisseau-Fantôme. Lithographie.                       | 1 | 
+LESSORE, Henri-Emile, né à Paris.                                 | 0 | 
+2, quai de                                                        | 0 | 
+Gesvres, atelier 21, quai Bourbon.                                | 0 | 
+<b>791</b> La Tricoteuse. Esquisse.                               | 1 | 
+<b>702</b> Le point de vue du chemin Carnot. Forêt                | 1 | 
+de Fontainebleau.                                                 | 0 | 
+<b>703</b> Portrait de M. X.                                      | 1 | 
+<b>704</b> La mère Modeste.                                       | 1 | 
+<b>705</b> Grands chènes à la mare aux fées.                      | 1 | 
+<b>706</b> Charme.                                                | 1 | 
+<b>797</b> Diverses gravures à la pointe sèche.                   | 1 | 
+LE VILLAIN, Auguste-Ernest, né à Paris.                           | 0 | 
+30, rue                                                           | 0 | 
+Alphonse-de-Neuville.                                             | 0 | 
+<b>*708</b> Une mare, à Combs-la-Ville.                           | 1 | 
+<b>*709</b> Marine, à St-Vaast-la-Hougue.                         | 1 | 
+<b>*710</b> La route de la gare.                                  | 1 | 
+<b>*711</b> Bord de l’Hyère.                                      | 1 | 
+<b>712</b> Automne.                                               | 1 | 
+*>713</b> Coucher du soleil.                                      | 1 | * <b>713</b> Coucher du soleil.
+
+<b>*714</b> Le moulin (St-Vaast-la-Hougue).                       | 1 | 
+<b>*715</b> Morsalines (Manche).                                  | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+45 —                                                              | 0 | 
+LHUER, Jules-Jean, né à Paris. — 4, rue Las-Cases.                | 0 | 
+<b>716</b> Baie de Douarnenez (Finistère).                        | 1 | 
+LOMBARD, Gaëtan, né à Paris                                       | 0 | 
+32, rue Caumartin.                                                | 0 | 
+<b>717</b> La Gorge aux Loups (Fontainebleau).                    | 1 | 
+<b>718</b> L’Hiver.                                               | 1 | 
+LORIN, Georges, né à Auxerre (Vonne). — 7, rue                    | 0 | 
+Campagne-Première, Paris.                                         | 0 | 
+<b>*719</b> Soir de rêve.                                         | 1 | 
+<b>*720</b> L’Hymne à la lune.                                    | 1 | 
+<b>*721</b> A marée basse.                                        | 1 | 
+LOTTIN, Frédérick-A. — 42, rue Boulainvilliers, Passy.            | 0 | 
+<b>*722</b> « Ever and Never?. Nature morte.                      | 1 | 
+LUCE, Maximilien, né à Paris. — 6, rue Cortot                     | 0 | 
+<b>723</b> La Seine à Herblay. Couchant.                          | 1 | 
+<b>724</b> Intérieur.                                             | 1 | 
+<b>725</b> La Seine à la Frette.                                  | 1 | 
+<b>726</b> Herblay, le quai, soir. (Appartient à M. M.)           | 1 | 
+<b>727</b> Croquis. Pastel.                                       | 1 | 
+<b>728</b> Etude. Pastel.                                         | 1 | 
+<b>729</b> Etude. Pastel.                                         | 1 | 
+<b>730</b> Eventail. (Appartient à M. G.).                        | 1 | 
+LYONNET, Henri, né à Dornecy (Nièvie). — 17, rue                  | 0 | 
+de Madrid. Paris.                                                 | 0 | 
+<b>731</b> Ruisseau d’Armance (Morvan). Aqua¬                     | 1 | 
+rell..                                                            | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+—                                                                 | 0 | 
+46                                                                | 0 | 
+<b>732</b> Bouquet de roses.                                      | 1 | 
+<b>733</b> Un coin de la rade de Brest. (Finis¬                   | 1 | 
+tère.                                                             | 0 | 
+MADIOL, Adrien-Jean, né à Groningen (Hollande).                   | 0 | 
+Plaine des Tilleuls, Wolunée Saint-Lambert.                       | 0 | 
+<b>734</b> Le grand-père.                                         | 1 | 
+12, rue du                                                        | 0 | 
+MAILLARD, Th., né à Chatellerault. —                              | 0 | 
+Cognet, Chatellerault (Vienne).                                   | 0 | 
+<b>*735</b> Fête d’enfants.                                       | 1 | 
+MAISONNEUVE, Paul, né à Tours. — 22, rue Ganne¬                   | 0 | 
+ron, Paris.                                                       | 0 | 
+<b>736</b> Le rù de Saint-Jean.                                   | 1 | 
+<b>737</b> Une ruelle à Villefranche-sur-mer (Alpes¬              | 1 | 
+Maritimes).                                                       | 0 | 
+<b>738</b> Nature morte.                                          | 1 | 
+<b>739</b> Nature morte.                                          | 1 | 
+<b>740</b> Rue Sidi-Abdallah,                                     | 1 | 
+Algert                                                            | 0 | 
+<b>741</b> Quatre mendiants                                       | 1 | 
+<b>742</b> Prunes et pêches.                                      | 1 | 
+MALASSEZ (Mme), Jeanne, née à Paris. — 168, Boule¬                | 0 | 
+vard Saint-Germain.                                               | 0 | 
+<b>743</b> Fleurs du Midi.                                        | 1 | 
+<b>744</b> Chrysantèmes.                                          | 1 | 
+<b>745</b> Anémones.                                              | 1 | 
+<b>746</b> Brie et Bourgogne.                                     | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 471 —                                                           | 0 | 
+MALVAL (de), Edouard, né à Lyon. — 18 rue Molitor,                | 0 | 
+Paris.                                                            | 0 | 
+<b>747</b> Mise du Christ au tombeau.                             | 1 | 
+MANGIN, Marcel, né à Cherbourg. — 130, boulevard                  | 0 | 
+Haussmann, Paris.                                                 | 0 | 
+<b>748</b> Femme couchée.                                         | 1 | 
+<b>749</b> Portrait.                                              | 1 | 
+MARC (Mme) Mathilde, née à Bordeaux (Gironde).                    | 0 | 
+— 14, rue Clapeyron, Paris.                                       | 0 | 
+<b>750</b> Vase italien.                                          | 1 | 
+<b>751</b> Portrait de Mlle M. F...                               | 1 | 
+<b>752</b> Entrée du Vieux Donjon de Valmont.                     | 1 | 
+(Seine-Inférieure).                                               | 0 | 
+MATHIEU (Mlle) Marie-Alexandrine, née à Nevers (Niè¬              | 0 | 
+vre). — Marry, près Nevers (Nièvre).                              | 0 | 
+<b>753</b> A la procession (Berry). Aquarelle).                   | 1 | 
+MAUFRA, Maxime, né à Nantes. — 3 <i>bis</i>, rue Bleue.           | 1 | 
+<b>*754</b> Le Trou aux Goélands                                  | 1 | 
+<b>*755</b> Le s Goémons jaunes.                                  | 1 | 
+<b>*756</b> La Mare près la mer.                                  | 1 | 
+<b>*757</b> Bord de côtes rocheuses.                              | 1 | 
+<b>*758</b> Marée montante.                                       | 1 | 
+<b>*759</b> La Neige au bord de la mer.                           | 1 | 
+7>760</b> Gros temps.                                             | 1 | 7 <b>760</b> Gros temps.
+
+                                                                  |   | 
+                                                                  |   | 
+— 48                                                              | 0 | 
+MAZADE (de), Alexandre, né à Paris. — 107, boule¬                 | 0 | 
+vard Sébastopol.                                                  | 0 | 
+<b>761</b> Pelouse du château de Nointel (Seine¬                  | 1 | 
+et-Oise).                                                         | 0 | 
+<b>762</b> Entrée du parc de Pougues (Nièvre).                    | 1 | 
+Vue à vol d’oiseau. Vernis Martin.                                | 0 | 
+<b>763</b> Coteau et église de Montmorency (Seine¬                | 1 | 
+et-Oise). Ebauche.                                                | 0 | 
+<b>764</b> Eglise de Beaumont-sur-Oise (Seine-et¬                 | 1 | 
+Oise.                                                             | 0 | 
+<b>765</b> Coin de potager, Beaumont (Seine-et¬                   | 1 | 
+Oise). (Appartient à M. A. Leduc).                                | 0 | 
+MEIFREN, Eliseo, né à Barcelone (Espagne). — 15, rue              | 0 | 
+Hégésippe-Moreau.                                                 | 0 | 
+<b>766</b> Golfe, Naples.                                         | 1 | 
+<b>767</b> Senahuga (Espagne).                                    | 1 | 
+MERCIER, Paul-Joseph-Marie, né à Dreux (Eure-et¬                  | 0 | 
+Loir).                                                            | 0 | 
+37, rue Denfert-Rochereau, Paris.                                 | 0 | 
+<b>768</b> Paysage. Vue de Dieppe.                                | 1 | 
+<b>769</b> Oranges. Nature morte.                                 | 1 | 
+<b>770</b> Bondons. Nature morte.                                 | 1 | 
+<b>771</b> Marine au Hâvre.                                       | 1 | 
+MESPLÈS, Paul-Eugène, né à Paris. — 29, rue Clauzel.              | 0 | 
+<b>*772</b> Invitation joviale. Aquarelle.                        | 1 | 
+<b>*773</b> Entrée de Coryphées.                                  | 1 | 
+<b>*774</b> Un soir d’été.                                        | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 49 —                                                            | 0 | 
+<b>*775</b> Etude de liseuse.                                     | 1 | 
+<b>*776</b> Route de Vetheuil.                                    | 1 | 
+<b>*777</b> Rue du Pollet (Dieppe)                                | 1 | 
+<b>*778</b> La cour au Beurre (Pollet)                            | 1 | 
+<b>*779</b> Place du Pollet (Dieppe).                             | 1 | 
+<b>*780</b> Bateau délaissé (Pollet)                              | 1 | 
+<b>*781</b> Coin du Pollet (Dieppe).                              | 1 | 
+MESUREUR, Noé, né à Boulogne-sur-Mer. — 9, rue                    | 0 | 
+Clausel, Pariset à Cucy par Etaples.                              | 0 | 
+<b>*782</b> Le Chemin de sable du Trépied, à Cucq                 | 1 | 
+(Pas-de-Calais),                                                  | 0 | 
+<b>*783</b> Le bout d’Etaples (Pas-de-Calais).                    | 1 | 
+<b>*784</b> Communal Sud de Cucq (Pas-de-Calais).                 | 1 | 
+<b>*785</b> Le Rieu du Gué, le soir, à Daunes (Pas¬               | 1 | 
+de-Calais).                                                       | 0 | 
+MEUNIÉ, Paul-Henri, né à Paris. — 15, boulevard                   | 0 | 
+Berthier.                                                         | 0 | 
+<b>*786</b> Clownesse                                             | 1 | 
+<b>*787</b> De quoi déjeuner.                                     | 1 | 
+<b>*788</b> Fleurs                                                | 1 | 
+<b>*789</b> Rue Brémontier, neige.                                | 1 | 
+<b>*790</b> Tête d’étude.                                         | 1 | 
+<b>*791</b> Étude.                                                | 1 | 
+MICHON, Edouard-Michel, né à Anet (Eure-et-Loir).                 | 0 | 
+Anet.                                                             | 0 | 
+<b>792</b> Savetier.                                              | 1 | 
+<b>793</b> L’Eure à Anet (Eure-et-Loir).                          | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+50 —                                                              | 0 | 
+MILLET, James, né à Genève (Suisse) (Français)                    | 0 | 
+123, boulevard Richard-Lenoir, Paris.                             | 0 | 
+<b>*794</b> Comice Agricole de Ciré (Charente-Infé¬               | 1 | 
+rieure).                                                          | 0 | 
+<b>795</b> Plaisir du mal.                                        | 1 | 
+<b>*796</b> Derrière la Maison de J.-F. Millet à                  | 1 | 
+Barbizon.                                                         | 0 | 
+<b>*797</b> La ferme de la Jardy (Seine et-Oise.)                 | 1 | 
+—                                                                 | 0 | 
+MONIER, Camille, né à Montpellier.                                | 0 | 
+12, rue des                                                       | 0 | 
+Artistes, Paris.                                                  | 0 | 
+<b>798</b> L’Arnon aux Fougères (Cher).                           | 1 | 
+<b>799</b> La Baie de Saint-Jean-de-Luz.                          | 1 | 
+<b>800</b> Prairie, printemps.                                    | 1 | 
+<b>801</b> Le pont de Culau.                                      | 1 | 
+<b>802</b> Maisons au soleil.                                     | 1 | 
+<b>*803</b> Un verger.                                            | 1 | 
+<b>804</b> Environs de Saint-Amand.                               | 1 | 
+MOREL, Victor, né à Paris. — 32, rue Saint-Placide.               | 0 | 
+<b>805</b> Portrait de Mlle Berthe M... Aquarelle.                | 1 | 
+<b>806</b> Portrait de Mme M.... Aquarelle.                       | 1 | 
+MORET, Henry, né à Cherboueg. — Chez M. Blan¬                     | 0 | 
+chet, 20, rue Saint-Benoist, Paris.                               | 0 | 
+<b>807</b> Faneuses. (Appartient à M. le docteur                  | 1 | 
+Marcx.                                                            | 0 | 
+<b>*808</b> Braconnier, en Plœmeur.                               | 1 | 
+<b>*809</b> La brume à Doëlon (Finistère).                        | 1 | 
+<b>*810</b> La neige à Groix.                                     | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+51 -                                                              | 0 | 
+<b>*811</b> Batteurs d’orge.                                      | 1 | 
+<b>*812</b> Ramasseur de pommes de terre.                         | 1 | 
+MOROT, Victor-Paul-Ernest, né à Paris. — 61, rue                  | 0 | 
+Lepic.                                                            | 0 | 
+<b>*813</b> Environ de Pontoise. Jeunes saules.                   | 1 | 
+<b>*814</b> Le pont d’Aunet (Seine-et-Marne). Etude.              | 1 | 
+MOSTERTMAN, Louis, né à Paris. — 18, avenue Tru¬                  | 0 | 
+daine.                                                            | 0 | 
+<b>*815</b> Barbillon.                                            | 1 | 
+<b>*816</b> Un thé.                                               | 1 | 
+<b>*817</b> Une rue de Cernay (Seine-et-Oise).                    | 1 | 
+<b>*818</b> Etude à l’Etang de Griveau.                           | 1 | 
+<b>*819</b> Orange.                                               | 1 | 
+<b>*820</b> Orange.                                               | 1 | 
+<b>*821</b> Œufs à la Coque.                                      | 1 | 
+MOUILLARD, Lucien, né à Paris. — 71, rue de l’As¬                 | 0 | 
+somption.                                                         | 0 | 
+<b>822</b> La nouvelle acquisition (Tunisie).                     | 1 | 
+<b>823</b> Hassan le Cawadghi (Biskra).                           | 1 | 
+<b>824</b> Les philosophes à la porte de Gardaia                  | 1 | 
+(Algérie).                                                        | 0 | 
+MYON, Lucien, né à Paris. — 2, rue de Tocqueville.                | 0 | 
+<b>*825</b> Repos.                                                | 1 | 
+<b>*826</b> Etude.                                                | 1 | 
+NARDI, François, né à Nice. — 39, rue de Constanti¬               | 0 | 
+nople, Paris.                                                     | 0 | 
+<b>*827</b> Quatre vues de Parls.                                 | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+52                                                                | 0 | 
+<b>*828</b> Le Mourillon (Toulon).                                | 1 | 
+<b>*829</b> Temps gris en Provence.                               | 1 | 
+<b>*830</b> Vue prise à la Seyne (Toulon).                        | 1 | 
+<b>*831</b> La rivière des Amoureux (Toulon).                     | 1 | 
+<b>*832</b> Balancelles espagnoles.                               | 1 | 
+<b>*833</b> Quatre petites impressions de Paris.                  | 1 | 
+<b>834</b> La ville de Toulon.                                    | 1 | 
+<b>*835</b> Les maisons de la rade (Toulon).                      | 1 | 
+<b>*836</b> Effet de soleil couchant.                             | 1 | 
+NÉRON-DUVERGER, Maurice-Alexandre, né à Paris. —                  | 0 | 
+9, rue Le Châtelier.                                              | 0 | 
+<b>837</b> Petite statuette de Femme assise, inti¬                | 1 | 
+tulée l'<i>Incrédule</i>, plâtre patine, argent.                  | 1 | 
+<b>838</b> Tête de Femme, étude, plâtre patine,                   | 1 | 
+argent, monté sur piédouche bois.                                 | 0 | 
+NEYMARK, Gustave, né à Poitiers. — 67, rue Roche                  | 0 | 
+chouart, Paris.                                                   | 0 | 
+<b>*839</b> Zouave en maraude.                                    | 1 | 
+NICOLAS, Auguste-Jules-Marie, né à Brest (Finistère)              | 0 | 
+place de l’Isle-de-Kerléau (Brest).                               | 0 | 
+<b>849</b> Vieux troncs et jeunes pousses.                        | 1 | 
+<b>841</b> Sibylle, à Montmartre.                                 | 1 | 
+NOEL, Paul, né à Charleville. — Charleville (Belair).             | 0 | 
+<b>842</b> Giboulées de mars.                                     | 1 | 
+O’CONOR, Roderic, né à Roscommon (Irlande).                       | 0 | 
+Hôtel Gloanec, Pont-Aven (Finistère).                             | 0 | 
+<b>*843</b> En Bretagne, n° 1.                                    | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 53                                                              | 0 | 
+<b>*844</b> En Bretagne, n° 2.                                    | 1 | 
+<b>*845</b> En Bretagne, n° 3.                                    | 1 | 
+<b>*846</b> En Bretagne, n°4.                                     | 1 | 
+<b>*847</b> En Bretagne, n° 5.                                    | 1 | 
+<b>*848</b> Nature morte, n° 1.                                   | 1 | 
+<b>*849</b> Nature morte, n° 2                                    | 1 | 
+<b>*850</b> Nature morte, n° 3.                                   | 1 | 
+OSBERT, Alphonse, né à Paris                                      | 0 | 
+— 7 et 9, rue Alain¬                                              | 0 | 
+Chartier.                                                         | 0 | 
+<b>851</b> Couchant sur la mer.                                   | 1 | 
+<b>852</b> Dans les champs.                                       | 1 | 
+<b>853</b> Dans les bouleaux le matin.                            | 1 | 
+<b>854</b> En vue de Pontoise.                                    | 1 | 
+<b>855</b> Dans les sables de Biville (Manche).                   | 1 | 
+<b>856</b> Marée basse le soir à Diélette (Manche).               | 1 | 
+<b>857</b> Route de Chennevières (Seine-et-Oise).                 | 1 | 
+<b>858</b> Le soir sur la mer.                                    | 1 | 
+OSBERT, Edmond. — 38, rue Singer, Paris-Passy.                    | 0 | 
+<b>859</b> Crépuscule. Fusain,                                    | 1 | 
+<b>860</b> Au large. Fuiasn.                                      | 1 | 
+PAQUEAU, Gaston, né à Schiltigheim (Alsace). — 30, rue            | 0 | 
+Notre-Dame-des-Champs, Paris.                                     | 0 | 
+<b>861</b> «Pensive».                                             | 1 | 
+<b>862</b> Au Calvaire.                                           | 1 | 
+..... «Près de lui, lentement, Magdeleine est montée» Ch. P.      | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+54                                                                | 0 | 
+<b>863</b> Une Artiste, à Tanagra.                                | 1 | 
+<b>864</b> Douce ivresse.                                         | 1 | 
+PARISOT, Stanislas, né à Brest. — 76, rue de la Pompe,            | 0 | 
+Passy.                                                            | 0 | 
+<b>865</b> L’Ignorée.                                             | 1 | 
+<b>866</b> Le vieux pavé de Meudon.                               | 1 | 
+<b>*867</b> Nuages.                                               | 1 | 
+<b>*868</b> Hommage à Victor Hugo. Dessin.                        | 1 | 
+PASCAL, Paul, né à Melun (Seine-et-Marne). — 17, rue              | 0 | 
+Campagne-Première, Paris.                                         | 0 | 
+<b>*869</b> Le chemin de la carrière.                             | 1 | 
+<b>870</b> Le soir (dessin).                                      | 1 | 
+PAUL, Hermann, né à Paris. — 66, rue de Provence,                 | 0 | 
+Paris.                                                            | 0 | 
+<b>871</b> Étude de jeune fille basque.                           | 1 | 
+<b>872</b> Rayon de ganterie.                                     | 1 | 
+PÉLÉZEWSKY, André-Charles-Victor, né à Paris. —                   | 0 | 
+76, boulevard de Cilchy.                                          | 0 | 
+<b>873</b> Moulin de Quinquangrogne (Seine-et¬                    | 1 | 
+Marne). (Appartient à M. Charron).                                | 0 | 
+<b>874</b> Bois de Chigny (Seine-et-Marne).                       | 1 | 
+PERRIER, Alexandre, né à Genève (Suisse). — 5, Cité               | 0 | 
+Fénelon (34, Rue Milton).                                         | 0 | 
+<b>875</b> La Prière.                                             | 1 | 
+<b>876</b> L’oiseau chante.                                       | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 55                                                              | 0 | 
+T PERROT, Gustave-Charles-Claude, né à Paris. —                   | 0 | 
+3, Grande-Rue à Villejuif.                                        | 0 | 
+<b>877</b> De Villejuif à Montmartre.                             | 1 | 
+<b>878</b> Un coin du parc (Arcueil)                              | 1 | 
+<b>879</b> Coin de mon jardin.                                    | 1 | 
+<b>880</b> Le chemin des Carrières, à Arcueil.                    | 1 | 
+<b>881</b> Le matin à Arcueil.                                    | 1 | 
+<b>882</b> Paysage pris à Arcueil.                                | 1 | 
+<b>883</b> Plaine de Villejuif.                                   | 1 | 
+<b>884</b> Le chemin de Gournay à Villejuif.                      | 1 | 
+<b>885</b> Coin d’auberge, à la Vieille Poste (Seine¬             | 1 | 
+et-Oise).                                                         | 0 | 
+<b>886</b> La Seine à Athis.                                      | 1 | 
+<b>887</b> Portrait de M. Juglaris.                               | 1 | 
+<b>888</b> Portrait. Aquarelle                                    | 1 | 
+<b>889</b> Étude. Fresque.                                        | 1 | 
+<b>899</b> Jeune fille. Étude. Fresque.                           | 1 | 
+<b>891</b> Au jardin.                                             | 1 | 
+PERROT, Jean-Baptiste, né à Autun, (Saône-et-Loire).              | 0 | 
+3, Grande-Rue, à Villejuif.                                       | 0 | 
+<b>892</b> Portrait de Mme Perrot.                                | 1 | 
+<b>893</b> Gustave Perrot, à 20 ans                               | 1 | 
+<b>894</b> Gustave Perrot, à 13 ans.                              | 1 | 
+<b>895</b> Mlle M. Desmoulins.                                    | 1 | 
+<b>896</b> Mme Vve Rémond.                                        | 1 | 
+<b>897</b> M. Chrétien, ingénieur                                 | 1 | 
+PETINIAUD-DUBOS, Charles, né à Limoges. — 76,                     | 0 | 
+rue Rochechouart, Paris, et 30 <i>bis</i>, rue du Chin¬           | 1 | 
+chauvaud, Limoges.                                                | 0 | 
+<b>898</b> Ivresse.                                               | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 56 —                                                            | 0 | 
+<b>899</b> Environs de Limoges. Pommiers à Champ¬                 | 1 | 
+Dorat.                                                            | 0 | 
+<b>960</b> Laitière.                                              | 1 | 
+<b>901</b> Passage à niveau de la rue du Chinchau¬                | 1 | 
+vaud, Limoges.                                                    | 0 | 
+<b>902</b> En maraude.                                            | 1 | 
+<b>903</b> Panneau décoratif.                                     | 1 | 
+<b>904</b> La fin du roman.                                       | 1 | 
+PETITJEAN, Hippolyte, né à Mâcon. — 51, boulevard                 | 0 | 
+Saint-Jacques, Paris.                                             | 0 | 
+<b>*905</b> Baigneuses.                                           | 1 | 
+<b>906</b> Portrait.                                              | 1 | 
+<b>907</b> Portrait.                                              | 1 | 
+<b>908</b> Paysage.                                               | 1 | 
+PHILIBERT (Mlle), Marie, née à Paris, 38, rue Le Pe¬              | 0 | 
+letier.                                                           | 0 | 
+<b>909</b> Pensées.                                               | 1 | 
+<b>910</b> Environs de Vichy (Allier).                            | 1 | 
+<b>911</b> Chrysanthèmes.                                         | 1 | 
+<b>912</b> Vue dans le Parc de Saint-Cloud.                       | 1 | 
+PICARD, Jules, né à Paris. —                                      | 0 | 
+23, rue Turgot.                                                   | 0 | 
+<b>913</b> Lac du Bourget.                                        | 1 | 
+<b>914</b> Pont d’El-Kantara.                                     | 1 | 
+PICARD-FOUBERT, Elie-Ernest, né à Paris. — 64 <i>bis</i>,         | 1 | 
+rue Dulong.                                                       | 0 | 
+<b>915</b> Au bord de la emr.                                     | 1 | 
+<b>916</b> Le poème de la vie. Projet de déco¬                    | 1 | 
+ration.                                                           | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+— 57 —                                                            | 0 | 
+<b>917</b> Portrait                                               | 1 | 
+<b>918</b> Mlle Psyché                                            | 1 | 
+<b>919</b> Seigneur vénitien.                                     | 1 | 
+<b>920</b> Portrait du docteur R. G... fusain re¬                 | 1 | 
+haussé de pastel.                                                 | 0 | 
+PICQUEFEU, Roger-François, né à Paris. — 93, avenue               | 0 | 
+Niel, Paris.                                                      | 0 | 
+<b>921</b> Bords de Seine.                                        | 1 | 
+<b>*922</b> Les environs de Cannes. (Alpes-Mari¬                  | 1 | 
+times).                                                           | 0 | 
+<b>*923</b> Paysage d’hiver.                                      | 1 | 
+<b>*924</b> La plage de Cabourg (Calvados).                       | 1 | 
+<b>*925</b> Gros temps à Cabourg (Calvados).                      | 1 | 
+<b>*926</b> Dans les champs.                                      | 1 | 
+<b>*927</b> Les dumes à Cabourg.                                  | 1 | 
+PIERREPONT, Cléry, né à Ecurie (Pas-de-Calais)                    | 0 | 
+56, boulevard de Port-Royal.                                      | 0 | 
+<b>928</b> Rœlinedurt en Artois. Après midi d’au¬                 | 1 | 
+tomne (Pas-de-Calais).                                            | 0 | 
+<b>929</b> Environs de Paris, prés de Lozère, après               | 1 | 
+midi d’automne (Seine-et-Oise).                                   | 0 | 
+<b>930</b> Effet d’Hiver. Parc dn Château de Glan¬                | 1 | 
+ville (Calvados).                                                 | 0 | 
+<b>931</b> Moulin à Draumesnil. Effet du soir                     | 1 | 
+(Somme).                                                          | 0 | 
+PIERRE-ROCHE, né à Paris. — 52, rue Vanneau.                      | 0 | 
+<b>932</b> Pour une illustration de <i>Mes Hépitaux</i>,          | 1 | 
+par Paul Verlaine                                                 | 0 | 
+<b>933</b> Paysage d’après Verlaine.                              | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+58                                                                | 0 | 
+—                                                                 | 0 | 
+PISSARRO, Lucien, né à Paris. —                                   | 0 | 
+7, Colville Square,                                               | 0 | 
+Bayswater, Londres.                                               | 0 | 
+<b>934</b> Children in Hyde Park.                                 | 1 | 
+<b>*935</b> Jardin à Eragny.                                      | 1 | 
+<b>936</b> Les Crocus.                                            | 1 | 
+<b>*937</b> Après-midi d’avril, à Bazincourt.                     | 1 | 
+PITOY, Alfred-Charles, né à Scey-sur-Saône (Haute¬                | 0 | 
+Saône). — 25, rue de la Voie Verte (Petit-Montrouge).             | 0 | 
+<b>938</b> Nature morte.                                          | 1 | 
+<b>939</b> Portrait de Gaston.                                    | 1 | 
+<b>940</b> Paysage, vue prise à Fresnes.                          | 1 | 
+POZIER, Jacinthe, né à Paris. — Avenue Richerand, 16.             | 0 | 
+<b>*941</b> Allant traire.                                        | 1 | 
+<b>942</b> La rivière d’Epte à l’usine de Droitte¬                | 1 | 
+court.                                                            | 0 | 
+<b>*943</b> Tournant de l’Epte à Eragny.                          | 1 | 
+<b>*944</b> Printemps.                                            | 1 | 
+<b>*945</b> La Seine à Epinay.                                    | 1 | 
+<b>*946</b> Un Calvaire à Bazincourt (Eure).                      | 1 | 
+<b>947</b> Saules émondés.                                        | 1 | 
+<b>948</b> Puits d’extraction à Carrière-St-Denis.                | 1 | 
+<b>949</b> Matinée d’automre à Bazincourt (Eure).                 | 1 | 
+<b>950</b> La Cavée, le soir, à Eragny.                           | 1 | 
+PRIEUR, Félix-Jules, né à Paris.                                  | 0 | 
+10, rue des Vosges.                                               | 0 | 
+<b>*951</b> Nature morte.                                         | 1 | 
+<b>952</b> Lapin et Perdreau.                                     | 1 | 
+<b>953</b> Chrysanthèmes.                                         | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 59 —                                                            | 0 | 
+PROVINS, Oscar. — A Bapeaume.                                     | 0 | 
+<b>954</b> Portrait de Mme X...                                   | 1 | 
+QUILLET, Ferdinand, né à Niort (Deux-Sèvres). —                   | 0 | 
+33, rue des Apennins, Paris.                                      | 0 | 
+<b>955</b> Mme A. Chérau.                                         | 1 | 
+<b>956</b> M. Ch. Guyon.                                          | 1 | 
+<b>957</b> Coin Sautay à Niort (Deux-Sèvres),                     | 1 | 
+<b>958</b> Bords du Mignon, à Antigny (Deux¬                      | 1 | 
+Sèvres).                                                          | 0 | 
+<b>959</b> Entrée du port Saint-Martin (Ile de Ré).               | 1 | 
+<b>960</b> Enterrement du nouveau-né, à Saint-                    | 1 | 
+Liguaire (Deux-Sèvres).                                           | 0 | 
+RANFT, Richard, né à Genève. — Sannois (Seine-et¬                 | 0 | 
+Oise).                                                            | 0 | 
+<b>*961</b> Le Soir aux champs.                                   | 1 | 
+<b>*962</b> Beau jour en février.                                 | 1 | 
+<b>*963</b> Petites secousses                                     | 1 | 
+<b>*964</b> La nuit. (Ballet)                                     | 1 | 
+<b>*965</b> Sables-d’Olonne.                                      | 1 | 
+<b>*966</b> La brume sur le côteau.                               | 1 | 
+<b>*967</b> Crépuscule.                                           | 1 | 
+<b>*968</b> Route blanche                                         | 1 | 
+<b>*969</b> Soleil d’hiver                                        | 1 | 
+RANSON (Paul-Elie), né à Limoges. — 25, boulevard                 | 0 | 
+du Montparnasse, Paris.                                           | 0 | 
+<b>*970</b> Lustral, mai 1891.                                    | 1 | 
+<b>*971</b> Sybille, juin 1891.                                   | 1 | 
+<b>*972</b> Schouchanah, janvier 1891.                            | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+60 —                                                              | 0 | 
+<b>973</b> Rochers en Esqual-Herria, novembre                     | 1 | 
+1891.                                                             | 0 | 
+<b>974</b> La Leçon, 1890.                                        | 1 | 
+<b>975</b> Kentron, avril 1891.                                   | 1 | 
+*b>976</b> L’Initiation (éventail), décembre 1889.                | 1 | * <b>976</b> L’Initiation (éventail), décembre 1889.
+
+<b>977</b> Le Nabi, février 1890.                                 | 1 | 
+RASETTI, Georges, né à Paris.                                     | 0 | 
+—                                                                 | 0 | 
+11, avenue des                                                    | 0 | 
+Tilleuls.                                                         | 0 | 
+<b>978</b> Le soir.                                               | 1 | 
+<b>979</b> Le mil.                                                | 1 | 
+<b>980</b> Marche religieuse.                                     | 1 | 
+<b>981</b> Sainte-Marguerite.                                     | 1 | 
+<b>982</b> L’heure verte.                                         | 1 | 
+RASTOUX, Jules, né à Nîmes. — 12, rae de l’Écluse,                | 0 | 
+Nîmes.                                                            | 0 | 
+<b>983</b> Portrait de M. Jamin, sculpteur, à Nî-nes.             | 1 | 
+*b>984</b> Jeune fille cueillant des fleurs.                      | 1 | * <b>984</b> Jeune fille cueillant des fleurs.
+
+REGNIER, Ludovic, né à Paris. — 7, rue Alain-Char¬                | 0 | 
+tier.                                                             | 0 | 
+<b>985</b> Suite de sept études: 1, Lisière de                    | 1 | 
+Bois-Meudon. 2, Source en Berry.                                  | 0 | 
+3. Automne, Berry. 4, Roches, Fontai¬                             | 0 | 
+nebleau. 5, Le vieux pont de la Rigole,                           | 0 | 
+Igny (Seine-et-Oise). 6, Chemin en                                | 0 | 
+Berry. 7, Blés coupés, Berry. (Appar¬                             | 0 | 
+tient à Mme R.                                                    | 0 | 
+<b>*986</b> Fleurs des champs.                                    | 1 | 
+<b>987</b> Poirier en fleurs. (Appartient à M. J. V.)             | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 61                                                              | 0 | 
+<b>988</b> Cinéraires. (Appartient à M. J. V.)                    | 1 | 
+<b>*989</b> Pavots vivaces.                                       | 1 | 
+<b>*990</b> Pensées                                               | 1 | 
+<b>*991</b> Coin de jardin.                                       | 1 | 
+REGOYOS, de Dario, né à Saint-Sébastien (Espagne).                | 0 | 
+1, Hernani, Saint-Sébastien.                                      | 0 | 
+<b>992</b> Danse lourde (Asturies).                               | 1 | 
+<b>993</b> Dessins                                                | 1 | 
+<b>994</b> Zortzico, air de flûte (Biscaie).                      | 1 | 
+<b>995</b> Croyante                                               | 1 | 
+<b>996</b> Porteur d’étendard.                                    | 1 | 
+<b>997</b> Cercueil en gare.                                      | 1 | 
+<b>998</b> A la porte d’une église.                               | 1 | 
+—                                                                 | 0 | 
+RENAULT, Jacques, né à Versailles.                                | 0 | 
+5, rue de l’Abbé¬                                                 | 0 | 
+de-l’Epée, Paris.                                                 | 0 | 
+<b>999</b> Chassée du toit paternel.                              | 1 | 
+<b>1000</b> Saulaie, à Clairfontaine.                             | 1 | 
+RICHARD, Jules-Gédéon, né à Paris. — 37, quai des                 | 0 | 
+Grands-Augustins.                                                 | 0 | 
+<b>1001</b> Le petit pont à l’Ile Saint-Pierre. — (Al¬            | 1 | 
+fortville).                                                       | 0 | 
+<b>*1002</b> Soleil et brouillard.                                | 1 | 
+<b>*1003</b> Sous bois. Appartient à M. Besnier.                  | 1 | 
+<b>*1004</b> Les premières feuilles. Etude de peupliers           | 1 | 
+RIVIÈRE, Charles, né à Orléans (Loire). — 24, boule¬              | 0 | 
+vard Richard-Lenoir, Paris.                                       | 0 | 
+<b>1005</b> Rue de village, près Château-Thierry                  | 1 | 
+(Aisne).                                                          | 0 | 
+<b>1096</b> Fromages.                                             | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+62 —                                                              | 0 | 
+ROBERT, Armand-Auguste, né à la Ferté sur-Aube                    | 0 | 
+(Haute-Marme). — 45, rue Vavin, Paris.                            | 0 | 
+<b>1007</b> Vieux saules sur les bords de l’Aube.                 | 1 | 
+<b>1008</b> La Fosse de la Prairie, à la Ferté-sur¬               | 1 | 
+Aube.                                                             | 0 | 
+ROBERT, Eugène, né à Paris. —                                     | 0 | 
+25, rue Clapeyron.                                                | 0 | 
+<b>1009</b> L’Oise à Pontoise.                                    | 1 | 
+<b>1010</b> Le vieux moulin de Villefranche.                      | 1 | 
+<b>1011</b> Le port de Nice.                                      | 1 | 
+<b>1012</b> Le marché du Cours, à Nice.                           | 1 | 
+<b>1013</b> Falieou.                                              | 1 | 
+<b>1014</b> Chemin de Saint-André.                                | 1 | 
+ROBIN, Louis, né à Villefranche (Rhône). — 23, rue                | 0 | 
+Oudinot, Paris.                                                   | 0 | 
+<b>1015</b> Une jeune mère.                                       | 1 | 
+ROUGÉ (Mme de), Julie, né à Paris. — 19, quai Bourbon.            | 0 | 
+<b>1016</b> Les Flammiers, près Reims (Marne).                    | 1 | 
+Aquarelle.                                                        | 0 | 
+<b>1017</b> Tinqueux, près Reims (Marne). Aqua¬                   | 1 | 
+relle.                                                            | 0 | 
+ROUILLE, Léon, né à Josselin (Morbihan). — 20, place              | 0 | 
+des Halles, Ancenis (Loire-Inférieure).                           | 0 | 
+<b>1018</b> Matinée de juillet au bord de la Loire.               | 1 | 
+<b>1019</b> Environs d’Ancenis (4 pochades dans un                | 1 | 
+cadre).                                                           | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+— 63 —                                                            | 0 | 
+ROUSSEAU, Henri, né à Laval. — 18 <i>bis,</i> impasse du          | 1 | 
+Maine Paris.                                                      | 0 | 
+<b>*1020</b> Un centenaire de l’indépendance.                     | 1 | 
+Le peuple danse autour des deux Répu¬                             | 0 | 
+bliques, celle de 1792 et celle de 1892                           | 0 | 
+se donnant la main sur l’air de: Au¬                              | 0 | 
+près de ma blonde, qu’il fait bon, fait                           | 0 | 
+bon, fait bon, etc.                                               | 0 | 
+<b>1021</b> Portrait de Mlle Jeanne (Appartient à                 | 1 | 
+M. R...)                                                          | 0 | 
+<b>1022</b> Portrait de Mme L...                                  | 1 | 
+<b>*1023</b> Vue de la porte du Bas-Meudon, après                 | 1 | 
+la pluie.                                                         | 0 | 
+<b>1024</b> Vue du pont de Grenelle (Trocadéro).                  | 1 | 
+<b<b>1025</b> Débardeurs. Dessin. (Appartient à mon               | 1 |  <b>1025</b> Débardeurs. Dessin. (Appartient à mon
+
+ami Claude Goubot.                                                | 0 | 
+ROUSSEL, Henri-François, né à Paris. —                            | 0 | 
+122, rue                                                          | 0 | 
+d’Assas.                                                          | 0 | 
+<b>1026</b> Saules et Peupliers.                                  | 1 | 
+<b>1027</b> Champ de Coquelicots.                                 | 1 | 
+<b>1628</b> Effet de brouillard.                                  | 1 | 
+<b>1029</b> Bords de la Seine à Bonnières.                        | 1 | 
+<b>1030</b> Barrière dans un pré.                                 | 1 | 
+<b>1031</b> Allée de jardin.                                      | 1 | 
+<b>1032</b> Maisons à Glaton.                                     | 1 | 
+ROY, Louis, né à Poligny (Jura).— 213, rue Lafayette,             | 0 | 
+Paris.                                                            | 0 | 
+<b>1033</b> Paysans.                                              | 1 | 
+<b>1034</b> La Vallée de Vaux sur Poligny.                        | 1 | 
+<b>1035</b> Etude dans le Jura.                                   | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+64 —                                                              | 0 | 
+RUSINOL, Santiago, né à Barcelone (Espagne) —                     | 0 | 
+Moulin de la Galette, Montmartre.                                 | 0 | 
+<b>1036</b> Une Malade.                                           | 1 | 
+<b>1037</b> Cour de Sitges (Espagne).                             | 1 | 
+<b>1038</b> Intérieur en Sitges (Espagne).                        | 1 | 
+<b>1039</b> Le Cimetière de Consuegra                             | 1 | 
+(Espagne).                                                        | 0 | 
+<b>1040</b> Le Tir.                                               | 1 | 
+<b>1041</b> La Plaine de Saint-Ouen.                              | 1 | 
+<b>1042</b> En plein air.                                         | 1 | 
+<b>*1043</b> Etude.                                               | 1 | 
+SAINT-BIÉ, Henri, né à Ecommoy (Sarthe). — 40, rue                | 0 | 
+de Longchamps (Neuilly).                                          | 0 | 
+<b>1044</b> Poules.                                               | 1 | 
+<b>1045</b> Quai de Puteaux.                                      | 1 | 
+<b>1046</b> La Seine à Puteaux.                                   | 1 | 
+<b>1047</b> Sous bois.                                            | 1 | 
+<b>1048</b> Paysanne et poules.                                   | 1 | 
+<b>1049</b> La Plaine à Rueil (Seine-et-Oise).                    | 1 | 
+SAINT-HÉRAN (Mme), Madeleine, née à La Combe                      | 0 | 
+(Allier). — 147, avenue de Villiers, Paris.                       | 0 | 
+<b>*1050</b> Portrait d’Henriette.                                | 1 | 
+>4,RDA, Henry, né à Lons-le-Sauinier. — 73, rue du                | 4 | >4,RDA, Henry, né à Lons-le-Sauinier. — 73, rue du
+
+Bourg, Bar-le-Duc.                                                | 0 | 
+<b>1051</b> Amour et Fleurs.                                      | 1 | 
+<b> 1052</b> Souvenir du Sénégal.                                 | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+—                                                                 | 0 | 
+65                                                                | 0 | 
+SCHAECK, Paul, né à Paris. — 7, rue du Cardinal¬                  | 0 | 
+Lemoine.                                                          | 0 | 
+<b>*1053</b> Cabane Comtesse (bois de Mangiennes                  | 1 | 
+(Meuse).                                                          | 0 | 
+<b>1054</b> Rue Adam (Mangiennes (Meuse).                         | 1 | 
+<b>*1055</b> Tuilerie (Mangiennes (Meuse).                        | 1 | 
+SCHLAICH, Alfred, né à Paris.                                     | 0 | 
+. — 56, rue de Paris, à                                           | 0 | 
+Vincennes (Seine).                                                | 0 | 
+<b>1056</b> Les Tuileries.                                        | 1 | 
+<b>1057</b> Au pont national,                                     | 1 | 
+<b>1058</b> Boulevard Henri IV.                                   | 1 | 
+<b>1059</b> Portraits.                                            | 1 | 
+<b>1060</b> Portraits.                                            | 1 | 
+<b>1061</b> Portraits.                                            | 1 | 
+<b>1062</b> Le soir.                                              | 1 | 
+SÉGUIN, Arsène, né à Saint-Malo. — 10, rue des Buis¬              | 0 | 
+sons, La Garenne-Colombes.                                        | 0 | 
+<b>*1063</b> La Seine à l’ile Saint-Ouen (Saint-Denis).           | 1 | 
+<b>*1064</b> La Seine à l’ile Saint-Denis.                        | 1 | 
+<b>*1065</b> Paturage                                             | 1 | 
+SERENDAT de BELZIM, né à Port-Louis (Ile Maurice).                | 0 | 
+—                                                                 | 0 | 
+31, avenue de Villiers, Paris.                                    | 0 | 
+<b>1066</b> Portrait de Mme M. J...                               | 1 | 
+<b>*1067</b> Prière à Sainte-Anne.                                | 1 | 
+<b>*1068</b> Fin de flirt.                                        | 1 | 
+<b>*1069</b> Nereide.                                             | 1 | 
+<b>1070</b> Portrait de Mlle M. H...                              | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 66 —                                                            | 0 | 
+<b>1071</b> Pour la France.                                       | 1 | 
+<b>1072</b> Portrait de M. Ch. Boyer.                             | 1 | 
+SERRET, Charles-Emmanuel, né à Aubenas (Ardèche).                 | 0 | 
+53, boulevard Bineau, Neuilly.                                    | 0 | 
+<b>1073</b> La lutte.                                             | 1 | 
+<b>1074</b> La conversation.                                      | 1 | 
+<b>1075</b> Attendre son tour.                                    | 1 | 
+<b>1076</b> Comment t’appelles-tu?                                | 1 | 
+<b>1077</b> La comédie.                                           | 1 | 
+<b>1078</b> Le journal à la campagne.                             | 1 | 
+<b>1079</b> Les petites chasseresses.                             | 1 | 
+<b>1080</b> La sœur ainée.                                        | 1 | 
+★ SEURAT, Georges. — 1859-1891.                                   | 0 | 
+<b>1081</b> Une Baignade (1884), prété par Mme Seu¬               | 1 | 
+rat.                                                              | 0 | 
+<b>1082</b> Un Dimanche à la Grande-Jatte, 1884,                  | 1 | 
+(1886) prêté par Mmne Seurat.                                     | 0 | 
+<b>1083</b> Esquisse des «Poseuses» (1888), prêté                 | 1 | 
+par M. Jules Christophe.                                          | 0 | 
+<b>1084</b> Parade de cirque (1888), prêté par Mme                | 1 | 
+Seurat.                                                           | 0 | 
+<b>*1085</b> Jeune femme se poudrant (1889).                      | 1 | 
+<b>1086</b> Esquisse du «Chahut» (1890) prêté par                 | 1 | 
+M. P. S.                                                          | 0 | 
+<b>1087</b> Cirque (1891) prêté par Mme Seurat.                   | 1 | 
+BORDS DE SEINE                                                    | 0 | 
+<b>1088</b> Etude pour «Un dimanche à la Grande¬                  | 1 | 
+Jatte» (1884), prêté par M. Appert.                               | 0 | 
+<b>1089</b> La Seine à Courbevoie (1885), prêté par               | 1 | 
+M. P. S.                                                          | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+— 67                                                              | 0 | 
+<b>1090</b> Le pont de Courbevoie (1886), prété par               | 1 | 
+M. Arsène Alexandre.                                              | 0 | 
+<b>1091</b> Temps gris à la Grande-Jatte (1888),                  | 1 | 
+prêté par M. Séon.                                                | 0 | 
+GRAND CAMP (1885,                                                 | 0 | 
+<b>1092</b> La Rade, prété par Mme Seurat.                        | 1 | 
+<b>*1093</b> Le Soir.                                             | 1 | 
+HONFLEUR (1886,                                                   | 0 | 
+<b>1094</b> Coin d’un bassin, prêté par M. Emile                  | 1 | 
+Verhaeren.                                                        | 0 | 
+<b>1095</b> L’hospice et le phare, prêté par M. Emile             | 1 | 
+Verhaeren.                                                        | 0 | 
+<b>1096</b> Entrée du port.                                       | 1 | 
+<b>1097</b> La Maria.                                             | 1 | 
+PORT-EN-BESSIN (1888,                                             | 0 | 
+<b>*1098</b> Un Dimanche                                          | 1 | 
+<b>*1099</b> Le pont et les quais.                                | 1 | 
+<b>1100</b> L’avant-port, marée haute, prété par                  | 1 | 
+Mmne Seurat.                                                      | 0 | 
+<b>1101</b> L’avant-port, marée basse, prété par                  | 1 | 
+M. de la Hault.                                                   | 0 | 
+<b>1102</b> Les Grues et la Percée, prété par Mme                 | 1 | 
+Seurat.                                                           | 0 | 
+CROTOY (1889)                                                     | 0 | 
+<b>1103</b> Aval prété par M. Edmond Picard.                      | 1 | 
+<b>1104</b> Amont, prété par Mmne Seurat.                         | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 68 —                                                            | 0 | 
+LE CHENAL DE GRAVELINES (1890)                                    | 0 | 
+<b>1105</b> Petit fort Philippe, prété par Mme Seurat.            | 1 | 
+<b>1106</b> Direction de la mer, prété par M. Braun               | 1 | 
+<b>1107</b> Un soir, prété par M. Monnom.                         | 1 | 
+ETUDES ET CROQUETONS                                              | 0 | 
+<b>1108</b> Les pêcheurs, prêté par Mme Appert.                   | 1 | 
+<b>1109</b> Casseur de pierres.                                   | 1 | 
+<b>1110</b> Baignade.                                             | 1 | 
+<b>1111</b> Rue Saint-Vincent.                                    | 1 | 
+<b>1112</b> Baignade, prété par Mme Seurat.                       | 1 | 
+<b>1113</b> Courbevoie, prêté par M. Seurat.                      | 1 | 
+<b>1114</b> A la Grande-Jatte, prêté par Mme H. S.                | 1 | 
+<b>1115</b> Poseuse, prété par Mme Seurat.                        | 1 | 
+<b>1116</b> Poseuse, prêté par M. F. F.                           | 1 | 
+DESSINS                                                           | 0 | 
+prêté par Mme Seurat.                                             | 0 | 
+<b>1117</b> Portrait                                              | 1 | 
+<b>1118</b> Broderie                                              | 1 | 
+id.                                                               | 0 | 
+id.                                                               | 0 | 
+<b>1119</b> La Grande-Jatte                                       | 1 | 
+id.                                                               | 0 | 
+id.                                                               | 0 | 
+id.                                                               | 0 | 
+<b>1120</b> Femme cousant                                         | 1 | 
+id.                                                               | 0 | 
+<b>1121</b> Dineur.                                               | 1 | 
+id.                                                               | 0 | 
+id.                                                               | 0 | 
+<b>1122</b> Lecture                                               | 1 | 
+id.                                                               | 0 | 
+id.                                                               | 0 | 
+<b>1123</b> Ecuyère de cirque                                     | 1 | 
+id.                                                               | 0 | 
+id.                                                               | 0 | 
+<b>1124</b> Paul Signac, prêté par M. P. S.                       | 1 | 
+<b>1125</b> Café-concert.                                         | 1 | 
+<b>*1126</b> Café-concert.                                        | 1 | 
+SIGNAC, Paul, né à Paris. — 15, impasse Hélène.                   | 0 | 
+Op. 227, 219, 220, 222, 221, 218, 215.                            | 0 | 
+<b>*1127</b> Arabesques pour une salle de toilette.               | 1 | 
+(Peinture à l’encaustique).                                       | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+— 69 —                                                            | 0 | 
+<b>*1128</b> Matin, Concarneau.                                   | 1 | 
+<>1129</b> Soir,                                                  | 1 |  <b>1129</b> Soir,
+
+id.                                                               | 0 | 
+<b>1130</b> Brise,                                                | 1 | 
+id.                                                               | 0 | 
+(à Mme Monnom).                                                   | 0 | 
+<b>1131</b> Calme,                                                | 1 | 
+id.                                                               | 0 | 
+<b>1132</b> Rentrée,                                              | 1 | 
+id.                                                               | 0 | 
+(à M. de Greef,                                                   | 0 | 
+<b>1133</b> Eventail, Herblay                                     | 1 | 
+(à Mme H. S.).                                                    | 0 | 
+SIGNARD, Claude, né à Gray (Haute-Saône). — 10,                   | 0 | 
+rue Lécluse. Paris.                                               | 0 | 
+<b>*1134</b> Bouquet de roses.                                    | 1 | 
+<b>*1135</b> Fleurs.                                              | 1 | 
+SON, Johannès, né à Lyon. — Bourg (Ain) et 4, rue                 | 0 | 
+de Seine, Paris.                                                  | 0 | 
+<b>*1136</b> Matinée à Neuville sur Ain.                          | 1 | 
+*<b>1137</b> Bords de l’Ain, à Pont-d’Ain.                        | 1 | 
+<b>*1138</b> Le Village de Neuville, au matin.                    | 1 | 
+<*>*1139</b> Le Suron, près de Varambon (Ain).                    | 4 | <* <b>*1139</b> Le Suron, près de Varambon (Ain).
+
+<b>1140</b> Bois de Bouleaux, à Marlieu. (Ain). Fin               | 1 | 
+d’hiver.                                                          | 0 | 
+<b>1141</b> Les Coquelicots, au soleil du matin                   | 1 | 
+<b>*1142</b> Les Etangs de St-Germain. Fin d’hiver.               | 1 | 
+<b>1143</b> Cour de Ferme, dans la Loire.                         | 1 | 
+<b>1144</b> Les Grands Rochers, à Poncin. Temps                   | 1 | 
+gris                                                              | 0 | 
+<b>*1145</b> Fleurs.                                              | 1 | 
+SOULEY-DARQUÉ (Mme), Marguerite, née à Dax. —                     | 0 | 
+219, boulevard Pereire, Paris.                                    | 0 | 
+<b>1146</b> Le père Duperrat.                                     | 1 | 
+<b>1147</b> Songeuse.                                             | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+70 —                                                              | 0 | 
+<b>1148</b> Réveil.                                               | 1 | 
+<b>1149</b> Confidences.                                          | 1 | 
+<b>1150</b> Portrait de Mlle C. F...                              | 1 | 
+<b>1151</b> Portrait de Mlle C. M...                              | 1 | 
+<b>1152</b> Le chapelet.                                          | 1 | 
+<b>1153</b> Porte de jardin.                                      | 1 | 
+TARTARAD, Georges-Oscar, né à Sainville (Eure-et¬                 | 0 | 
+Loir). — Bourron (Seine-et-Marne).                                | 0 | 
+<b>*1154</b> Hallali de cerf.                                     | 1 | 
+TENAILLE, Louis, né à Marcilly (Haute-Marne). —                   | 0 | 
+Boulevard Richard-Lenoir, 117.                                    | 0 | 
+<b>1155</b> Le premier jour de bonheur.                           | 1 | 
+<b>1156</b> L’Enfer.                                              | 1 | 
+<b>1157</b> L’Envie.                                              | 1 | 
+<b>1158</b> Le petit Chaperon Rouge.                              | 1 | 
+<b>1159</b> Nuit d’été à Marcilly,                                | 1 | 
+<b>1160</b> Les Bouilleurs de crû.                                | 1 | 
+<b>1161</b> Coin de parc à Montreuil. Etude.                      | 1 | 
+TESSIER, Pierre-Léon, né à Paris, 66 <i>bis</i>, rue Spontini.    | 1 | 
+<b>1162</b> Un fait divers. Pastel.                               | 1 | 
+<b>1163</b> Intérieur de ferme près Sens (Yonne).                 | 1 | 
+Peinture.                                                         | 0 | 
+<b>1164</b> La rade de Bordeaux, Esquisse.                        | 1 | 
+<b>1165</b> Une vue de ma fenêtre (Trocadéro).                    | 1 | 
+Etude. Peinture.                                                  | 0 | 
+TOOROP, Y. H., né à Java. — Katwyk-sur-Mer (Hol¬                  | 0 | 
+lande).                                                           | 0 | 
+<b>1166</b> Marée haute.                                          | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+— 71 —                                                            | 0 | 
+TOULOUSE-LAUTREC (de), Henri, né à Albi (Tarm).                   | 0 | 
+27, rue Caulincourt, Paris.                                       | 0 | 
+<b>1167</b> La Goulue et sa sœur (Moulin-Rouge).                  | 1 | 
+<b>1168</b> La Goulue; repos entre deux tours de                  | 1 | 
+valse (Moulin-Rouge).                                             | 0 | 
+<b>1169</b> La Goulue entrant au Moulin-Reuge.                    | 1 | 
+<b>1170</b> Celle qui se peigne (n° 1)                            | 1 | 
+<b>1171</b> Celle qui se peigne (n° 2).                           | 1 | 
+<b>1172</b> Femme brune                                           | 1 | 
+<b>1173</b> Affiche pour le Moulin-Rouge (2e état)                | 1 | 
+TRAVERS, Désiré-Louis, né à Brest. — 12, rue de                   | 0 | 
+Chabrol, Paris.                                                   | 0 | 
+<b>*1174</b> Baie de Bertheaume (Finistère). Division             | 1 | 
+cuirassée rentrant à Brest.                                       | 0 | 
+<b>*1175</b> Division cuirassée engagée dans le pas¬              | 1 | 
+sage du Four (Finistère). Effet de nuit                           | 0 | 
+<b>1176</b> Cuisine en sous-sol au château du Che¬                | 1 | 
+vain (Sarthe). Appartient à Mme Levas¬                            | 0 | 
+seur-St-Albin.                                                    | 0 | 
+<b>*1177</b> Saint-Valery-sur-Somme. Vue prise du                 | 1 | 
+Crotoy                                                            | 0 | 
+<b>*1178</b> Le petit port du Crotoy (Somme). Vue                 | 1 | 
+prise de la Digue.                                                | 0 | 
+TRILHE, Ernest-Félix, né à Paris. — 54, route de                  | 0 | 
+Chatou, Le Vésinet.                                               | 0 | 
+<b>1179</b> Portrait de Madame B. L...                            | 1 | 
+<b>1189</b> Le matin du départ.                                   | 1 | 
+URBAN (Mme), Ernesta, née à Vienne (Autriche).                    | 0 | 
+7, villa Michel-Ange, Auteuil.                                    | 0 | 
+<b>*1181</b> Pensierosa.                                          | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+72                                                                | 0 | 
+VALTON, Edmond-Eugène, né à Paris. — 131, avenue                  | 0 | 
+Parmentier.                                                       | 0 | 
+<b>1182</b> Portrait. (Appartient à M. Ch. Morin).                | 1 | 
+<b>1183</b> Le Rève de Muguette (illustrations pour               | 1 | 
+le poème d’Adolphe Vard).                                         | 0 | 
+<b>1184</b> Deux Invalides.                                       | 1 | 
+<b>1185</b> L’Abreuvoir du quai des Célestins à                   | 1 | 
+Paris.                                                            | 0 | 
+<b>*1186</b> Grand père.                                          | 1 | 
+<b>1187</b> Notes de voyage.                                      | 1 | 
+<b>1188</b> Sous bois                                             | 1 | 
+<b>1189</b> Fleurs.                                               | 1 | 
+<b>1190</b> Premier jouet.                                        | 1 | 
+VAN IMSCHOOT, Edouard. — 74, rue Cardinal¬                        | 0 | 
+Lemoine.                                                          | 0 | 
+<b>1191</b> Paysage, Bas-Meudon.                                  | 1 | 
+<b>1192</b> Paysage, Bords de la Seine.                           | 1 | 
+<b>1193</b> La Marne à Charenton. La tête de chien.               | 1 | 
+<b>1194</b> Ville de Gien, vue des bords de la Loire.             | 1 | 
+<b>1195</b> L’Arc de Triomphe de l’Etoile. Premiers               | 1 | 
+rayons de soleil couchant                                         | 0 | 
+<b>1196</b> L’Ile Saint-Germain; Bas-Meudon.                      | 1 | 
+VAN RYSSELBERGHE, Théo, né à Bruxelles.                           | 0 | 
+—                                                                 | 0 | 
+422,                                                              | 0 | 
+avenue Louise (Bruxelles).                                        | 0 | 
+<b>1197</b> Portrait de Mme V. R...                               | 1 | 
+<b>1198</b> Portrait de M. Em. Verhaeren.                         | 1 | 
+<b>1199</b> Portrait de Mlle A. B...                              | 1 | 
+<b>1200</b> Portrait de M. A. D...                                | 1 | 
+<b>1201</b> Paysage.                                              | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+5                                                                 | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+— 73                                                              | 0 | 
+<b>1202</b> Dessin.                                               | 1 | 
+<b>1203</b> Profil d’enfant.                                      | 1 | 
+VASCO, Henri, né à Saint-Dié. — 10, rue Jean-de¬                  | 0 | 
+Beauvais, Paris.                                                  | 0 | 
+<b>1204</b> Chevreuil mort.                                       | 1 | 
+VERKADE, Jan, né à Zaandam (Hollande). — 9, rue                   | 0 | 
+Clauzel.                                                          | 0 | 
+<b>*1205</b> Portrait.                                            | 1 | 
+<b>1206</b> Paysage                                               | 1 | 
+<b>1207</b> Projet de menu.                                       | 1 | 
+<b>*1208</b> Paysage.                                             | 1 | 
+VILLÉON (de la), Emmanuel, né à Fougères (Ille-et¬                | 0 | 
+Vilaine). — 30, rue Guillaume-Tell, Paris.                        | 0 | 
+<b>1209</b> Fileuses.                                             | 1 | 
+VINCENT, né à Clamecy (Nièvre).                                   | 0 | 
+<b>1210</b> Nature morte.                                         | 1 | 
+VINCENT-DARASSE, Paul, né à Ville-d’Avray (Seine¬                 | 0 | 
+et-Oise). — 14, rue de l’Ecluse, Isle-Adam (Seine-                | 0 | 
+et-Oise).                                                         | 0 | 
+<b>*1211</b> Passage du Gouas (Noirmoutiers). Pastel.             | 1 | 
+<b>*1212</b> Bois de la Chaise (Noirmoutiers).                    | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+74                                                                | 0 | 
+WAIDMANN, Pierre, né à Remiremont (Vosges). —                     | 0 | 
+66, rue de Lisbonne.                                              | 0 | 
+<b>*1213</b> Soleil d’hiver.                                      | 1 | 
+<b>*1214</b> Le Soir sous bois.                                   | 1 | 
+<b>*1215</b> La Lagune (Venise).                                  | 1 | 
+Petit canal (Venise).                                             | 0 | 
+Monte Pelegrino (Palerme).                                        | 0 | 
+Pompeï.                                                           | 0 | 
+Solunto (Sicile).                                                 | 0 | 
+Via Appia (Rome).                                                 | 0 | 
+WARRENER, William, né à Lincoln (Angleterre).                     | 0 | 
+13, rue Ravignan.                                                 | 0 | 
+<b>1216</b> Clair de lune en janvier.                             | 1 | 
+<b>1217</b> Trois études. Nu au soleil.                           | 1 | 
+WERTHEIMER, Gustave, né à Vienne (Autriche). —                    | 0 | 
+38, rue Rochechouart, Paris.                                      | 0 | 
+<b>1218</b> Portrait de M. P...                                   | 1 | 
+<b>1219</b> Portrait de M. W...                                   | 1 | 
+<b>1229</b> Port d’Ostende.                                       | 1 | 
+<b>1221</b> Persepolis.                                           | 1 | 
+<b>1222</b> Expédition nocturne.                                  | 1 | 
+<b>1223</b> Marée basse.                                          | 1 | 
+<b>1224</b> Tête de lion.                                         | 1 | 
+WILLUMSEN, Jens-Ferdinand, né à Copenhague. —                     | 0 | 
+13, rue Charlet, Paris.                                           | 0 | 
+<b>1225</b> Composition céramique, homme, femme                   | 1 | 
+et enfant. Le loi éternelle de la procréa¬                        | 0 | 
+tion.                                                             | 0 | 
+                                                                  |   | 
+                                                                  |   | 
+75 —                                                              | 0 | 
+YMART, Marguerite, née à Castres (Tarn). — 22, rue                | 0 | 
+Ganneron, pavillon G, Paris.                                      | 0 | 
+<b>1226</b> Nature morte.                                         | 1 | 
+<b>1227</b> Nature morte.                                         | 1 | 
+ZULOAGA, Ignacio, né à Eibar (Espagne). — 15, Im¬                 | 0 | 
+passe Hélène, Paris.                                              | 0 | 
+<b>1228</b> Portrait de M. Louis Penicault, dessina¬              | 1 | 
+teur de sport.                                                    | 0 | 
+<b>1229</b> Peu de chance.                                        | 1 | 
+<b>1230</b> Un Vagabond. (Propriété de M. Péni¬                   | 1 | 
+cault.                                                            | 0 | 
+<b>*1231</b> Les Fortifications à Saint-Ouen.                     | 1 | 
+<b>*1232</b> Boulevards extérieurs.                               | 1 | 
+                                                                  |   | 
+                                                                  |   | 
+####################################### STATISTICS: ############################################
+
+				 Cat_Inde_1892.txt 
+
+
+Type							Count			   %
+-----------------------------------------------------------------------------------------
+Correct tags						 1233 			 57.83
+Incorrect tags						 36 			 1.69
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+Not automatically correctable				 9 			 0.42
+Automatically correctable				 27 			 1.27
+-----------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------
+No tags							 863 			 40.48
+Initially without problems with the tags		 1233 			 57.83
+
+Initially well-formed tags				 9 			 0.42
+- Wrong order						 0 			 0.00
+- Missing tags						 9 			 0.42
+
+Initially malformed tags				 27 			 1.27
+- Well-corrected tags					 19 			 0.89
+- Well-corrected tags, bad order			 0 			 0.00
+- Well-corrected tags, missing tags			 3 			 0.14
+- Well-corrected tags, empty tags			 5 			 0.23
+-----------------------------------------------------------------------------------------
+
