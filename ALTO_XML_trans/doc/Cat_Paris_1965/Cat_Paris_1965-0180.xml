@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-02T15:32:35.824+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2373" WIDTH="1132">
+         <TopMargin HEIGHT="0" WIDTH="1132" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2373" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2373" WIDTH="0" VPOS="0" HPOS="1132"/>
+         <BottomMargin HEIGHT="0" WIDTH="1132" VPOS="2373" HPOS="0"/>
+         <PrintSpace HEIGHT="2373" WIDTH="1132" VPOS="0" HPOS="0">
+            <TextBlock ID="region_1593692517233_4504"
+                       HEIGHT="55"
+                       WIDTH="389"
+                       VPOS="84"
+                       HPOS="715">
+               <Shape>
+                  <Polygon POINTS="715,84 715,139 1104,139 1104,84"/>
+               </Shape>
+               <TextLine ID="line_1593692517249_4507"
+                         BASELINE="139"
+                         HEIGHT="55"
+                         WIDTH="389"
+                         VPOS="84"
+                         HPOS="715">
+                  <String HEIGHT="55"
+                          WIDTH="435"
+                          VPOS="84"
+                          HPOS="669"
+                          CONTENT="&lt;b&gt;TÉLÉVISION&lt;/b&gt;"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_2_1" HEIGHT="24" WIDTH="38" VPOS="2239" HPOS="1065">
+               <Shape>
+                  <Polygon POINTS="1065,2239 1103,2239 1103,2263 1065,2263"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="2268"
+                         HEIGHT="54"
+                         WIDTH="49"
+                         VPOS="2214"
+                         HPOS="1059">
+                  <String HEIGHT="54"
+                          WIDTH="82"
+                          VPOS="2214"
+                          HPOS="1026"
+                          CONTENT="179"/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_3" HEIGHT="13" WIDTH="753" VPOS="2360" HPOS="92"/>
+            <GraphicalElement ID="r_4" HEIGHT="4" WIDTH="92" VPOS="2369" HPOS="0"/>
+            <GraphicalElement ID="r_5" HEIGHT="2138" WIDTH="1" VPOS="120" HPOS="1131"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

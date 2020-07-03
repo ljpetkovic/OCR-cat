@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-02T15:32:46.877+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2331" WIDTH="1181">
+         <TopMargin HEIGHT="0" WIDTH="1181" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2331" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2331" WIDTH="0" VPOS="0" HPOS="1181"/>
+         <BottomMargin HEIGHT="0" WIDTH="1181" VPOS="2331" HPOS="0"/>
+         <PrintSpace HEIGHT="2331" WIDTH="1181" VPOS="0" HPOS="0">
+            <TextBlock ID="r1" HEIGHT="155" WIDTH="383" VPOS="1590" HPOS="232">
+               <Shape>
+                  <Polygon POINTS="232,1590 232,1745 615,1745 615,1590"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="1715"
+                         HEIGHT="52"
+                         WIDTH="394"
+                         VPOS="1663"
+                         HPOS="226">
+                  <String HEIGHT="52"
+                          WIDTH="102"
+                          VPOS="1663"
+                          HPOS="213"
+                          CONTENT="Beny"/>
+                  <SP HEIGHT="52" WIDTH="13" VPOS="1663" HPOS="315"/>
+                  <String HEIGHT="52"
+                          WIDTH="114"
+                          VPOS="1663"
+                          HPOS="277"
+                          CONTENT="Efrat"/>
+                  <SP HEIGHT="52" WIDTH="13" VPOS="1663" HPOS="391"/>
+                  <String HEIGHT="52" WIDTH="64" VPOS="1663" HPOS="353" CONTENT="-"/>
+                  <SP HEIGHT="52" WIDTH="13" VPOS="1663" HPOS="417"/>
+                  <String HEIGHT="52"
+                          WIDTH="127"
+                          VPOS="1663"
+                          HPOS="379"
+                          CONTENT="Balcon"/>
+                  <SP HEIGHT="52" WIDTH="13" VPOS="1663" HPOS="506"/>
+                  <String HEIGHT="52"
+                          WIDTH="140"
+                          VPOS="1663"
+                          HPOS="467"
+                          CONTENT="(lsraël"/>
+                  <SP HEIGHT="52" WIDTH="13" VPOS="1663" HPOS="607"/>
+                  <String HEIGHT="52" WIDTH="64" VPOS="1663" HPOS="556" CONTENT="6)."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_2" HEIGHT="18" WIDTH="258" VPOS="0" HPOS="340"/>
+            <GraphicalElement ID="r_3" HEIGHT="6" WIDTH="583" VPOS="0" HPOS="598"/>
+            <GraphicalElement ID="r_4" HEIGHT="5" WIDTH="157" VPOS="2326" HPOS="873"/>
+            <GraphicalElement ID="r_5" HEIGHT="4" WIDTH="767" VPOS="2327" HPOS="0"/>
+            <GraphicalElement ID="r_6" HEIGHT="4" WIDTH="82" VPOS="2327" HPOS="1043"/>
+            <GraphicalElement ID="r_7" HEIGHT="95" WIDTH="3" VPOS="680" HPOS="51"/>
+            <GraphicalElement ID="r_8" HEIGHT="106" WIDTH="2" VPOS="354" HPOS="54"/>
+            <GraphicalElement ID="r_9" HEIGHT="174" WIDTH="5" VPOS="313" HPOS="137"/>
+            <GraphicalElement ID="r_10" HEIGHT="1" WIDTH="22" VPOS="531" HPOS="418"/>
+            <Illustration ID="r_1" HEIGHT="2331" WIDTH="1181" VPOS="0" HPOS="0"/>
+            <Illustration ID="r_11" HEIGHT="19" WIDTH="74" VPOS="1067" HPOS="1003"/>
+            <Illustration ID="r_12" HEIGHT="77" WIDTH="43" VPOS="155" HPOS="2"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

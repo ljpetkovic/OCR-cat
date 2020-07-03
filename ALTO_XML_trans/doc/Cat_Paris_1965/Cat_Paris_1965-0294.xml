@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-02T15:33:02.819+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2414" WIDTH="1181">
+         <TopMargin HEIGHT="111" WIDTH="1181" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2303" WIDTH="0" VPOS="111" HPOS="0"/>
+         <RightMargin HEIGHT="2303" WIDTH="0" VPOS="111" HPOS="1181"/>
+         <BottomMargin HEIGHT="0" WIDTH="1181" VPOS="2414" HPOS="0"/>
+         <PrintSpace HEIGHT="2303" WIDTH="1181" VPOS="111" HPOS="0">
+            <TextBlock ID="r_1_1" HEIGHT="53" WIDTH="568" VPOS="114" HPOS="549">
+               <Shape>
+                  <Polygon POINTS="549,114 1117,114 1117,167 549,167"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="180"
+                         HEIGHT="72"
+                         WIDTH="578"
+                         VPOS="108"
+                         HPOS="544">
+                  <String HEIGHT="72"
+                          WIDTH="337"
+                          VPOS="108"
+                          HPOS="520"
+                          CONTENT="&lt;b&gt;TRAVAUX"/>
+                  <SP HEIGHT="72" WIDTH="24" VPOS="108" HPOS="857"/>
+                  <String HEIGHT="72"
+                          WIDTH="361"
+                          VPOS="108"
+                          HPOS="761"
+                          CONTENT="D'ÉQUIPES&lt;/b&gt;"/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_3" HEIGHT="55" WIDTH="3" VPOS="346" HPOS="124"/>
+            <GraphicalElement ID="r_4" HEIGHT="16" WIDTH="2" VPOS="1163" HPOS="0"/>
+            <Illustration ID="r_2" HEIGHT="2116" WIDTH="1181" VPOS="298" HPOS="0"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

@@ -7,7 +7,7 @@
       <MeasurementUnit>pixel</MeasurementUnit>
       <OCRProcessing ID="IdOcr">
          <ocrProcessingStep>
-            <processingDateTime>2020-06-24T12:10:08.547+02:00</processingDateTime>
+            <processingDateTime>2020-06-30T15:03:27.115+02:00</processingDateTime>
             <processingSoftware>
                <softwareCreator>READ COOP</softwareCreator>
                <softwareName>Transkribus</softwareName>
@@ -52,33 +52,6 @@
                           VPOS="443"
                           HPOS="1225"
                           CONTENT="Vitæ»&lt;/b&gt;"/>
-               </TextLine>
-            </TextBlock>
-            <TextBlock ID="region_1592924429591_310"
-                       HEIGHT="59"
-                       WIDTH="171"
-                       VPOS="596"
-                       HPOS="1037">
-               <Shape>
-                  <Polygon POINTS="1037,596 1037,655 1208,655 1208,596"/>
-               </Shape>
-               <TextLine ID="line_1592924429756_313"
-                         BASELINE="655"
-                         HEIGHT="59"
-                         WIDTH="171"
-                         VPOS="596"
-                         HPOS="1037">
-                  <String HEIGHT="59"
-                          WIDTH="128"
-                          VPOS="596"
-                          HPOS="1023"
-                          CONTENT="&lt;b&gt;de"/>
-                  <SP HEIGHT="59" WIDTH="14" VPOS="596" HPOS="1151"/>
-                  <String HEIGHT="59"
-                          WIDTH="114"
-                          VPOS="596"
-                          HPOS="1094"
-                          CONTENT="la&lt;/b&gt;"/>
                </TextLine>
             </TextBlock>
             <TextBlock ID="r_1_2" HEIGHT="88" WIDTH="1366" VPOS="693" HPOS="435">

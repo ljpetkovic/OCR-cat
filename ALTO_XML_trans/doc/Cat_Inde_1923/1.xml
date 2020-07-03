@@ -7,7 +7,7 @@
       <MeasurementUnit>pixel</MeasurementUnit>
       <OCRProcessing ID="IdOcr">
          <ocrProcessingStep>
-            <processingDateTime>2020-06-24T12:10:02.311+02:00</processingDateTime>
+            <processingDateTime>2020-06-30T15:03:18.634+02:00</processingDateTime>
             <processingSoftware>
                <softwareCreator>READ COOP</softwareCreator>
                <softwareName>Transkribus</softwareName>
@@ -34,10 +34,10 @@
                          VPOS="500"
                          HPOS="618">
                   <String HEIGHT="204"
-                          WIDTH="882"
+                          WIDTH="1029"
                           VPOS="500"
-                          HPOS="508"
-                          CONTENT="&lt;b&gt;SOCIÉTÉ&lt;/b&gt;"/>
+                          HPOS="361"
+                          CONTENT="SOCÉTÉ"/>
                </TextLine>
                <TextLine ID="tl_2"
                          BASELINE="899"
@@ -46,16 +46,16 @@
                          VPOS="694"
                          HPOS="403">
                   <String HEIGHT="205"
-                          WIDTH="637"
+                          WIDTH="706"
                           VPOS="694"
-                          HPOS="339"
-                          CONTENT="&lt;b&gt;DES"/>
-                  <SP HEIGHT="205" WIDTH="64" VPOS="694" HPOS="976"/>
+                          HPOS="302"
+                          CONTENT="DES"/>
+                  <SP HEIGHT="205" WIDTH="101" VPOS="694" HPOS="1008"/>
                   <String HEIGHT="205"
-                          WIDTH="892"
+                          WIDTH="1008"
                           VPOS="694"
-                          HPOS="721"
-                          CONTENT="ARTISTES&lt;/b&gt;"/>
+                          HPOS="605"
+                          CONTENT="ARTISTES"/>
                </TextLine>
                <TextLine ID="tl_3"
                          BASELINE="1097"
@@ -64,10 +64,10 @@
                          VPOS="890"
                          HPOS="403">
                   <String HEIGHT="207"
-                          WIDTH="1346"
+                          WIDTH="1421"
                           VPOS="890"
-                          HPOS="275"
-                          CONTENT="&lt;b&gt;INDÉPENDANTS&lt;/b&gt;"/>
+                          HPOS="200"
+                          CONTENT="INDÉPENDANTS"/>
                </TextLine>
             </TextBlock>
             <TextBlock ID="r_6_3" HEIGHT="118" WIDTH="754" VPOS="1569" HPOS="633">
@@ -81,10 +81,10 @@
                          VPOS="1559"
                          HPOS="626">
                   <String HEIGHT="132"
-                          WIDTH="864"
+                          WIDTH="939"
                           VPOS="1559"
-                          HPOS="530"
-                          CONTENT="&lt;b&gt;CATALOGUE&lt;/b&gt;"/>
+                          HPOS="455"
+                          CONTENT="CATALOGUE"/>
                </TextLine>
             </TextBlock>
             <TextBlock ID="r_6_4" HEIGHT="64" WIDTH="286" VPOS="1724" HPOS="848">
@@ -97,17 +97,9 @@
                          WIDTH="299"
                          VPOS="1709"
                          HPOS="841">
-                  <String HEIGHT="94"
-                          WIDTH="224"
-                          VPOS="1709"
-                          HPOS="816"
-                          CONTENT="&lt;b&gt;DE"/>
-                  <SP HEIGHT="94" WIDTH="25" VPOS="1709" HPOS="1040"/>
-                  <String HEIGHT="94"
-                          WIDTH="199"
-                          VPOS="1709"
-                          HPOS="941"
-                          CONTENT="LA&lt;/b&gt;"/>
+                  <String HEIGHT="94" WIDTH="359" VPOS="1709" HPOS="781" CONTENT="DE"/>
+                  <SP HEIGHT="94" WIDTH="60" VPOS="1709" HPOS="1140"/>
+                  <String HEIGHT="94" WIDTH="239" VPOS="1709" HPOS="901" CONTENT="LA"/>
                </TextLine>
             </TextBlock>
             <TextBlock ID="r_6_5" HEIGHT="158" WIDTH="1222" VPOS="1801" HPOS="393">
@@ -121,33 +113,33 @@
                          VPOS="1798"
                          HPOS="386">
                   <String HEIGHT="167"
-                          WIDTH="619"
+                          WIDTH="660"
                           VPOS="1798"
-                          HPOS="330"
-                          CONTENT="&lt;b&gt;34ME"/>
-                  <SP HEIGHT="167" WIDTH="56" VPOS="1798" HPOS="949"/>
+                          HPOS="303"
+                          CONTENT="34ME"/>
+                  <SP HEIGHT="167" WIDTH="83" VPOS="1798" HPOS="964"/>
                   <String HEIGHT="167"
-                          WIDTH="900"
+                          WIDTH="990"
                           VPOS="1798"
-                          HPOS="724"
-                          CONTENT="EXPOSITION&lt;/b&gt;"/>
+                          HPOS="634"
+                          CONTENT="EXPOSITION"/>
                </TextLine>
             </TextBlock>
-            <TextBlock ID="r_7_1" HEIGHT="100" WIDTH="716" VPOS="2127" HPOS="653">
+            <TextBlock ID="r_7_1" HEIGHT="98" WIDTH="162" VPOS="2129" HPOS="653">
                <Shape>
-                  <Polygon POINTS="653,2129 1369,2127 1369,2225 653,2227"/>
+                  <Polygon POINTS="653,2129 815,2129 815,2227 653,2227"/>
                </Shape>
                <TextLine ID="tl_8"
-                         BASELINE="2241"
+                         BASELINE="2246"
                          HEIGHT="128"
-                         WIDTH="716"
-                         VPOS="2113"
-                         HPOS="653">
+                         WIDTH="179"
+                         VPOS="2118"
+                         HPOS="646">
                   <String HEIGHT="128"
-                          WIDTH="846"
-                          VPOS="2113"
-                          HPOS="523"
-                          CONTENT="&lt;b&gt;1923&lt;/b&gt;"/>
+                          WIDTH="269"
+                          VPOS="2118"
+                          HPOS="557"
+                          CONTENT="1923"/>
                </TextLine>
             </TextBlock>
             <GraphicalElement ID="r_11" HEIGHT="20" WIDTH="1016" VPOS="311" HPOS="276"/>

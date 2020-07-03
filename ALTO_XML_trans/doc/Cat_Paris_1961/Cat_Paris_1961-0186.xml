@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-01T20:53:41.314+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2367" WIDTH="1527">
+         <TopMargin HEIGHT="26" WIDTH="1527" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2268" WIDTH="0" VPOS="26" HPOS="0"/>
+         <RightMargin HEIGHT="2268" WIDTH="0" VPOS="26" HPOS="1527"/>
+         <BottomMargin HEIGHT="73" WIDTH="1527" VPOS="2294" HPOS="0"/>
+         <PrintSpace HEIGHT="2268" WIDTH="1527" VPOS="26" HPOS="0">
+            <TextBlock ID="r1" HEIGHT="161" WIDTH="694" VPOS="1252" HPOS="806">
+               <Shape>
+                  <Polygon POINTS="806,1252 806,1413 1500,1413 1500,1252"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="1365"
+                         HEIGHT="75"
+                         WIDTH="705"
+                         VPOS="1290"
+                         HPOS="800">
+                  <String HEIGHT="75"
+                          WIDTH="133"
+                          VPOS="1290"
+                          HPOS="787"
+                          CONTENT="Glauco"/>
+                  <SP HEIGHT="75" WIDTH="13" VPOS="1290" HPOS="920"/>
+                  <String HEIGHT="75"
+                          WIDTH="146"
+                          VPOS="1290"
+                          HPOS="880"
+                          CONTENT="Octavio"/>
+                  <SP HEIGHT="75" WIDTH="13" VPOS="1290" HPOS="1026"/>
+                  <String HEIGHT="75"
+                          WIDTH="173"
+                          VPOS="1290"
+                          HPOS="986"
+                          CONTENT="Castilhos"/>
+                  <SP HEIGHT="75" WIDTH="13" VPOS="1290" HPOS="1159"/>
+                  <String HEIGHT="75"
+                          WIDTH="186"
+                          VPOS="1290"
+                          HPOS="1119"
+                          CONTENT="Rodrigues:"/>
+                  <SP HEIGHT="75" WIDTH="13" VPOS="1290" HPOS="1305"/>
+                  <String HEIGHT="75" WIDTH="80" VPOS="1290" HPOS="1266" CONTENT="N°"/>
+                  <SP HEIGHT="75" WIDTH="13" VPOS="1290" HPOS="1345"/>
+                  <String HEIGHT="75" WIDTH="80" VPOS="1290" HPOS="1305" CONTENT="23"/>
+                  <SP HEIGHT="75" WIDTH="13" VPOS="1290" HPOS="1385"/>
+                  <String HEIGHT="75"
+                          WIDTH="146"
+                          VPOS="1290"
+                          HPOS="1345"
+                          CONTENT="(Brésil"/>
+                  <SP HEIGHT="75" WIDTH="13" VPOS="1290" HPOS="1492"/>
+                  <String HEIGHT="75"
+                          WIDTH="67"
+                          VPOS="1290"
+                          HPOS="1438"
+                          CONTENT="5)."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_2" HEIGHT="2268" WIDTH="3" VPOS="26" HPOS="1524"/>
+            <Illustration ID="r_1" HEIGHT="2268" WIDTH="1527" VPOS="26" HPOS="0"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

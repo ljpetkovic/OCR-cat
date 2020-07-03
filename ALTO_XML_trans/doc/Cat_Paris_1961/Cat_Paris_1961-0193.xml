@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-01T20:53:44.551+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2240" WIDTH="1818">
+         <TopMargin HEIGHT="0" WIDTH="1818" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2240" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2240" WIDTH="0" VPOS="0" HPOS="1818"/>
+         <BottomMargin HEIGHT="0" WIDTH="1818" VPOS="2240" HPOS="0"/>
+         <PrintSpace HEIGHT="2240" WIDTH="1818" VPOS="0" HPOS="0">
+            <TextBlock ID="r_2_1" HEIGHT="61" WIDTH="379" VPOS="2137" HPOS="313">
+               <Shape>
+                  <Polygon POINTS="313,2137 692,2137 692,2198 313,2198"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="2244"
+                         HEIGHT="117"
+                         WIDTH="389"
+                         VPOS="2127"
+                         HPOS="308">
+                  <String HEIGHT="117"
+                          WIDTH="74"
+                          VPOS="2127"
+                          HPOS="300"
+                          CONTENT="Dusan"/>
+                  <SP HEIGHT="117" WIDTH="8" VPOS="2127" HPOS="374"/>
+                  <String HEIGHT="117"
+                          WIDTH="99"
+                          VPOS="2127"
+                          HPOS="349"
+                          CONTENT="Dzamonja"/>
+                  <SP HEIGHT="117" WIDTH="8" VPOS="2127" HPOS="449"/>
+                  <String HEIGHT="117" WIDTH="41" VPOS="2127" HPOS="424" CONTENT="-"/>
+                  <SP HEIGHT="117" WIDTH="8" VPOS="2127" HPOS="465"/>
+                  <String HEIGHT="117"
+                          WIDTH="108"
+                          VPOS="2127"
+                          HPOS="440"
+                          CONTENT="Sculpture"/>
+                  <SP HEIGHT="117" WIDTH="8" VPOS="2127" HPOS="548"/>
+                  <String HEIGHT="117" WIDTH="50" VPOS="2127" HPOS="523" CONTENT="Il"/>
+                  <SP HEIGHT="117" WIDTH="8" VPOS="2127" HPOS="573"/>
+                  <String HEIGHT="117"
+                          WIDTH="132"
+                          VPOS="2127"
+                          HPOS="548"
+                          CONTENT="(Yougoslavie"/>
+                  <SP HEIGHT="117" WIDTH="8" VPOS="2127" HPOS="680"/>
+                  <String HEIGHT="117"
+                          WIDTH="50"
+                          VPOS="2127"
+                          HPOS="647"
+                          CONTENT="17)."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_5" HEIGHT="2" WIDTH="1392" VPOS="0" HPOS="228"/>
+            <GraphicalElement ID="r_6" HEIGHT="3" WIDTH="961" VPOS="2237" HPOS="857"/>
+            <GraphicalElement ID="r_7" HEIGHT="1" WIDTH="704" VPOS="2239" HPOS="0"/>
+            <GraphicalElement ID="r_8" HEIGHT="2155" WIDTH="2" VPOS="85" HPOS="0"/>
+            <Illustration ID="r_1" HEIGHT="2078" WIDTH="1192" VPOS="2" HPOS="364"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-02T15:32:44.47+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2331" WIDTH="1181">
+         <TopMargin HEIGHT="0" WIDTH="1181" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2331" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2331" WIDTH="0" VPOS="0" HPOS="1181"/>
+         <BottomMargin HEIGHT="0" WIDTH="1181" VPOS="2331" HPOS="0"/>
+         <PrintSpace HEIGHT="2331" WIDTH="1181" VPOS="0" HPOS="0">
+            <TextBlock ID="r_2_1" HEIGHT="53" WIDTH="745" VPOS="108" HPOS="377">
+               <Shape>
+                  <Polygon POINTS="377,108 1122,108 1122,161 377,161"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="181"
+                         HEIGHT="66"
+                         WIDTH="753"
+                         VPOS="115"
+                         HPOS="373">
+                  <String HEIGHT="66"
+                          WIDTH="502"
+                          VPOS="115"
+                          HPOS="348"
+                          CONTENT="&lt;b&gt;PARTICIPATION"/>
+                  <SP HEIGHT="66" WIDTH="25" VPOS="115" HPOS="850"/>
+                  <String HEIGHT="66"
+                          WIDTH="377"
+                          VPOS="115"
+                          HPOS="750"
+                          CONTENT="ÉTRANGERE&lt;/b&gt;"/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_4" HEIGHT="9" WIDTH="271" VPOS="2322" HPOS="495"/>
+            <GraphicalElement ID="r_5" HEIGHT="6" WIDTH="149" VPOS="2325" HPOS="0"/>
+            <GraphicalElement ID="r_6" HEIGHT="128" WIDTH="4" VPOS="1060" HPOS="0"/>
+            <GraphicalElement ID="r_7" HEIGHT="82" WIDTH="5" VPOS="1447" HPOS="134"/>
+            <GraphicalElement ID="r_8" HEIGHT="145" WIDTH="5" VPOS="1789" HPOS="135"/>
+            <GraphicalElement ID="r_9" HEIGHT="260" WIDTH="12" VPOS="1559" HPOS="142"/>
+            <GraphicalElement ID="r_10" HEIGHT="80" WIDTH="5" VPOS="1819" HPOS="141"/>
+            <GraphicalElement ID="r_11" HEIGHT="39" WIDTH="7" VPOS="2191" HPOS="787"/>
+            <Illustration ID="r_1" HEIGHT="66" WIDTH="1181" VPOS="0" HPOS="0"/>
+            <Illustration ID="r_3" HEIGHT="1461" WIDTH="1181" VPOS="870" HPOS="0"/>
+            <Illustration ID="r_12" HEIGHT="28" WIDTH="50" VPOS="1819" HPOS="530"/>
+            <Illustration ID="r_13" HEIGHT="42" WIDTH="12" VPOS="2146" HPOS="0"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

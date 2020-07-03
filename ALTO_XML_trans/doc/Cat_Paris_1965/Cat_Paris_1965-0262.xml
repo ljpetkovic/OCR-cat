@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-02T15:32:56.036+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2414" WIDTH="1181">
+         <TopMargin HEIGHT="52" WIDTH="1181" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2331" WIDTH="0" VPOS="52" HPOS="0"/>
+         <RightMargin HEIGHT="2331" WIDTH="0" VPOS="52" HPOS="1181"/>
+         <BottomMargin HEIGHT="31" WIDTH="1181" VPOS="2383" HPOS="0"/>
+         <PrintSpace HEIGHT="2331" WIDTH="1181" VPOS="52" HPOS="0">
+            <TextBlock ID="r_3_1" HEIGHT="116" WIDTH="548" VPOS="1382" HPOS="243">
+               <Shape>
+                  <Polygon POINTS="243,1382 791,1382 791,1498 243,1498"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="1440"
+                         HEIGHT="64"
+                         WIDTH="500"
+                         VPOS="1376"
+                         HPOS="238">
+                  <String HEIGHT="64"
+                          WIDTH="141"
+                          VPOS="1376"
+                          HPOS="225"
+                          CONTENT="Michèle"/>
+                  <SP HEIGHT="64" WIDTH="13" VPOS="1376" HPOS="366"/>
+                  <String HEIGHT="64"
+                          WIDTH="115"
+                          VPOS="1376"
+                          HPOS="328"
+                          CONTENT="Andal"/>
+                  <SP HEIGHT="64" WIDTH="13" VPOS="1376" HPOS="443"/>
+                  <String HEIGHT="64" WIDTH="64" VPOS="1376" HPOS="405" CONTENT="-"/>
+                  <SP HEIGHT="64" WIDTH="13" VPOS="1376" HPOS="469"/>
+                  <String HEIGHT="64" WIDTH="77" VPOS="1376" HPOS="430" CONTENT="Le"/>
+                  <SP HEIGHT="64" WIDTH="13" VPOS="1376" HPOS="507"/>
+                  <String HEIGHT="64"
+                          WIDTH="128"
+                          VPOS="1376"
+                          HPOS="469"
+                          CONTENT="couple"/>
+                  <SP HEIGHT="64" WIDTH="13" VPOS="1376" HPOS="597"/>
+                  <String HEIGHT="64"
+                          WIDTH="141"
+                          VPOS="1376"
+                          HPOS="559"
+                          CONTENT="(France"/>
+                  <SP HEIGHT="64" WIDTH="13" VPOS="1376" HPOS="700"/>
+                  <String HEIGHT="64"
+                          WIDTH="90"
+                          VPOS="1376"
+                          HPOS="648"
+                          CONTENT="169)."/>
+               </TextLine>
+               <TextLine ID="tl_2"
+                         BASELINE="1498"
+                         HEIGHT="53"
+                         WIDTH="555"
+                         VPOS="1445"
+                         HPOS="241">
+                  <String HEIGHT="53"
+                          WIDTH="151"
+                          VPOS="1445"
+                          HPOS="228"
+                          CONTENT="Natalino"/>
+                  <SP HEIGHT="53" WIDTH="13" VPOS="1445" HPOS="380"/>
+                  <String HEIGHT="53"
+                          WIDTH="177"
+                          VPOS="1445"
+                          HPOS="342"
+                          CONTENT="Andolfatto"/>
+                  <SP HEIGHT="53" WIDTH="13" VPOS="1445" HPOS="519"/>
+                  <String HEIGHT="53" WIDTH="63" VPOS="1445" HPOS="481" CONTENT="-"/>
+                  <SP HEIGHT="53" WIDTH="13" VPOS="1445" HPOS="544"/>
+                  <String HEIGHT="53"
+                          WIDTH="151"
+                          VPOS="1445"
+                          HPOS="506"
+                          CONTENT="Guerrier"/>
+                  <SP HEIGHT="53" WIDTH="13" VPOS="1445" HPOS="657"/>
+                  <String HEIGHT="53"
+                          WIDTH="139"
+                          VPOS="1445"
+                          HPOS="619"
+                          CONTENT="(France"/>
+                  <SP HEIGHT="53" WIDTH="13" VPOS="1445" HPOS="758"/>
+                  <String HEIGHT="53"
+                          WIDTH="88"
+                          VPOS="1445"
+                          HPOS="708"
+                          CONTENT="112)."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_4" HEIGHT="13" WIDTH="235" VPOS="52" HPOS="282"/>
+            <GraphicalElement ID="r_5" HEIGHT="8" WIDTH="109" VPOS="2267" HPOS="0"/>
+            <GraphicalElement ID="r_6" HEIGHT="30" WIDTH="565" VPOS="2348" HPOS="616"/>
+            <GraphicalElement ID="r_7" HEIGHT="7" WIDTH="223" VPOS="2375" HPOS="381"/>
+            <GraphicalElement ID="r_8" HEIGHT="12" WIDTH="172" VPOS="2361" HPOS="1008"/>
+            <GraphicalElement ID="r_9" HEIGHT="109" WIDTH="3" VPOS="2274" HPOS="0"/>
+            <GraphicalElement ID="r_10" HEIGHT="82" WIDTH="5" VPOS="2094" HPOS="103"/>
+            <Illustration ID="r_1" HEIGHT="1161" WIDTH="905" VPOS="200" HPOS="206"/>
+            <Illustration ID="r_2" HEIGHT="758" WIDTH="902" VPOS="1506" HPOS="245"/>
+            <Illustration ID="r_11" HEIGHT="23" WIDTH="72" VPOS="1992" HPOS="32"/>
+            <Illustration ID="r_12" HEIGHT="1161" WIDTH="905" VPOS="200" HPOS="206"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

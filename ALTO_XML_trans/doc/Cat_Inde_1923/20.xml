@@ -7,7 +7,7 @@
       <MeasurementUnit>pixel</MeasurementUnit>
       <OCRProcessing ID="IdOcr">
          <ocrProcessingStep>
-            <processingDateTime>2020-06-24T12:10:06.979+02:00</processingDateTime>
+            <processingDateTime>2020-06-30T15:03:24.695+02:00</processingDateTime>
             <processingSoftware>
                <softwareCreator>READ COOP</softwareCreator>
                <softwareName>Transkribus</softwareName>
@@ -34,10 +34,10 @@
                          VPOS="203"
                          HPOS="827">
                   <String HEIGHT="122"
-                          WIDTH="556"
+                          WIDTH="643"
                           VPOS="203"
-                          HPOS="753"
-                          CONTENT="&lt;b&gt;COMITÉ&lt;/b&gt;"/>
+                          HPOS="666"
+                          CONTENT="COMITÉ"/>
                </TextLine>
             </TextBlock>
             <TextBlock ID="r_2_1" HEIGHT="31" WIDTH="321" VPOS="373" HPOS="911">
@@ -354,7 +354,7 @@
                           WIDTH="241"
                           VPOS="887"
                           HPOS="1042"
-                          CONTENT="rapporteur:&lt;/i&gt;"/>
+                          CONTENT="rapporteur&lt;/i&gt;:"/>
                </TextLine>
             </TextBlock>
             <TextBlock ID="r_4_6" HEIGHT="44" WIDTH="771" VPOS="952" HPOS="694">
@@ -559,21 +559,19 @@
                          WIDTH="584"
                          VPOS="1211"
                          HPOS="397">
-                  <String HEIGHT="67" WIDTH="195" VPOS="1211" HPOS="365" CONTENT="de"/>
-                  <SP HEIGHT="67" WIDTH="32" VPOS="1211" HPOS="559"/>
+                  <String HEIGHT="67" WIDTH="234" VPOS="1211" HPOS="358" CONTENT="de"/>
+                  <SP HEIGHT="67" WIDTH="39" VPOS="1211" HPOS="592"/>
                   <String HEIGHT="67"
-                          WIDTH="324"
+                          WIDTH="389"
                           VPOS="1211"
-                          HPOS="462"
+                          HPOS="475"
                           CONTENT="Rennes"/>
-                  <SP HEIGHT="67" WIDTH="32" VPOS="1211" HPOS="786"/>
+                  <SP HEIGHT="67" WIDTH="39" VPOS="1211" HPOS="864"/>
                   <String HEIGHT="67"
-                          WIDTH="357"
+                          WIDTH="273"
                           VPOS="1211"
-                          HPOS="689"
-                          CONTENT="(6e).—T"/>
-                  <SP HEIGHT="67" WIDTH="32" VPOS="1211" HPOS="1046"/>
-                  <String HEIGHT="67" WIDTH="65" VPOS="1211" HPOS="916" CONTENT=""/>
+                          HPOS="708"
+                          CONTENT="(6e)."/>
                </TextLine>
             </TextBlock>
             <TextBlock ID="r_6_4" HEIGHT="77" WIDTH="674" VPOS="1260" HPOS="373">
@@ -1485,28 +1483,42 @@
                          WIDTH="850"
                          VPOS="2065"
                          HPOS="462">
+                  <String HEIGHT="52" WIDTH="115" VPOS="2065" HPOS="439" CONTENT="."/>
+                  <SP HEIGHT="52" WIDTH="23" VPOS="2065" HPOS="554"/>
+                  <String HEIGHT="52" WIDTH="115" VPOS="2065" HPOS="485" CONTENT="."/>
+                  <SP HEIGHT="52" WIDTH="23" VPOS="2065" HPOS="600"/>
+                  <String HEIGHT="52" WIDTH="115" VPOS="2065" HPOS="531" CONTENT="."/>
+                  <SP HEIGHT="52" WIDTH="23" VPOS="2065" HPOS="646"/>
                   <String HEIGHT="52"
-                          WIDTH="238"
+                          WIDTH="184"
                           VPOS="2065"
-                          HPOS="428"
+                          HPOS="577"
+                          CONTENT="771."/>
+                  <SP HEIGHT="52" WIDTH="23" VPOS="2065" HPOS="761"/>
+                  <String HEIGHT="52" WIDTH="92" VPOS="2065" HPOS="692" CONTENT=""/>
+                  <SP HEIGHT="52" WIDTH="23" VPOS="2065" HPOS="784"/>
+                  <String HEIGHT="52"
+                          WIDTH="161"
+                          VPOS="2065"
+                          HPOS="715"
                           CONTENT="20,"/>
-                  <SP HEIGHT="52" WIDTH="34" VPOS="2065" HPOS="666"/>
+                  <SP HEIGHT="52" WIDTH="23" VPOS="2065" HPOS="876"/>
                   <String HEIGHT="52"
-                          WIDTH="306"
+                          WIDTH="207"
                           VPOS="2065"
-                          HPOS="564"
+                          HPOS="807"
                           CONTENT="place"/>
-                  <SP HEIGHT="52" WIDTH="34" VPOS="2065" HPOS="870"/>
+                  <SP HEIGHT="52" WIDTH="23" VPOS="2065" HPOS="1013"/>
                   <String HEIGHT="52"
-                          WIDTH="408"
+                          WIDTH="276"
                           VPOS="2065"
-                          HPOS="768"
+                          HPOS="944"
                           CONTENT="d’Italie"/>
-                  <SP HEIGHT="52" WIDTH="34" VPOS="2065" HPOS="1176"/>
+                  <SP HEIGHT="52" WIDTH="23" VPOS="2065" HPOS="1220"/>
                   <String HEIGHT="52"
-                          WIDTH="272"
+                          WIDTH="184"
                           VPOS="2065"
-                          HPOS="1040"
+                          HPOS="1128"
                           CONTENT="(13e)."/>
                </TextLine>
             </TextBlock>
@@ -1530,7 +1542,7 @@
                           WIDTH="386"
                           VPOS="2098"
                           HPOS="595"
-                          CONTENT="ministeriels:&lt;/i&gt;"/>
+                          CONTENT="ministeriels&lt;/i&gt;{"/>
                   <SP HEIGHT="82" WIDTH="18" VPOS="2098" HPOS="981"/>
                   <String HEIGHT="82" WIDTH="110" VPOS="2098" HPOS="926" CONTENT="Me"/>
                   <SP HEIGHT="82" WIDTH="18" VPOS="2098" HPOS="1036"/>

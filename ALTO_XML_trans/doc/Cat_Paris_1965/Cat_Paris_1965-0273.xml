@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-02T15:32:58.408+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2414" WIDTH="1086">
+         <TopMargin HEIGHT="0" WIDTH="1086" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2414" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2414" WIDTH="0" VPOS="0" HPOS="1086"/>
+         <BottomMargin HEIGHT="0" WIDTH="1086" VPOS="2414" HPOS="0"/>
+         <PrintSpace HEIGHT="2414" WIDTH="1086" VPOS="0" HPOS="0">
+            <TextBlock ID="r1" HEIGHT="154" WIDTH="492" VPOS="1964" HPOS="198">
+               <Shape>
+                  <Polygon POINTS="198,1964 198,2118 690,2118 690,1964"/>
+               </Shape>
+               <TextLine ID="r1l1"
+                         BASELINE="2098"
+                         HEIGHT="63"
+                         WIDTH="502"
+                         VPOS="2035"
+                         HPOS="193">
+                  <String HEIGHT="63"
+                          WIDTH="129"
+                          VPOS="2035"
+                          HPOS="180"
+                          CONTENT="Michel"/>
+                  <SP HEIGHT="63" WIDTH="13" VPOS="2035" HPOS="309"/>
+                  <String HEIGHT="63"
+                          WIDTH="129"
+                          VPOS="2035"
+                          HPOS="270"
+                          CONTENT="Gillet"/>
+                  <SP HEIGHT="63" WIDTH="13" VPOS="2035" HPOS="399"/>
+                  <String HEIGHT="63" WIDTH="64" VPOS="2035" HPOS="360" CONTENT="-"/>
+                  <SP HEIGHT="63" WIDTH="13" VPOS="2035" HPOS="425"/>
+                  <String HEIGHT="63"
+                          WIDTH="167"
+                          VPOS="2035"
+                          HPOS="386"
+                          CONTENT="Sculpture"/>
+                  <SP HEIGHT="63" WIDTH="13" VPOS="2035" HPOS="553"/>
+                  <String HEIGHT="63"
+                          WIDTH="142"
+                          VPOS="2035"
+                          HPOS="515"
+                          CONTENT="(France"/>
+                  <SP HEIGHT="63" WIDTH="13" VPOS="2035" HPOS="656"/>
+                  <String HEIGHT="63"
+                          WIDTH="90"
+                          VPOS="2035"
+                          HPOS="605"
+                          CONTENT="222)."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_2" HEIGHT="18" WIDTH="810" VPOS="2396" HPOS="166"/>
+            <GraphicalElement ID="r_3" HEIGHT="559" WIDTH="7" VPOS="1576" HPOS="0"/>
+            <GraphicalElement ID="r_4" HEIGHT="733" WIDTH="3" VPOS="843" HPOS="0"/>
+            <GraphicalElement ID="r_5" HEIGHT="278" WIDTH="3" VPOS="565" HPOS="0"/>
+            <GraphicalElement ID="r_6" HEIGHT="757" WIDTH="12" VPOS="532" HPOS="23"/>
+            <GraphicalElement ID="r_7" HEIGHT="399" WIDTH="14" VPOS="1473" HPOS="31"/>
+            <GraphicalElement ID="r_8" HEIGHT="210" WIDTH="4" VPOS="561" HPOS="28"/>
+            <GraphicalElement ID="r_9" HEIGHT="529" WIDTH="10" VPOS="808" HPOS="30"/>
+            <GraphicalElement ID="r_10" HEIGHT="265" WIDTH="9" VPOS="750" HPOS="34"/>
+            <GraphicalElement ID="r_11" HEIGHT="900" WIDTH="28" VPOS="1015" HPOS="37"/>
+            <GraphicalElement ID="r_12" HEIGHT="65" WIDTH="3" VPOS="1684" HPOS="63"/>
+            <GraphicalElement ID="r_13" HEIGHT="126" WIDTH="9" VPOS="2091" HPOS="69"/>
+            <GraphicalElement ID="r_14" HEIGHT="152" WIDTH="7" VPOS="1893" HPOS="71"/>
+            <Illustration ID="r_1" HEIGHT="2414" WIDTH="1086" VPOS="0" HPOS="0"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

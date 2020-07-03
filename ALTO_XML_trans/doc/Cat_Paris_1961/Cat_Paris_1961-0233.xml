@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-01T20:54:01.878+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2197" WIDTH="1818">
+         <TopMargin HEIGHT="0" WIDTH="1818" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2197" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2197" WIDTH="0" VPOS="0" HPOS="1818"/>
+         <BottomMargin HEIGHT="0" WIDTH="1818" VPOS="2197" HPOS="0"/>
+         <PrintSpace HEIGHT="2197" WIDTH="1818" VPOS="0" HPOS="0">
+            <TextBlock ID="region_1593621087104_3542"
+                       HEIGHT="102"
+                       WIDTH="501"
+                       VPOS="2069"
+                       HPOS="323">
+               <Shape>
+                  <Polygon POINTS="323,2069 323,2171 824,2171 824,2069"/>
+               </Shape>
+               <TextLine ID="line_1593621087122_3545"
+                         BASELINE="2171"
+                         HEIGHT="102"
+                         WIDTH="501"
+                         VPOS="2069"
+                         HPOS="323">
+                  <String HEIGHT="102"
+                          WIDTH="108"
+                          VPOS="2069"
+                          HPOS="309"
+                          CONTENT="Jean"/>
+                  <SP HEIGHT="102" WIDTH="14" VPOS="2069" HPOS="418"/>
+                  <String HEIGHT="102"
+                          WIDTH="135"
+                          VPOS="2069"
+                          HPOS="377"
+                          CONTENT="Pollet"/>
+                  <SP HEIGHT="102" WIDTH="14" VPOS="2069" HPOS="513"/>
+                  <String HEIGHT="102" WIDTH="68" VPOS="2069" HPOS="472" CONTENT="-"/>
+                  <SP HEIGHT="102" WIDTH="14" VPOS="2069" HPOS="540"/>
+                  <String HEIGHT="102"
+                          WIDTH="176"
+                          VPOS="2069"
+                          HPOS="499"
+                          CONTENT="Baigneuse"/>
+                  <SP HEIGHT="102" WIDTH="14" VPOS="2069" HPOS="675"/>
+                  <String HEIGHT="102"
+                          WIDTH="149"
+                          VPOS="2069"
+                          HPOS="634"
+                          CONTENT="(France"/>
+                  <SP HEIGHT="102" WIDTH="14" VPOS="2069" HPOS="783"/>
+                  <String HEIGHT="102"
+                          WIDTH="95"
+                          VPOS="2069"
+                          HPOS="729"
+                          CONTENT="106)."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_3" HEIGHT="2" WIDTH="454" VPOS="0" HPOS="0"/>
+            <GraphicalElement ID="r_4" HEIGHT="10" WIDTH="213" VPOS="0" HPOS="875"/>
+            <GraphicalElement ID="r_5" HEIGHT="1" WIDTH="409" VPOS="0" HPOS="1409"/>
+            <GraphicalElement ID="r_6" HEIGHT="4" WIDTH="1818" VPOS="2193" HPOS="0"/>
+            <GraphicalElement ID="r_7" HEIGHT="2197" WIDTH="2" VPOS="0" HPOS="0"/>
+            <GraphicalElement ID="r_8" HEIGHT="171" WIDTH="13" VPOS="960" HPOS="383"/>
+            <Illustration ID="r_1" HEIGHT="2197" WIDTH="1818" VPOS="0" HPOS="0"/>
+            <Illustration ID="r_9" HEIGHT="24" WIDTH="74" VPOS="169" HPOS="1120"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

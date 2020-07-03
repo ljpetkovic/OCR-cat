@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-02T15:32:53.077+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2331" WIDTH="1181">
+         <TopMargin HEIGHT="0" WIDTH="1181" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2331" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2331" WIDTH="0" VPOS="0" HPOS="1181"/>
+         <BottomMargin HEIGHT="0" WIDTH="1181" VPOS="2331" HPOS="0"/>
+         <PrintSpace HEIGHT="2331" WIDTH="1181" VPOS="0" HPOS="0">
+            <TextBlock ID="r_2_1" HEIGHT="34" WIDTH="308" VPOS="801" HPOS="605">
+               <Shape>
+                  <Polygon POINTS="605,801 913,801 913,835 605,835"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="844"
+                         HEIGHT="53"
+                         WIDTH="315"
+                         VPOS="791"
+                         HPOS="602">
+                  <String HEIGHT="53"
+                          WIDTH="79"
+                          VPOS="791"
+                          HPOS="595"
+                          CONTENT="Alberto"/>
+                  <SP HEIGHT="53" WIDTH="7" VPOS="791" HPOS="674"/>
+                  <String HEIGHT="53"
+                          WIDTH="86"
+                          VPOS="791"
+                          HPOS="652"
+                          CONTENT="Sartoris"/>
+                  <SP HEIGHT="53" WIDTH="7" VPOS="791" HPOS="738"/>
+                  <String HEIGHT="53" WIDTH="36" VPOS="791" HPOS="717" CONTENT="-"/>
+                  <SP HEIGHT="53" WIDTH="7" VPOS="791" HPOS="752"/>
+                  <String HEIGHT="53" WIDTH="50" VPOS="791" HPOS="731" CONTENT="Les"/>
+                  <SP HEIGHT="53" WIDTH="7" VPOS="791" HPOS="781"/>
+                  <String HEIGHT="53"
+                          WIDTH="100"
+                          VPOS="791"
+                          HPOS="760"
+                          CONTENT="Pharisiens"/>
+                  <SP HEIGHT="53" WIDTH="7" VPOS="791" HPOS="860"/>
+                  <String HEIGHT="53"
+                          WIDTH="79"
+                          VPOS="791"
+                          HPOS="838"
+                          CONTENT="(Italie"/>
+                  <SP HEIGHT="53" WIDTH="7" VPOS="791" HPOS="917"/>
+                  <String HEIGHT="53" WIDTH="29" VPOS="791" HPOS="888" CONTENT="6)"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_4_1" HEIGHT="27" WIDTH="181" VPOS="1077" HPOS="493">
+               <Shape>
+                  <Polygon POINTS="493,1077 674,1077 674,1104 493,1104"/>
+               </Shape>
+               <TextLine ID="tl_3"
+                         BASELINE="1114"
+                         HEIGHT="48"
+                         WIDTH="190"
+                         VPOS="1066"
+                         HPOS="488">
+                  <String HEIGHT="48"
+                          WIDTH="54"
+                          VPOS="1066"
+                          HPOS="483"
+                          CONTENT="Miklos"/>
+                  <SP HEIGHT="48" WIDTH="5" VPOS="1066" HPOS="537"/>
+                  <String HEIGHT="48"
+                          WIDTH="49"
+                          VPOS="1066"
+                          HPOS="521"
+                          CONTENT="Somos"/>
+                  <SP HEIGHT="48" WIDTH="5" VPOS="1066" HPOS="569"/>
+                  <String HEIGHT="48" WIDTH="27" VPOS="1066" HPOS="553" CONTENT="-"/>
+                  <SP HEIGHT="48" WIDTH="5" VPOS="1066" HPOS="580"/>
+                  <String HEIGHT="48"
+                          WIDTH="54"
+                          VPOS="1066"
+                          HPOS="564"
+                          CONTENT="Jephté"/>
+                  <SP HEIGHT="48" WIDTH="5" VPOS="1066" HPOS="618"/>
+                  <String HEIGHT="48"
+                          WIDTH="65"
+                          VPOS="1066"
+                          HPOS="602"
+                          CONTENT="(Hongrie"/>
+                  <SP HEIGHT="48" WIDTH="5" VPOS="1066" HPOS="667"/>
+                  <String HEIGHT="48"
+                          WIDTH="33"
+                          VPOS="1066"
+                          HPOS="645"
+                          CONTENT="10)."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_8" HEIGHT="158" WIDTH="4" VPOS="2167" HPOS="0"/>
+            <GraphicalElement ID="r_9" HEIGHT="176" WIDTH="12" VPOS="2061" HPOS="157"/>
+            <GraphicalElement ID="r_10" HEIGHT="187" WIDTH="10" VPOS="1446" HPOS="164"/>
+            <GraphicalElement ID="r_11" HEIGHT="287" WIDTH="10" VPOS="209" HPOS="1171"/>
+            <Illustration ID="r_1" HEIGHT="2331" WIDTH="1181" VPOS="0" HPOS="0"/>
+            <Illustration ID="r_12" HEIGHT="47" WIDTH="63" VPOS="1160" HPOS="186"/>
+            <Illustration ID="r_13" HEIGHT="73" WIDTH="116" VPOS="1446" HPOS="0"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

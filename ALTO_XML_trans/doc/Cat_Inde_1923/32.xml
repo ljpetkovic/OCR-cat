@@ -7,7 +7,7 @@
       <MeasurementUnit>pixel</MeasurementUnit>
       <OCRProcessing ID="IdOcr">
          <ocrProcessingStep>
-            <processingDateTime>2020-06-24T12:10:15.518+02:00</processingDateTime>
+            <processingDateTime>2020-06-30T15:03:34.131+02:00</processingDateTime>
             <processingSoftware>
                <softwareCreator>READ COOP</softwareCreator>
                <softwareName>Transkribus</softwareName>
@@ -201,26 +201,28 @@
                          WIDTH="675"
                          VPOS="567"
                          HPOS="483">
+                  <String HEIGHT="71" WIDTH="90" VPOS="567" HPOS="461" CONTENT=""/>
+                  <SP HEIGHT="71" WIDTH="23" VPOS="567" HPOS="551"/>
                   <String HEIGHT="71"
-                          WIDTH="326"
+                          WIDTH="315"
                           VPOS="567"
-                          HPOS="460"
+                          HPOS="483"
                           CONTENT="&lt;b&gt;122&lt;/b&gt;"/>
-                  <SP HEIGHT="71" WIDTH="23" VPOS="567" HPOS="786"/>
+                  <SP HEIGHT="71" WIDTH="23" VPOS="567" HPOS="798"/>
                   <String HEIGHT="71"
-                          WIDTH="279"
+                          WIDTH="270"
                           VPOS="567"
-                          HPOS="716"
+                          HPOS="731"
                           CONTENT="L’étang."/>
-                  <SP HEIGHT="71" WIDTH="23" VPOS="567" HPOS="995"/>
-                  <String HEIGHT="71" WIDTH="116" VPOS="567" HPOS="925" CONTENT="—"/>
-                  <SP HEIGHT="71" WIDTH="23" VPOS="567" HPOS="1042"/>
-                  <String HEIGHT="71" WIDTH="163" VPOS="567" HPOS="972" CONTENT="200"/>
-                  <SP HEIGHT="71" WIDTH="23" VPOS="567" HPOS="1135"/>
+                  <SP HEIGHT="71" WIDTH="23" VPOS="567" HPOS="1001"/>
+                  <String HEIGHT="71" WIDTH="113" VPOS="567" HPOS="933" CONTENT="—"/>
+                  <SP HEIGHT="71" WIDTH="23" VPOS="567" HPOS="1046"/>
+                  <String HEIGHT="71" WIDTH="158" VPOS="567" HPOS="978" CONTENT="200"/>
+                  <SP HEIGHT="71" WIDTH="23" VPOS="567" HPOS="1136"/>
                   <String HEIGHT="71"
-                          WIDTH="116"
+                          WIDTH="113"
                           VPOS="567"
-                          HPOS="1042"
+                          HPOS="1046"
                           CONTENT="fr."/>
                </TextLine>
             </TextBlock>
@@ -449,43 +451,43 @@
                          VPOS="984"
                          HPOS="524">
                   <String HEIGHT="64"
-                          WIDTH="321"
+                          WIDTH="337"
                           VPOS="984"
-                          HPOS="501"
-                          CONTENT="&lt;b&gt;126&lt;/b&gt;"/>
-                  <SP HEIGHT="64" WIDTH="23" VPOS="984" HPOS="822"/>
+                          HPOS="502"
+                          CONTENT="«&lt;b&gt;126&lt;/b&gt;"/>
+                  <SP HEIGHT="64" WIDTH="22" VPOS="984" HPOS="838"/>
                   <String HEIGHT="64"
-                          WIDTH="206"
+                          WIDTH="202"
                           VPOS="984"
-                          HPOS="753"
+                          HPOS="771"
                           CONTENT="Etang"/>
-                  <SP HEIGHT="64" WIDTH="23" VPOS="984" HPOS="960"/>
-                  <String HEIGHT="64" WIDTH="115" VPOS="984" HPOS="891" CONTENT="à"/>
-                  <SP HEIGHT="64" WIDTH="23" VPOS="984" HPOS="1006"/>
+                  <SP HEIGHT="64" WIDTH="22" VPOS="984" HPOS="973"/>
+                  <String HEIGHT="64" WIDTH="112" VPOS="984" HPOS="906" CONTENT="à"/>
+                  <SP HEIGHT="64" WIDTH="22" VPOS="984" HPOS="1018"/>
                   <String HEIGHT="64"
-                          WIDTH="367"
+                          WIDTH="359"
                           VPOS="984"
-                          HPOS="937"
+                          HPOS="951"
                           CONTENT="Montfermeil,"/>
-                  <SP HEIGHT="64" WIDTH="23" VPOS="984" HPOS="1304"/>
+                  <SP HEIGHT="64" WIDTH="22" VPOS="984" HPOS="1310"/>
                   <String HEIGHT="64"
-                          WIDTH="183"
+                          WIDTH="180"
                           VPOS="984"
-                          HPOS="1235"
+                          HPOS="1243"
                           CONTENT="été."/>
-                  <SP HEIGHT="64" WIDTH="23" VPOS="984" HPOS="1419"/>
-                  <String HEIGHT="64" WIDTH="115" VPOS="984" HPOS="1350" CONTENT="—"/>
-                  <SP HEIGHT="64" WIDTH="23" VPOS="984" HPOS="1464"/>
+                  <SP HEIGHT="64" WIDTH="22" VPOS="984" HPOS="1422"/>
+                  <String HEIGHT="64" WIDTH="112" VPOS="984" HPOS="1355" CONTENT="—"/>
+                  <SP HEIGHT="64" WIDTH="22" VPOS="984" HPOS="1467"/>
                   <String HEIGHT="64"
-                          WIDTH="161"
+                          WIDTH="157"
                           VPOS="984"
-                          HPOS="1396"
+                          HPOS="1400"
                           CONTENT="900"/>
-                  <SP HEIGHT="64" WIDTH="23" VPOS="984" HPOS="1556"/>
+                  <SP HEIGHT="64" WIDTH="22" VPOS="984" HPOS="1557"/>
                   <String HEIGHT="64"
-                          WIDTH="138"
+                          WIDTH="135"
                           VPOS="984"
-                          HPOS="1464"
+                          HPOS="1467"
                           CONTENT="fr.»"/>
                </TextLine>
             </TextBlock>

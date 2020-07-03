@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-02T15:32:51.28+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2331" WIDTH="1181">
+         <TopMargin HEIGHT="0" WIDTH="1181" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2331" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2331" WIDTH="0" VPOS="0" HPOS="1181"/>
+         <BottomMargin HEIGHT="0" WIDTH="1181" VPOS="2331" HPOS="0"/>
+         <PrintSpace HEIGHT="2331" WIDTH="1181" VPOS="0" HPOS="0">
+            <TextBlock ID="r_2_1" HEIGHT="36" WIDTH="482" VPOS="1361" HPOS="371">
+               <Shape>
+                  <Polygon POINTS="371,1361 853,1361 853,1397 371,1397"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="1414"
+                         HEIGHT="54"
+                         WIDTH="490"
+                         VPOS="1360"
+                         HPOS="367">
+                  <String HEIGHT="54"
+                          WIDTH="112"
+                          VPOS="1360"
+                          HPOS="353"
+                          CONTENT="Meki"/>
+                  <SP HEIGHT="54" WIDTH="14" VPOS="1360" HPOS="465"/>
+                  <String HEIGHT="54"
+                          WIDTH="154"
+                          VPOS="1360"
+                          HPOS="423"
+                          CONTENT="Meghara"/>
+                  <SP HEIGHT="54" WIDTH="14" VPOS="1360" HPOS="577"/>
+                  <String HEIGHT="54" WIDTH="70" VPOS="1360" HPOS="535" CONTENT="-"/>
+                  <SP HEIGHT="54" WIDTH="14" VPOS="1360" HPOS="605"/>
+                  <String HEIGHT="54"
+                          WIDTH="182"
+                          VPOS="1360"
+                          HPOS="563"
+                          CONTENT="Mystiques"/>
+                  <SP HEIGHT="54" WIDTH="14" VPOS="1360" HPOS="745"/>
+                  <String HEIGHT="54"
+                          WIDTH="140"
+                          VPOS="1360"
+                          HPOS="703"
+                          CONTENT="(Maroc"/>
+                  <SP HEIGHT="54" WIDTH="14" VPOS="1360" HPOS="843"/>
+                  <String HEIGHT="54" WIDTH="70" VPOS="1360" HPOS="787" CONTENT="6)."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_3_1" HEIGHT="36" WIDTH="585" VPOS="1522" HPOS="374">
+               <Shape>
+                  <Polygon POINTS="374,1522 959,1522 959,1558 374,1558"/>
+               </Shape>
+               <TextLine ID="tl_2"
+                         BASELINE="1568"
+                         HEIGHT="55"
+                         WIDTH="594"
+                         VPOS="1513"
+                         HPOS="369">
+                  <String HEIGHT="55"
+                          WIDTH="108"
+                          VPOS="1513"
+                          HPOS="356"
+                          CONTENT="Léon"/>
+                  <SP HEIGHT="55" WIDTH="14" VPOS="1513" HPOS="463"/>
+                  <String HEIGHT="55" WIDTH="81" VPOS="1513" HPOS="423" CONTENT="P."/>
+                  <SP HEIGHT="55" WIDTH="14" VPOS="1513" HPOS="504"/>
+                  <String HEIGHT="55"
+                          WIDTH="176"
+                          VPOS="1513"
+                          HPOS="464"
+                          CONTENT="Pacunayen"/>
+                  <SP HEIGHT="55" WIDTH="14" VPOS="1513" HPOS="639"/>
+                  <String HEIGHT="55" WIDTH="68" VPOS="1513" HPOS="599" CONTENT="-"/>
+                  <SP HEIGHT="55" WIDTH="14" VPOS="1513" HPOS="666"/>
+                  <String HEIGHT="55"
+                          WIDTH="149"
+                          VPOS="1513"
+                          HPOS="626"
+                          CONTENT="Paysage"/>
+                  <SP HEIGHT="55" WIDTH="14" VPOS="1513" HPOS="774"/>
+                  <String HEIGHT="55"
+                          WIDTH="216"
+                          VPOS="1513"
+                          HPOS="734"
+                          CONTENT="(Philippines"/>
+                  <SP HEIGHT="55" WIDTH="14" VPOS="1513" HPOS="950"/>
+                  <String HEIGHT="55" WIDTH="68" VPOS="1513" HPOS="896" CONTENT="4)."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_5" HEIGHT="23" WIDTH="516" VPOS="0" HPOS="294"/>
+            <GraphicalElement ID="r_6" HEIGHT="16" WIDTH="371" VPOS="0" HPOS="810"/>
+            <GraphicalElement ID="r_7" HEIGHT="14" WIDTH="268" VPOS="2317" HPOS="913"/>
+            <GraphicalElement ID="r_8" HEIGHT="4" WIDTH="913" VPOS="2327" HPOS="0"/>
+            <GraphicalElement ID="r_9" HEIGHT="270" WIDTH="6" VPOS="256" HPOS="140"/>
+            <Illustration ID="r_1" HEIGHT="1332" WIDTH="1181" VPOS="0" HPOS="0"/>
+            <Illustration ID="r_4" HEIGHT="591" WIDTH="804" VPOS="1647" HPOS="377"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

@@ -7,7 +7,7 @@
       <MeasurementUnit>pixel</MeasurementUnit>
       <OCRProcessing ID="IdOcr">
          <ocrProcessingStep>
-            <processingDateTime>2020-06-24T12:10:03.497+02:00</processingDateTime>
+            <processingDateTime>2020-06-30T15:03:20.136+02:00</processingDateTime>
             <processingSoftware>
                <softwareCreator>READ COOP</softwareCreator>
                <softwareName>Transkribus</softwareName>
@@ -23,6 +23,20 @@
          <RightMargin HEIGHT="2898" WIDTH="143" VPOS="3" HPOS="1982"/>
          <BottomMargin HEIGHT="152" WIDTH="2125" VPOS="2901" HPOS="0"/>
          <PrintSpace HEIGHT="2898" WIDTH="1982" VPOS="3" HPOS="0">
+            <TextBlock ID="region_1593442628501_2833"
+                       HEIGHT="61"
+                       WIDTH="852"
+                       VPOS="2059"
+                       HPOS="598">
+               <Shape>
+                  <Polygon POINTS="598,2059 598,2120 1450,2120 1450,2059"/>
+               </Shape>
+            </TextBlock>
+            <TextBlock ID="r_2_1" HEIGHT="78" WIDTH="456" VPOS="112" HPOS="1242">
+               <Shape>
+                  <Polygon POINTS="1242,112 1698,112 1698,190 1242,190"/>
+               </Shape>
+            </TextBlock>
             <TextBlock ID="r_2_2" HEIGHT="74" WIDTH="490" VPOS="250" HPOS="764">
                <Shape>
                   <Polygon POINTS="764,250 1254,250 1254,324 764,324"/>
@@ -64,16 +78,16 @@
                          VPOS="407"
                          HPOS="326">
                   <String HEIGHT="181"
-                          WIDTH="751"
+                          WIDTH="769"
                           VPOS="407"
-                          HPOS="279"
-                          CONTENT="&lt;b&gt;&#34;ARTISTES"/>
-                  <SP HEIGHT="181" WIDTH="47" VPOS="407" HPOS="1031"/>
+                          HPOS="262"
+                          CONTENT="ARTISTES"/>
+                  <SP HEIGHT="181" WIDTH="64" VPOS="407" HPOS="1031"/>
                   <String HEIGHT="181"
-                          WIDTH="892"
+                          WIDTH="961"
                           VPOS="407"
-                          HPOS="843"
-                          CONTENT="INDÉPENDANTS&#34;&lt;/b&gt;"/>
+                          HPOS="774"
+                          CONTENT="INDÉPENDANTS."/>
                </TextLine>
             </TextBlock>
             <TextBlock ID="r_2_5" HEIGHT="202" WIDTH="987" VPOS="605" HPOS="515">
@@ -106,25 +120,21 @@
                          WIDTH="1004"
                          VPOS="719"
                          HPOS="507">
+                  <String HEIGHT="111" WIDTH="274" VPOS="719" HPOS="461" CONTENT="NI"/>
+                  <SP HEIGHT="111" WIDTH="46" VPOS="719" HPOS="735"/>
                   <String HEIGHT="111"
-                          WIDTH="293"
+                          WIDTH="365"
                           VPOS="719"
-                          HPOS="465"
-                          CONTENT="&#34;NI"/>
-                  <SP HEIGHT="111" WIDTH="42" VPOS="719" HPOS="758"/>
-                  <String HEIGHT="111"
-                          WIDTH="335"
-                          VPOS="719"
-                          HPOS="633"
+                          HPOS="598"
                           CONTENT="JURY"/>
-                  <SP HEIGHT="111" WIDTH="42" VPOS="719" HPOS="967"/>
-                  <String HEIGHT="111" WIDTH="251" VPOS="719" HPOS="842" CONTENT="NI"/>
-                  <SP HEIGHT="111" WIDTH="42" VPOS="719" HPOS="1093"/>
+                  <SP HEIGHT="111" WIDTH="46" VPOS="719" HPOS="963"/>
+                  <String HEIGHT="111" WIDTH="274" VPOS="719" HPOS="826" CONTENT="NI"/>
+                  <SP HEIGHT="111" WIDTH="46" VPOS="719" HPOS="1100"/>
                   <String HEIGHT="111"
-                          WIDTH="586"
+                          WIDTH="593"
                           VPOS="719"
-                          HPOS="925"
-                          CONTENT="RÉCOMPENSES&#34;"/>
+                          HPOS="918"
+                          CONTENT="RÉCOMPENSES"/>
                </TextLine>
             </TextBlock>
             <TextBlock ID="r_2_6" HEIGHT="90" WIDTH="672" VPOS="1018" HPOS="680">
@@ -138,10 +148,10 @@
                          VPOS="988"
                          HPOS="670">
                   <String HEIGHT="154"
-                          WIDTH="776"
+                          WIDTH="843"
                           VPOS="988"
-                          HPOS="584"
-                          CONTENT="&lt;b&gt;CATALOGUE&lt;/b&gt;"/>
+                          HPOS="517"
+                          CONTENT="CATALOGUE"/>
                </TextLine>
             </TextBlock>
             <TextBlock ID="r_2_7" HEIGHT="51" WIDTH="231" VPOS="1195" HPOS="905">
@@ -154,17 +164,9 @@
                          WIDTH="248"
                          VPOS="1172"
                          HPOS="896">
-                  <String HEIGHT="94"
-                          WIDTH="186"
-                          VPOS="1172"
-                          HPOS="875"
-                          CONTENT="&lt;b&gt;DE"/>
-                  <SP HEIGHT="94" WIDTH="21" VPOS="1172" HPOS="1061"/>
-                  <String HEIGHT="94"
-                          WIDTH="165"
-                          VPOS="1172"
-                          HPOS="979"
-                          CONTENT="LA&lt;/b&gt;"/>
+                  <String HEIGHT="94" WIDTH="298" VPOS="1172" HPOS="846" CONTENT="DE"/>
+                  <SP HEIGHT="94" WIDTH="50" VPOS="1172" HPOS="1144"/>
+                  <String HEIGHT="94" WIDTH="198" VPOS="1172" HPOS="946" CONTENT="LA"/>
                </TextLine>
             </TextBlock>
             <TextBlock ID="r_2_8" HEIGHT="118" WIDTH="1078" VPOS="1333" HPOS="481">
@@ -178,16 +180,16 @@
                          VPOS="1273"
                          HPOS="473">
                   <String HEIGHT="195"
-                          WIDTH="522"
+                          WIDTH="506"
                           VPOS="1273"
-                          HPOS="421"
-                          CONTENT="&lt;b&gt;34e"/>
-                  <SP HEIGHT="195" WIDTH="52" VPOS="1273" HPOS="943"/>
+                          HPOS="389"
+                          CONTENT="34"/>
+                  <SP HEIGHT="195" WIDTH="84" VPOS="1273" HPOS="895"/>
                   <String HEIGHT="195"
-                          WIDTH="836"
+                          WIDTH="1013"
                           VPOS="1273"
-                          HPOS="734"
-                          CONTENT="EXPOSITION&lt;/b&gt;"/>
+                          HPOS="557"
+                          CONTENT="EXPOSITION"/>
                </TextLine>
             </TextBlock>
             <TextBlock ID="r_2_9" HEIGHT="39" WIDTH="71" VPOS="1512" HPOS="985">
@@ -214,27 +216,27 @@
                          VPOS="1573"
                          HPOS="301">
                   <String HEIGHT="142"
-                          WIDTH="454"
+                          WIDTH="417"
                           VPOS="1573"
-                          HPOS="263"
-                          CONTENT="&lt;b&gt;GRAND"/>
-                  <SP HEIGHT="142" WIDTH="38" VPOS="1573" HPOS="717"/>
+                          HPOS="255"
+                          CONTENT="GRAND"/>
+                  <SP HEIGHT="142" WIDTH="46" VPOS="1573" HPOS="672"/>
                   <String HEIGHT="142"
-                          WIDTH="378"
+                          WIDTH="464"
                           VPOS="1573"
-                          HPOS="604"
+                          HPOS="533"
                           CONTENT="PALAIS"/>
-                  <SP HEIGHT="142" WIDTH="38" VPOS="1573" HPOS="982"/>
+                  <SP HEIGHT="142" WIDTH="46" VPOS="1573" HPOS="997"/>
                   <String HEIGHT="142"
-                          WIDTH="265"
+                          WIDTH="325"
                           VPOS="1573"
-                          HPOS="869"
+                          HPOS="858"
                           CONTENT="DES"/>
-                  <SP HEIGHT="142" WIDTH="38" VPOS="1573" HPOS="1134"/>
+                  <SP HEIGHT="142" WIDTH="46" VPOS="1573" HPOS="1182"/>
                   <String HEIGHT="142"
-                          WIDTH="757"
+                          WIDTH="742"
                           VPOS="1573"
-                          HPOS="982"
+                          HPOS="997"
                           CONTENT="CHAMPS"/>
                </TextLine>
             </TextBlock>
@@ -249,40 +251,40 @@
                          VPOS="1761"
                          HPOS="522">
                   <String HEIGHT="139"
-                          WIDTH="160"
+                          WIDTH="294"
                           VPOS="1761"
-                          HPOS="495"
-                          CONTENT="du"/>
-                  <SP HEIGHT="139" WIDTH="27" VPOS="1761" HPOS="655"/>
+                          HPOS="489"
+                          CONTENT="&lt;i&gt;du"/>
+                  <SP HEIGHT="139" WIDTH="33" VPOS="1761" HPOS="784"/>
                   <String HEIGHT="139"
-                          WIDTH="240"
+                          WIDTH="196"
                           VPOS="1761"
-                          HPOS="575"
-                          CONTENT="&lt;b&gt;10"/>
-                  <SP HEIGHT="139" WIDTH="27" VPOS="1761" HPOS="816"/>
+                          HPOS="686"
+                          CONTENT="10"/>
+                  <SP HEIGHT="139" WIDTH="33" VPOS="1761" HPOS="882"/>
                   <String HEIGHT="139"
-                          WIDTH="400"
+                          WIDTH="360"
                           VPOS="1761"
-                          HPOS="735"
-                          CONTENT="Févrter&lt;/b&gt;"/>
-                  <SP HEIGHT="139" WIDTH="27" VPOS="1761" HPOS="1136"/>
+                          HPOS="784"
+                          CONTENT="Février"/>
+                  <SP HEIGHT="139" WIDTH="33" VPOS="1761" HPOS="1143"/>
                   <String HEIGHT="139"
-                          WIDTH="160"
+                          WIDTH="196"
                           VPOS="1761"
-                          HPOS="1056"
+                          HPOS="1045"
                           CONTENT="au"/>
-                  <SP HEIGHT="139" WIDTH="27" VPOS="1761" HPOS="1216"/>
+                  <SP HEIGHT="139" WIDTH="33" VPOS="1761" HPOS="1242"/>
                   <String HEIGHT="139"
-                          WIDTH="240"
+                          WIDTH="196"
                           VPOS="1761"
-                          HPOS="1136"
-                          CONTENT="&lt;b&gt;11"/>
-                  <SP HEIGHT="139" WIDTH="27" VPOS="1761" HPOS="1376"/>
+                          HPOS="1143"
+                          CONTENT="11"/>
+                  <SP HEIGHT="139" WIDTH="33" VPOS="1761" HPOS="1340"/>
                   <String HEIGHT="139"
-                          WIDTH="267"
+                          WIDTH="327"
                           VPOS="1761"
-                          HPOS="1269"
-                          CONTENT="Mars&lt;/b&gt;"/>
+                          HPOS="1209"
+                          CONTENT="Mars&lt;/i&gt;"/>
                </TextLine>
             </TextBlock>
             <TextBlock ID="r_2_12" HEIGHT="66" WIDTH="1082" VPOS="1957" HPOS="482">
@@ -331,76 +333,69 @@
                           HPOS="1325"
                           CONTENT="exposés"/>
                </TextLine>
-            </TextBlock>
-            <TextBlock ID="region_1592919910531_74"
-                       HEIGHT="68"
-                       WIDTH="818"
-                       VPOS="2055"
-                       HPOS="615">
-               <Shape>
-                  <Polygon POINTS="615,2055 615,2123 1433,2123 1433,2055"/>
-               </Shape>
-               <TextLine ID="line_1592919910624_77"
-                         BASELINE="2123"
-                         HEIGHT="68"
-                         WIDTH="818"
-                         VPOS="2055"
-                         HPOS="615">
-                  <String HEIGHT="68"
-                          WIDTH="234"
-                          VPOS="2055"
-                          HPOS="596"
-                          CONTENT="&lt;i&gt;(Voir"/>
-                  <SP HEIGHT="68" WIDTH="19" VPOS="2055" HPOS="829"/>
-                  <String HEIGHT="68"
-                          WIDTH="175"
-                          VPOS="2055"
-                          HPOS="771"
+               <TextLine ID="line_1593442628582_2836"
+                         BASELINE="2120"
+                         HEIGHT="61"
+                         WIDTH="852"
+                         VPOS="2059"
+                         HPOS="598">
+                  <String HEIGHT="61" WIDTH="76" VPOS="2059" HPOS="579" CONTENT=""/>
+                  <SP HEIGHT="61" WIDTH="19" VPOS="2059" HPOS="655"/>
+                  <String HEIGHT="61"
+                          WIDTH="227"
+                          VPOS="2059"
+                          HPOS="598"
+                          CONTENT="(&lt;i&gt;Voir"/>
+                  <SP HEIGHT="61" WIDTH="19" VPOS="2059" HPOS="825"/>
+                  <String HEIGHT="61"
+                          WIDTH="170"
+                          VPOS="2059"
+                          HPOS="768"
                           CONTENT="table"/>
-                  <SP HEIGHT="68" WIDTH="19" VPOS="2055" HPOS="946"/>
-                  <String HEIGHT="68"
-                          WIDTH="136"
-                          VPOS="2055"
-                          HPOS="888"
+                  <SP HEIGHT="61" WIDTH="19" VPOS="2059" HPOS="939"/>
+                  <String HEIGHT="61"
+                          WIDTH="133"
+                          VPOS="2059"
+                          HPOS="882"
                           CONTENT="des"/>
-                  <SP HEIGHT="68" WIDTH="19" VPOS="2055" HPOS="1024"/>
-                  <String HEIGHT="68"
-                          WIDTH="253"
-                          VPOS="2055"
-                          HPOS="966"
-                          CONTENT="matières,"/>
-                  <SP HEIGHT="68" WIDTH="19" VPOS="2055" HPOS="1219"/>
-                  <String HEIGHT="68"
-                          WIDTH="156"
-                          VPOS="2055"
-                          HPOS="1160"
-                          CONTENT="page"/>
-                  <SP HEIGHT="68" WIDTH="19" VPOS="2055" HPOS="1316"/>
-                  <String HEIGHT="68"
-                          WIDTH="195"
-                          VPOS="2055"
-                          HPOS="1238"
-                          CONTENT="260)&lt;/i&gt;"/>
+                  <SP HEIGHT="61" WIDTH="19" VPOS="2059" HPOS="1015"/>
+                  <String HEIGHT="61"
+                          WIDTH="265"
+                          VPOS="2059"
+                          HPOS="958"
+                          CONTENT="miatières,"/>
+                  <SP HEIGHT="61" WIDTH="19" VPOS="2059" HPOS="1223"/>
+                  <String HEIGHT="61"
+                          WIDTH="170"
+                          VPOS="2059"
+                          HPOS="1166"
+                          CONTENT="page/"/>
+                  <SP HEIGHT="61" WIDTH="19" VPOS="2059" HPOS="1336"/>
+                  <String HEIGHT="61"
+                          WIDTH="189"
+                          VPOS="2059"
+                          HPOS="1261"
+                          CONTENT="260&lt;/i&gt;)"/>
                </TextLine>
             </TextBlock>
-            <TextBlock ID="region_1592919914100_82"
-                       HEIGHT="56"
+            <TextBlock ID="region_1593442631532_2841"
+                       HEIGHT="55"
                        WIDTH="386"
-                       VPOS="2526"
-                       HPOS="846">
+                       VPOS="2531"
+                       HPOS="831">
                <Shape>
-                  <Polygon POINTS="846,2526 846,2582 1232,2582 1232,2526"/>
+                  <Polygon POINTS="831,2531 831,2586 1217,2586 1217,2531"/>
                </Shape>
-               <TextLine ID="line_1592919914185_85"
-                         BASELINE="2582"
-                         HEIGHT="56"
+               <TextLine ID="line_1593442631611_2844"
+                         BASELINE="2586"
+                         HEIGHT="55"
                          WIDTH="386"
-                         VPOS="2526"
-                         HPOS="846">
-                  <String HEIGHT="56"
+                         VPOS="2531"
+                         HPOS="831">
+                  <String HEIGHT="55"
                           WIDTH="579"
-                          VPOS="2526"
-                          HPOS="653"
+                          VPOS="2531"
+                          HPOS="638"
                           CONTENT="1923"/>
                </TextLine>
             </TextBlock>

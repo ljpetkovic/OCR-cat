@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-02T15:33:02.01+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2414" WIDTH="1181">
+         <TopMargin HEIGHT="45" WIDTH="1181" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2348" WIDTH="0" VPOS="45" HPOS="0"/>
+         <RightMargin HEIGHT="2348" WIDTH="18" VPOS="45" HPOS="1163"/>
+         <BottomMargin HEIGHT="21" WIDTH="1181" VPOS="2393" HPOS="0"/>
+         <PrintSpace HEIGHT="2348" WIDTH="1163" VPOS="45" HPOS="0">
+            <TextBlock ID="r_12_1" HEIGHT="30" WIDTH="214" VPOS="745" HPOS="251">
+               <Shape>
+                  <Polygon POINTS="251,745 465,745 465,775 251,775"/>
+               </Shape>
+               <TextLine ID="tl_4"
+                         BASELINE="784"
+                         HEIGHT="44"
+                         WIDTH="223"
+                         VPOS="740"
+                         HPOS="246">
+                  <String HEIGHT="44"
+                          WIDTH="53"
+                          VPOS="740"
+                          HPOS="240"
+                          CONTENT="André"/>
+                  <SP HEIGHT="44" WIDTH="6" VPOS="740" HPOS="293"/>
+                  <String HEIGHT="44"
+                          WIDTH="70"
+                          VPOS="740"
+                          HPOS="275"
+                          CONTENT="Stempfel"/>
+                  <SP HEIGHT="44" WIDTH="6" VPOS="740" HPOS="346"/>
+                  <String HEIGHT="44" WIDTH="29" VPOS="740" HPOS="328" CONTENT="-"/>
+                  <SP HEIGHT="44" WIDTH="6" VPOS="740" HPOS="358"/>
+                  <String HEIGHT="44"
+                          WIDTH="65"
+                          VPOS="740"
+                          HPOS="340"
+                          CONTENT="Gravure"/>
+                  <SP HEIGHT="44" WIDTH="6" VPOS="740" HPOS="404"/>
+                  <String HEIGHT="44"
+                          WIDTH="65"
+                          VPOS="740"
+                          HPOS="387"
+                          CONTENT="(France"/>
+                  <SP HEIGHT="44" WIDTH="6" VPOS="740" HPOS="451"/>
+                  <String HEIGHT="44"
+                          WIDTH="41"
+                          VPOS="740"
+                          HPOS="428"
+                          CONTENT="243)."/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock ID="r_13_1" HEIGHT="26" WIDTH="165" VPOS="1147" HPOS="262">
+               <Shape>
+                  <Polygon POINTS="262,1147 427,1147 427,1173 262,1173"/>
+               </Shape>
+               <TextLine ID="tl_5"
+                         BASELINE="1184"
+                         HEIGHT="59"
+                         WIDTH="175"
+                         VPOS="1125"
+                         HPOS="257">
+                  <String HEIGHT="59" WIDTH="33" VPOS="1125" HPOS="252" CONTENT="Uri"/>
+                  <SP HEIGHT="59" WIDTH="5" VPOS="1125" HPOS="285"/>
+                  <String HEIGHT="59"
+                          WIDTH="57"
+                          VPOS="1125"
+                          HPOS="271"
+                          CONTENT="Stettner"/>
+                  <SP HEIGHT="59" WIDTH="5" VPOS="1125" HPOS="328"/>
+                  <String HEIGHT="59" WIDTH="24" VPOS="1125" HPOS="314" CONTENT="-"/>
+                  <SP HEIGHT="59" WIDTH="5" VPOS="1125" HPOS="337"/>
+                  <String HEIGHT="59"
+                          WIDTH="57"
+                          VPOS="1125"
+                          HPOS="323"
+                          CONTENT="Peinture"/>
+                  <SP HEIGHT="59" WIDTH="5" VPOS="1125" HPOS="380"/>
+                  <String HEIGHT="59"
+                          WIDTH="52"
+                          VPOS="1125"
+                          HPOS="366"
+                          CONTENT="(France"/>
+                  <SP HEIGHT="59" WIDTH="5" VPOS="1125" HPOS="418"/>
+                  <String HEIGHT="59"
+                          WIDTH="33"
+                          VPOS="1125"
+                          HPOS="399"
+                          CONTENT="251)."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_15" HEIGHT="14" WIDTH="186" VPOS="45" HPOS="435"/>
+            <GraphicalElement ID="r_16" HEIGHT="155" WIDTH="4" VPOS="2238" HPOS="0"/>
+            <GraphicalElement ID="r_17" HEIGHT="216" WIDTH="5" VPOS="1952" HPOS="0"/>
+            <GraphicalElement ID="r_18" HEIGHT="252" WIDTH="6" VPOS="1546" HPOS="0"/>
+            <GraphicalElement ID="r_19" HEIGHT="166" WIDTH="4" VPOS="1380" HPOS="0"/>
+            <GraphicalElement ID="r_20" HEIGHT="481" WIDTH="25" VPOS="1194" HPOS="1125"/>
+            <Illustration ID="r_1" HEIGHT="1108" WIDTH="900" VPOS="1193" HPOS="263"/>
+            <Illustration ID="r_2" HEIGHT="300" WIDTH="484" VPOS="283" HPOS="319"/>
+            <Illustration ID="r_21" HEIGHT="229" WIDTH="25" VPOS="457" HPOS="965"/>
+            <Illustration ID="r_22" HEIGHT="495" WIDTH="886" VPOS="215" HPOS="240"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>
