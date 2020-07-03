@@ -87,13 +87,13 @@ In order to run the script successfully, it is necessary to maintain the global 
 
 ### New features
 
-#### Corrected the "empty" malformed tags 
+#### Corrected the "empty" malformed tags (not containing neither `b` nor `i`) spanning to more than one token
 
 e.g.`&lt;i&gt;. aes&lt;/i&gt;` instead of `&lt;&gt;. aes&lt;/i&gt;` or
 
 `&lt;i&gt;L. a. s.&lt;/i&gt;` instead of `&ltL. a. s.&lt;/i&gt;`
 
-#### Corrected the "empty" malformed tags (not containing neither `b` nor `i`)
+#### Corrected the "empty" malformed tags (around one token)
 
 e.g. `&lt;i&gt;BillauaVarenne&lt;/i&gt;` instead of `&lt;BillauaVarenne&lt;/i&gt;`
 
