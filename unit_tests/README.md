@@ -13,7 +13,7 @@
 
 ##### Demo
 
-1. Export the original ALTO-XML file from Transkribu at the **line** level (`1855_08_LAC_N72_0002_line.xml`);
+1. Export the original ALTO-XML file from Transkribus at the **line** level (`1855_08_LAC_N72_0002_line.xml`);
 2. Run the `python3 -m unittest test_regex.py` on the command line.
 
 ##### Results
