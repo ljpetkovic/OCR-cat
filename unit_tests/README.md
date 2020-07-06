@@ -1,6 +1,6 @@
 # Unit tests
 
-#### Goals
+### Goals
 
 * Guaranteeing the high-quality performance of the `corr_trans_ALTO.py` script (cf. also [here](https://github.com/ljpetkovic/OCR-cat/tree/unittests/ALTO_XML_trans/scripts)) which transforms the raw exported ALTO-XML files containing the misconstructed tags outputted by the OCR model into the same file format to be accepted by the GROBID-dictionaries;
 
@@ -9,7 +9,7 @@
 
 * If the tests spot the error(s), adjust the regex(es).
 
-#### Workflow 
+### Workflow 
 
 ##### Demo
 
@@ -57,7 +57,7 @@ Ran 1 test in 0.002s
 FAILED (failures=1)
 ```
 
-#### Regexes tested 
+### Regexes tested 
 
 To be extended.
 
