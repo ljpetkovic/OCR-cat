@@ -5,7 +5,7 @@
 * Guaranteeing the high-quality performance of the `corr_trans_ALTO.py` script (cf. also [here](https://github.com/ljpetkovic/OCR-cat/tree/unittests/ALTO_XML_trans/scripts)) which transforms the raw exported ALTO-XML files containing the misconstructed tags outputted by the OCR model into the same file format to be accepted by the GROBID-dictionaries;
 
 * Preventing the possible deterioration of the results produced during the transformation when introducing a certain regex, that is, making sure that one regex is used in order to handle *one* particular case, without influencing the others: 
-  * e. g. using the `(?!\w)<b`, it had been possible to transform correctly the `<bManuscrits` into `<b>Manuscrits`; however, this method also modified some cases that were **not** intended to be handled with that specific regex, which led to the incorrect results (such as the modification of the original form `<b>Gallay</b>` into `<b>>Gallay</b> `);
+  * e. g. using the `(?!\w)<b`, it had been possible to transform correctly the `<bManuscrits` into `<b>Manuscrits`; however, this method also modified some cases that were **not** intended to be handled with that specific regex, which led to the incorrect results (such as the modification of the original form `<b>Gallay</b>` into `<b>>Gallay</b>`);
 
 * If the tests spot the error(s), adjust the regex(es).
 
