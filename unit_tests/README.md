@@ -18,7 +18,7 @@
 
 ##### Results
 
-* The transformed ALTO-XML file `1855_08_LAC_N72_0002_line.xml_trans.xml`;
+* The transformed ALTO-XML files (here `1855_08_LAC_N72_0002_line.xml_trans.xml`);
 * The command line output indicating whether the test passed:
 
 ```
