@@ -2,12 +2,12 @@
 
 #### Goals
 
-* Guaranteeing the high-quality performance of the [script](https://github.com/ljpetkovic/OCR-cat/tree/unittests/ALTO_XML_trans/scripts) which transforms the exported ALTO-XML files into the same file format to be accepted by the GROBID-dictionaries;
+* Guaranteeing the high-quality performance of the `corr_trans_ALTO.py` script (cf. also [here](https://github.com/ljpetkovic/OCR-cat/tree/unittests/ALTO_XML_trans/scripts)) which transforms the raw exported ALTO-XML files containing the misconstructed tags outputted by the OCR model into the same file format to be accepted by the GROBID-dictionaries;
 
 * Preventing the possible deterioration of the results produced during the transformation when introducing a certain regex, that is, making sure that one regex is used in order to handle *one* particular case, without influencing the others: 
-  * e. g. using the `(?!\w)<b`, it was possible to transform correctly the `<bManuscrits` into `<b>Manuscrits`; however, this method modified incorrectly some cases that were **not** intended to be handled with that specific regex (such as the  modification of the original form `<b>Gallay</b>` to`<b>>Gallay</b> `);
+  * e. g. using the `(?!\w)<b`, it had been possible to transform correctly the `<bManuscrits` into `<b>Manuscrits`; however, this method also modified some cases that were **not** intended to be handled with that specific regex, which led to the incorrect results (such as the modification of the original form `<b>Gallay</b>` into `<b>>Gallay</b> `);
 
-* If the test spots the error(s), adjust the regex(es).
+* If the tests spot the error(s), adjust the regex(es).
 
 #### Workflow 
 
@@ -25,18 +25,16 @@
 (base) Ljudmilas-MacBook-Air:unit_tests ljudmilapetkovic$ python3 -m unittest test_regex.py 
 .
 ----------------------------------------------------------------------
-Ran 1 test in 0.002s
-
-OK
-(base) Ljudmilas-MacBook-Air:unit_tests ljudmilapetkovic$ python3 -m unittest test_regex.py 
-.
-----------------------------------------------------------------------
 Ran 1 test in 0.001s
 
 OK
 ```
 
-or failed (in order to demonstrate the error, we modified the desired result in the `test_result_1` variable):
+
+
+or failed, with the indication of the error(s).
+
+*NB:* In order to simulate the error, we modified the desired result in the `test_result_1` variable:
 
 ```
 (base) Ljudmilas-MacBook-Air:unit_tests ljudmilapetkovic$ python3 -m unittest test_regex.py 
@@ -61,7 +59,7 @@ FAILED (failures=1)
 
 #### Regexes tested 
 
-To be extended
+To be extended.
 
 | Actual             | Expected         |
 | ------------------ | ---------------- |
