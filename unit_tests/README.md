@@ -34,7 +34,7 @@ OK
 
 or failed, with the indication of the error(s).
 
-*NB:* In order to simulate the error, we modified the desired result in the `test_result_1` variable:
+*NB:* In order to simulate the error, we modified the desired result in the `test_result_1` variable in the `test_regex.py` script:
 
 ```
 (base) Ljudmilas-MacBook-Air:unit_tests ljudmilapetkovic$ python3 -m unittest test_regex.py 
