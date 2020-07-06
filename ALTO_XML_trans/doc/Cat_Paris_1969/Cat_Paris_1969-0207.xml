@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-06T17:34:26.626+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2325" WIDTH="1062">
+         <TopMargin HEIGHT="0" WIDTH="1062" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2325" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2325" WIDTH="0" VPOS="0" HPOS="1062"/>
+         <BottomMargin HEIGHT="0" WIDTH="1062" VPOS="2325" HPOS="0"/>
+         <PrintSpace HEIGHT="2325" WIDTH="1062" VPOS="0" HPOS="0">
+            <TextBlock ID="r_2_1" HEIGHT="25" WIDTH="673" VPOS="1506" HPOS="234">
+               <Shape>
+                  <Polygon POINTS="234,1506 907,1506 907,1531 234,1531"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="1559"
+                         HEIGHT="62"
+                         WIDTH="681"
+                         VPOS="1497"
+                         HPOS="230">
+                  <String HEIGHT="62"
+                          WIDTH="149"
+                          VPOS="1497"
+                          HPOS="213"
+                          CONTENT="KROUM"/>
+                  <SP HEIGHT="62" WIDTH="17" VPOS="1497" HPOS="363"/>
+                  <String HEIGHT="62"
+                          WIDTH="199"
+                          VPOS="1497"
+                          HPOS="313"
+                          CONTENT="DAMIANOV"/>
+                  <SP HEIGHT="62" WIDTH="17" VPOS="1497" HPOS="512"/>
+                  <String HEIGHT="62" WIDTH="83" VPOS="1497" HPOS="463" CONTENT="J"/>
+                  <SP HEIGHT="62" WIDTH="17" VPOS="1497" HPOS="546"/>
+                  <String HEIGHT="62"
+                          WIDTH="149"
+                          VPOS="1497"
+                          HPOS="496"
+                          CONTENT="JEUNE"/>
+                  <SP HEIGHT="62" WIDTH="17" VPOS="1497" HPOS="645"/>
+                  <String HEIGHT="62"
+                          WIDTH="149"
+                          VPOS="1497"
+                          HPOS="595"
+                          CONTENT="FILLE"/>
+                  <SP HEIGHT="62" WIDTH="17" VPOS="1497" HPOS="745"/>
+                  <String HEIGHT="62"
+                          WIDTH="216"
+                          VPOS="1497"
+                          HPOS="695"
+                          CONTENT="(Bulgarie"/>
+                  <SP HEIGHT="62" WIDTH="17" VPOS="1497" HPOS="911"/>
+                  <String HEIGHT="62" WIDTH="66" VPOS="1497" HPOS="845" CONTENT="6)"/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_3" HEIGHT="1" WIDTH="1062" VPOS="2324" HPOS="0"/>
+            <GraphicalElement ID="r_4" HEIGHT="1306" WIDTH="3" VPOS="28" HPOS="0"/>
+            <GraphicalElement ID="r_5" HEIGHT="971" WIDTH="4" VPOS="1354" HPOS="0"/>
+            <GraphicalElement ID="r_6" HEIGHT="958" WIDTH="5" VPOS="85" HPOS="10"/>
+            <GraphicalElement ID="r_7" HEIGHT="4" WIDTH="40" VPOS="116" HPOS="898"/>
+            <GraphicalElement ID="r_8" HEIGHT="120" WIDTH="14" VPOS="206" HPOS="369"/>
+            <GraphicalElement ID="r_9" HEIGHT="51" WIDTH="6" VPOS="221" HPOS="950"/>
+            <GraphicalElement ID="r_10" HEIGHT="32" WIDTH="3" VPOS="606" HPOS="1010"/>
+            <Illustration ID="r_1" HEIGHT="1466" WIDTH="1062" VPOS="0" HPOS="0"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

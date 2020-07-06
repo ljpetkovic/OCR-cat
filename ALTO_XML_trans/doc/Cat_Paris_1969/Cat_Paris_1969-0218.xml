@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-06T17:34:37.433+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2325" WIDTH="1191">
+         <TopMargin HEIGHT="71" WIDTH="1191" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="1882" WIDTH="0" VPOS="71" HPOS="0"/>
+         <RightMargin HEIGHT="1882" WIDTH="13" VPOS="71" HPOS="1178"/>
+         <BottomMargin HEIGHT="372" WIDTH="1191" VPOS="1953" HPOS="0"/>
+         <PrintSpace HEIGHT="1882" WIDTH="1178" VPOS="71" HPOS="0">
+            <TextBlock ID="r_3_1" HEIGHT="27" WIDTH="303" VPOS="1550" HPOS="300">
+               <Shape>
+                  <Polygon POINTS="300,1550 603,1550 603,1577 300,1577"/>
+               </Shape>
+               <TextLine ID="tl_1"
+                         BASELINE="1614"
+                         HEIGHT="91"
+                         WIDTH="312"
+                         VPOS="1523"
+                         HPOS="296">
+                  <String HEIGHT="91"
+                          WIDTH="94"
+                          VPOS="1523"
+                          HPOS="289"
+                          CONTENT="FELICIANO"/>
+                  <SP HEIGHT="91" WIDTH="7" VPOS="1523" HPOS="383"/>
+                  <String HEIGHT="91"
+                          WIDTH="87"
+                          VPOS="1523"
+                          HPOS="361"
+                          CONTENT="HERNANDE"/>
+                  <SP HEIGHT="91" WIDTH="7" VPOS="1523" HPOS="448"/>
+                  <String HEIGHT="91" WIDTH="36" VPOS="1523" HPOS="427" CONTENT="/"/>
+                  <SP HEIGHT="91" WIDTH="7" VPOS="1523" HPOS="463"/>
+                  <String HEIGHT="91"
+                          WIDTH="94"
+                          VPOS="1523"
+                          HPOS="441"
+                          CONTENT="SCULPTURE"/>
+                  <SP HEIGHT="91" WIDTH="7" VPOS="1523" HPOS="535"/>
+                  <String HEIGHT="91"
+                          WIDTH="87"
+                          VPOS="1523"
+                          HPOS="514"
+                          CONTENT="(Espagne"/>
+                  <SP HEIGHT="91" WIDTH="7" VPOS="1523" HPOS="601"/>
+                  <String HEIGHT="91" WIDTH="36" VPOS="1523" HPOS="572" CONTENT="4)."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_6" HEIGHT="10" WIDTH="183" VPOS="78" HPOS="488"/>
+            <GraphicalElement ID="r_7" HEIGHT="237" WIDTH="7" VPOS="1592" HPOS="15"/>
+            <GraphicalElement ID="r_8" HEIGHT="181" WIDTH="9" VPOS="738" HPOS="92"/>
+            <GraphicalElement ID="r_9" HEIGHT="234" WIDTH="6" VPOS="622" HPOS="130"/>
+            <GraphicalElement ID="r_10" HEIGHT="84" WIDTH="4" VPOS="834" HPOS="0"/>
+            <Illustration ID="r_1" HEIGHT="1439" WIDTH="1046" VPOS="71" HPOS="132"/>
+            <Illustration ID="r_11" HEIGHT="73" WIDTH="52" VPOS="1275" HPOS="908"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

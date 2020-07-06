@@ -21,7 +21,7 @@ Codes de sorties possibles (correspondant à la situation après correction éve
 
 echo "##########################################################################################"
 echo ""
-for f in /Users/carolinecorbieres/Desktop/OCR-cat/eval_txt/doc/Cat_Paris_1965.txt
+for f in /Users/carolinecorbieres/Desktop/OCR-cat/eval_txt/doc/Cat_Paris_1969.txt
 do
 	python3 /Users/carolinecorbieres/Desktop/OCR-cat/eval_txt/scripts/score_corr.py $f
 

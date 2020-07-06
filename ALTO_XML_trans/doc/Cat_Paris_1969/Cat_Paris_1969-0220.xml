@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-06T17:34:39.304+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Tags/>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2325" WIDTH="1191">
+         <TopMargin HEIGHT="0" WIDTH="1191" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2211" WIDTH="0" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2211" WIDTH="0" VPOS="0" HPOS="1191"/>
+         <BottomMargin HEIGHT="114" WIDTH="1191" VPOS="2211" HPOS="0"/>
+         <PrintSpace HEIGHT="2211" WIDTH="1191" VPOS="0" HPOS="0">
+            <TextBlock ID="region_1594048378539_2642"
+                       HEIGHT="66"
+                       WIDTH="798"
+                       VPOS="1463"
+                       HPOS="265">
+               <Shape>
+                  <Polygon POINTS="265,1463 265,1529 1063,1529 1063,1463"/>
+               </Shape>
+               <TextLine ID="line_1594048378549_2645"
+                         BASELINE="1529"
+                         HEIGHT="66"
+                         WIDTH="798"
+                         VPOS="1463"
+                         HPOS="265">
+                  <String HEIGHT="66"
+                          WIDTH="170"
+                          VPOS="1463"
+                          HPOS="248"
+                          CONTENT="DZEVAD"/>
+                  <SP HEIGHT="66" WIDTH="17" VPOS="1463" HPOS="418"/>
+                  <String HEIGHT="66"
+                          WIDTH="136"
+                          VPOS="1463"
+                          HPOS="367"
+                          CONTENT="HOZO"/>
+                  <SP HEIGHT="66" WIDTH="17" VPOS="1463" HPOS="503"/>
+                  <String HEIGHT="66" WIDTH="85" VPOS="1463" HPOS="452" CONTENT="/"/>
+                  <SP HEIGHT="66" WIDTH="17" VPOS="1463" HPOS="537"/>
+                  <String HEIGHT="66" WIDTH="102" VPOS="1463" HPOS="486" CONTENT="LA"/>
+                  <SP HEIGHT="66" WIDTH="17" VPOS="1463" HPOS="588"/>
+                  <String HEIGHT="66"
+                          WIDTH="153"
+                          VPOS="1463"
+                          HPOS="537"
+                          CONTENT="VEUVE"/>
+                  <SP HEIGHT="66" WIDTH="17" VPOS="1463" HPOS="689"/>
+                  <String HEIGHT="66"
+                          WIDTH="187"
+                          VPOS="1463"
+                          HPOS="639"
+                          CONTENT="JOYEUSE"/>
+                  <SP HEIGHT="66" WIDTH="17" VPOS="1463" HPOS="825"/>
+                  <String HEIGHT="66"
+                          WIDTH="272"
+                          VPOS="1463"
+                          HPOS="774"
+                          CONTENT="(Yougoslavie"/>
+                  <SP HEIGHT="66" WIDTH="17" VPOS="1463" HPOS="1046"/>
+                  <String HEIGHT="66" WIDTH="85" VPOS="1463" HPOS="978" CONTENT="8)."/>
+               </TextLine>
+            </TextBlock>
+            <GraphicalElement ID="r_3" HEIGHT="10" WIDTH="140" VPOS="845" HPOS="0"/>
+            <GraphicalElement ID="r_4" HEIGHT="9" WIDTH="139" VPOS="866" HPOS="0"/>
+            <GraphicalElement ID="r_5" HEIGHT="147" WIDTH="8" VPOS="1470" HPOS="120"/>
+            <Illustration ID="r_1" HEIGHT="2187" WIDTH="1191" VPOS="0" HPOS="0"/>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>
