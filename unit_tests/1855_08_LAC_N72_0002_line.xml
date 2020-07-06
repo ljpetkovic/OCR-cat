@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v2#"
+      xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <OCRProcessing ID="IdOcr">
+         <ocrProcessingStep>
+            <processingDateTime>2020-07-03T09:16:58.161+02:00</processingDateTime>
+            <processingSoftware>
+               <softwareCreator>READ COOP</softwareCreator>
+               <softwareName>Transkribus</softwareName>
+            </processingSoftware>
+         </ocrProcessingStep>
+      </OCRProcessing>
+   </Description>
+   <Layout>
+      <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="2203" WIDTH="1099">
+         <TopMargin HEIGHT="0" WIDTH="1099" VPOS="0" HPOS="0"/>
+         <LeftMargin HEIGHT="2192" WIDTH="15" VPOS="0" HPOS="0"/>
+         <RightMargin HEIGHT="2192" WIDTH="6" VPOS="0" HPOS="1093"/>
+         <BottomMargin HEIGHT="11" WIDTH="1099" VPOS="2192" HPOS="0"/>
+         <PrintSpace HEIGHT="2192" WIDTH="1078" VPOS="0" HPOS="15">
+            <TextBlock ID="r1" HEIGHT="2169" WIDTH="1061" VPOS="13" HPOS="24">
+               <Shape>
+                  <Polygon POINTS="24,13 24,2182 1085,2182 1085,13"/>
+               </Shape>
+               <TextLine ID="r1l26"
+                         BASELINE="601"
+                         HEIGHT="50"
+                         WIDTH="949"
+                         VPOS="551"
+                         HPOS="101">
+                  <String ID="string_r1l26"
+                          HEIGHT="50"
+                          WIDTH="949"
+                          VPOS="551"
+                          HPOS="101"
+                          CONTENT="en Grèce. &lt;i&gt;L. a. s&lt;/i&gt;/i, à Barbié du Bocage, Paris, 1806, 1 p. 1/4,"/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>
