@@ -16,7 +16,7 @@ dpi = int(sys.argv[2]) # 254
 pattern = r'[^/]+$'
 p = re.compile(pattern)
 result = p.search(fichier)
-fileName = result.group()  
+fileName = result.group().zfill(8)
 
 ##################################################################
 
@@ -244,4 +244,4 @@ for elt in root.iter():
             pixels = str(int(mm10) * dpi / 254)
             elt.set(l, pixels)
 
-tree.write(fichier + '_trans.xml', encoding='utf8', pretty_print=True)
+tree.write(fileName + '_trans.xml', encoding='utf8', pretty_print=True)

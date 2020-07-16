@@ -1,0 +1,39 @@
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+         <fileName>Cat_Paris_1969-0189.xml</fileName>
+      </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2020-07-06T17:34:11.762+02:00</processingDateTime>
+        <processingSoftware>
+               <softwareCreator>CONTRIBUTORS</softwareCreator>
+               <softwareName>pdfalto</softwareName>
+               <softwareVersion>0.1</softwareVersion>
+            </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Styles>
+     <TextStyle ID="FONT0" FONTFAMILY="unknown" FONTSIZE="unknown" FONTTYPE="unknown" FONTWIDTH="unknown" FONTCOLOR="unknown" FONTSTYLE=""/>
+     <TextStyle ID="FONT1" FONTFAMILY="unknown" FONTSIZE="unknown" FONTTYPE="unknown" FONTWIDTH="unknown" FONTCOLOR="unknown" FONTSTYLE="bold"/>
+     <TextStyle ID="FONT2" FONTFAMILY="unknown" FONTSIZE="unknown" FONTTYPE="unknown" FONTWIDTH="unknown" FONTCOLOR="unknown" FONTSTYLE="italics"/>
+</Styles>
+  <Tags/>
+  <Layout>
+    <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="659.0551181102362" WIDTH="301.03937007874015">
+      <PrintSpace HEIGHT="659.0551181102362" WIDTH="301.03937007874015" VPOS="0.0" HPOS="0.0">
+        <TextBlock ID="r_1_1" HEIGHT="16.15748031496063" WIDTH="208.91338582677164" VPOS="19.559055118110237" HPOS="9.070866141732283">
+          <TextLine ID="tl_1" BASELINE="138" HEIGHT="21.543307086614174" WIDTH="211.46456692913387" VPOS="17.5748031496063" HPOS="7.937007874015748">
+            <String HEIGHT="21.543307086614174" WIDTH="113.95275590551181" VPOS="17.5748031496063" HPOS="-0.28346456692913385" CONTENT="&lt;b&gt;OEUVRES" ID="tl_1_1" STYLEREFS="FONT1"/>
+            <SP HEIGHT="21.543307086614174" WIDTH="8.220472440944881" VPOS="17.5748031496063" HPOS="113.66929133858268"/>
+            <String HEIGHT="21.543307086614174" WIDTH="138.33070866141733" VPOS="17.5748031496063" HPOS="81.07086614173228" CONTENT="REPRODUITES&lt;/b&gt;" ID="tl_1_2" STYLEREFS="FONT1"/>
+          </TextLine>
+        </TextBlock>
+        <GraphicalElement ID="r_4" HEIGHT="0.28346456692913385" WIDTH="301.03937007874015" VPOS="658.7716535433071" HPOS="0.0"/>
+        <GraphicalElement ID="r_5" HEIGHT="659.0551181102362" WIDTH="0.8503937007874016" VPOS="0.0" HPOS="0.0"/>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>

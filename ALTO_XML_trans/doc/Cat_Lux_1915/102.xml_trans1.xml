@@ -1,0 +1,34 @@
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/standards/alto/ns-v2#" xmlns:page="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v2# http://www.loc.gov/standards/alto/alto.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+         <fileName>102.xml</fileName>
+      </sourceImageInformation>
+    <OCRProcessing ID="IdOcr">
+      <ocrProcessingStep>
+        <processingDateTime>2020-06-23T11:19:12.73+02:00</processingDateTime>
+        <processingSoftware>
+               <softwareCreator>CONTRIBUTORS</softwareCreator>
+               <softwareName>pdfalto</softwareName>
+               <softwareVersion>0.1</softwareVersion>
+            </processingSoftware>
+      </ocrProcessingStep>
+    </OCRProcessing>
+  </Description>
+  <Styles>
+     <TextStyle ID="FONT0" FONTFAMILY="unknown" FONTSIZE="unknown" FONTTYPE="unknown" FONTWIDTH="unknown" FONTCOLOR="unknown" FONTSTYLE=""/>
+     <TextStyle ID="FONT1" FONTFAMILY="unknown" FONTSIZE="unknown" FONTTYPE="unknown" FONTWIDTH="unknown" FONTCOLOR="unknown" FONTSTYLE="bold"/>
+     <TextStyle ID="FONT2" FONTFAMILY="unknown" FONTSIZE="unknown" FONTTYPE="unknown" FONTWIDTH="unknown" FONTCOLOR="unknown" FONTSTYLE="italics"/>
+</Styles>
+  <Tags/>
+  <Layout>
+    <Page ID="Page1" PHYSICAL_IMG_NR="1" HEIGHT="4324.4094488188975" WIDTH="3333.8582677165355">
+      <PrintSpace HEIGHT="4324.4094488188975" WIDTH="3333.8582677165355" VPOS="0.0" HPOS="0.0">
+        <GraphicalElement ID="r_3" HEIGHT="1455.1181102362204" WIDTH="20.47244094488189" VPOS="2418.8976377952754" HPOS="0.0"/>
+        <GraphicalElement ID="r_4" HEIGHT="240.9448818897638" WIDTH="18.89763779527559" VPOS="3614.1732283464567" HPOS="2256.6929133858266"/>
+        <GraphicalElement ID="r_5" HEIGHT="255.11811023622047" WIDTH="14.173228346456693" VPOS="3965.3543307086616" HPOS="2499.212598425197"/>
+        <Illustration ID="r_1" HEIGHT="4324.4094488188975" WIDTH="3333.8582677165355" VPOS="0.0" HPOS="0.0"/>
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>
