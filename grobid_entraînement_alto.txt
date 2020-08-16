@@ -1,0 +1,65 @@
+LA NOUVELLE GÉNÉRATION DES DONNÉES D'ENTRAÎNEMENT AVEC LES FICHIERS ALTO
+
+* lancer l'image docker stable
+
+docker pull medkhem/grobid-dictionaries-stable
+
+
+
+
+* synchronisation avec le trainingData_RDA_LDA 
+
+docker run -v /Users/ljudmilapetkovic/Desktop/GROBID_Dictionaries-master/trainingData_RDA_LAD/toyData:/grobid/grobid-dictionaries/resources -p 8080:8080 -it medkhem/grobid-dictionaries-stable bash
+
+
+
+
+* git pull
+
+
+* mvn clean install -DskipTests
+
+
+* DANS LES FICHIERS ALTOS EXPORTÉS COPIER-COLLER LE
+
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns="http://www.loc.gov/standards/alto/v3/alto.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.loc.gov/standards/alto/v3/alto.xsd             http://www.loc.gov/standards/alto/v3/alto.xsd ">
+
+
+
+EN GROS,
+REMPLACER D'ABORD LE 
+
+http://www.loc.gov/standards/alto/ns-v2# 
+
+PAR 
+
+http://www.loc.gov/standards/alto/v3/alto.xsd
+
+* TRANSFORMER AVEC LE CORR_TRANS_ALTO.SH
+
+
+* ajouter -isAlto à la commande habituelle comme par exemple:
+java -jar /grobid/grobid-dictionaries/target/grobid-dictionaries-0.5.4-SNAPSHOT.one-jar.jar -dIn /Users/med/git/grobid/grobid-dictionaries/src/test/resources/1871_08_RDA_N028-1.xml_final.new.xml -isALTO  -dOut resources -exe createTrainingDictionaryBodySegmentation
+
+- pour moi :
+
+- Les entraînements 
+
+1. Dictionary Segmentation
+
+java -jar /grobid/grobid-dictionaries/target/grobid-dictionaries-0.5.4-SNAPSHOT.one-jar.jar -dIn resources/dataset/dictionary-segmentation/corpus/alto/* -isALTO -dOut resources -exe createTrainingDictionarySegmentation
+
+
+
+* voir les changements dans l'image:
+git pull
+
+puis
+mvn clean install -DskipTests
+Attension si ça ne march pas ça peut être
+1. le DS_store là où sont les altos
+2. les fichiers ALTO mal formés
+on a déjà eu un problème avec le point 2, d'après Mohamed
