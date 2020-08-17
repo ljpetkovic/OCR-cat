@@ -8,7 +8,9 @@ The main idea is to train two _GROBID-dictionaries_ models:
 on the fixed-price catalogues published by:
 
 * Jacques Charavay (hereinafter `LAC`);
-* Auguste Laverdet (hereinafter `LAV`)
+* Auguste Laverdet (hereinafter `LAV`);
+
+in the ALTO-XML format.
 
 ### Sampling criteria
 
