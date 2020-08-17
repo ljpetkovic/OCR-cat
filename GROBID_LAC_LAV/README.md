@@ -24,7 +24,7 @@ The catalogues were divided into two subsets: the training set containing 4 page
 
 Current results after training the model on the `LAC` catalogues (the `LAV` catalogues' training data are to be added):
 
-![LAC_dictionary-segmentation](/Users/ljudmilapetkovic/Downloads/OCRcat/GROBID_LAC_LAV/img/LAC_dictionary-segmentation.png)
+![LAC_dictionary-segmentation](/Users/ljudmilapetkovic/Downloads/OCRcat/GROBID_LAC_LAV/img/LAC_dictionary-segmentation.jpg)
 
 #### 2. Without the typographical information
 
