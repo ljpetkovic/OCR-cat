@@ -1,4 +1,4 @@
-# Training the_GROBID-dictionaries_ with the ALTO-XML files
+# Training the *GROBID*-dictionaries with the ALTO-XML files
 
 The main idea is to train two _GROBID-dictionaries_ models:
 
