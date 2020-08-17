@@ -2,7 +2,7 @@
 
 The main idea is to train two _GROBID-dictionaries_ models:
 
-* one using the markup tags `<b>` (bold) and `<i> ` (italic), and
+* one using the markup tags `<b>` (bold) and `<i>` (italic), and
 * the other without the typographical information,
 
 on the fixed-price catalogues published by:
