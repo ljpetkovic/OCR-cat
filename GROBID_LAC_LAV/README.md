@@ -2,7 +2,7 @@
 
 The main idea is to train two _GROBID-dictionaries_ models:
 
-* one using the markup tags `<b>` (bold) and `<i> ` (italic), and
+* one using the markup tags `<b>` (bold) and `<i>` (italic);
 * the other without the typographical information,
 
 on the fixed-price catalogues published by:
@@ -24,7 +24,7 @@ The catalogues were divided into two subsets: the training set containing 4 page
 
 Current results after training the model on the `LAC` catalogues (the `LAV` catalogues' training data are to be added):
 
-![LAC_dictionary-segmentation](/Users/ljudmilapetkovic/Desktop/LAC_dictionary-segmentation.png)
+![LAC_dictionary-segmentation](/Users/ljudmilapetkovic/Downloads/OCRcat/GROBID_LAC_LAV/img/LAC_dictionary-segmentation.png)
 
 #### 2. Without the typographical information
 
