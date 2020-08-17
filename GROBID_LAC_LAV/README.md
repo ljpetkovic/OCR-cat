@@ -20,6 +20,12 @@ The catalogues were divided into two subsets: the training set containing 4 page
 
 **N.B.:** In order to have a sufficient number of pages from the oldest releases of the `LAC` catalogues containing the information about the manuscrips sales, we combined one page from the catalogue released in November 1845 (Nº4) and four pages from the one released on the 1st January 1846 (Nº5).   
 
+### Annotation 
+
+We have annotated the catalogues on 5 levels:
+
+1. `dictionary-segmentation` level with the `<headline>` and `<body>` tags;
+
 ### Training results
 
 #### 1. With the typographical information
