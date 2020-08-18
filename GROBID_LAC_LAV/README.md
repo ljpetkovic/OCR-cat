@@ -30,9 +30,15 @@ We have annotated the catalogues on 5 levels:
 
 #### 1. With the typographical information
 
-Current results after training the model on the `LAC` catalogues (the `LAV` catalogues' training data are to be added):
+Current results after training the model on the `LAC` catalogues, based on five levels (the `LAV` catalogues' training data are to be added):
 
-![LAC_dictionary-segmentation](img/LAC_dictionary-segmentation-all.jpg)
+a) `dictionary-segmentation`:
+
+![LAC_dictionary-segmentation](img/LAC_dictionary-segmentation.jpg)
+
+b) `dictionary-body-segmentation`:
+
+![LAC_dictionary-body-segmentation](/Users/ljudmilapetkovic/Downloads/OCRcat/GROBID_LAC_LAV/img/LAC_dictionary-body-segmentation.jpg)
 
 #### 2. Without the typographical information
 
