@@ -32,7 +32,7 @@ We have annotated the catalogues on 5 levels:
 
 Current results after training the model on the `LAC` catalogues (the `LAV` catalogues' training data are to be added):
 
-![LAC_dictionary-segmentation](img/LAC_dictionary-segmentation.jpg)
+![LAC_dictionary-segmentation](img/LAC_dictionary-segmentation-all.jpg)
 
 #### 2. Without the typographical information
 
