@@ -40,7 +40,7 @@ a) `dictionary-segmentation`:
 
 b) `dictionary-body-segmentation`:
 
-
+![LAC_LAV_dictionary-body-segmentation](img/LAC_LAV_dictionary-body-segmentation.jpg)
 
 Results after training the model on the `LAC` catalogues:
 
