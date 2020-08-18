@@ -38,7 +38,7 @@ a) `dictionary-segmentation`:
 
 b) `dictionary-body-segmentation`:
 
-![LAC_dictionary-body-segmentation](/Users/ljudmilapetkovic/Downloads/OCRcat/GROBID_LAC_LAV/img/LAC_dictionary-body-segmentation.jpg)
+![LAC_dictionary-body-segmentation](img/LAC_dictionary-body-segmentation.jpg)
 
 #### 2. Without the typographical information
 
