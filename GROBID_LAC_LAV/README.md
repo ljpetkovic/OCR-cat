@@ -30,7 +30,19 @@ We have annotated the catalogues on 5 levels:
 
 #### 1. With the typographical information
 
-Current results after training the model on the `LAC` catalogues, at five granularity levels (the `LAV` catalogues' training data are to be added):
+Results after training the model on the `LAC` and the `LAV` catalogues, at five granularity levels:
+
+a) `dictionary-segmentation`:
+
+ ![LAC_LAV_dictionary-segmentation](img/LAC_LAV_dictionary-segmentation.jpg)
+
+
+
+b) `dictionary-body-segmentation`:
+
+
+
+Results after training the model on the `LAC` catalogues:
 
 a) `dictionary-segmentation`:
 
