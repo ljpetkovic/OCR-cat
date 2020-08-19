@@ -36,11 +36,19 @@ a) `dictionary-segmentation`:
 
  ![LAC_LAV_dictionary-segmentation](img/LAC_LAV_dictionary-segmentation.jpg)
 
-
+<b>
 
 b) `dictionary-body-segmentation`:
 
 ![LAC_LAV_dictionary-body-segmentation](img/LAC_LAV_dictionary-body-segmentation.jpg)
+
+<b>
+
+c) `lexical-entry`
+
+![LAC_LAV_lexical-entry](img/LAC_LAV_lexical-entry.jpg)
+
+
 
 Results after training the model on the `LAC` catalogues:
 
