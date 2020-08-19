@@ -32,19 +32,19 @@ We have annotated the catalogues on 5 levels:
 
 Results after training the model on the `LAC` and the `LAV` catalogues, at five granularity levels:
 
-a) `dictionary-segmentation`:
+a) **`dictionary-segmentation`:**
 
  ![LAC_LAV_dictionary-segmentation](img/LAC_LAV_dictionary-segmentation.jpg)
 
-<b>
+<br/>
 
-b) `dictionary-body-segmentation`:
+**b) `dictionary-body-segmentation`:**
 
 ![LAC_LAV_dictionary-body-segmentation](img/LAC_LAV_dictionary-body-segmentation.jpg)
 
-<b>
+<br/>
 
-c) `lexical-entry`
+**c) `lexical-entry`:**
 
 ![LAC_LAV_lexical-entry](img/LAC_LAV_lexical-entry.jpg)
 
@@ -52,11 +52,13 @@ c) `lexical-entry`
 
 Results after training the model on the `LAC` catalogues:
 
-a) `dictionary-segmentation`:
+**a) `dictionary-segmentation`:**
 
 ![LAC_dictionary-segmentation](img/LAC_dictionary-segmentation.jpg)
 
-b) `dictionary-body-segmentation`:
+<br/>
+
+**b) `dictionary-body-segmentation`:**
 
 ![LAC_dictionary-body-segmentation](img/LAC_dictionary-body-segmentation.jpg)
 
