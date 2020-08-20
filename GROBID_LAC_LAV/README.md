@@ -56,6 +56,12 @@ d) **`form`:**
 
 ![LAC_LAV_form](img/LAC_LAV_form.jpg)
 
+<br/>
+
+e) **`sense`:**
+
+![LAC_LAV_sense](img/LAC_LAV_sense.jpg)
+
 Results after training the model on the `LAC` catalogues:
 
 a) **`dictionary-segmentation`:**
