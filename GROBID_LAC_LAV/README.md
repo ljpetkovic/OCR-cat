@@ -38,27 +38,33 @@ a) **`dictionary-segmentation`:**
 
 <br/>
 
-**b) `dictionary-body-segmentation`:**
+b) **`dictionary-body-segmentation`:**
 
 ![LAC_LAV_dictionary-body-segmentation](img/LAC_LAV_dictionary-body-segmentation.jpg)
 
 <br/>
 
-**c) `lexical-entry`:**
+c) **`lexical-entry`:**
 
 ![LAC_LAV_lexical-entry](img/LAC_LAV_lexical-entry.jpg)
 
 
 
+<br/>
+
+d) **`form`:**
+
+![LAC_LAV_form](img/LAC_LAV_form.jpg)
+
 Results after training the model on the `LAC` catalogues:
 
-**a) `dictionary-segmentation`:**
+a) **`dictionary-segmentation`:**
 
 ![LAC_dictionary-segmentation](img/LAC_dictionary-segmentation.jpg)
 
 <br/>
 
-**b) `dictionary-body-segmentation`:**
+b) **`dictionary-body-segmentation`:**
 
 ![LAC_dictionary-body-segmentation](img/LAC_dictionary-body-segmentation.jpg)
 
