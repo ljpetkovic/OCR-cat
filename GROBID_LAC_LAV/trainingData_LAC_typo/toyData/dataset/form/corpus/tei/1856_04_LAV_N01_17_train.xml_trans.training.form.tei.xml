@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="form.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-stylesheet type="text/css" href="form.css"?>
+<tei xml:space="preserve">
+	<teiHeader>
+		<fileDesc xml:id=""/>
+	</teiHeader>
+	<text>
+		<body><form><name>Henri d'Albret</name>, <desc>roi de Navarre, grand-père d'Henri IV</desc></form><form><name>Joauny (Jean-Bernard Brisebarre dit</name>), <desc>acteur sociétaire du <lb/>Théâtre Français. Né à Dijon en 1775. Mort en 1849</desc></form><form><name>La Rochefoucauld (François VI, duc de</name>), <desc>le célèbre auteur <lb/>des Maximes</desc> </form><form><name>Lebeuf (l'abbé Jean</name>), <desc>chanoine d'Auxerre auteur d'un grand <lb/>nombre d'ouvrages sur l'histoire de France. Né à Auxerre</desc> </form><form><name>Le Cat (Cl. Nic.</name>), <desc>célèbre médecin</desc></form><form><name>Louis VII</name> <desc>roi de France</desc></form></body>
+	</text>
+</tei>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="form.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-stylesheet type="text/css" href="form.css"?>
+<tei xml:space="preserve">
+	<teiHeader>
+		<fileDesc xml:id=""/>
+	</teiHeader>
+	<text>
+		<body><form><name>Louis XVI</name>, <desc>roi de France</desc></form><form><name>Louis-Philippe Ier</name>, <desc>roi des Français et sa famille <lb/>Sa signature originale et celle des membres de sa famille</desc></form><form><name>Mahmoud II</name>, <desc>empereur des Turcs</desc></form><form><name>Marcellus (le comte de</name>), <desc>pair de France, littérateur, publiciste. <lb/>Né à Marcellus (Lot-et-Garonne</desc>)</form><form><name>Méchain</name>, <desc>astronome, membre de l'Institut. Né à Laon</desc> </form><form><name>Numismatique</name> <desc>Catalogue des médaillons et des médailles <lb/>principales du cabinet de M. Foucault, maître des requêtes, inten <lb/>dant de justice, police et finances de Caen</desc></form></body>
+	</text>
+</tei>
