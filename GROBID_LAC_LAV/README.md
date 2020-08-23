@@ -76,4 +76,6 @@ b) **`dictionary-body-segmentation`:**
 
 #### 2. Without the typographical information
 
-TO DO
+a) **`dictionary-segmentation`:**
+
+![LAC_LAV_dictionary-segmentation](img/LAC_LAV_dictionary-segmentation.jpg)
