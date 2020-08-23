@@ -112,7 +112,7 @@ In terms of precision and F1 measure:
 
 <br/>
 
-Results after training the model on the `LAC` catalogues:
+### Results after training the model on the `LAC` catalogues:
 
 a) **`dictionary-segmentation`:**
 
