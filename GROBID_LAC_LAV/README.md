@@ -62,6 +62,16 @@ e) **`sense`:**
 
 ![LAC_LAV_sense](img/LAC_LAV_sense.jpg)
 
+#### 2. Without the typographical information
+
+a) **`dictionary-segmentation`:**
+
+![LAC_LAV_dictionary-segmentation](img/LAC_LAV_dictionary-segmentation.jpg)
+
+
+
+<br/>
+
 Results after training the model on the `LAC` catalogues:
 
 a) **`dictionary-segmentation`:**
@@ -74,8 +84,4 @@ b) **`dictionary-body-segmentation`:**
 
 ![LAC_dictionary-body-segmentation](img/LAC_dictionary-body-segmentation.jpg)
 
-#### 2. Without the typographical information
-
-a) **`dictionary-segmentation`:**
-
-![LAC_LAV_dictionary-segmentation](img/LAC_LAV_dictionary-segmentation.jpg)
+#### 
