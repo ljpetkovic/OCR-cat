@@ -46,7 +46,7 @@ b) **`dictionary-body-segmentation`:**
 
 c) **`lexical-entry`:**
 
-
+![LAC_LAV_lexical-entry](trainingData_LAC_typo/img/LAC_LAV_lexical-entry.jpg)
 
 
 
