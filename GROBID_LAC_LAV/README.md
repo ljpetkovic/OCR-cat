@@ -34,7 +34,7 @@ Results after training the model on the `LAC` and the `LAV` catalogues, at five 
 
 a) **`dictionary-segmentation`:**
 
- ![LAC_LAV_dictionary-segmentation](img/LAC_LAV_dictionary-segmentation.jpg)
+ ![LAC_LAV_dictionary-segmentation](trainingData_LAC_typo/img/LAC_LAV_dictionary-segmentation.jpg)
 
 <br/>
 
