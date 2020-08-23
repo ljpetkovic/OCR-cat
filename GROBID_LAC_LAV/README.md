@@ -46,7 +46,7 @@ b) **`dictionary-body-segmentation`:**
 
 c) **`lexical-entry`:**
 
-![LAC_LAV_lexical-entry](img/LAC_LAV_lexical-entry.jpg)
+
 
 
 
@@ -54,13 +54,13 @@ c) **`lexical-entry`:**
 
 d) **`form`:**
 
-![LAC_LAV_form](img/LAC_LAV_form.jpg)
+
 
 <br/>
 
 e) **`sense`:**
 
-![LAC_LAV_sense](img/LAC_LAV_sense.jpg)
+
 
 #### 2. Without the typographical information
 
