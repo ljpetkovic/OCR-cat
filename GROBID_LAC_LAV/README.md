@@ -104,11 +104,11 @@ In terms of precision and F1 measure:
 
 `dictionary-body-segmentation`: better results with the typographical information for `<entry>`
 
-`lexical-entry`: better precision with the typographical information for `<lemma>` and `<note>`, but not for `<sense>`;
+`lexical-entry`: better precision without the typographical information for `<lemma>` (but not for `<sense>`), but better F1-measure for the aforementioned tags with the typographical information;
 
-`form`: better precision with the typographical information for `<desc>` and `<name>`;
+`form`: equal precision for `<desc>`, but better F1-measure for the same tag with the typographical information; better results with the typographical information for `<name>`;
 
-`sense`: better precision with the typographical information for `<note>` and `<subSense>`.
+`sense`: better results with the typographical information for `<note>` and `<subSense>`.
 
 <br/>
 
