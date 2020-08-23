@@ -34,19 +34,19 @@ Results after training the model on the `LAC` and the `LAV` catalogues, at five 
 
 a) **`dictionary-segmentation`:**
 
- ![LAC_LAV_dictionary-segmentation](trainingData_LAC_typo/img/LAC_LAV_dictionary-segmentation.jpg)
+ ![LAC_LAV_dictionary-segmentation](trainingData_LAC_LAV_typo/img/LAC_LAV_dictionary-segmentation.jpg)
 
 <br/>
 
 b) **`dictionary-body-segmentation`:**
 
-![LAC_LAV_dictionary-body-segmentation](trainingData_LAC_typo/img/LAC_LAV_dictionary-body-segmentation.jpg)
+![LAC_LAV_dictionary-body-segmentation](trainingData_LAC_LAV_typo/img/LAC_LAV_dictionary-body-segmentation.jpg)
 
 <br/>
 
 c) **`lexical-entry`:**
 
-![LAC_LAV_lexical-entry](trainingData_LAC_typo/img/LAC_LAV_lexical-entry.jpg)
+![LAC_LAV_lexical-entry](trainingData_LAC_LAV_typo/img/LAC_LAV_lexical-entry.jpg)
 
 
 
@@ -54,13 +54,13 @@ c) **`lexical-entry`:**
 
 d) **`form`:**
 
-![LAC_LAV_form](trainingData_LAC_typo/img/LAC_LAV_form.jpg)
+![LAC_LAV_form](trainingData_LAC_LAV_typo/img/LAC_LAV_form.jpg)
 
 <br/>
 
 e) **`sense`:**
 
-![LAC_LAV_sense](trainingData_LAC_typo/img/LAC_LAV_sense.jpg)
+![LAC_LAV_sense](trainingData_LAC_LAV_typo/img/LAC_LAV_sense.jpg)
 
 
 
@@ -68,7 +68,7 @@ e) **`sense`:**
 
 a) **`dictionary-segmentation`:**
 
-![LAC_LAV_dictionary-segmentation](trainingData_LAC_sans_typo/img/LAC_LAV_dictionary-segmentation.jpg)
+![LAC_LAV_dictionary-segmentation](trainingData_LAC_LAV_sans_typo/img/LAC_LAV_dictionary-segmentation.jpg)
 
 
 
@@ -76,25 +76,25 @@ a) **`dictionary-segmentation`:**
 
 b) **`dictionary-body-segmentation`:**
 
-![LAC_LAV_dictionary-body-segmentation](trainingData_LAC_sans_typo/img/LAC_LAV_dictionary-body-segmentation.jpg)
+![LAC_LAV_dictionary-body-segmentation](trainingData_LAC_LAV_sans_typo/img/LAC_LAV_dictionary-body-segmentation.jpg)
 
 <br/>
 
 c) **`lexical-entry`:**
 
-![LAC_LAV_lexical-entry](trainingData_LAC_sans_typo/img/LAC_LAV_lexical-entry.jpg)
+![LAC_LAV_lexical-entry](trainingData_LAC_LAV_sans_typo/img/LAC_LAV_lexical-entry.jpg)
 
 <br/>
 
 d)  **`form`:**
 
-![LAC_LAV_form](trainingData_LAC_sans_typo/img/LAC_LAV_form.jpg)
+![LAC_LAV_form](trainingData_LAC_LAV_sans_typo/img/LAC_LAV_form.jpg)
 
 <br/>
 
 e)  **`sense`:**
 
-![LAC_LAV_sense](trainingData_LAC_sans_typo/img/LAC_LAV_sense.jpg)
+![LAC_LAV_sense](trainingData_LAC_LAV_sans_typo/img/LAC_LAV_sense.jpg)
 
 #### ### Conclusion
 
