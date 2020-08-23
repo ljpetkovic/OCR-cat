@@ -76,18 +76,6 @@ b) **`dictionary-body-segmentation`:**
 
 ![LAC_LAV_dictionary-body-segmentation](trainingData_LAC_sans_typo/img/LAC_LAV_dictionary-body-segmentation.jpg)
 
-Results after training the model on the `LAC` catalogues:
-
-a) **`dictionary-segmentation`:**
-
-![LAC_dictionary-segmentation](img/LAC_dictionary-segmentation.jpg)
-
-<br/>
-
-b) **`dictionary-body-segmentation`:**
-
-![LAC_dictionary-body-segmentation](img/LAC_dictionary-body-segmentation.jpg)
-
 <br/>
 
 c) **`lexical-entry`:**
@@ -119,3 +107,19 @@ In terms of precision and F1 measure:
 `form`: better precision with the typographical information for `<desc>` and `<name>`;
 
 `sense`: better precision with the typographical information for `<note>` and `<subSense>`.
+
+<br/>
+
+Results after training the model on the `LAC` catalogues:
+
+a) **`dictionary-segmentation`:**
+
+![LAC_dictionary-segmentation](img/LAC_dictionary-segmentation.jpg)
+
+<br/>
+
+b) **`dictionary-body-segmentation`:**
+
+![LAC_dictionary-body-segmentation](img/LAC_dictionary-body-segmentation.jpg)
+
+<br/>
