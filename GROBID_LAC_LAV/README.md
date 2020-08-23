@@ -54,7 +54,7 @@ c) **`lexical-entry`:**
 
 d) **`form`:**
 
-
+![LAC_LAV_form](trainingData_LAC_typo/img/LAC_LAV_form.jpg)
 
 <br/>
 
