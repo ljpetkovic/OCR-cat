@@ -40,7 +40,7 @@ a) **`dictionary-segmentation`:**
 
 b) **`dictionary-body-segmentation`:**
 
-![LAC_LAV_dictionary-body-segmentation](trainingData_LAC_typo/img/LAC_LAV_dictionary-body-segmentation.jpg)
+![LAC_LAV_dictionary-body-segmentation](/Users/ljudmilapetkovic/Downloads/OCRcat/GROBID_LAC_LAV/trainingData_LAC_typo/img/LAC_LAV_dictionary-body-segmentation.jpg)
 
 <br/>
 
