@@ -60,6 +60,8 @@ d) **`form`:**
 
 e) **`sense`:**
 
+![LAC_LAV_sense](trainingData_LAC_typo/img/LAC_LAV_sense.jpg)
+
 
 
 #### 2. Without the typographical information
