@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="form.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-stylesheet type="text/css" href="form.css"?>
+<tei xml:space="preserve">
+	<teiHeader>
+		<fileDesc xml:id=""/>
+	</teiHeader>
+	<text>
+		<body><form><name>POULTIER</name>, <desc>conventionnel, journaliste, etc</desc>.</form><form><name>REVERCHON</name>, <desc>conventionnel</desc></form><form><name>REYNAUD</name>, <desc>conventionnel</desc></form><form><name>ROBERJOT</name>, <desc>conventionnel</desc></form><form><name>ROIS de France, Louis XIII, Louis XIV, Louis XV et Louis XVI</name></form><form><name>ROUX</name>, <desc>conventionnel</desc></form><form><name>SAINT-SIMON (Claude-Henri</name>), <desc>créateur de la doctrine de ce <lb/>nom</desc></form><form><name>SARRAZIN</name>, <desc>maréchal de camp, écrivain</desc></form><form><name>SAVARY</name>, <desc>duc de Rovigo, général ministre</desc></form><form><name>SÉGUR (L.-P.</name>), <desc>grand maître des cérémonies, membre de l'Ins <lb/>itut</desc></form><form><name>SOUBISE (Charles de Rohan, prince de</name>), <desc>maréchal de France</desc></form><form><name>SPINA (J.</name>), <desc>cardinal</desc></form><form><name>STANISLAS</name>, <desc>roi de Pologne</desc></form><form><name>THIBAULT</name>, <desc>conventionnel</desc></form><form><name>THURIOT</name>, <desc>conventionnel</desc></form><form><name>TRACY (DESTUTT DE</name>), <desc>député, pair, de l'Institut, etc, Paris <lb/>1811</desc></form><form><name>VALLONGUE (Pascal</name>), <desc>général de division du génie</desc></form><form><name>VAUVILLIERS (J.-F.</name>), <desc>savant helléniste et lieutenant de maire <lb/>en 1789</desc></form><form><name>VERNIER</name>, <desc>conventionnel, sénateur</desc></form><form><name>VISCONTI</name>, <desc>savant antiquaire, auteur de l'Iconographie ro <lb/>maine</desc></form><form><name>VITET</name>, <desc>conventionnel</desc></form><form><name>WELLINGTON</name>, <desc>célèbre général anglais Londres 30 juillet 1836</desc></form><form><name>WILLOT</name>, <desc>général de division, député, Marséille</desc></form></body>
+	</text>
+</tei>
