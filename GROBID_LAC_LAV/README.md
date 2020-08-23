@@ -96,7 +96,7 @@ e)  **`sense`:**
 
 ![LAC_LAV_sense](trainingData_LAC_LAV_sans_typo/img/LAC_LAV_sense.jpg)
 
-#### ### Conclusion
+### Conclusion
 
 In terms of precision and F1 measure:
 
