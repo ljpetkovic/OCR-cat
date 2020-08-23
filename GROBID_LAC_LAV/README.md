@@ -116,12 +116,10 @@ Results after training the model on the `LAC` catalogues:
 
 a) **`dictionary-segmentation`:**
 
-![LAC_dictionary-segmentation](img/LAC_dictionary-segmentation.jpg)
+![LAC_dictionary-segmentation](trainingData_LAC/img/LAC_dictionary-segmentation.jpg)
 
 <br/>
 
 b) **`dictionary-body-segmentation`:**
 
-![LAC_dictionary-body-segmentation](img/LAC_dictionary-body-segmentation.jpg)
-
-<br/>
+![LAC_dictionary-body-segmentation](trainingData_LAC/img/LAC_dictionary-body-segmentation.jpg)
