@@ -274,4 +274,5 @@ In terms of precision and F1 measure:
 
 When comparing e.g. the results of the `LAC` (which are better in comparison with the `LAV` catalogues) and `LAC + LAV` catalogues with the typographical information, it is evident that the results slightly deteriorate with the addition of the new data, which is understandable, because it is more difficult for the model to generalise.
 
-Nevertheless, the results for the `LAC + LAV` catalogues are still satisfying, given that the precision and the F-1 measure scores are   above the 90% at almost all levels (except the `lexical-entry` level, where the scores for `<lemma>` and `<sense>` lean more to the 80%).
+Nevertheless, the results for the `LAC + LAV` catalogues with the typographical information are still satisfying, given that the precision and the F-1 measure scores are   above the 90% at almost all levels (except the `lexical-entry` level, where the scores for `<lemma>` and `<sense>` lean more to the 80%). 
+
