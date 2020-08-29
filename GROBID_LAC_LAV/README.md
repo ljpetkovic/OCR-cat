@@ -114,12 +114,16 @@ In terms of precision and F1 measure:
 
 ### Results after training the model on the `LAC` catalogues:
 
+#### With the typographical information
+
 a) **`dictionary-segmentation`:**
 
-![LAC_dictionary-segmentation](trainingData_LAC/img/LAC_dictionary-segmentation.jpg)
+![LAC_dictionary-segmentation](trainingData_LAC_typo/img/LAC_dictionary-segmentation.jpg)
 
 <br/>
 
 b) **`dictionary-body-segmentation`:**
 
 ![LAC_dictionary-body-segmentation](trainingData_LAC/img/LAC_dictionary-body-segmentation.jpg)
+
+#### Without the typographical information
