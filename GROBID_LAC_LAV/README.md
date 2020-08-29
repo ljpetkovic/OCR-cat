@@ -154,21 +154,22 @@ a) **`dictionary-segmentation`:**
 
 b) **`dictionary-body-segmentation`:**
 
-
+![LAC_dictionary-body-segmentation](trainingData_LAC_sans_typo/img/LAC_dictionary-body-segmentation.jpg)
 
 <br/>
 
 c) **`lexical-entry`:**
 
-
+![LAC_lexical-entry](trainingData_LAC_sans_typo/img/LAC_lexical-entry.jpg)
 
 <br/>
 
 d) **`form`:**
 
-
+![LAC_form](trainingData_LAC_sans_typo/img/LAC_form.jpg)
 
 <br/>
 
 e) **`sense`:**
 
+![LAC_sense](trainingData_LAC_sans_typo/img/LAC_sense.jpg)
