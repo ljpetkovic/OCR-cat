@@ -96,19 +96,19 @@ e)  **`sense`:**
 
 ![LAC_LAV_sense](trainingData_LAC_LAV_sans_typo/img/LAC_LAV_sense.jpg)
 
-### Conclusion
+### 1<sup>st</sup> conclusion 
 
 In terms of precision and F1 measure:
 
 `dictionary-segmentation`: no changes
 
-`dictionary-body-segmentation`: better results with the typographical information for `<entry>`
+`dictionary-body-segmentation`: better results **with** the typographical information for `<entry>`
 
-`lexical-entry`: better precision without the typographical information for `<lemma>` (but not for `<sense>`), but better F1-measure for the aforementioned tags with the typographical information;
+`lexical-entry`: better precision **without** the typographical information for `<lemma>` (but better precision **with** the typographical information for `<sense>`), but better F1-measure for the aforementioned tags **with** the typographical information;
 
-`form`: equal precision for `<desc>`, but better F1-measure for the same tag with the typographical information; better results with the typographical information for `<name>`;
+`form`: equal precision for `<desc>`, but better F1-measure for the same tag **with** the typographical information; better results **with** the typographical information for `<name>`;
 
-`sense`: better results with the typographical information for `<note>` and `<subSense>`.
+`sense`: better results **with** the typographical information for `<note>` and `<subSense>`.
 
 <br/>
 
@@ -176,6 +176,20 @@ e) **`sense`:**
 
 
 
+### 2<sup>nd</sup> conclusion 
+
+In terms of precision and F1 measure:
+
+`dictionary-segmentation`: no changes
+
+`dictionary-body-segmentation`: better results **with** the typographical information for `<entry>`
+
+`lexical-entry`: better results **without** the typographical information for `<lemma>` and `<sense>`;
+
+`form`: better precision and F1-measure for `<desc>`, equal precision `<name>` and better F1-measure for the same tag **with** the typographical information; 
+
+`sense`: better results **with** the typographical information for `<note>` and `<subSense>`.
+
 ### Results after training the model on the `LAV` catalogues:
 
 #### With the typographical information
@@ -239,3 +253,25 @@ d) **`form`:**
 e) **`sense`:**
 
 ![LAV_sense](trainingData_LAV_sans_typo/img/LAV_sense.jpg)
+
+
+
+### 3<sup>rd</sup> conclusion 
+
+In terms of precision and F1 measure:
+
+`dictionary-segmentation`: no changes
+
+`dictionary-body-segmentation`: better results **with** the typographical information for `<entry>`
+
+`lexical-entry`: better results **with** the typographical information for `<lemma>` and `<sense>`;
+
+`form`: better precision and F1-measure for `<desc>` and `<name>` **without** the typographical information; 
+
+`sense`: equal precision and better F1-measure for `<note>`, as well as better results for `<subSense>` **with** the typographical information;
+
+### Final conclusion 
+
+When comparing e.g. the results of the `LAC` (which are better in comparison with the `LAV` catalogues) and `LAC + LAV` catalogues with the typographical information, it is evident that the results slightly deteriorate with the addition of the new data, which is understandable, because it is more difficult for the model to generalise.
+
+Nevertheless, the results for the `LAC + LAV` catalogues are still satisfying, given that the precision and the F-1 measure scores are   above the 90% at almost all levels (except the `lexical-entry` level, where the scores for `<lemma>` and `<sense>` lean more to the 80%).
