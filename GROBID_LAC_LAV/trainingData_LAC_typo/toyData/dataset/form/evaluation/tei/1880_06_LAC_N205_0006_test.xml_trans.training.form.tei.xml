@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="form.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-stylesheet type="text/css" href="form.css"?>
+<tei xml:space="preserve">
+	<teiHeader>
+		<fileDesc xml:id=""/>
+	</teiHeader>
+	<text>
+		<body><form><name>LE TELLIER (Ch.-M.</name>), <desc>archevêque de Reims, célèbre par sa <lb/>haine contre les Jésuites</desc></form><form><name>LOBINEAU (Dom Gui-Alexis</name>), <desc>le savant historien de la Bre <lb/>tagne</desc></form><form><name>MIONNET (Th.-Edme</name>), <desc>le célèbre numismate</desc></form><form><name>MONTPENSIER (Louis de BOURBON, duc de</name>), <desc>dauphin d'Au <lb/>vergne, illustre capitaine, qui se signala par sa cruauté <lb/>envers les huguenots</desc></form><form><name>MORARD DE GALLE (Justin-Bonaventure</name>), <desc>vice-amiral, un <lb/>des plus célèbres marins de la République, né en Dau <lb/>phiné</desc></form><form><name>NAPOLÉON Ier</name>, <desc>empereur des Français</desc></form><form><name>NAPOLÉON III</name>, <desc>empereur des Français</desc></form><form><name>NELSON (H.</name>), <desc>l'illustre amiral anglais</desc></form><form><name>ORLÉANS (Jean-Philippe, chevalier d'</name>), <desc>fils légitimé du Ré <lb/>gent et de la comtesse d'Argenton, grand-prieur de <lb/>France</desc></form><form><name>ORLÉANS (Adélaïde d'</name>), <desc>soeur de Louis-Philippe</desc></form></body>
+	</text>
+</tei>
