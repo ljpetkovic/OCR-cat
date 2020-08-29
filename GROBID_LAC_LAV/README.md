@@ -173,3 +173,37 @@ d) **`form`:**
 e) **`sense`:**
 
 ![LAC_sense](trainingData_LAC_sans_typo/img/LAC_sense.jpg)
+
+
+
+### Results after training the model on the `LAV` catalogues:
+
+#### With the typographical information
+
+a) **`dictionary-segmentation`:**
+
+![LAV_dictionary-segmentation](trainingData_LAV_typo/img/LAV_dictionary-segmentation.jpg)
+
+<br/>
+
+b) **`dictionary-body-segmentation`:**
+
+![LAV_dictionary-body-segmentation](trainingData_LAV_typo/img/LAV_dictionary-body-segmentation.jpg)
+
+<br/>
+
+c) **`lexical-entry`:**
+
+![LAV_lexical-entry](trainingData_LAV_typo/img/LAV_lexical-entry.jpg)
+
+<br/>
+
+d) **`form`:**
+
+![LAV_form](trainingData_LAV_typo/img/LAV_form.jpg)
+
+<br/>
+
+e) **`sense`:**
+
+![LAV_sense](trainingData_LAV_typo/img/LAV_sense.jpg)
