@@ -132,4 +132,16 @@ c) **`lexical-entry`:**
 
 ![LAC_lexical-entry](trainingData_LAC_typo/img/LAC_lexical-entry.jpg)
 
+<br/>
+
+d) **`form`:**
+
+![LAC_form](trainingData_LAC_typo/img/LAC_form.jpg)
+
+<br/>
+
+e) **`sense`:**
+
+![LAC_sense](trainingData_LAC_typo/img/LAC_sense.jpg)
+
 #### Without the typographical information
