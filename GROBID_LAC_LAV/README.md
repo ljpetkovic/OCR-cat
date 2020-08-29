@@ -145,3 +145,30 @@ e) **`sense`:**
 ![LAC_sense](trainingData_LAC_typo/img/LAC_sense.jpg)
 
 #### Without the typographical information
+
+a) **`dictionary-segmentation`:**
+
+![LAC_dictionary-segmentation](trainingData_LAC_sans_typo/img/LAC_dictionary-segmentation.jpg)
+
+<br/>
+
+b) **`dictionary-body-segmentation`:**
+
+
+
+<br/>
+
+c) **`lexical-entry`:**
+
+
+
+<br/>
+
+d) **`form`:**
+
+
+
+<br/>
+
+e) **`sense`:**
+
