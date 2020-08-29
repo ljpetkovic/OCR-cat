@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="form.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-stylesheet type="text/css" href="form.css"?>
+<tei xml:space="preserve">
+	<teiHeader>
+		<fileDesc xml:id=""/>
+	</teiHeader>
+	<text>
+		<body><form><name>Affre (Denis</name>), <desc>archevêque de Paris. Né à Saint <lb/>(Aveyron)</desc></form><form><name>Amyot (Jacques</name>), <desc>évêque d'Auxerre, traducteur de Plutarque <lb/>Né à Melun</desc> </form><form><name>Angoulême (Louis-Antoine, duc d'</name>), <desc>fils aîné de Charles X</desc></form><form><name>Barnave</name>, <desc>célèbre orateur de l'Assemb. Nation. de 1789. Né à <lb/>Grenoble</desc> </form><form><name>Berthier sourd-muet</name>, <desc>directeur de l'Institution des sourds <lb/>muets de Paris</desc></form><form><name>Boileau (Jacques</name>), <desc>chanoine de la Sainte-Chapelle de Paris, <lb/>frère de Boileau Despréaux, auteur de: Historia flagellantium etc</desc></form><form><name>Bouillon La Grange</name>, <desc>physicien-chimiste</desc></form><form><name>Bourotte (dom</name>), <desc>bénédictin</desc></form><form><name>Bouton</name>, <desc>peintre du Diorama</desc></form><form><name>Catherine de Médicis</name>, <desc>reine de France</desc></form></body>
+	</text>
+</tei>
