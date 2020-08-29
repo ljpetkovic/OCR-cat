@@ -124,6 +124,6 @@ a) **`dictionary-segmentation`:**
 
 b) **`dictionary-body-segmentation`:**
 
-![LAC_dictionary-body-segmentation](trainingData_LAC/img/LAC_dictionary-body-segmentation.jpg)
+![LAC_dictionary-body-segmentation](trainingData_LAC_typo/img/LAC_dictionary-body-segmentation.jpg)
 
 #### Without the typographical information
