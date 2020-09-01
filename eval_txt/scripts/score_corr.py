@@ -262,7 +262,3 @@ if __name__ == '__main__':
     print('- Well-corrected tags, empty tags\t\t\t', compte_cor_4, '\t\t\t', "{:.2f}".format((compte_cor_4 / total) * 100))
     print ("-----------------------------------------------------------------------------------------")
     print('')
-
-  
-
-                    
