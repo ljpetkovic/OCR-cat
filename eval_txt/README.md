@@ -47,7 +47,7 @@ a. s., 1845, 1 p. in-8.
 
 1. Check automatically the well-formedness of the  `<b>`, `</b>`, `<i>`, `</i>` tags, whether any open tag is closed, and if the order of the tags is correct. 
 
-   The Python quality control script for the output tags `score_and_correct.py` is written for that purpose.
+   The Python quality control script for the output tags `score_corr.py` is written for that purpose.
 
 2. Indicate the problems that cannot be solved automatically, *i.e.* the examples requiring manual correction:
    *e.g.*: `<>foo</>`
