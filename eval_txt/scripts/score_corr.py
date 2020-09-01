@@ -5,8 +5,8 @@ import os
 
 ######### Processing the files from the command line #############
 
-# fichier = sys.argv[1]
-fichier = '../doc/Cat_Paris_1969.txt'
+fichier = sys.argv[1]
+# fichier = '../doc/1845_11_LAC_N01_duplicated.txt'
 
 ######### Regexes ##############
 
