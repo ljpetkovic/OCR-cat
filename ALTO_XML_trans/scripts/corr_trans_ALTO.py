@@ -70,7 +70,7 @@ for page in root[2].iter('{http://www.loc.gov/standards/alto/v3/alto.xsd}Page'):
 ############    ajout d'une balise <Styles> avec les polices dans l'en-tête     ##########
 
 stylesText = """
-<Styles xmlns="http://www.loc.gov/standards/alto/v3/alto.xsd">
+<Styles>
      <TextStyle ID="FONT0" 
                 FONTSTYLE=""/>
      <TextStyle ID="FONT1"
