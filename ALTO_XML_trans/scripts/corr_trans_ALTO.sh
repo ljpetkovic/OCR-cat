@@ -6,17 +6,16 @@
                                              								   
 # author: Ljudmila Petkovic  
 
-# date: 11/06/2020                                                              	  
+# date: 06/09/2020                                                              	  
       										       				   
 # Changelog: 
 
 # Added:
-# - two functions: one for the mm10 to pixels conversion
-#				   the other one for deleting the already transformed files  
 # - the option -d which requires only the catalogue folder name in order to transform only that folder
 
 # Removed:
 # - the option -p which requires to specify the absolute path to the new catalogue folder
+# - two functions: one for the mm10 to pixels conversion
                                              						   
                                                                               
 ################################################################################
