@@ -5,8 +5,9 @@ import re
 
 ########### récupération du chemin du fichier #######################
 
-#fichier = #sys.argv[1] 'test.xml' #'1885_12_RDA_N095-1.xml'  # '1871_08_RDA_N028-1.xml'
-fichier = '../doc/1845_11_LAC_N01_duplicated/test.xml'
+fichier = sys.argv[1]
+#fichier = '../doc/1845_11_LAC_N01_duplicated/1845_11_LAC_N01_8_train.xml'
+# base=os.path.basename(fichier) # pour récupérer le nom du fichier sans extension
 
 ########### récupération du dpi #######################
 
@@ -234,4 +235,5 @@ for page in root[3].iter('{http://www.loc.gov/standards/alto/ns-v2#}Page'):
 
 tree.write(fichier + '_trans.xml', encoding='utf8', pretty_print=True, xml_declaration=True, method='xml')
 
+#print('Processing ', os.path.splitext(base)[0], '.xml...\nDone.')
 
